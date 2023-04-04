@@ -1,0 +1,75 @@
+title: 'Text and Image'
+fields:
+  -
+    handle: text
+    field:
+      collapse: true
+      always_show_set_button: false
+      previews: true
+      smart_typography: false
+      buttons:
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - table
+        - superscript
+        - subscript
+      container: assets
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: true
+      remove_empty_nodes: true
+      display: Text
+      type: bard
+      icon: bard
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      width: 66
+  -
+    handle: image_left
+    field:
+      default: false
+      display: 'Image Left'
+      type: toggle
+      icon: toggle
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      width: 33

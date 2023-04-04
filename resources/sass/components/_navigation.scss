@@ -1,0 +1,27 @@
+.navigation {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__item {
+    padding-right: 40px;
+
+    &__link {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--white);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &--active {}
+  }
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}

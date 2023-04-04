@@ -1,0 +1,146 @@
+<script type="text/javascript">function gtag() {
+    dataLayer.push(arguments);
+}
+function getCookie(e) {
+    const t = `; ${document.cookie}`.split(`; ${e}=`);
+    if (2 === t.length) return t.pop().split(';').shift();
+}
+function getPermissionObject(e) {
+    if (void 0 === e)
+        return {
+                ad_storage: 'denied',
+                analytics_storage: 'denied',
+                functionality_storage: 'denied',
+                personalization_storage: 'denied',
+                wait_for_update: 500,
+            };
+    {
+        const t = JSON.parse(decodeURIComponent(e));
+        return {
+                ad_storage: t.targeting ? 'granted' : 'denied',
+          analytics_storage: t.tracking ? 'granted' : 'denied',
+                functionality_storage: t.functionality ? 'granted' : 'denied',
+                personalization_storage: t.functionality ? 'granted' : 'denied',
+        };
+    }
+}
+(window.dataLayer = window.dataLayer || []),
+    void 0 === getCookie('cookie_consent_initialized')
+            ? (gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+                  functionality_storage: 'denied',
+                  personalization_storage: 'denied',
+        wait_for_update: 500,
+              }),
+      (document.cookie = 'cookie_consent_initialized=true'))
+            : gtag(
+        'consent',
+                  'default',
+        getPermissionObject(getCookie('cookie_consent_level'))
+      ),
+    document.addEventListener('click', function (e) {
+      ['cc-cp-foot-save', 'cc-nb-okagree', 'cc-nb-reject'].includes(
+        e.target.className
+      ) &&
+                setTimeout(function () {
+                  gtag(
+                    'consent',
+                        'update',
+                        getPermissionObject(getCookie('cookie_consent_level'))
+                  ),
+                        window.dataLayer.push({ event: 'consent_update' });
+                }, 500);
+    });
+</script>
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({
+        notice_banner_type: 'simple',
+        consent_type: 'express',
+            palette: 'light',
+        language: '{{ site:short_locale }}',
+        page_load_consent_levels: ['strictly-necessary'],
+            notice_banner_reject_button_hide: !1,
+        preferences_center_close_button_hide: !1,
+        website_name: 'Česká centra',
+            website_privacy_policy_url:
+                'https://www.czechcentres.cz/about-us/mandatory-information/personal-data-protection',
+    });
+});
+</script>
+
+<style>
+
+    .termsfeed-com---palette-light.termsfeed-com---nb {
+        left: 0;
+        background-color: var(--white-darken);
+        color: var(--blue);
+        opacity: 0.99;
+    }
+
+    .termsfeed-com---nb-simple {
+        overflow: auto;
+        max-width: 100%;
+    }
+
+    .termsfeed-com---nb .cc-nb-main-container {
+        padding: 0.25rem;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+
+    .termsfeed-com---palette-light .cc-nb-title {
+        font-size: 17px;
+        margin-bottom: 0.25rem;
+    }
+
+    .termsfeed-com---nb .cc-nb-text {
+        font-size: 14.5px;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .termsfeed-com---nb-simple {
+        padding: 0.5rem;
+    }
+    .cc-nb-okagree {
+        min-width: 200px;
+        color: #fff !important;
+        background-color: var(--blue) !important;
+    }
+
+    .cc-nb-reject {
+        color: var(--blue) !important;
+        background-color: #eaeaea;
+    }
+    .cc-nb-changep, .termsfeed-com---nb .cc-nb-reject {
+        background-color: #eaeaea;
+        color: var(--blue) !important;
+    }
+
+    @media screen and (max-width: 600px) {
+        .termsfeed-com---palette-light .cc-nb-title {
+            font-size: 16px;
+            margin-bottom: 0.25rem;
+        }
+        .termsfeed-com---nb .cc-nb-buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 4px;
+        }
+        .termsfeed-com---nb .cc-nb-buttons-container button {
+            margin-right: 0 !important;
+        }
+        .termsfeed-com---nb .cc-nb-text {
+            font-size: 13.5px;
+        }
+        .termsfeed-com---nb .cc-nb-changep, .termsfeed-com---nb .cc-nb-reject {
+            width: calc(50% - 2px);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+</style>
+

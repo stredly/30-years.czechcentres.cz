@@ -1,0 +1,7 @@
+.navbar {
+  @extend .block;
+
+  &__container {
+    @extend .block__container;
+  }
+}

@@ -1,0 +1,15 @@
+:root {
+  --blue: #033e9f;
+  --red: #d32a1c;
+  --white: #FFFFFF;
+  --container-size: 1110px;
+  --section-padding: 110px;
+}
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

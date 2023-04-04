@@ -1,0 +1,28 @@
+title: Events
+fields:
+  -
+    handle: heading
+    field:
+      input_type: text
+      antlers: false
+      display: Heading
+      type: text
+      icon: text
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: events
+    field:
+      mode: typeahead
+      create: false
+      collections:
+        - events
+      display: Events
+      type: entries
+      icon: entries
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible

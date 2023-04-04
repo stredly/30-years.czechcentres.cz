@@ -1,0 +1,21 @@
+<title>{{ page | meta_title }}</title>
+<meta name="title" content="{{ meta_title ?? title }}" />
+<meta property="twitter:title" content="{{ meta_title ?? title }}" />
+<meta property="og:title" content="{{ meta_title ?? title }}" />
+{{ if meta_description }}
+    <meta property="twitter:description" content="{{ meta_description }}" />
+    <meta name="description" content="{{ meta_description }}" />
+    <meta name="og:description" content="{{ meta_description }}" />
+{{ /if }}
+{{ if og_image }}
+    <meta property="og:image" content="{{ glide:og_image preset="og_image" }}" />
+    <meta property="twitter:image" content="{{ glide:og_image preset="og_image" }}" />
+    <meta property="twitter:image:src" content="{{ glide:og_image preset="og_image" }}" />
+{{ else }}
+    <meta property="og:image" content="{{ glide:general:default_og_image preset="og_image" }}" />
+    <meta property="twitter:image" content="{{ glide:general:default_og_image preset="og_image" }}" />
+    <meta property="twitter:image:src" content="{{ glide:general:default_og_image preset="og_image" }}" />
+{{ /if }}
+<meta name="author" content="Stredly s.r.o. | stredly.cz" />
+
+

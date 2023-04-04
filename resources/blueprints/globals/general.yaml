@@ -1,0 +1,175 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: logo
+        field:
+          mode: list
+          container: assets
+          folder: misc
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: contact_section
+        field:
+          display: 'Contact Section'
+          type: section
+          icon: section
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: company_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Company Name'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: address
+        field:
+          antlers: false
+          display: Address
+          type: textarea
+          icon: textarea
+          localizable: true
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: company_details
+        field:
+          antlers: false
+          display: 'Company Details'
+          type: textarea
+          icon: textarea
+          localizable: true
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: main_contact
+        field:
+          display: 'Main Contact'
+          type: section
+          icon: section
+          localizable: false
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: persons
+        field:
+          collapse: true
+          previews: true
+          max_sets: 1
+          sets:
+            person:
+              display: Person
+              fields:
+                -
+                  import: person
+          display: Persons
+          type: replicator
+          icon: replicator
+          localizable: false
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  organizational_structure:
+    display: 'Organizational Structure'
+    fields:
+      -
+        handle: members
+        field:
+          collapse: false
+          previews: true
+          sets:
+            member:
+              display: Member
+              fields:
+                -
+                  handle: label
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Label
+                    type: text
+                    icon: text
+                    localizable: false
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: description
+                  field:
+                    display: Description
+                    type: list
+                    icon: list
+                    localizable: false
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+          display: Members
+          type: replicator
+          icon: replicator
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  analytics:
+    display: Analytics
+    fields:
+      -
+        handle: gtm
+        field:
+          input_type: text
+          antlers: false
+          display: GTM
+          type: text
+          icon: text
+          instructions: 'GTM container ID eg: GTM-123456'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 50
+          localizable: false
+  meta_data:
+    display: 'Meta Data'
+    fields:
+      -
+        handle: default_og_image
+        field:
+          mode: list
+          container: assets
+          folder: misc
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Default OG Image'
+          type: assets
+          icon: assets
+          localizable: false
+          listable: hidden
+          instructions_position: above
+          visibility: visible

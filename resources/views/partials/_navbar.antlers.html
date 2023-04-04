@@ -1,0 +1,16 @@
+<nav class="navbar">
+    <div class="navbar__container">
+        <ul class="navigation">
+            {{ nav:main }}
+                <li class="navigation__item navigation__item--active">
+                    <a
+                        class="navigation__item__link"
+                        href="{{ url }}"
+                    >
+                        {{ title }}
+                    </a>
+                </li>
+            {{ /nav:main }}
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,25 @@
+title: Quote
+fields:
+  -
+    handle: heading
+    field:
+      input_type: text
+      antlers: false
+      display: Heading
+      type: text
+      icon: text
+      localizable: true
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: quote
+    field:
+      antlers: false
+      display: Quote
+      type: textarea
+      icon: textarea
+      localizable: true
+      listable: hidden
+      instructions_position: above
+      visibility: visible
