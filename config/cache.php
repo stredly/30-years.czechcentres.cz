@@ -79,6 +79,11 @@ return [
             'lock_connection' => 'default',
         ],
 
+        'glide' => [
+            'driver' => 'redis',
+            'connection' => 'glide',
+        ],
+
         'dynamodb' => [
             'driver' => 'dynamodb',
             'key' => env('AWS_ACCESS_KEY_ID'),

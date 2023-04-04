@@ -2,3 +2,10 @@ name: 'Jiří Brhel'
 super: true
 id: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
 password_hash: $2y$10$1Y4nZ/jko4SVM6nEt0vFy.TQCIPDKlkucDVa5.Q1N4TXDzq0W.8ry
+preferences:
+  taxonomies:
+    cities:
+      columns:
+        - title
+        - country
+        - flag

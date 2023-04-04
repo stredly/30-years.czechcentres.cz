@@ -1,0 +1,107 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: page_content
+        field:
+          collapse: true
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - h4
+            - h5
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+          container: assets
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          link_collections:
+            - pages
+            - timeline
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: true
+          display: 'Page Content'
+          type: bard
+          icon: bard
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          sets:
+            gallery:
+              display: Gallery
+              fields:
+                -
+                  import: gallery
+            video:
+              display: Video
+              fields:
+                -
+                  import: video
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: event_date
+        field:
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Event Date'
+          type: date
+          icon: date
+          localizable: false
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: cities
+        field:
+          type: terms
+          taxonomies:
+            - cities
+          display: Cities
+          mode: select
+          localizable: false
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          max_items: 1
+          create: true
+title: Timeline

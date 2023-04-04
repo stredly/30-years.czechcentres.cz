@@ -14,7 +14,7 @@ return [
         |
         */
 
-        'route' => 'img',
+        'route' => env('APP_ENV') === 'production' ? 'img' : 'img/cached',
 
         /*
         |--------------------------------------------------------------------------
@@ -52,8 +52,8 @@ return [
         |
         */
 
-        'cache' => false,
-        'cache_path' => public_path('img'),
+        'cache' => env('APP_ENV') === 'production' ? 'glide' : true,
+        'cache_path' => env('APP_ENV') === 'production' ? public_path('img') : public_path('img/cached'),
 
         /*
         |--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return [
         */
 
         'presets' => [
-            // 'small' => ['w' => 200, 'h' => 200, 'q' => 75, 'fit' => 'crop'],
+            'gallery' => ['w' => 300, 'h' => 170, 'dpr' => 2, 'fit'=>'crop', 'fm' => 'webp'],
         ],
 
     ],

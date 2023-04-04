@@ -30,11 +30,11 @@ sections:
           instructions_position: above
           visibility: visible
       -
-        handle: company_name
+        handle: site_name
         field:
           input_type: text
           antlers: false
-          display: 'Company Name'
+          display: 'Site Name'
           type: text
           icon: text
           localizable: true
@@ -62,76 +62,6 @@ sections:
           icon: textarea
           localizable: true
           width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: main_contact
-        field:
-          display: 'Main Contact'
-          type: section
-          icon: section
-          localizable: false
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: persons
-        field:
-          collapse: true
-          previews: true
-          max_sets: 1
-          sets:
-            person:
-              display: Person
-              fields:
-                -
-                  import: person
-          display: Persons
-          type: replicator
-          icon: replicator
-          localizable: false
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-  organizational_structure:
-    display: 'Organizational Structure'
-    fields:
-      -
-        handle: members
-        field:
-          collapse: false
-          previews: true
-          sets:
-            member:
-              display: Member
-              fields:
-                -
-                  handle: label
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Label
-                    type: text
-                    icon: text
-                    localizable: false
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                -
-                  handle: description
-                  field:
-                    display: Description
-                    type: list
-                    icon: list
-                    localizable: false
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-          display: Members
-          type: replicator
-          icon: replicator
-          localizable: true
           listable: hidden
           instructions_position: above
           visibility: visible

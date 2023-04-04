@@ -1,4 +1,4 @@
-title: Quote
+title: Video
 fields:
   -
     handle: heading
@@ -8,18 +8,18 @@ fields:
       display: Heading
       type: text
       icon: text
-      localizable: true
+      localizable: false
       listable: hidden
       instructions_position: above
       visibility: visible
   -
-    handle: quote
+    handle: video
     field:
-      antlers: false
-      display: Quote
-      type: textarea
-      icon: textarea
-      localizable: true
+      display: Video
+      type: video
+      icon: video
+      instructions: 'Enter a video URL and it will be loaded in an embedded player directly beneath the field'
+      localizable: false
       listable: hidden
       instructions_position: above
       visibility: visible

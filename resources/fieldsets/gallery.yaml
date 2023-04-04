@@ -1,4 +1,4 @@
-title: Events
+title: Gallery
 fields:
   -
     handle: heading
@@ -8,20 +8,22 @@ fields:
       display: Heading
       type: text
       icon: text
-      localizable: false
+      localizable: true
       listable: hidden
       instructions_position: above
       visibility: visible
   -
-    handle: events
+    handle: gallery
     field:
-      mode: typeahead
-      create: false
-      collections:
-        - events
-      display: Events
-      type: entries
-      icon: entries
+      mode: list
+      container: assets
+      folder: timeline
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: Gallery
+      type: assets
+      icon: assets
       localizable: false
       listable: hidden
       instructions_position: above
