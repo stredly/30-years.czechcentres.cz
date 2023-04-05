@@ -9,3 +9,9 @@ preferences:
         - title
         - country
         - flag
+  collections:
+    timeline:
+      columns:
+        - title
+        - cities
+        - event_date
