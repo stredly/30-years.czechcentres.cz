@@ -13,5 +13,5 @@ preferences:
     timeline:
       columns:
         - title
-        - cities
         - event_date
+        - cities
