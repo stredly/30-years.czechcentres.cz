@@ -74,6 +74,17 @@ sections:
           type: slug
           localizable: true
       -
+        handle: dont_show_month
+        field:
+          default: false
+          display: "Don't Show Month"
+          type: toggle
+          icon: toggle
+          localizable: false
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: event_date
         field:
           mode: single
