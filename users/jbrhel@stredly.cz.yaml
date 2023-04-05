@@ -24,3 +24,4 @@ preferences:
             fields:
               cities:
                 term: bukurest
+      after_save: continue_editing
