@@ -13,8 +13,8 @@ preferences:
     timeline:
       columns:
         - title
-        - event_date
         - cities
+        - event_date
       filters:
         bucharest:
           display: Bucharest
