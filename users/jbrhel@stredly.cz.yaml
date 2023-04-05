@@ -15,3 +15,12 @@ preferences:
         - title
         - event_date
         - cities
+      filters:
+        bucharest:
+          display: Bucharest
+          filters:
+            site:
+              site: cs
+            fields:
+              cities:
+                term: bukurest
