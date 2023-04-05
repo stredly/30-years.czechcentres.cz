@@ -1,7 +1,7 @@
 ---
 id: e93dc376-7147-4158-92f7-1a5e0b0eb144
 blueprint: timeline
-title: 'Založení Českého centra Londýn'
+title: 'Založení Českého centra'
 page_content:
   -
     type: paragraph
@@ -92,5 +92,5 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1680682976
+updated_at: 1680683061
 ---
