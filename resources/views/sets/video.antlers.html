@@ -1,0 +1,11 @@
+<div class="block">
+    <div class="block__container">
+        {{ if video | is_embeddable }}
+            <!-- Youtube and Vimeo -->
+            <iframe src="{{ video | embed_url }}"></iframe>
+        {{ else }}
+            <!-- Other HTML5 video types -->
+            <video src="{{ video | embed_url }}"></video>
+        {{ /if }}
+    </div>
+</div>

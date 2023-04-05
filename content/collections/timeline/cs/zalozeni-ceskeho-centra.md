@@ -79,8 +79,15 @@ page_content:
           - timeline/bucharest/foto-7_festival-cinemascop_2019.jpg
           - timeline/bucharest/foto-8_josef-koudelka-v-rumunsku.JPG
           - timeline/bucharest/foto-9_dvorak-remastered_krest-cd.jpg
+  -
+    type: set
+    attrs:
+      id: lg3e1fk4
+      values:
+        type: video
+        video: 'https://www.youtube.com/watch?v=mRfSM-lv55I'
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1680616423
+updated_at: 1680681104
 ---

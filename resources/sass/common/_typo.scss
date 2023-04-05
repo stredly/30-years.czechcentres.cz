@@ -10,7 +10,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: var(--blue);
+  color: var(--dark-blue);
+  margin-bottom: 26px;
 }
 
 h1,
@@ -27,4 +28,16 @@ h6,
 .h6 {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+p, ul, li {
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--black);
 }
