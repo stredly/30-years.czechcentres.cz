@@ -8,7 +8,13 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum Londýn bylo založeno v\_roce 1993 a v\_úplných počátcích sídlilo v\_budově Velvyslanectví ČR v\_Londýně ve čtvrti Notting Hill. Prvním ředitelem ČC Londýn byl Michal Mareš (1993–1996). Za jeho působení se České centrum přestěhovalo do komerčních prostor na Great Portland Street v\_centru Londýna, kde disponovalo i výstavními prostory. Zde ČC vedla jako druhá ředitelka Olga Poivre d’Arvor (1997–1999) a poté Tomáš Zykán (1999–2004). V\_září roku 2003 se centrum přestěhovalo na věhlasnou Harley Street, kde mělo k dispozici pouze kancelářské prostory a prostory pro výuku češtiny. Zde pak působil jako ředitel ČC Ladislav Pflimpfl (2004–2013) a Tereza Porybná (2013–2019). Centrum se znovu stěhovalo v\_roce 2014, a to přímo do centra tzv. West End, malebné čtvrti Covent Garden. Odsud pak proběhl poslední přesun v\_roce 2017, a to zpět na místo, kde centrum začínalo – do budovy českého velvyslanectví. Zde má ČC opět k\_dispozici nejen kanceláře a učebny pro výuku češtiny, ale také vlastní výstavní prostory, tzv. galerii Vitrínka, využívanou především k\_představení mladých uměleckých talentů. Od roku 2019 je ředitelem Přemysl Pela."
+        text: "České centrum Londýn bylo založeno v\_roce 1993 a v\_úplných počátcích sídlilo v\_budově Velvyslanectví ČR v\_Londýně ve čtvrti Notting Hill. Prvním ředitelem ČC Londýn byl Michal Mareš (1993–1996). Za jeho působení se České centrum přestěhovalo do komerčních prostor na Great Portland Street v\_centru Londýna, kde disponovalo i výstavními prostory. Zde ČC vedla jako druhá ředitelka Olga Poivre d’Arvor (1997–1999) a poté Tomáš Zykán (1999–2004). V\_září roku 2003 se centrum přestěhovalo na věhlasnou Harley Street, kde mělo k dispozici pouze kancelářské prostory a prostory pro výuku češtiny. "
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Zde pak působil jako ředitel ČC Ladislav Pflimpfl (2004–2013) a Tereza Porybná (2013–2019). Centrum se znovu stěhovalo v\_roce 2014, a to přímo do centra tzv. West End, malebné čtvrti Covent Garden. Odsud pak proběhl poslední přesun v\_roce 2017, a to zpět na místo, kde centrum začínalo – do budovy českého velvyslanectví. Zde má ČC opět k\_dispozici nejen kanceláře a učebny pro výuku češtiny, ale také vlastní výstavní prostory, tzv. galerii Vitrínka, využívanou především k\_představení mladých uměleckých talentů. Od roku 2019 je ředitelem Přemysl Pela."
   -
     type: heading
     attrs:
@@ -92,5 +98,5 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1680683061
+updated_at: 1680683118
 ---
