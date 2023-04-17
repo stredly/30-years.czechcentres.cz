@@ -94,9 +94,29 @@ page_content:
           - timeline/london/6_tomas-zykan-a-ladislav-pflimpfl_2005_treti-a-ctvrty-reditel-ccl_(c)archiv-cc-londyn.JPG
           - timeline/london/58_made-in-prague-festival-divaci-v-hledisti-s-programem-festivalu-v-regent-street-cinema_2017_(c)mirka-vecerova.jpg
           - 'timeline/london/68_international-fashion-showcase,-prehlidka-mladych-navrharu-v-ramci-london-fashion-week,-somerset-house_navrharky-libena-rochova-a-katerina-plamitzerova_2017_(c)jolly-thompson-.jpg'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '<iframe src="'
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://s3.eu-central-1.amazonaws.com/czechcentres.cz/statamic/downloads/about_us/strategie-ceskych-center-2020-2023.pdf'
+              rel: null
+              target: null
+              title: null
+        text: /czechcentres.cz/statamic/downloads/about_us/strategie-ceskych-center-2020-2023.pdf
+      -
+        type: text
+        text: '" width="100%" height="100%"></iframe>'
 dont_show_month: true
 event_date: '1993-01-01'
 cities: london
-updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1680683118
+updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
+updated_at: 1681726463
 ---
