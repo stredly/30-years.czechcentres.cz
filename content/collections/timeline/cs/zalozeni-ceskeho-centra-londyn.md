@@ -69,7 +69,7 @@ page_content:
     content:
       -
         type: text
-        text: "Dalším dlouhodobým projektem ČC Londýn je Evropskoá noc literatury (European Literature Night), jež je londýnskou odnoží pražské Noci literatury a poprvé se konala roku 2009. Každoročně na ní spolupracují i další\_evropské kulturní instituty a ambasády sdružené v\_EUNIC a jejím dějištěm je Britská knihovna. Na pódiu se tu za tuto dobu za českou stranu vystřídali např. Petra Hůlová, Miloš Urban, Jáchym Topol, Tomáš Sedláček, Xavier Baumaxa a další. V\_letošním roce se Evropská noc literatury promění ve\_třídenní Festival evropských spisovatelů, kterého se za Českou republiku zúčastní spisovatelka Kateřina Tučková s\_anglickým vydáním svého románu Žítkovské bohyně.\_\_"
+        text: "Dalším dlouhodobým projektem ČC Londýn je Evropská noc literatury (European Literature Night), jež je londýnskou odnoží pražské Noci literatury a poprvé se konala roku 2009. Každoročně na ní spolupracují i další\_evropské kulturní instituty a ambasády sdružené v\_EUNIC a jejím dějištěm je Britská knihovna. Na pódiu se tu za tuto dobu za českou stranu vystřídali např. Petra Hůlová, Miloš Urban, Jáchym Topol, Tomáš Sedláček, Xavier Baumaxa a další. V\_letošním roce se Evropská noc literatury promění ve\_třídenní Festival evropských spisovatelů, kterého se za Českou republiku zúčastní spisovatelka Kateřina Tučková s\_anglickým vydáním svého románu Žítkovské bohyně.\_\_"
   -
     type: heading
     attrs:
@@ -94,29 +94,9 @@ page_content:
           - timeline/london/6_tomas-zykan-a-ladislav-pflimpfl_2005_treti-a-ctvrty-reditel-ccl_(c)archiv-cc-londyn.JPG
           - timeline/london/58_made-in-prague-festival-divaci-v-hledisti-s-programem-festivalu-v-regent-street-cinema_2017_(c)mirka-vecerova.jpg
           - 'timeline/london/68_international-fashion-showcase,-prehlidka-mladych-navrharu-v-ramci-london-fashion-week,-somerset-house_navrharky-libena-rochova-a-katerina-plamitzerova_2017_(c)jolly-thompson-.jpg'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '<iframe src="'
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://s3.eu-central-1.amazonaws.com/czechcentres.cz/statamic/downloads/about_us/strategie-ceskych-center-2020-2023.pdf'
-              rel: null
-              target: null
-              title: null
-        text: /czechcentres.cz/statamic/downloads/about_us/strategie-ceskych-center-2020-2023.pdf
-      -
-        type: text
-        text: '" width="100%" height="100%"></iframe>'
 dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1681726463
+updated_at: 1681912924
 ---
