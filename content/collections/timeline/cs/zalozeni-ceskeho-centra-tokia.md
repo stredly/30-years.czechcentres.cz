@@ -271,7 +271,7 @@ page_content:
       values:
         type: gallery
         gallery:
-          - 'timeline/pozvanka-na-zahajovaci-vecirek-cctokio,-2006.jpg'
+          - 'timeline/tokio/pozvanka-na-zahajovaci-vecirek-cctokio,-2006.jpg'
           - 'timeline/zahajovaci-vecirek-cctokio,-2006-1.jpg'
           - 'timeline/zahajovaci-vecirek-cctokio,-2006-3.jpg'
           - timeline/vera-caslavska--50-let-od-olympiady-v-tokiu-.jpg
