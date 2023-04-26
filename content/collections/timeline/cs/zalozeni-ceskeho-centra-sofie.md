@@ -409,7 +409,7 @@ page_content:
           - timeline/sofie/38-cc-sofie.jpg
           - timeline/sofie/58-cc-sofie.jpg
           - timeline/sofie/60-cc-sofie.JPG
-          - timeline/61-cc-sofie.jpg
+          - timeline/sofie/61-cc-sofie.jpg
 dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
