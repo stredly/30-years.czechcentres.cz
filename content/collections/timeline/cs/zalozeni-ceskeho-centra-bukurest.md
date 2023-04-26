@@ -108,9 +108,31 @@ page_content:
           - timeline/bucharest/foto-7_festival-cinemascop_2019.jpg
           - timeline/bucharest/foto-8_josef-koudelka-v-rumunsku.JPG
           - timeline/bucharest/foto-9_dvorak-remastered_krest-cd.jpg
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://bucharest.czechcentres.cz/'
+                      rel: null
+                      target: _blank
+                      title: null
+                  -
+                    type: bold
+                text: 'České centrum Bukurešť'
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682503454
+updated_at: 1682504370
 dont_show_month: true
 ---
