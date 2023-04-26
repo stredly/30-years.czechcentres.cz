@@ -407,7 +407,7 @@ page_content:
           - timeline/sofie/27-cc-sofie.jpg
           - timeline/sofie/29-cc-sofie-.jpg
           - timeline/sofie/38-cc-sofie.jpg
-          - timeline/58-cc-sofie.jpg
+          - timeline/sofie/58-cc-sofie.jpg
           - timeline/60-cc-sofie.JPG
           - timeline/61-cc-sofie.jpg
 dont_show_month: true
