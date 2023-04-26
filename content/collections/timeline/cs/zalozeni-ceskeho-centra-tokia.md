@@ -265,6 +265,20 @@ page_content:
         type: text
         text: "Pavel Šporcl, Jiří Mádl, Jana Boušková, Olga Sommerová, Jan Švankmajer, Jiří Strach, Emil Viklický, Kateřina Šedá nebo ikona českého sportu Věra Čáslavská, která je v Japonsku nesmírně populární. Za 17 let se zde vystřídalo několik tisíc delegátů z Česka.\_"
   -
+    type: set
+    attrs:
+      id: lgxjz79x
+      values:
+        type: gallery
+        gallery:
+          - 'timeline/pozvanka-na-zahajovaci-vecirek-cctokio,-2006.jpg'
+          - 'timeline/zahajovaci-vecirek-cctokio,-2006-1.jpg'
+          - 'timeline/zahajovaci-vecirek-cctokio,-2006-3.jpg'
+          - timeline/vera-caslavska--50-let-od-olympiady-v-tokiu-.jpg
+          - timeline/zahajovaci-vecirek-cc-tokio-2006-2.jpg
+          - 'timeline/zahajovaci-vecirek-cctokio,-2006--2.jpg'
+          - timeline/cesky-festival-v-tokiu-2022.JPG
+  -
     type: bulletList
     content:
       -
@@ -286,8 +300,9 @@ page_content:
                   -
                     type: bold
                 text: 'České centrum Tokio'
-dont_show_month: false
+dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682503761
+updated_at: 1682504984
+event_date: '2006-02-01'
 ---
