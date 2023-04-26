@@ -401,7 +401,7 @@ page_content:
           - timeline/sofie/07-cc-sofie.jpg
           - timeline/sofie/08-cc-sofie.jpg
           - timeline/sofie/16-cc-sofie.jpg
-          - timeline/32-cc-sofie.jpg
+          - timeline/sofie/32-cc-sofie.jpg
           - timeline/sofie/20-cc-sofie.jpg
           - timeline/sofie/24-cc-sofie.jpg
           - timeline/sofie/27-cc-sofie.jpg
