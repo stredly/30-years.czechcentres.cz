@@ -395,9 +395,24 @@ page_content:
       id: lgxjrg2b
       values:
         type: gallery
+        gallery:
+          - timeline/17-cc-sofie.jpg
+          - timeline/04-cc-sofie.jpg
+          - timeline/07-cc-sofie.jpg
+          - timeline/08-cc-sofie.jpg
+          - timeline/16-cc-sofie.jpg
+          - timeline/32-cc-sofie.jpg
+          - timeline/20-cc-sofie.jpg
+          - timeline/24-cc-sofie.jpg
+          - timeline/27-cc-sofie.jpg
+          - timeline/29-cc-sofie-.jpg
+          - timeline/38-cc-sofie.jpg
+          - timeline/58-cc-sofie.jpg
+          - timeline/60-cc-sofie.JPG
+          - timeline/61-cc-sofie.jpg
 dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682504731
+updated_at: 1682505337
 ---
