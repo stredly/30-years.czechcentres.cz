@@ -239,9 +239,9 @@ page_content:
       -
         type: text
         text: "\_"
-dont_show_month: false
+dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682501894
+updated_at: 1682502391
 ---
