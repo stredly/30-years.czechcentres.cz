@@ -397,7 +397,7 @@ page_content:
         type: gallery
         gallery:
           - timeline/17-cc-sofie.jpg
-          - timeline/04-cc-sofie.jpg
+          - timeline/sofie/04-cc-sofie.jpg
           - timeline/07-cc-sofie.jpg
           - timeline/08-cc-sofie.jpg
           - timeline/16-cc-sofie.jpg
