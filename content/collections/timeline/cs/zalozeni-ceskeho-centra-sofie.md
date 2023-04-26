@@ -404,7 +404,7 @@ page_content:
           - timeline/32-cc-sofie.jpg
           - timeline/sofie/20-cc-sofie.jpg
           - timeline/sofie/24-cc-sofie.jpg
-          - timeline/27-cc-sofie.jpg
+          - timeline/sofie/27-cc-sofie.jpg
           - timeline/29-cc-sofie-.jpg
           - timeline/38-cc-sofie.jpg
           - timeline/58-cc-sofie.jpg
