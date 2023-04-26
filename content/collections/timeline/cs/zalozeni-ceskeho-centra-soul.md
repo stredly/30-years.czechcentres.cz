@@ -266,10 +266,18 @@ page_content:
     content:
       -
         type: text
-        text: "Tata Bojs, Ahn Trio, Tantehorse, Spitfire Company, Michal Žabka, Roman Kašparovský\_"
+        text: 'Tata Bojs, Ahn Trio, Tantehorse, Spitfire Company, Michal Žabka, Roman Kašparovský'
+  -
+    type: set
+    attrs:
+      id: lgxj60uw
+      values:
+        type: gallery
+        gallery:
+          - 'timeline/otevreni-cc-soul-(c)-the-korea-times,-6.-5.-2013.jpg'
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682498008
+updated_at: 1682503594
 cities: soul
 ---
