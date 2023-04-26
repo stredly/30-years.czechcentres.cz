@@ -402,7 +402,7 @@ page_content:
           - timeline/sofie/08-cc-sofie.jpg
           - timeline/sofie/16-cc-sofie.jpg
           - timeline/32-cc-sofie.jpg
-          - timeline/20-cc-sofie.jpg
+          - timeline/sofie/20-cc-sofie.jpg
           - timeline/24-cc-sofie.jpg
           - timeline/27-cc-sofie.jpg
           - timeline/29-cc-sofie-.jpg
