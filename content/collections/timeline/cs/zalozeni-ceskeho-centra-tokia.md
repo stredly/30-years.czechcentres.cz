@@ -276,7 +276,7 @@ page_content:
           - 'timeline/zahajovaci-vecirek-cctokio,-2006-3.jpg'
           - timeline/tokio/vera-caslavska--50-let-od-olympiady-v-tokiu-.jpg
           - timeline/tokio/zahajovaci-vecirek-cc-tokio-2006-2.jpg
-          - 'timeline/zahajovaci-vecirek-cctokio,-2006--2.jpg'
+          - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006--2.jpg'
           - timeline/tokio/cesky-festival-v-tokiu-2022.JPG
   -
     type: bulletList
