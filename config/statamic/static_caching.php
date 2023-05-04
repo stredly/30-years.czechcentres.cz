@@ -73,9 +73,7 @@ return [
 
         'class' => null,
 
-        'rules' => [
-            //
-        ],
+        'rules' => 'all',
 
     ],
 
@@ -90,6 +88,6 @@ return [
     |
     */
 
-    'ignore_query_strings' => false,
+    'ignore_query_strings' => true,
 
 ];
