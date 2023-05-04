@@ -6,28 +6,17 @@
         </div>
     </div>
 
+    {{ partial:partials/timeline }}
 
+</div>
 
-    {{ collection:timeline  as="timeline" }}
-        {{ if !no_results }}
-            <ul class="timeline__axis">
-                <li class="axis-item axis-item--start"></li>
-                {{ timeline }}
-                    <li class="axis-item" data-year="{{ event_date iso_format="Y" }}">
-                        <a class="axis-item__plus" href="{{ url }}" title="{{ full_title }}">&nbsp</a>
-                        <h5 class="axis-item__month">{{ event_date | month_name }}</h3>
-                        <h3 class="axis-item__title">{{ title }}</h2>
-                        <h4 class="axis-item__country">
-                            <img src="{{ glide :src="cities:flag" }}" width="16" height="16" />
-                            <span>{{ cities:country }}, {{ cities:title }}</span>
-                        </h3>
-                        <p class="axis-item__perex">{{ perex | widont(3) ?? 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit' }}</p>
-                    </li>
-                {{ /timeline }}
-            </ul>
-        {{ /if  }}
-    {{ /collection:timeline }}
+{{ partial:partials/sidebar }}
 
+<div
+    class="sidebar-overlay"
+    :class="{ 'sidebar-overlay--show': sidebarOpen }"
+    @click.prevent="sidebarOpen = !sidebarOpen"
+>
 </div>
 
 

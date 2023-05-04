@@ -1,0 +1,18 @@
+<div class="sidebar" id="sidebar" :class="{ 'sidebar--open': sidebarOpen }">
+    <div class="sidebar__toolbar">
+        <button
+            class="sidebar__toolbar__close"
+            @click.prevent="sidebarOpen = !sidebarOpen"
+        >
+        </button>
+    </div>
+    <div class="sidebar__container">
+        {{ get_content from="5a96a458-ab37-4bb0-9087-7a00e9cdf932" }}
+            <h1>{{ title }}</h1>
+
+            <h4>{{ cities }}{{ title }} - {{ country }}{{ /cities }}</h4>
+            <h4>{{ event_date | month_name }} {{ event_date iso_format="Y" }}</h4>
+
+        {{ /get_content }}
+    </div>
+</div>
