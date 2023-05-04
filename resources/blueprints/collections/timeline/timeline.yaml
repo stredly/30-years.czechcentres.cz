@@ -11,6 +11,19 @@ sections:
           validate:
             - required
       -
+        handle: perex
+        field:
+          input_type: text
+          character_limit: 120
+          antlers: false
+          display: Perex
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: full_title
         field:
           input_type: text
