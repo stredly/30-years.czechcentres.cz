@@ -10,6 +10,7 @@ taxonomies:
   - cities
 revisions: false
 route: '{slug}'
+sort_by: event_date
 sort_dir: asc
 date_behavior:
   past: public
@@ -18,3 +19,4 @@ preview_targets:
   -
     label: Entry
     url: '{permalink}'
+    refresh: true

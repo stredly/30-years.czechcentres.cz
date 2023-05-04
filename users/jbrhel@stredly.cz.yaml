@@ -13,6 +13,7 @@ preferences:
     timeline:
       columns:
         - title
+        - full_title
         - cities
         - event_date
       filters:
