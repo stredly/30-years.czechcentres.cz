@@ -1,9 +1,9 @@
 <nav class="navbar">
     <div class="navbar__container">
-        <img src="{{ glide:general:logo }}" width="200" alt="Logo - Česká centra"/>
+        <img src="/img/logo_cc_30_let.svg" width="200" height="33" alt="Logo - Česká centra"/>
         <ul class="navigation">
             {{ nav:main }}
-                <li class="navigation__item navigation__item--active">
+                <li class="navigation__item {{ if is_current || is_parent }} navigation__item--active{{ /if }}">
                     <a
                         class="navigation__item__link"
                         href="{{ url }}"

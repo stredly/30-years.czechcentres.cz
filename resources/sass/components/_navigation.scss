@@ -1,24 +1,44 @@
 .navigation {
-  padding-top: 40px;
-  padding-bottom: 20px;
   display: flex;
   justify-content: flex-end;
 
   &__item {
-    padding-right: 40px;
-
     &__link {
       font-size: 17px;
       font-weight: 700;
-      color: var(--white);
+      color: var(--black);
       text-decoration: none;
-
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
+        color: var(--red);
       }
     }
 
-    &--active {}
+    &--active {
+     .navigation__item__link {
+      color: var(--red);
+      &::after {
+        position: absolute;
+        content: " ";
+        height: 1px;
+        width: 100%;
+        left: 0;
+        bottom: -26px;
+        background-color: var(--red);
+        z-index: 10;
+      }
+     }
+    }
+    &:last-of-type {
+      padding-right: 0;
+    }
   }
 
   @include media-breakpoint-down(md) {
