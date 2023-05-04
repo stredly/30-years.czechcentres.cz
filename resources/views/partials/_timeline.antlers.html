@@ -3,7 +3,10 @@
         <ul class="timeline__axis">
             <li class="axis-item axis-item--start"></li>
             {{ timeline }}
-                <li class="axis-item" data-year="{{ event_date iso_format="Y" }}">
+                <li
+                    class="axis-item"
+                    data-year="{{ event_date iso_format="Y" }}"
+                >
                     <a
                         class="axis-item__plus"
                         href="{{ url }}"

@@ -19,9 +19,26 @@
 
     &__item {
       display: inline-block;
+      position: relative;
       width: 18px;
       height: 15px;
       line-height: 0;
+
+      &::before {
+        color: var(--black);
+        content: attr(data-year);
+        display: block;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        left: -11px;
+        position: absolute;
+        text-align: center;
+        top: -10px;
+        width: 40px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+      }
 
       &__link {
         text-decoration: none;
@@ -64,11 +81,8 @@
       }
 
       &:hover {
-        .footer__axis__item__link {
-          &::after {
-            background-color: var(--red);
-            height: 18px;
-          }
+        &::before {
+          opacity: 1;
         }
       }
 
