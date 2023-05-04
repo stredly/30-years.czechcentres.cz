@@ -3,8 +3,8 @@ sites:
   - cs
   - en
 propagate: false
-template: default
-layout: layout
+template: timeline/show
+layout: empty
 mount: home
 taxonomies:
   - cities

@@ -1,0 +1,12 @@
+.gallery {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+
+  &__item {
+    max-width: 100%;
+  }
+}

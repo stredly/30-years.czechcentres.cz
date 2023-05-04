@@ -8,7 +8,7 @@
                         class="axis-item__plus"
                         href="{{ url }}"
                         title="{{ full_title }}"
-                        @click.prevent="sidebarOpen = !sidebarOpen"
+                        @click.prevent="fetchSidebarContent('{{ url }}')"
                     >
                         &nbsp
                     </a>

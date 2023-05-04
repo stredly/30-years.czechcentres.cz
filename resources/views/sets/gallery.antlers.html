@@ -1,7 +1,12 @@
 <div class="block">
-    <div class="block__container">
+    <div class="block__container gallery">
         {{ gallery }}
-            <img src="{{ glide:url preset="gallery" }}" alt="{{ alt }}" width="300">
+            <img
+                src="{{ glide:url preset="gallery" }}"
+                alt="{{ alt }}"
+                width="300"
+                class="gallery__item"
+            >
         {{ /gallery }}
     </div>
 </div>

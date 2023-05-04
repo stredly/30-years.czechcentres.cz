@@ -43,6 +43,9 @@
 
   &__container {
     padding: 100px 100px 0 100px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: calc(100% - 120px);
   }
 
   &--open {
@@ -61,8 +64,10 @@
   display: block;
   position: absolute;
   opacity: 0;
-  z-index: -1;
+  visibility: hidden;
+
   &--show {
+    visibility: visible;
     opacity: 0.2;
     z-index: 100;
   }

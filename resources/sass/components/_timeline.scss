@@ -1,3 +1,9 @@
+.timeline-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .timeline {
   display: flex;
   width: 100%;
@@ -59,7 +65,6 @@
     display: flex;
     position: relative;
     padding-top: 324px;
-    height: calc(420px - 324px);
     margin-left: 110px;
 
     &::after {

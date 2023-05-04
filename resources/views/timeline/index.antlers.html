@@ -1,22 +1,30 @@
-<div class="timeline">
-    <div class="timeline__intro">
-        <img class="timeline__intro__image" src="/img/cc_piktogram.svg" alt="Česká centra" width="370" height="370">
-        <div class="timeline__intro__text">
-            {{ page_content }}
+<div x-data="timeline()" class="timeline-wrapper">
+    <div class="timeline">
+        <div class="timeline__intro">
+            <img
+                class="timeline__intro__image"
+                src="/img/cc_piktogram.svg"
+                alt="Česká centra"
+                width="370"
+                height="370"
+            >
+            <div class="timeline__intro__text">
+                {{ page_content }}
+            </div>
         </div>
+
+        {{ partial:partials/timeline }}
+
     </div>
 
-    {{ partial:partials/timeline }}
+    {{ partial:partials/sidebar }}
 
-</div>
-
-{{ partial:partials/sidebar }}
-
-<div
-    class="sidebar-overlay"
-    :class="{ 'sidebar-overlay--show': sidebarOpen }"
-    @click.prevent="sidebarOpen = !sidebarOpen"
->
+    <div
+        class="sidebar-overlay"
+        :class="{ 'sidebar-overlay--show': sidebarOpen }"
+        @click.prevent="sidebarOpen = !sidebarOpen"
+    >
+    </div>
 </div>
 
 

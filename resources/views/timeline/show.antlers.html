@@ -1,0 +1,17 @@
+<div class="block">
+    <div class="block__container">
+        <h1 class="mb-0">{{ title }}</h1>
+
+        <h2 class="h1">
+            <img src="{{ glide :src="cities:flag" }}" width="32" height="32" />
+            <span>{{ cities:title }}</span>
+        </h2>
+        <h3>{{ event_date | month_name | ucfirst }} {{ event_date iso_format="Y" }}</h3>
+    </div>
+</div>
+
+<div class="page-content">
+    {{ page_content }}
+        {{ partial src="sets/{type}" }}
+    {{ /page_content }}
+</div>
