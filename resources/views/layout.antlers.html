@@ -17,7 +17,7 @@
         {{ partial:gtm/consent }}
         {{ partial:gtm/gtm }}
     </head>
-    <body>
+    <body {{ if template == 'timeline/index' }}x-data="timeline()"{{ /if }}>
 
         {{ partial:partials/header }}
 

@@ -1,6 +1,6 @@
 .axis-item {
   display: block;
-  width: 50vw;
+  width: 60vw;
   position: relative;
 
   &::before {
@@ -24,28 +24,31 @@
     background-color: var(--blue);
     transition: background-color 0.3s ease;
     text-decoration: none;
+
     &:hover {
       background-color: var(--light-blue);
     }
+
     &::before {
       transform-origin: center;
       content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iOCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+CjxyZWN0IHg9IjkiIHdpZHRoPSIxOCIgaGVpZ2h0PSIwLjk5OTk5OSIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgOSAwKSIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==');
       width: 18px;
       height: 18px;
-      position: absolute; /* position pseudo-element */
-      top: 50%; /* position vertically */
-      left: 50%; /* position horizontally */
-      transform: translate(-50%, -50%); /* center element */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+
     &::after {
-      position: absolute; /* position pseudo-element */
+      position: absolute;
       content: " ";
       display: block;
       background-color: var(--gray-light);
       width: 1px;
       height: 91px;
       top: -108px;
-      left: calc(50% - 1px); /* position horizontally */
+      left: calc(50% - 1px);
     }
 
   }
@@ -120,9 +123,17 @@
 
   &--start {
     width: 290px;
+
     &::before {
       background-color: var(--blue);
     }
 
+  }
+
+  &--same-year {
+    &::before, &::after {
+      content: unset;
+      visibility: hidden;
+    }
   }
 }

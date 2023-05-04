@@ -1,6 +1,7 @@
 export default () => ({
   sidebarOpen: false,
   sidebarContent: '',
+  activeYear: null,
 
   fetchSidebarContent(url) {
     fetch(`${url}?fetch=true`)
