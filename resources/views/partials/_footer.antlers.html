@@ -1,4 +1,5 @@
-<footer class="footer">
-    <div class="footer__container">
-    </div>
-</footer>
+{{ if template == 'timeline/index' }}
+    {{ partial:partials/timeline_footer }}
+{{ else }}
+    {{ partial:partials/standard_footer }}
+{{ /if }}

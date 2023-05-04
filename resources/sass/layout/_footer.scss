@@ -1,15 +1,91 @@
 .footer {
-  padding-top: var(--section-padding);
-  padding-bottom: calc(var(--section-padding) - 10px);
-  background: linear-gradient(to right, var(--green) 50%, var(--white) 50%);
-
-  @include media-breakpoint-down(md) {
-    padding-top: calc(var(--section-padding) / 2.75);
-    padding-bottom: calc(var(--section-padding) / 2.75);
-    background: linear-gradient(to bottom, var(--green) 50%, var(--white) 50%);
-  }
+  margin-top: auto;
+  padding-bottom: 0;
 
   &__container {
     @extend .block__container;
+  }
+
+  &--timeline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__axis {
+    display: flex;
+    width: 100%;
+    line-height: 0;
+    justify-content: space-evenly;
+
+    &__item {
+      display: inline-block;
+      width: 18px;
+      height: 15px;
+      line-height: 0;
+
+      &__link {
+        text-decoration: none;
+        line-height: 0;
+        padding: 0;
+        display: inline-block;
+        width: 9px;
+        height: 15px;
+        position: relative;
+        margin-left: 8px;
+
+        &::before,
+        &::after {
+          transition: all 0.15s ease-in;
+        }
+
+        &::after {
+          position: absolute;
+          bottom: 0;
+          content: " ";
+          width: 2px;
+          height: 15px;
+          display: block;
+          background-color: var(--gray);
+        }
+
+        &::before {
+          transform-origin: center center;
+          position: absolute;
+          opacity: 0;
+          content: " ";
+          top: -5px;
+          left: -3px;
+          width: 8px;
+          height: 8px;
+          transform: scale(0);
+          display: block;
+          background-color: var(--red);
+        }
+      }
+
+      &:hover {
+        .footer__axis__item__link {
+          &::after {
+            background-color: var(--red);
+            height: 18px;
+          }
+        }
+      }
+
+      &--active {
+
+        .footer__axis__item__link {
+          &::after {
+            background-color: var(--red);
+          }
+
+          &::before {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+
+      }
+    }
   }
 }

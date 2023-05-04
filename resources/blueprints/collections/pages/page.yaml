@@ -11,6 +11,38 @@ sections:
           localizable: true
           validate:
             - required
+      -
+        handle: page_content
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h1
+            - h2
+            - h3
+            - bold
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: true
+          display: 'Page Content'
+          type: bard
+          icon: bard
+          localizable: true
+          listable: hidden
+          instructions_position: above
+          visibility: visible
   sidebar:
     display: Sidebar
     fields:

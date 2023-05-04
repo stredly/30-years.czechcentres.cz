@@ -1,8 +1,8 @@
 .navbar {
-  @extend .block;
 
   &__container {
-    @extend .block__container;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
   }
 }

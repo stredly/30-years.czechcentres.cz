@@ -1,0 +1,18 @@
+<div class="timeline">
+    <div class="timeline__intro">
+        <img class="timeline__intro__image" src="/img/cc_piktogram.svg" alt="Česká centra" width="370" height="370">
+        <div class="timeline__intro__text">
+            {{ page_content }}
+        </div>
+    </div>
+
+
+    <div class="timeline__axis">
+        {{ collection:timeline }}
+            <h2>{{ full_title }}</h2>
+            <h3>{{  event_date }}</h3>
+        {{ /collection:timeline }}
+    </div>
+</div>
+
+

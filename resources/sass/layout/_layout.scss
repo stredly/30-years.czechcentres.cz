@@ -1,9 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Inter', sans-serif;
-  color:  var(--blue);
+  color: var(--blue);
   background: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
-[x-cloak] { display: none !important; }
+main {
+  flex: 1;
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,17 @@
+<footer class="footer footer--timeline">
+    {{ collection:timeline as="timeline" }}
+        {{ if !no_results }}
+            <ul class="footer__axis" x-data="{ activeItem: null }">
+                {{ timeline }}
+                    <li
+                        class="footer__axis__item"
+                        :class="{ 'footer__axis__item--active': activeItem === {{ index }} }"
+                        @click="activeItem = {{ index }}"
+                    >
+                        <a class="footer__axis__item__link" href="#timeline-{{ index }}" title="{{ title }}"></a>
+                    </li>
+                {{ /timeline }}
+            </ul>
+        {{ /if }}
+    {{ /collection:timeline }}
+</footer>
