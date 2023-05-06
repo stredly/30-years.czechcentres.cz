@@ -13,3 +13,12 @@
     @content;
   }
 }
+
+
+@mixin marker {
+  width: 22px;
+  height: 22px;
+  border: 6px solid var(--white);
+  display: block;
+  background-color: var(--red);
+}
