@@ -1,21 +1,26 @@
 <footer class="footer footer--timeline">
     {{ collection:timeline as="timeline" }}
         {{ if !no_results }}
-            <ul class="footer__axis">
+            <ul class="footer-axis">
                 {{ timeline group_by="event_date|Y" }}
                     {{ groups }}
                         <li
                             id="control-{{ group }}"
-                            class="footer__axis__item"
-                            :class="{ 'footer__axis__item--active': activeYear === {{ group }} }"
-                            data-year="{{ group }}"
+                            class="footer-axis__item"
+                            :class="{ 'footer-axis__item--active': activeYear === {{ group }} }"
                             @click="activeYear = {{ group }}"
                         >
                             <a
-                                class="footer__axis__item__link"
+                                class="footer-axis__item__link"
                                 href="#timeline-{{ group }}"
                                 title="{{ title }}"
-                            ></a>
+                            >
+                                <span
+                                    class="footer-axis__item__link__year"
+                                >
+                                    {{ group }}
+                                </span>
+                        </a>
                         </li>
                     {{ /groups }}
                 {{ /timeline }}
