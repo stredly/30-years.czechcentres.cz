@@ -68,7 +68,7 @@
     padding-top: 324px;
     margin-left: 110px;
 
-    &::after {
+    &::after, &::before {
       position: absolute;
       left: 30px;
       top: 186px;
@@ -77,6 +77,12 @@
       height: 2px;
       z-index: -1;
       background-color: var(--gray-light);
+    }
+
+    &::before {
+      z-index: 0;
+      width: 290px;
+      background-color: var(--blue);
     }
   }
 }
