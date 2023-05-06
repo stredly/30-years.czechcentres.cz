@@ -2,10 +2,12 @@ export default () => ({
   sidebarOpen: false,
   sidebarContent: '',
   activeYear: null,
+  activeYearText: '',
   intersected: false,
   defaultWidth: 0,
-  timelineCenter: document.getElementById('timeline-center'),
-  marker: document.getElementById('marker-0'),
+  activeYearEl: document.getElementById('active-year'),
+  timelineCenterEl: document.getElementById('timeline-center'),
+  markerEl: document.getElementById('marker-0'),
 
   fetchSidebarContent(url) {
     fetch(`${url}?fetch=true`)
@@ -18,35 +20,36 @@ export default () => ({
 
   checkIntersectection() {
     const that = this;
-    const timelineCenter = this.timelineCenter;
-    const marker = this.marker;
-    const timelineCenterRect = timelineCenter.getBoundingClientRect();
-    const markerRect = marker.getBoundingClientRect();
+    const timelineCenterEl = this.timelineCenterEl;
+    const markerEl = this.markerEl;
+    const timelineCenterElRect = timelineCenterEl.getBoundingClientRect();
+    const markerElRect = markerEl.getBoundingClientRect();
 
-    const isTimelineCenterVisible = timelineCenter.classList.contains(
+    const istimelineCenterElVisible = timelineCenterEl.classList.contains(
       'timeline__center--visible'
     );
-    const isMarkerLeftOfTimelineCenter = markerRect.x <= timelineCenterRect.x;
+    const ismarkerElLeftOftimelineCenterEl =
+      markerElRect.x <= timelineCenterElRect.x;
 
-    timelineCenter.classList.toggle(
+    timelineCenterEl.classList.toggle(
       'timeline__center--visible',
-      !isTimelineCenterVisible && isMarkerLeftOfTimelineCenter
+      !istimelineCenterElVisible && ismarkerElLeftOftimelineCenterEl
     );
-    marker.parentElement.classList.toggle(
+    markerEl.parentElement.classList.toggle(
       'axis-item--intersected-center',
-      !isTimelineCenterVisible && isMarkerLeftOfTimelineCenter
+      !istimelineCenterElVisible && ismarkerElLeftOftimelineCenterEl
     );
 
-    timelineCenter.classList.toggle(
+    timelineCenterEl.classList.toggle(
       'timeline__center--visible',
-      markerRect.x <= timelineCenterRect.x
+      markerElRect.x <= timelineCenterElRect.x
     );
-    marker.parentElement.classList.toggle(
+    markerEl.parentElement.classList.toggle(
       'axis-item--intersected-center',
-      markerRect.x <= timelineCenterRect.x
+      markerElRect.x <= timelineCenterElRect.x
     );
 
-    const diff = timelineCenterRect.x - markerRect.x;
+    const diff = timelineCenterElRect.x - markerElRect.x;
 
     if (diff > 0) {
       this.root.style.setProperty(
@@ -70,5 +73,14 @@ export default () => ({
       rootStyles.getPropertyValue('--mark-span'),
       10
     );
+
+    this.$watch('activeYear', () => {
+      this.activeYearEl.style.opacity = '0';
+
+      setTimeout(() => {
+        this.activeYearText = this.activeYear;
+        this.activeYearEl.style.opacity = '1';
+      }, 250);
+    });
   },
 });

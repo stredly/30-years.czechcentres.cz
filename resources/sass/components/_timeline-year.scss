@@ -9,8 +9,11 @@
   display: flex;
   justify-items: center;
   align-items: center;
+  justify-content: center;
   margin-top: -70px;
   color: var(--white);
   text-shadow: -1px -1px 0 var(--gray-ligher), 1px -1px 0 var(--gray-ligher), -1px 1px 0 var(--gray-ligher), 1px 1px 0 var(--gray-ligher);
   z-index: -1;
+  transition: opacity 0.3s linear;
+  opacity: 0;
 }
