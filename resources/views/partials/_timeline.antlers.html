@@ -3,10 +3,11 @@
         <ul class="timeline__axis">
             <li class="axis-item axis-item--start"></li>
             {{ timeline }}
+
                 {{ $year = event_date | iso_format("Y") }}
                 <li
                     class="axis-item {{ if (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}axis-item--same-year{{ /if }}"
-                    id="{{ $year }}"
+                    id="timeline-{{ $year }}"
                     data-year="{{ $year }}"
                 >
                     <a

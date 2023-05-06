@@ -1,20 +1,7 @@
 <div class="timeline-wrapper">
     <div class="timeline">
-        <div class="timeline__intro">
-            <img
-                class="timeline__intro__image"
-                src="/img/cc_piktogram.svg"
-                alt="Česká centra"
-                width="370"
-                height="370"
-            >
-            <div class="timeline__intro__text">
-                {{ page_content }}
-            </div>
-        </div>
-
+        {{ partial:partials/intro }}
         {{ partial:partials/timeline }}
-
     </div>
 
     {{ partial:partials/sidebar }}
