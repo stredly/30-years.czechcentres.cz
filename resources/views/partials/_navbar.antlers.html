@@ -1,6 +1,8 @@
 <nav class="navbar">
     <div class="navbar__container">
-        <img src="/img/cc_logo_30let.svg" width="197" height="33" alt="Logo - Česká centra, 30 Let"/>
+        <a href="{{ homepage }}">
+            <img src="/img/cc_logo_30let.svg" width="197" height="33" alt="Logo - Česká centra, 30 Let"/>
+        </a>
         <ul class="navigation">
             {{ nav:main }}
                 <li class="navigation__item {{ if is_current || is_parent }} navigation__item--active{{ /if }}">

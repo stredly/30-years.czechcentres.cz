@@ -1,0 +1,16 @@
+.timeline-year {
+  position: fixed;
+  font-size: 500px;
+  line-height: 500px;
+  font-weight: 700;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: -70px;
+  color: var(--white);
+  text-shadow: -1px -1px 0 var(--gray-ligher), 1px -1px 0 var(--gray-ligher), -1px 1px 0 var(--gray-ligher), 1px 1px 0 var(--gray-ligher);
+  z-index: -1;
+}

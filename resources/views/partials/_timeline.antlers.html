@@ -20,7 +20,7 @@
                         class="axis-item__plus"
                         href="{{ url }}"
                         title="{{ full_title }}"
-                        x-intersect.half.margin.-160px="activeYear = {{ $year }};"
+                        x-intersect.margin.0.-50%="activeYear = {{ $year }};"
                         @click.prevent="fetchSidebarContent('{{ url }}')"
                         id="marker-{{ index }}"
                     >

@@ -5,11 +5,25 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
+
     @include media-breakpoint-down(md) {
       padding: 0 15px;
     }
   }
+
   &--blue {
     background-color: var(--blue);
+  }
+
+  &--standard-page {
+    .block__container {
+      padding-top: 60px;
+    }
+  }
+
+  &--narrow {
+    .block__container {
+      max-width: 760px;
+    }
   }
 }

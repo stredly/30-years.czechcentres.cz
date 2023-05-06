@@ -122,7 +122,7 @@
   }
 
   &--start {
-    width: 290px;
+    width: var(--mark-span);
 
     &::before {
       background-color: var(--blue) !important;

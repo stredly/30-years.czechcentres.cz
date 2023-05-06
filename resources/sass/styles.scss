@@ -1,17 +1,18 @@
-@import "common/_reset";
-@import "common/_mixins";
-@import "common/_variables";
-@import "common/_typo";
+@import "common/reset";
+@import "common/mixins";
+@import "common/variables";
+@import "common/typo";
 
-@import "layout/_blocks";
-@import "layout/_footer";
-@import "layout/_header";
-@import "layout/_layout";
-@import "layout/_navbar";
+@import "layout/blocks";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/layout";
+@import "layout/navbar";
 
-@import "components/_axis-item";
-@import "components/_footer-axis";
-@import "components/_gallery";
-@import "components/_navigation";
-@import "components/_sidebar";
-@import "components/_timeline";
+@import "components/axis-item";
+@import "components/footer-axis";
+@import "components/gallery";
+@import "components/navigation";
+@import "components/sidebar";
+@import "components/timeline";
+@import "components/timeline-year";

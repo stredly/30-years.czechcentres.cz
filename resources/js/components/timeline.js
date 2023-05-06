@@ -3,6 +3,7 @@ export default () => ({
   sidebarContent: '',
   activeYear: null,
   intersected: false,
+  defaultWidth: 0,
   timelineCenter: document.getElementById('timeline-center'),
   marker: document.getElementById('marker-0'),
 
@@ -37,10 +38,27 @@ export default () => ({
       );
     }
 
+    const diff = parseInt(timelineCenterRect.x - markerRect.x, 10);
+
+    if (diff > 0) {
+      this.root.style.setProperty(
+        '--red-line-width',
+        this.defaultWidth - 27 + diff + 'px'
+      );
+    } else {
+      this.activeYear = null;
+    }
+
     window.requestAnimationFrame(() => that.checkIntersectection());
   },
 
   init() {
     this.checkIntersectection();
+    this.root = document.documentElement;
+    const rootStyles = getComputedStyle(this.root);
+    this.defaultWidth = parseInt(
+      rootStyles.getPropertyValue('--mark-span'),
+      10
+    );
   },
 });

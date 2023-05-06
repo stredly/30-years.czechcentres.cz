@@ -1,12 +1,10 @@
-<div class="block">
+<div class="block block--standard-page block--narrow page-content">
     <div class="block__container">
         <h1>{{ title }}</h1>
 
-        <h4>{{ cities }}{{ title }} - {{ country }}{{ /cities }}</h4>
-        <h4>{{ event_date }}</h4>
+        {{ page_content }}
+            {{ partial src="sets/{type}" }}
+        {{ /page_content }}
+
     </div>
 </div>
-
-{{ page_content }}
-    {{ partial src="sets/{type}" }}
-{{ /page_content }}

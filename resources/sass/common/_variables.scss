@@ -2,13 +2,17 @@
   --blue: #033e9f;
   --dark-blue: #001948;
   --light-blue: #0B4DCB;
-  --red: #d32a1c;
+  --red: #D52B1E;
   --black: #444444;
   --gray: #9796A5;
   --gray-light: #DADADA;
+  --gray-ligher: #EFEFF2;
   --white: #FFFFFF;
   --container-size: 1110px;
   --section-padding: 110px;
+  --mark-span: 290px;
+  --red-line-width: var(--mark-span)
+  EFEFF2
 }
 
 $breakpoints: (

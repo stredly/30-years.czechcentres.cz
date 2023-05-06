@@ -83,8 +83,9 @@
 
     &::before {
       z-index: 0;
-      width: 290px;
-      background-color: var(--blue);
+      min-width: var(--mark-span);
+      width: var(--red-line-width);
+      background-color: var(--red);
     }
   }
 
