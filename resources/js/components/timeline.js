@@ -18,34 +18,44 @@ export default () => ({
 
   checkIntersectection() {
     const that = this;
-    const timelineCenterRect = this.timelineCenter.getBoundingClientRect();
-    const markerRect = this.marker.getBoundingClientRect();
+    const timelineCenter = this.timelineCenter;
+    const marker = this.marker;
+    const timelineCenterRect = timelineCenter.getBoundingClientRect();
+    const markerRect = marker.getBoundingClientRect();
 
-    const isTimelineCenterVisible = this.timelineCenter.classList.contains(
+    const isTimelineCenterVisible = timelineCenter.classList.contains(
       'timeline__center--visible'
     );
     const isMarkerLeftOfTimelineCenter = markerRect.x <= timelineCenterRect.x;
 
-    if (!isTimelineCenterVisible && isMarkerLeftOfTimelineCenter) {
-      this.timelineCenter.classList.add('timeline__center--visible');
-      this.marker.parentElement.classList.add('axis-item--intersected-center');
-    }
+    timelineCenter.classList.toggle(
+      'timeline__center--visible',
+      !isTimelineCenterVisible && isMarkerLeftOfTimelineCenter
+    );
+    marker.parentElement.classList.toggle(
+      'axis-item--intersected-center',
+      !isTimelineCenterVisible && isMarkerLeftOfTimelineCenter
+    );
 
-    if (markerRect.x > timelineCenterRect.x && isTimelineCenterVisible) {
-      this.timelineCenter.classList.remove('timeline__center--visible');
-      this.marker.parentElement.classList.remove(
-        'axis-item--intersected-center'
-      );
-    }
+    timelineCenter.classList.toggle(
+      'timeline__center--visible',
+      markerRect.x <= timelineCenterRect.x
+    );
+    marker.parentElement.classList.toggle(
+      'axis-item--intersected-center',
+      markerRect.x <= timelineCenterRect.x
+    );
 
-    const diff = parseInt(timelineCenterRect.x - markerRect.x, 10);
+    const diff = timelineCenterRect.x - markerRect.x;
 
     if (diff > 0) {
       this.root.style.setProperty(
         '--red-line-width',
-        this.defaultWidth - 27 + diff + 'px'
+        `${this.defaultWidth - 27 + diff}px`
       );
-    } else {
+    }
+
+    if (diff + 148 < 0) {
       this.activeYear = null;
     }
 

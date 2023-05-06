@@ -3,12 +3,13 @@
   width: 100%;
   line-height: 0;
   justify-content: space-evenly;
+  overflow: hidden;
 
   &__item {
     display: inline-block;
     position: relative;
     width: 42px;
-    height: 15px;
+    height: 38px;
     line-height: 0;
 
     &__link {
@@ -17,13 +18,13 @@
       padding: 0;
       display: inline-block;
       width: 100%;
-      height: 15px;
+      height: 100%;
       position: relative;
       z-index: 10;
 
       &::before,
       &::after {
-        transition: all 0.15s ease-in;
+        transition: all 0.35s ease-in;
       }
 
       &::after {
@@ -37,41 +38,63 @@
         background-color: var(--gray);
       }
 
-      &::before {
-        transform-origin: center center;
-        position: absolute;
-        opacity: 0;
-        content: " ";
-        top: -3px;
-        left: calc(50% - 4px);
-        width: 8px;
-        height: 8px;
-        transform: scale(0);
-        display: block;
-        background-color: var(--red);
-      }
-
       &__year {
         color: var(--black);
         display: block;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        position: absolute;
-        text-align: center;
-        top: -20px;
-        width: 40px;
-        opacity: 1;
-        transition: opacity 0.3s ease-in;
-        z-index: -1;
         height: 20px;
         line-height: 20px;
+        opacity: 1;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        transition: opacity 0.5s ease-in;
+        width: 40px;
+        z-index: -1;
         opacity: 0;
+      }
+
+      &__active {
+        position: absolute;
+        bottom: -21px;
+        left: 21px;
+        z-index: 1;
+        transition: bottom 0.6s ease-in-out;
+
+        &::after {
+          position: absolute;
+          bottom: 0;
+          content: " ";
+          width: 2px;
+          height: 15px;
+          left: calc(50% - 1px);
+          display: block;
+          background-color: var(--red);
+        }
+
+        &::before {
+          position: absolute;
+          content: " ";
+          bottom: 13px;
+          left: calc(50% - 4px);
+          width: 8px;
+          height: 8px;
+          display: block;
+          background-color: var(--red);
+        }
       }
 
     }
 
     &:hover:not(.footer-axis__item--active) {
+      .footer-axis__item__link {
+        &::after {
+          height: 19px;
+        }
+      }
+
       .footer-axis__item__link__year {
         opacity: 1;
       }
@@ -79,15 +102,8 @@
 
     &--active {
 
-      .footer-axis__item__link {
-        &::after {
-          background-color: var(--red);
-        }
-
-        &::before {
-          opacity: 1;
-          transform: scale(1);
-        }
+      .footer-axis__item__link__active {
+        bottom: 0;
       }
 
     }
