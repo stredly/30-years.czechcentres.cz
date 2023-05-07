@@ -13,7 +13,7 @@
                 {{ $year = event_date | iso_format("Y") }}
                 <li
                     class="axis-item {{ if (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}axis-item--same-year{{ /if }}"
-                    id="timeline-{{ $year }}"
+                    {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}id="timeline-{{ $year }}"{{/unless}}
                     data-year="{{ $year }}"
                 >
                     <a
