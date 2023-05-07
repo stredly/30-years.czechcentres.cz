@@ -13,6 +13,7 @@
   align-items: center;
   scroll-behavior: smooth;
   position: relative;
+  z-index: 2;
 
   &__intro {
     display: flex;
@@ -77,12 +78,12 @@
       content: " ";
       width: 100%;
       height: 2px;
-      z-index: -1;
+      z-index: 0;
       background-color: var(--gray-light);
     }
 
     &::before {
-      z-index: 0;
+      z-index: 1;
       min-width: var(--mark-span);
       width: var(--red-line-width);
       background-color: var(--red);

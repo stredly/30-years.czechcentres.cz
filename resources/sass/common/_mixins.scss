@@ -21,4 +21,16 @@
   border: 6px solid var(--white);
   display: block;
   background-color: var(--red);
+  z-index: 3;
+}
+
+@keyframes slide-left {
+  from {
+    opacity: inherit;
+    opacity: 0.15;
+  }
+  to {
+    opacity: 0;
+    left: -100%;
+  }
 }

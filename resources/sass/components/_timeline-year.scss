@@ -1,19 +1,14 @@
 .timeline-year {
   position: fixed;
-  font-size: 500px;
-  line-height: 500px;
-  font-weight: 700;
-  text-align: center;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  margin-top: -70px;
-  color: var(--white);
-  text-shadow: -1px -1px 0 var(--gray-ligher), 1px -1px 0 var(--gray-ligher), -1px 1px 0 var(--gray-ligher), 1px 1px 0 var(--gray-ligher);
   z-index: -1;
-  transition: opacity 0.3s linear;
-  opacity: 0;
+  text-align: center;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+  background-image: url('/img/null.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }

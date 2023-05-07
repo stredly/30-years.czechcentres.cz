@@ -2,9 +2,10 @@ export default () => ({
   sidebarOpen: false,
   sidebarContent: '',
   activeYear: null,
-  activeYearText: '',
+  activeYearImage: null,
   intersected: false,
   defaultWidth: 0,
+  scrollX: 0,
   activeYearEl: document.getElementById('active-year'),
   timelineCenterEl: document.getElementById('timeline-center'),
   markerEl: document.getElementById('marker-0'),
@@ -62,6 +63,21 @@ export default () => ({
       this.activeYear = null;
     }
 
+    const currentMarkerEl = document.getElementById(
+      `timeline-${this.activeYear}`
+    );
+
+    const currentPhotoEl = document.getElementById(`photo-${this.activeYear}`);
+
+    if (currentMarkerEl) {
+      let getBoundingClientRect = currentMarkerEl.getBoundingClientRect();
+      if (getBoundingClientRect.x > 0) {
+        currentPhotoEl.style.left =
+          parseInt(getBoundingClientRect.x / 1, 10) + 'px';
+      } else {
+        currentPhotoEl.classList.add('axis-item__photo--hide');
+      }
+    }
     window.requestAnimationFrame(() => that.checkIntersectection());
   },
 
@@ -75,12 +91,15 @@ export default () => ({
     );
 
     this.$watch('activeYear', () => {
-      this.activeYearEl.style.opacity = '0';
-
+      if (this.activeYear !== null) {
+        this.activeYearEl.style.opacity = '0';
+      }
       setTimeout(() => {
-        this.activeYearText = this.activeYear;
+        this.activeYearImage = this.activeYear;
+      }, 300);
+      setTimeout(() => {
         this.activeYearEl.style.opacity = '1';
-      }, 250);
+      }, 300);
     });
   },
 });

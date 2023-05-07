@@ -35,8 +35,24 @@
                     <p class="axis-item__perex">
                         {{ perex | widont(3) ?? 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit' }}
                     </p>
+                    {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
+                        <img
+                            class="axis-item__photo"
+                            :class="{ 'axis-item__photo--active' : activeYear === {{ $year }} }"
+                            src="{{ glide src="https://s3.eu-central-1.amazonaws.com/30-years.czechcentres.cz/timeline/sofie/58-cc-sofie.jpg" width="660" height="330" fit="crop_focal" }}"
+                            alt="{{ title }}"
+                            id="photo-{{ $year }}"
+
+                        />
+                    {{ /unless }}
                 </li>
             {{ /timeline }}
         </ul>
+        <div
+            class="timeline-year"
+            id="active-year"
+            :style="'background-image: url(/img/' + activeYearImage + '.svg)'"
+        >
+    </div>
     {{ /if  }}
 {{ /collection:timeline }}
