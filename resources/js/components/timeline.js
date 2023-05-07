@@ -61,6 +61,7 @@ export default () => ({
 
     if (diff + 148 < 0) {
       this.activeYear = null;
+      this.root.style.setProperty('--red-line-width', `${this.defaultWidth}px`);
     }
 
     const currentMarkerEl = document.getElementById(
@@ -82,8 +83,8 @@ export default () => ({
   },
 
   init() {
-    this.checkIntersectection();
     this.root = document.documentElement;
+    this.checkIntersectection();
     const rootStyles = getComputedStyle(this.root);
     this.defaultWidth = parseInt(
       rootStyles.getPropertyValue('--mark-span'),
