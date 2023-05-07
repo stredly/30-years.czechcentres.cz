@@ -91,9 +91,7 @@ export default () => ({
     );
 
     this.$watch('activeYear', () => {
-      if (this.activeYear !== null) {
-        this.activeYearEl.style.opacity = '0';
-      }
+      this.activeYearEl.style.opacity = '0';
       setTimeout(() => {
         this.activeYearImage = this.activeYear;
       }, 300);
@@ -101,5 +99,7 @@ export default () => ({
         this.activeYearEl.style.opacity = '1';
       }, 300);
     });
+
+    this.activeYearEl.style.opacity = '1';
   },
 });
