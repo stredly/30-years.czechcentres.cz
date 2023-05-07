@@ -23,3 +23,21 @@ main {
 ::-webkit-scrollbar {
   display: none;
 }
+
+/* Hide scrollbar in WebKit-based browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar in Firefox */
+/* Note: `scrollbar-width` is a CSS property introduced in Firefox 64 */
+/* See: https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar in Internet Explorer and Edge */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
