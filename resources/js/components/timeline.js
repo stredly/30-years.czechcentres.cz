@@ -107,8 +107,8 @@ export default () => ({
   },
 
   setActiveYear(year, prevYear) {
-    console.log('stActiveYear', year);
     this.activeYear = this.activeYear === year ? prevYear : year;
+    this.activeYearImage = this.activeYear;
   },
 
   init() {
@@ -120,7 +120,7 @@ export default () => ({
       10
     );
 
-    this.$watch('activeYear', () => {
+    /* this.$watch('activeYear', () => {
       this.activeYearEl.style.opacity = '0';
       setTimeout(() => {
         if (this.activeYear === null) {
@@ -136,7 +136,7 @@ export default () => ({
       setTimeout(() => {
         this.activeYearEl.style.opacity = '1';
       }, 300);
-    });
+    }); */
 
     this.activeYearEl.style.opacity = '1';
 
