@@ -8,7 +8,7 @@
                             id="control-{{ group }}"
                             class="footer-axis__item"
                             :class="{ 'footer-axis__item--active': activeYear == {{ group }} }"
-                            @click="activeYear = {{ group }};scrollTo({{ group }})"
+                            @click="scrollToYear({{ group }})"
                         >
                             <a
                                 class="footer-axis__item__link"

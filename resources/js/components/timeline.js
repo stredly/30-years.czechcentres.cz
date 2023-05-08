@@ -6,8 +6,8 @@ export default () => ({
   activeYearImage: null,
   centerX: 0,
   defaultWidth: 0,
-  intersected: false,
   markerHalfSize: 0,
+  root: document.documentElement,
   sidebarContent: '',
   sidebarOpen: false,
   timelineEl: document.getElementById('timeline'),
@@ -113,9 +113,11 @@ export default () => ({
     this.activeYearImage = this.activeYear;
   },
 
-  scrollTo(year) {
+  scrollToYear(year) {
     const element = document.getElementById(`timeline-${year}`);
     if (!element) return;
+
+    this.activeYear = year;
 
     const scroll =
       element.getBoundingClientRect().left -
@@ -130,15 +132,23 @@ export default () => ({
     this.timelineEl.scroll(scrollOptions);
   },
 
-  init() {
-    this.root = document.documentElement;
-    this.checkIntersectection();
+  setClientSizes() {
+    const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
     const rootStyles = getComputedStyle(this.root);
-    this.defaultWidth = parseInt(
-      rootStyles.getPropertyValue('--mark-span'),
-      10
-    );
 
+    this.centerX = timelineCenterElRect.x;
+    this.markerHalfSize = this.timelineCenterEl.offsetWidth / 2;
+    this.defaultWidth = rootStyles.getPropertyValue('--mark-span');
+
+    this.root.style.setProperty(
+      '--year-y-position',
+      `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
+    );
+    this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
+  },
+
+  init() {
+    //this.checkIntersectection();
     /*     this.$watch('activeYear', () => {
       if (this.activeYear === null) {
         this.root.style.setProperty(
@@ -151,16 +161,5 @@ export default () => ({
       this.activeYearImage = this.activeYear;
     });
  */
-    const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
-
-    this.root.style.setProperty(
-      '--year-y-position',
-      `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
-    );
-    this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
-    this.centerX = timelineCenterElRect.x;
-
-    this.centerX = this.timelineEl.clientWidth / 2;
-    this.markerHalfSize = this.timelineCenterEl.offsetWidth / 2;
   },
 });
