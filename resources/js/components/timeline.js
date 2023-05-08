@@ -2,13 +2,15 @@ const YEAR_HEIGHT = 373;
 const YEAR_HEIGHT_X_INIT = 20;
 
 export default () => ({
-  sidebarOpen: false,
-  sidebarContent: '',
   activeYear: null,
   activeYearImage: null,
-  intersected: false,
-  defaultWidth: 0,
   centerX: 0,
+  defaultWidth: 0,
+  intersected: false,
+  markerHalfSize: 0,
+  sidebarContent: '',
+  sidebarOpen: false,
+  timelineEl: document.getElementById('timeline'),
   activeYearEl: document.getElementById('active-year'),
   timelineCenterEl: document.getElementById('timeline-center'),
   markerEl: document.getElementById('marker-0'),
@@ -111,6 +113,23 @@ export default () => ({
     this.activeYearImage = this.activeYear;
   },
 
+  scrollTo(year) {
+    const element = document.getElementById(`timeline-${year}`);
+    if (!element) return;
+
+    const scroll =
+      element.getBoundingClientRect().left -
+      this.centerX -
+      this.markerHalfSize +
+      this.timelineEl.scrollLeft;
+
+    const scrollOptions = {
+      left: scroll,
+      behavior: 'smooth',
+    };
+    this.timelineEl.scroll(scrollOptions);
+  },
+
   init() {
     this.root = document.documentElement;
     this.checkIntersectection();
@@ -120,7 +139,7 @@ export default () => ({
       10
     );
 
-    this.$watch('activeYear', () => {
+    /*     this.$watch('activeYear', () => {
       if (this.activeYear === null) {
         this.root.style.setProperty(
           '--year-x-position',
@@ -131,13 +150,17 @@ export default () => ({
       }
       this.activeYearImage = this.activeYear;
     });
-
+ */
     const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
+
     this.root.style.setProperty(
       '--year-y-position',
       `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
     );
     this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
     this.centerX = timelineCenterElRect.x;
+
+    this.centerX = this.timelineEl.clientWidth / 2;
+    this.markerHalfSize = this.timelineCenterEl.offsetWidth / 2;
   },
 });

@@ -13,7 +13,6 @@
                 {{ $year = event_date | iso_format("Y") }}
                 <li
                     class="axis-item {{ if (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}axis-item--same-year{{ /if }}"
-                    {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}id="timeline-{{ $year }}"{{/unless}}
                     data-year="{{ $year }}"
                 >
                     <a
@@ -27,8 +26,8 @@
                         <div
                             class="axis-item__plus__line"
                             {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
-                                x-intersect:leave.full.margin.0.-49%="setActiveYear({{ $year }},{{ prev:event_date | iso_format("Y") }})"
-                            {{ /unless }}
+                                id="timeline-{{ $year }}"
+                            {{/unless}}
                         >
                         </div>
                     </a>

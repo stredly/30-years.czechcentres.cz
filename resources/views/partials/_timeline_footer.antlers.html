@@ -7,12 +7,12 @@
                         <li
                             id="control-{{ group }}"
                             class="footer-axis__item"
-                            :class="{ 'footer-axis__item--active': activeYear === {{ group }} }"
-                            @click="activeYear = {{ group }}"
+                            :class="{ 'footer-axis__item--active': activeYear == {{ group }} }"
+                            @click="activeYear = {{ group }};scrollTo({{ group }})"
                         >
                             <a
                                 class="footer-axis__item__link"
-                                href="#timeline-{{ group }}"
+                                href="#"
                                 title="{{ title }}"
                             >
                                 <span
