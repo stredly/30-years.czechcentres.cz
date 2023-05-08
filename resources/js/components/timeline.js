@@ -26,7 +26,7 @@ export default () => ({
       });
   },
 
-  checkIntersectection() {
+  /* checkIntersectection() {
     const that = this;
     const timelineCenterEl = this.timelineCenterEl;
     const firstMarkerEl = this.firstMarkerEl;
@@ -73,7 +73,7 @@ export default () => ({
 
     window.requestAnimationFrame(() => that.checkIntersectection());
   },
-
+ */
   animatePhoto() {
     const currentMarkerEl = document.getElementById(
       `timeline-${this.activeYear}`
@@ -110,41 +110,43 @@ export default () => ({
     } */
   },
 
-  checkIntersectection2() {
-    if (this.scrolling) {
-      return;
-    }
-    const items = this.marks.filter((item) => {
-      let rect = item.getBoundingClientRect();
-      if (rect.left <= this.centerX + this.markerHalfSize * 2) {
-        return item;
+  checkIntersectection() {
+    if (!this.scrolling) {
+      const items = this.marks.filter(
+        (item) =>
+          item.getBoundingClientRect().left <=
+          this.centerX + this.markerHalfSize * 2
+      );
+      const currentYear = items.length
+        ? items[items.length - 1].dataset.year
+        : null;
+
+      if (this.activeYear !== currentYear) {
+        this.activeYear = currentYear;
+        const currentYearSet = currentYear !== null;
+        this.timelineCenterEl.classList.toggle(
+          'timeline__center--visible',
+          currentYearSet
+        );
+        this.firstMarkerEl.parentElement.classList.toggle(
+          'axis-item--intersected-center',
+          currentYearSet
+        );
       }
-    });
 
-    let currentYear = null;
-    if (items.length) {
-      const last = items.pop();
-      currentYear = last.dataset.year;
-    } else {
-      currentYear = null;
-    }
-
-    if (this.activeYear !== currentYear) {
-      this.activeYear = currentYear;
-      this.timelineCenterEl.classList.toggle(
-        'timeline__center--visible',
-        currentYear !== null
-      );
-      this.firstMarkerEl.parentElement.classList.toggle(
-        'axis-item--intersected-center',
-        currentYear !== null
-      );
+      this.setAxisLine();
     }
   },
 
-  setActiveYear(year, prevYear) {
-    this.activeYear = this.activeYear === year ? prevYear : year;
-    this.activeYearImage = this.activeYear;
+  setAxisLine() {
+    const diff =
+      this.activeYear !== null
+        ? this.centerX - this.firstMarkerEl.getBoundingClientRect().left
+        : 0;
+    this.root.style.setProperty(
+      '--red-line-width',
+      `calc(${this.defaultWidth} + ${diff}px)`
+    );
   },
 
   scrollToYear(year) {
@@ -165,8 +167,10 @@ export default () => ({
     };
     this.scrolling = true;
     this.timelineEl.scroll(scrollOptions);
+
     setTimeout(() => {
       this.scrolling = false;
+      this.checkIntersectection();
     }, 1000);
   },
 
