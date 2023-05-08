@@ -120,25 +120,17 @@ export default () => ({
       10
     );
 
-    /* this.$watch('activeYear', () => {
-      this.activeYearEl.style.opacity = '0';
-      setTimeout(() => {
-        if (this.activeYear === null) {
-          this.root.style.setProperty(
-            '--year-x-position',
-            `${YEAR_HEIGHT_X_INIT}px`
-          );
-        } else {
-          this.root.style.setProperty('--year-x-position', 'center');
-        }
-        this.activeYearImage = this.activeYear;
-      }, 300);
-      setTimeout(() => {
-        this.activeYearEl.style.opacity = '1';
-      }, 300);
-    }); */
-
-    this.activeYearEl.style.opacity = '1';
+    this.$watch('activeYear', () => {
+      if (this.activeYear === null) {
+        this.root.style.setProperty(
+          '--year-x-position',
+          `${YEAR_HEIGHT_X_INIT}px`
+        );
+      } else {
+        this.root.style.setProperty('--year-x-position', 'center');
+      }
+      this.activeYearImage = this.activeYear;
+    });
 
     const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
     this.root.style.setProperty(
