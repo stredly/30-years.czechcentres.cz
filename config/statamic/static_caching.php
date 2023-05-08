@@ -88,6 +88,6 @@ return [
     |
     */
 
-    'ignore_query_strings' => true,
+    'ignore_query_strings' => false,
 
 ];
