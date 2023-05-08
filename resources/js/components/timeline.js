@@ -182,28 +182,52 @@ export default () => ({
     this.markerHalfSize = this.timelineCenterEl.offsetWidth / 2;
     this.defaultWidth = rootStyles.getPropertyValue('--mark-span');
 
-    this.root.style.setProperty(
-      '--year-y-position',
-      `${timelineCenterElRect.y - YEAR_HEIGHT / 1.62}px`
-    );
-    this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
+    if (this.activeYear === null) {
+      this.root.style.setProperty(
+        '--year-y-position',
+        `${timelineCenterElRect.y - YEAR_HEIGHT / 1.62}px`
+      );
+      this.root.style.setProperty(
+        '--year-x-position',
+        `${YEAR_HEIGHT_X_INIT}px`
+      );
+    } else {
+      this.root.style.setProperty('--year-x-position', 'center');
+      this.root.style.setProperty(
+        '--year-y-position',
+        this.timelineCenterEl.getBoundingClientRect().y -
+          YEAR_HEIGHT / 2 +
+          7 +
+          'px'
+      );
+    }
   },
 
   init() {
     this.marks = Array.from(
       document.querySelectorAll('[id^="timeline-mark-"]')
     );
-    /*     this.$watch('activeYear', () => {
-      if (this.activeYear === null) {
-        this.root.style.setProperty(
-          '--year-x-position',
-          `${YEAR_HEIGHT_X_INIT}px`
-        );
-      } else {
-        this.root.style.setProperty('--year-x-position', 'center');
-      }
-      this.activeYearImage = this.activeYear;
+    this.$watch('activeYear', () => {
+      this.root.style.setProperty('--timeline-year-opacity', '0');
+      setTimeout(() => {
+        if (this.activeYear === null) {
+          this.root.style.setProperty(
+            '--year-x-position',
+            `${YEAR_HEIGHT_X_INIT}px`
+          );
+        } else {
+          this.root.style.setProperty('--year-x-position', 'center');
+          this.root.style.setProperty(
+            '--year-y-position',
+            this.timelineCenterEl.getBoundingClientRect().y -
+              YEAR_HEIGHT / 2 +
+              7 +
+              'px'
+          );
+        }
+        this.activeYearImage = this.activeYear;
+        this.root.style.setProperty('--timeline-year-opacity', '1');
+      }, 200);
     });
- */
   },
 });

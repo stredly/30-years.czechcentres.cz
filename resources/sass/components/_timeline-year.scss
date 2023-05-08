@@ -5,8 +5,8 @@
   z-index: -1;
   text-align: center;
   pointer-events: none;
-  opacity: 1;
-  transition: opacity 0.3s ease-in;
+  opacity: var(--timeline-year-opacity);
+  transition: opacity 0.1s linear;
   background-image: url('/img/null.svg');
   background-repeat: no-repeat;
   background-position: var(--year-x-position) var(--year-y-position);
