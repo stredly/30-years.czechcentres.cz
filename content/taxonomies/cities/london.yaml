@@ -1,8 +1,8 @@
 title: Londýn
 country: 'Velká Británie'
-flag: flags/gb.png
+flag: flags/gb.svg
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1680614783
+updated_at: 1683580818
 blueprint: city
 localizations:
   en:

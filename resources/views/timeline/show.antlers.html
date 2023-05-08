@@ -3,7 +3,7 @@
         <h1 class="mb-0">{{ title }}</h1>
 
         <h2 class="h1">
-            <img src="{{ glide :src="cities:flag" }}" width="32" height="32" />
+            <img src="{{ cities:flag }}" width="32" height="32" class="flag"/>
             <span>{{ cities:title }}</span>
         </h2>
         <h3>{{ event_date | month_name | ucfirst }} {{ event_date iso_format="Y" }}</h3>
