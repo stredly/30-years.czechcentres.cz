@@ -1,3 +1,6 @@
+const YEAR_HEIGHT = 373;
+const YEAR_HEIGHT_X_INIT = 20;
+
 export default () => ({
   sidebarOpen: false,
   sidebarContent: '',
@@ -78,6 +81,13 @@ export default () => ({
       } else {
         currentPhotoEl.classList.add('axis-item__photo--hide');
       }
+
+      if (
+        getBoundingClientRect.x > 0 &&
+        currentPhotoEl.classList.contains('axis-item__photo--hide')
+      ) {
+        currentPhotoEl.classList.remove('axis-item__photo--hide');
+      }
     }
     window.requestAnimationFrame(() => that.checkIntersectection());
   },
@@ -94,6 +104,14 @@ export default () => ({
     this.$watch('activeYear', () => {
       this.activeYearEl.style.opacity = '0';
       setTimeout(() => {
+        if (this.activeYear === null) {
+          this.root.style.setProperty(
+            '--year-x-position',
+            `${YEAR_HEIGHT_X_INIT}px`
+          );
+        } else {
+          this.root.style.setProperty('--year-x-position', 'center');
+        }
         this.activeYearImage = this.activeYear;
       }, 300);
       setTimeout(() => {
@@ -102,5 +120,12 @@ export default () => ({
     });
 
     this.activeYearEl.style.opacity = '1';
+
+    const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
+    this.root.style.setProperty(
+      '--year-y-position',
+      `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
+    );
+    this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
   },
 });

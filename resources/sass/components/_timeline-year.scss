@@ -9,6 +9,6 @@
   transition: opacity 0.3s ease-in;
   background-image: url('/img/null.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: var(--year-x-position) var(--year-y-position);
   background-size: auto;
 }
