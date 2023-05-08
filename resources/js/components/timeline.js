@@ -58,25 +58,38 @@ export default () => ({
     if (diff > 0) {
       this.root.style.setProperty(
         '--red-line-width',
-        `${this.defaultWidth - 27 + diff}px`
+        `calc(${this.defaultWidth}px - 27px + ${diff}px)`
       );
-    }
-
-    if (diff < 0) {
+    } else {
       this.activeYear = null;
       this.root.style.setProperty('--red-line-width', `${this.defaultWidth}px`);
     }
 
+    this.animatePhoto();
+
+    window.requestAnimationFrame(() => that.checkIntersectection());
+  },
+
+  animatePhoto() {
     const currentMarkerEl = document.getElementById(
       `timeline-${this.activeYear}`
     );
 
-    const currentPhotoEl = document.getElementById(`photo-${this.activeYear}`);
+    if (currentMarkerEl) {
+      const currentMarkerBoundingClientRect =
+        currentMarkerEl.getBoundingClientRect();
+      const currentPhotoEl = document.getElementById(
+        `photo-${this.activeYear}`
+      );
+      currentPhotoEl.style.left =
+        parseInt(currentMarkerBoundingClientRect.x * 2, 10) + 'px';
+    }
+
+    /*
 
     if (currentMarkerEl) {
       let currentMarkerBoundingClientRect =
         currentMarkerEl.getBoundingClientRect();
-      /* console.log(currentMarkerBoundingClientRect.x); */
       if (currentMarkerBoundingClientRect.x > 0) {
         currentPhotoEl.style.left =
           parseInt(currentMarkerBoundingClientRect.x / 1, 10) + 'px';
@@ -90,9 +103,12 @@ export default () => ({
       ) {
         currentPhotoEl.classList.remove('axis-item__photo--hide');
       }
-    }
+    } */
+  },
 
-    window.requestAnimationFrame(() => that.checkIntersectection());
+  setActiveYear(year, prevYear) {
+    console.log('stActiveYear', year);
+    this.activeYear = this.activeYear === year ? prevYear : year;
   },
 
   init() {
@@ -131,13 +147,5 @@ export default () => ({
     );
     this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
     this.centerX = timelineCenterElRect.x;
-  },
-
-  setActiveYear(year, prevYear) {
-    if (this.activeYear === year) {
-      this.activeYear = prevYear;
-    } else {
-      this.activeYear = year;
-    }
   },
 });

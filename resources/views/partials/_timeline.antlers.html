@@ -20,13 +20,17 @@
                         class="axis-item__plus"
                         href="{{ url }}"
                         title="{{ full_title }}"
-                        {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
-                            x-intersect.margin.0.-50%="setActiveYear('{{ $year }}', '{{ prev:event_date | iso_format("Y") }}')"
-                        {{ /unless }}
                         @click.prevent="fetchSidebarContent('{{ url }}')"
                         id="marker-{{ index }}"
                     >
                         &nbsp
+                        <div
+                            class="axis-item__plus__line"
+                            {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
+                                x-intersect.margin.0.-50%="setActiveYear('{{ $year }}', '{{ prev:event_date | iso_format("Y") }}')"
+                            {{ /unless }}
+                        >
+                        </div>
                     </a>
                     <h5 class="axis-item__month">{{ event_date | month_name }}</h3>
                     <h3 class="axis-item__title">{{ title }}</h2>
@@ -40,8 +44,8 @@
                     {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
                         <img
                             class="axis-item__photo"
-                            :class="{ 'axis-item__photo--active' : activeYear === {{ $year }} }"
-                            src="{{ glide :src="background_image ?? 'https://s3.eu-central-1.amazonaws.com/30-years.czechcentres.cz/timeline/sofie/58-cc-sofie.jpg'" width="660" height="330" fit="crop_focal" }}"
+                            :class="{ 'axis-item__photo--active' : activeYear === '{{ $year }}' }"
+                            src="{{ glide :src="background_image ?? 'https://s3.eu-central-1.amazonaws.com/30-years.czechcentres.cz/timeline/sofie/58-cc-sofie.jpg'" width="660" height="360" fit="crop_focal" }}"
                             alt="{{ title }}"
                             id="photo-{{ $year }}"
 

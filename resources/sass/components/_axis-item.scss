@@ -40,7 +40,7 @@
       transform: translate(-50%, -50%);
     }
 
-    &::after {
+    &__line {
       position: absolute;
       content: " ";
       display: block;
@@ -50,7 +50,6 @@
       top: -108px;
       left: calc(50% - 1px);
     }
-
   }
 
   &:not(.axis-item--start) {
@@ -122,21 +121,29 @@
   }
 
   &__photo {
-    position: absolute;
-    bottom: 230px;
-    left: 100%;
-    z-index: -1;
+    position: fixed;
+    pointer-events: none;
     opacity: 0;
+    width: 660px;
+    height: 360px;
+    top: calc(50% - 337px);
+    right: 0;
+    z-index: -1;
+    /* bottom: 230px;
+    left: 100%;
+
+
     filter: grayscale(100%) brightness(150%);
     transition: opacity 0.5s linear;
+  */
 
     &--active {
-      opacity: 0.15;
+      opacity: 0.5;
     }
 
-    &--hide {
+    /* &--hide {
       animation: slide-left 1s ease-in-out forwards;
-    }
+    } */
   }
 
   &--start {
