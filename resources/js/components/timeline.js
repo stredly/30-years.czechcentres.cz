@@ -38,7 +38,6 @@ export default () => ({
         `photo-${this.activeYear}`
       );
       const left = parseInt(currentMarkerBoundingClientRect.x * 2, 10);
-      console.log(left);
 
       currentPhotoEl.classList.toggle('axis-item__photo--active', left > -200);
       currentPhotoEl.style.left = left + 'px';
