@@ -129,16 +129,11 @@
     top: calc(50% - 337px);
     right: 0;
     z-index: -1;
-    /* bottom: 230px;
-    left: 100%;
-
-
     filter: grayscale(100%) brightness(150%);
     transition: opacity 0.5s linear;
-  */
 
     &--active {
-      opacity: 0.5;
+      opacity: 0.3;
     }
 
     /* &--hide {
