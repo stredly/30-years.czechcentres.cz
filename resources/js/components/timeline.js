@@ -1,8 +1,9 @@
 const YEAR_HEIGHT = 373;
-const YEAR_HEIGHT_X_INIT = 20;
+const YEAR_HEIGHT_X_INIT = -20;
 
 export default () => ({
   activeYear: null,
+  marks: [],
   activeYearImage: null,
   centerX: 0,
   defaultWidth: 0,
@@ -13,7 +14,7 @@ export default () => ({
   timelineEl: document.getElementById('timeline'),
   activeYearEl: document.getElementById('active-year'),
   timelineCenterEl: document.getElementById('timeline-center'),
-  markerEl: document.getElementById('marker-0'),
+  firstMarkerEl: document.getElementById('marker-0'),
 
   fetchSidebarContent(url) {
     fetch(`${url}?fetch=true`)
@@ -27,9 +28,9 @@ export default () => ({
   checkIntersectection() {
     const that = this;
     const timelineCenterEl = this.timelineCenterEl;
-    const markerEl = this.markerEl;
+    const firstMarkerEl = this.firstMarkerEl;
     const timelineCenterElRect = timelineCenterEl.getBoundingClientRect();
-    const markerElRect = markerEl.getBoundingClientRect();
+    const markerElRect = firstMarkerEl.getBoundingClientRect();
 
     const istimelineCenterElVisible = timelineCenterEl.classList.contains(
       'timeline__center--visible'
@@ -41,7 +42,7 @@ export default () => ({
       'timeline__center--visible',
       !istimelineCenterElVisible && ismarkerElLeftOftimelineCenterEl
     );
-    markerEl.parentElement.classList.toggle(
+    firstMarkerEl.parentElement.classList.toggle(
       'axis-item--intersected-center',
       !istimelineCenterElVisible && ismarkerElLeftOftimelineCenterEl
     );
@@ -50,7 +51,7 @@ export default () => ({
       'timeline__center--visible',
       markerElRect.x <= timelineCenterElRect.x
     );
-    markerEl.parentElement.classList.toggle(
+    firstMarkerEl.parentElement.classList.toggle(
       'axis-item--intersected-center',
       markerElRect.x <= timelineCenterElRect.x
     );
@@ -60,11 +61,11 @@ export default () => ({
     if (diff > 0) {
       this.root.style.setProperty(
         '--red-line-width',
-        `calc(${this.defaultWidth}px - 27px + ${diff}px)`
+        `calc(${this.defaultWidth} - 27px + ${diff}px)`
       );
     } else {
       this.activeYear = null;
-      this.root.style.setProperty('--red-line-width', `${this.defaultWidth}px`);
+      this.root.style.setProperty('--red-line-width', `${this.defaultWidth}`);
     }
 
     this.animatePhoto();
@@ -108,13 +109,42 @@ export default () => ({
     } */
   },
 
+  checkIntersectection2() {
+    const items = this.marks.filter((item) => {
+      let rect = item.getBoundingClientRect();
+      if (rect.left <= this.centerX + this.markerHalfSize * 2) {
+        return item;
+      }
+    });
+
+    let currentYear = null;
+    if (items.length) {
+      const last = items.pop();
+      currentYear = last.dataset.year;
+    } else {
+      currentYear = null;
+    }
+
+    if (this.activeYear !== currentYear) {
+      this.activeYear = currentYear;
+      this.timelineCenterEl.classList.toggle(
+        'timeline__center--visible',
+        currentYear !== null
+      );
+      this.firstMarkerEl.parentElement.classList.toggle(
+        'axis-item--intersected-center',
+        currentYear !== null
+      );
+    }
+  },
+
   setActiveYear(year, prevYear) {
     this.activeYear = this.activeYear === year ? prevYear : year;
     this.activeYearImage = this.activeYear;
   },
 
   scrollToYear(year) {
-    const element = document.getElementById(`timeline-${year}`);
+    const element = document.getElementById(`timeline-mark-${year}`);
     if (!element) return;
 
     this.activeYear = year;
@@ -136,19 +166,21 @@ export default () => ({
     const timelineCenterElRect = this.timelineCenterEl.getBoundingClientRect();
     const rootStyles = getComputedStyle(this.root);
 
-    this.centerX = timelineCenterElRect.x;
+    this.centerX = parseInt(timelineCenterElRect.x, 10);
     this.markerHalfSize = this.timelineCenterEl.offsetWidth / 2;
     this.defaultWidth = rootStyles.getPropertyValue('--mark-span');
 
     this.root.style.setProperty(
       '--year-y-position',
-      `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
+      `${timelineCenterElRect.y - YEAR_HEIGHT / 1.62}px`
     );
     this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
   },
 
   init() {
-    //this.checkIntersectection();
+    this.marks = Array.from(
+      document.querySelectorAll('[id^="timeline-mark-"]')
+    );
     /*     this.$watch('activeYear', () => {
       if (this.activeYear === null) {
         this.root.style.setProperty(
