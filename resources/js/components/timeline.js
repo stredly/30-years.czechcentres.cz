@@ -3,12 +3,13 @@ const YEAR_HEIGHT_X_INIT = -20;
 
 export default () => ({
   activeYear: null,
-  marks: [],
   activeYearImage: null,
   centerX: 0,
   defaultWidth: 0,
   markerHalfSize: 0,
+  marks: [],
   root: document.documentElement,
+  scrolling: false,
   sidebarContent: '',
   sidebarOpen: false,
   timelineEl: document.getElementById('timeline'),
@@ -110,6 +111,9 @@ export default () => ({
   },
 
   checkIntersectection2() {
+    if (this.scrolling) {
+      return;
+    }
     const items = this.marks.filter((item) => {
       let rect = item.getBoundingClientRect();
       if (rect.left <= this.centerX + this.markerHalfSize * 2) {
@@ -159,7 +163,11 @@ export default () => ({
       left: scroll,
       behavior: 'smooth',
     };
+    this.scrolling = true;
     this.timelineEl.scroll(scrollOptions);
+    setTimeout(() => {
+      this.scrolling = false;
+    }, 1000);
   },
 
   setClientSizes() {
