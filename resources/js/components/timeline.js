@@ -8,7 +8,7 @@ export default () => ({
   activeYearImage: null,
   intersected: false,
   defaultWidth: 0,
-  scrollX: 0,
+  centerX: 0,
   activeYearEl: document.getElementById('active-year'),
   timelineCenterEl: document.getElementById('timeline-center'),
   markerEl: document.getElementById('marker-0'),
@@ -62,7 +62,7 @@ export default () => ({
       );
     }
 
-    if (diff + 148 < 0) {
+    if (diff < 0) {
       this.activeYear = null;
       this.root.style.setProperty('--red-line-width', `${this.defaultWidth}px`);
     }
@@ -74,21 +74,24 @@ export default () => ({
     const currentPhotoEl = document.getElementById(`photo-${this.activeYear}`);
 
     if (currentMarkerEl) {
-      let getBoundingClientRect = currentMarkerEl.getBoundingClientRect();
-      if (getBoundingClientRect.x > 0) {
+      let currentMarkerBoundingClientRect =
+        currentMarkerEl.getBoundingClientRect();
+      /* console.log(currentMarkerBoundingClientRect.x); */
+      if (currentMarkerBoundingClientRect.x > 0) {
         currentPhotoEl.style.left =
-          parseInt(getBoundingClientRect.x / 1, 10) + 'px';
+          parseInt(currentMarkerBoundingClientRect.x / 1, 10) + 'px';
       } else {
         currentPhotoEl.classList.add('axis-item__photo--hide');
       }
 
       if (
-        getBoundingClientRect.x > 0 &&
+        currentMarkerBoundingClientRect.x > 0 &&
         currentPhotoEl.classList.contains('axis-item__photo--hide')
       ) {
         currentPhotoEl.classList.remove('axis-item__photo--hide');
       }
     }
+
     window.requestAnimationFrame(() => that.checkIntersectection());
   },
 
@@ -127,5 +130,14 @@ export default () => ({
       `${timelineCenterElRect.y - YEAR_HEIGHT / 2}px`
     );
     this.root.style.setProperty('--year-x-position', `${YEAR_HEIGHT_X_INIT}px`);
+    this.centerX = timelineCenterElRect.x;
+  },
+
+  setActiveYear(year, prevYear) {
+    if (this.activeYear === year) {
+      this.activeYear = prevYear;
+    } else {
+      this.activeYear = year;
+    }
   },
 });
