@@ -132,7 +132,8 @@ page_content:
                 text: 'České centrum Bukurešť'
 event_date: '1981-01-01'
 cities: bukurest
-updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682504370
+updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
+updated_at: 1683532487
 dont_show_month: true
+background_image: timeline/1981.jpg
 ---

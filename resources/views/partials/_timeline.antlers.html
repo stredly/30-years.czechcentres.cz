@@ -39,7 +39,7 @@
                         <img
                             class="axis-item__photo"
                             :class="{ 'axis-item__photo--active' : activeYear === {{ $year }} }"
-                            src="{{ glide src="https://s3.eu-central-1.amazonaws.com/30-years.czechcentres.cz/timeline/sofie/58-cc-sofie.jpg" width="660" height="330" fit="crop_focal" }}"
+                            src="{{ glide :src="background_image ?? 'https://s3.eu-central-1.amazonaws.com/30-years.czechcentres.cz/timeline/sofie/58-cc-sofie.jpg'" width="660" height="330" fit="crop_focal" }}"
                             alt="{{ title }}"
                             id="photo-{{ $year }}"
 
