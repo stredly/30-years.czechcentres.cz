@@ -115,7 +115,7 @@ export default () => ({
       const items = this.marks.filter(
         (item) =>
           item.getBoundingClientRect().left <=
-          this.centerX + this.markerHalfSize * 2
+          this.centerX + this.markerHalfSize
       );
       const currentYear = items.length
         ? items[items.length - 1].dataset.year
