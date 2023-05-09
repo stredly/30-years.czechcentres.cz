@@ -122,10 +122,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Ředitelé Českého centra Varšava v novodobé historii:'
-      -
-        type: text
-        text: "\_"
+        text: 'Ředitelé Českého centra Varšava v novodobé historii'
   -
     type: bulletList
     content:
@@ -217,10 +214,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Ředitel Českého centra Štětín:'
-      -
-        type: text
-        text: "\_"
+        text: 'Ředitel Českého centra Štětín'
   -
     type: bulletList
     content:
@@ -243,5 +237,5 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682502391
+updated_at: 1683637330
 ---
