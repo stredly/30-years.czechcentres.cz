@@ -109,6 +109,11 @@ sections:
               fields:
                 -
                   import: video
+            downloads:
+              display: Downloads
+              fields:
+                -
+                  import: downloads
   sidebar:
     display: Sidebar
     fields:

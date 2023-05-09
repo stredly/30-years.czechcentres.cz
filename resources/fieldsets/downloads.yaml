@@ -1,0 +1,30 @@
+title: Downloads
+fields:
+  -
+    handle: heading
+    field:
+      input_type: text
+      antlers: false
+      display: Heading
+      type: text
+      icon: text
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: downloads
+    field:
+      mode: list
+      container: assets
+      folder: downloads
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: Downloads
+      type: assets
+      icon: assets
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible

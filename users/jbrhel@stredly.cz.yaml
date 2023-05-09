@@ -26,6 +26,3 @@ preferences:
               cities:
                 term: bukurest
       after_save: continue_editing
-  assets:
-    assets:
-      mode: grid
