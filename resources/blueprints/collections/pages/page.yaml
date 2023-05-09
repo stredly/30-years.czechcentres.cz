@@ -84,6 +84,11 @@ sections:
               fields:
                 -
                   import: downloads
+            partners:
+              display: Partners
+              fields:
+                -
+                  import: partners
           link_collections:
             - pages
           container: assets

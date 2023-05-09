@@ -10,6 +10,13 @@ body {
   background: var(--white);
   display: flex;
   flex-direction: column;
+
+  &.page {
+    background-image: url('/img/page_content_bg.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center 66px;
+  }
 }
 
 main {

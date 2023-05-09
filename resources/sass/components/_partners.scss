@@ -1,0 +1,14 @@
+.partners {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 60px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+
+  &__logo {
+    max-width: 100%;
+  }
+}

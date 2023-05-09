@@ -1,6 +1,8 @@
-{{ if video | is_embeddable }}
-    <iframe src="{{ video | embed_url }}"></iframe>
-{{ else }}
-    <video src="{{ video | embed_url }}"></video>
-{{ /if }}
+<div class="video">
+    {{ if video | is_embeddable }}
+        <iframe src="{{ video | embed_url }}"></iframe>
+    {{ else }}
+        <video src="{{ video | embed_url }}"></video>
+    {{ /if }}
+</div>
 
