@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1683637508
+updated_at: 1683656581
 page_content:
   -
     type: paragraph
@@ -169,5 +169,33 @@ page_content:
       -
         type: text
         text: 'Při pohledu zpět je jasné, že Česká centra za dobu své existence ušla dlouhou cestu. Ujasnila si své priority a možnosti prezentace Česka v zahraničí. Značně rozšířila svou činnost, a to jak teritoriálně, tak programově, zapojila se do evropských struktur, navázala spolupráci s mnoha partnery a dokázala, že jsou schopna pružně reagovat na nové výzvy. '
+  -
+    type: set
+    attrs:
+      id: lhgkd77l
+      values:
+        type: downloads
+        heading: 'Výroční zprávy'
+        downloads:
+          - downloads/annual_reports/2021.pdf
+          - downloads/annual_reports/2020.pdf
+          - downloads/annual_reports/2019.pdf
+          - downloads/annual_reports/2018.pdf
+          - downloads/annual_reports/2017.pdf
+          - downloads/annual_reports/2016.pdf
+          - downloads/annual_reports/2015.pdf
+          - downloads/annual_reports/2014.pdf
+          - downloads/annual_reports/2013.pdf
+          - downloads/annual_reports/2012.pdf
+          - downloads/annual_reports/2011.pdf
+          - downloads/annual_reports/2010.pdf
+          - downloads/annual_reports/2009.pdf
+          - downloads/annual_reports/2008.pdf
+          - downloads/annual_reports/2007.pdf
+          - downloads/annual_reports/2006.pdf
+          - downloads/annual_reports/2005.pdf
+          - downloads/annual_reports/2004.pdf
+          - downloads/annual_reports/2003.pdf
+          - downloads/annual_reports/2002.pdf
 heading: 'Cesta českých center, aneb jak šel čas …'
 ---
