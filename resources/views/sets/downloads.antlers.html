@@ -1,0 +1,21 @@
+<div class="downloads{{ if (downloads | count) === 1 }} downloads--single-item{{ /if }}">
+    {{ if heading }}
+        <h3 class="downloads__heading">{{ heading }}</h3>
+    {{/if}}
+    {{ if downloads }}
+        <ul class="downloads__items">
+            {{ downloads }}
+                <li class="downloads__items__item">
+                    <a
+                        href="{{ url }}"
+                        target="_blank"
+                        class="downloads__items__item__link"
+                    >
+                        <h5>{{ alt ?? title}}</h5>
+                        <span>{{ size }}</span>
+                    </a>
+                </li>
+            {{ /downloads }}
+        </ul>
+    {{ /if }}
+</div>

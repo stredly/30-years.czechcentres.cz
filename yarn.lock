@@ -983,6 +983,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.37.0.tgz#cf1b5fa24217fe007f6487a26d765274925efa7d"
   integrity sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==
 
+"@fancyapps/ui@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.17.tgz#bfa11293f72ffbb5550c6ae194c608c1fe35da90"
+  integrity sha512-NWxllyuFjNNs0CXnAnK4l2GbwUXqak0RAUNicH1AtbyNkI3pVsH+OuWMPE6aEdE7LVap91go8dPAZ840u/8K0Q==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"

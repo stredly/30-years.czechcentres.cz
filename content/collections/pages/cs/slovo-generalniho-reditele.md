@@ -2,8 +2,8 @@
 id: 1f144146-35c1-4c15-8589-b52dc8df3e02
 blueprint: page
 title: 'Slovo generálního ředitele'
-updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683642773
+updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
+updated_at: 1683656589
 page_content:
   -
     type: paragraph
@@ -52,6 +52,9 @@ page_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Ondřej Černý'
   -
     type: paragraph
