@@ -97,7 +97,7 @@ p,
     color: var(--blue);
   }
 
-  h2 {
+  h2:not(.city) {
     color: var(--dark-blue);
     font-weight: 700;
     font-size: 35px;
@@ -152,5 +152,16 @@ p,
 
   strong {
     font-weight: 700;
+  }
+
+  .city {
+    @extend .h1;
+    display: flex;
+    width: 100%;
+    color: var(--blue);
+    align-items: center;
+    img {
+      margin: 0 10px 0 0;
+    }
   }
 }
