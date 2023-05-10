@@ -98,7 +98,7 @@ p,
   }
 
   h2:not(.city) {
-    color: var(--dark-blue);
+    color: var(--blue);
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
@@ -106,14 +106,14 @@ p,
   }
 
   h3 {
-    color: var(--dark-blue);
+    color: var(--blue);
     font-weight: 700;
     font-size: 30px;
     line-height: 50px;
   }
 
   h4 {
-    color: var(--dark-blue);
+    color: var(--blue);
     font-weight: 700;
     font-size: 24px;
     line-height: 50px;
@@ -121,7 +121,7 @@ p,
   }
 
   h5 {
-    color: var(--dark-blue);
+    color: var(--blue);
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -153,15 +153,14 @@ p,
   strong {
     font-weight: 700;
   }
+}
 
-  .city {
-    @extend .h1;
-    display: flex;
-    width: 100%;
-    color: var(--blue);
-    align-items: center;
-    img {
-      margin: 0 10px 0 0;
-    }
+.title-with-image {
+  width: 100%;
+  align-items: center;
+
+  img {
+    margin: 0 0 0 5px;
+    display: inline;
   }
 }
