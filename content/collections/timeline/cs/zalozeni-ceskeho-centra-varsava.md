@@ -1,7 +1,7 @@
 ---
 id: 58247120-f7ac-4933-bdb4-a83196ab543d
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Varšava'
 page_content:
   -
     type: paragraph
@@ -239,9 +239,9 @@ page_content:
       -
         type: text
         text: "\_"
-dont_show_month: true
+dont_show_month: false
 event_date: '1949-02-01'
 cities: varsava
-updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682502391
+updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
+updated_at: 1683710445
 ---
