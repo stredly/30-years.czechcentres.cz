@@ -11,3 +11,5 @@ preferences:
         - full_title
         - site
         - slug
+    pages:
+      after_save: continue_editing
