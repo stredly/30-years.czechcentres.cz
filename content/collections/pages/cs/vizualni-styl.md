@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683717922
+updated_at: 1683718173
 page_content:
   -
     type: paragraph
@@ -238,4 +238,61 @@ page_content:
       -
         type: text
         text: 'Výroční zprávy Českých center během let zpracovalo několik významných jmen a studií, mimo jiné Klára Kvízová (ReDesign), SAN S & SERIF, Studio Najbrt, Toman Design nebo Filip Blažek (Studio Designiq).'
+  -
+    type: set
+    attrs:
+      id: lhhmbphk
+      values:
+        type: video
+        video: 'https://vimeo.com/825169312?share=copy'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Jednotlivé výroční zprávy si můžete prohlédnout '
+      -
+        type: text
+        marks:
+          -
+            type: underline
+        text: zde
+      -
+        type: text
+        text: .
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '30 let Českých center'
+      -
+        type: text
+        text: "\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Ve spolupráci se studenty Vysoké školy kreativní komunikace vznikly návrhy kampaní na sociální sítě, které budou toto významné výročí připomínat během roku 2023. Vítězný návrh zpracoval student Jakub Kula.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: image
+        attrs:
+          src: null
+          alt: null
 ---
