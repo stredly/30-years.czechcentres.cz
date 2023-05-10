@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683718549
+updated_at: 1683718895
 page_content:
   -
     type: paragraph
@@ -206,6 +206,16 @@ page_content:
       -
         type: text
         text: 'Implementace redesignu do sítě Českých center byla představena před začátkem českého předsednictví v Radě EU 2022. Nový vizuální styl je od té doby postupně implementován a v celé síti postupně měněn v rámci jednotlivých komunikačních nástrojů od webových stránek, sociálních sítí až po klasické tištěné merkantilní tiskoviny.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::vizualni-styl/ilustracni_obrazek_3.jpg'
+          alt: null
   -
     type: heading
     attrs:
