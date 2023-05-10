@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683716558
+updated_at: 1683716658
 page_content:
   -
     type: paragraph
@@ -55,7 +55,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 4
+      level: 3
     content:
       -
         type: text
@@ -99,4 +99,65 @@ page_content:
           -
             type: text
             text: " říká autorka loga Lucie Svobodová.\_"
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 4
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '2003'
+      -
+        type: text
+        text: "\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Po sedmi letech bylo logo symbolizující labyrint redesignováno Studiem Najbrt. Původní šikmý znak byl „narovnán“ a bylo zvoleno jiné firemní písmo. Vzhledem k vývoji on-line i off-line komunikace byl navržen kompletní manuál vizuálního stylu, který se dále rozšířil v roce 2009.\_"
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 4
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '2016'
+      -
+        type: text
+        text: "\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'V tomto roce byl Studiem Najbrt navržen významný a výrazný prvek vizuálního stylu a to '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'síť Českých center'
+      -
+        type: text
+        text: ", ve které byly vyjmenovány všechny aktuální pobočky.\_"
+  -
+    type: set
+    attrs:
+      id: lhhlek2p
+      values:
+        type: gallery
 ---
