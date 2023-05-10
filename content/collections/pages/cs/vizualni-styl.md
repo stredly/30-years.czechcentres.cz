@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683716896
+updated_at: 1683717173
 page_content:
   -
     type: paragraph
@@ -155,11 +155,13 @@ page_content:
         type: text
         text: ", ve které byly vyjmenovány všechny aktuální pobočky.\_"
   -
-    type: set
+    type: paragraph
     attrs:
-      id: lhhlek2p
-      values:
-        type: gallery
-        gallery:
-          - vizualni-styl/sit_cc.jpg
+      textAlign: left
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::vizualni-styl/sit_cc.jpg'
+          alt: null
 ---
