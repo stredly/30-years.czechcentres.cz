@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683718173
+updated_at: 1683718269
 page_content:
   -
     type: paragraph
@@ -36,13 +36,7 @@ page_content:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: '1993'
-      -
-        type: text
-        text: "\_"
+        text: "1993\_"
   -
     type: paragraph
     attrs:
@@ -63,9 +57,6 @@ page_content:
           -
             type: bold
         text: '1996'
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     attrs:
@@ -293,6 +284,6 @@ page_content:
       -
         type: image
         attrs:
-          src: null
+          src: 'asset::assets::vizualni-styl/30let_cc_jakub_kula.jpg'
           alt: null
 ---
