@@ -1,11 +1,11 @@
 <div class="block page-content">
     <div class="block__container">
-        <h1 class="title-with-image">{{ title }}
-            <img src="{{ cities:flag }}" width="32" height="32" class="flag"/>
-            {{ cities:title }}
-        </h1>
+        <h1>{{ title }}</h1>
 
-        <h3>{{ event_date | month_name | ucfirst }} {{ event_date iso_format="Y" }}</h3>
+        <h3 class="title-with-image">
+            <img src="{{ cities:flag }}" width="32" height="32" class="flag"/>
+            {{ cities:country }}{{ if !dont_show_month }}, {{ event_date | month_name }} {{ event_date iso_format="Y" }}{{ /if}}
+        </h3>
 
         <div>
             {{ page_content }}

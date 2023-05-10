@@ -3,3 +3,11 @@ roles:
   - editor
 id: e4babf1b-4519-4d9f-b634-0f0ad139513a
 password_hash: $2y$10$DQ5kCWyttRGox1O6DtfwvONoarzQWr8i0/V2RWDhs5N6HoD1.H7Yq
+preferences:
+  collections:
+    timeline:
+      columns:
+        - title
+        - full_title
+        - site
+        - slug
