@@ -1,7 +1,7 @@
 ---
 id: 41378021-504e-4851-b087-bbc426a72544
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Sofie'
 page_content:
   -
     type: paragraph
@@ -413,7 +413,7 @@ page_content:
 dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
-updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1683206958
+updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
+updated_at: 1683786282
 perex: 'České centrum v Sofii je nejstarší českou institucí svého druhu v zahraničí'
 ---
