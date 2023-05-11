@@ -304,26 +304,31 @@ page_content:
           - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006--2.jpg'
           - timeline/tokio/cesky-festival-v-tokiu-2022.JPG
   -
-    type: heading
-    attrs:
-      level: 2
+    type: bulletList
     content:
       -
-        type: text
-        marks:
+        type: listItem
+        content:
           -
-            type: link
-            attrs:
-              href: 'https://tokyo.czechcentres.cz/'
-              rel: null
-              target: _blank
-              title: null
-          -
-            type: bold
-        text: 'Webové stránky Českého centra Tokio'
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Webové stránky Českého centra Tokio: '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://tokyo.czechcentres.cz/'
+                      rel: null
+                      target: null
+                      title: null
+                text: tokyo.czechcentres.cz
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683811044
+updated_at: 1683811243
 event_date: '2006-02-01'
 ---
