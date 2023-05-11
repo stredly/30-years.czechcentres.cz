@@ -1,7 +1,7 @@
 ---
 id: 76907639-f7cb-4437-ac56-c348026695cc
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Buenos Aires'
 page_content:
   -
     type: paragraph
@@ -165,5 +165,5 @@ dont_show_month: true
 event_date: '2008-01-01'
 cities: buenos-aires
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682501282
+updated_at: 1683786466
 ---
