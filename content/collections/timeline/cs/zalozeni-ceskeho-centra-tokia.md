@@ -314,14 +314,8 @@ page_content:
   -
     type: heading
     attrs:
-      level: 5
+      level: 2
     content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Webové stránky Českého centra Tokio: '
       -
         type: text
         marks:
@@ -338,6 +332,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683811991
+updated_at: 1683812035
 event_date: '2006-02-01'
 ---
