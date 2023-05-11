@@ -8,7 +8,16 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum (ČC) Tokio bylo založeno v roce 2006 a ve své době bylo prvním v Asii a v pořadí dvaadvacátým Českým centrem. Tak jako ostatní, i v zemi vycházejícího slunce mělo propagovat Česko a jeho kulturu, podobně jako tomu je v evropských zemích či USA.'
+        text: 'České centrum (ČC) Tokio bylo založeno v roce 2006 a ve své době bylo'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' prvním v Asii'
+      -
+        type: text
+        text: ' a v pořadí dvaadvacátým Českým centrem. Tak jako ostatní, i v zemi vycházejícího slunce mělo propagovat Česko a jeho kulturu, podobně jako tomu je v evropských zemích či USA.'
   -
     type: paragraph
     content:
@@ -329,6 +338,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683811612
+updated_at: 1683811664
 event_date: '2006-02-01'
 ---
