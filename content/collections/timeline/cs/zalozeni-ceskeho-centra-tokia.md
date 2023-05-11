@@ -290,17 +290,10 @@ page_content:
         type: text
         text: 'Pavel Šporcl, Jiří Mádl, Jana Boušková, Olga Sommerová, Jan Švankmajer, Jiří Strach, Emil Viklický, Kateřina Šedá nebo ikona českého sportu Věra Čáslavská, která je v Japonsku nesmírně populární. Za 17 let se zde vystřídalo několik tisíc delegátů z Česka.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Webové stránky Českého centra Tokio: '
       -
         type: text
         marks:
@@ -309,9 +302,11 @@ page_content:
             attrs:
               href: 'https://tokyo.czechcentres.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
-        text: tokyo.czechcentres.cz
+          -
+            type: bold
+        text: 'Webové stránky Českého centra Tokio'
   -
     type: set
     attrs:
@@ -329,6 +324,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683810859
+updated_at: 1683810999
 event_date: '2006-02-01'
 ---
