@@ -210,28 +210,42 @@ page_content:
         type: text
         text: "\_"
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: 'Webové stránky Českého centra Athény: '
-      -
-        type: text
-        marks:
+        type: listItem
+        content:
           -
-            type: link
-            attrs:
-              href: 'https://athens.czechcentres.cz/'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: athens.czechcentres.cz
-      -
-        type: text
-        text: "\_"
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Webové stránky Českého centra Athény: '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://athens.czechcentres.cz/'
+                      rel: null
+                      target: _blank
+                      title: null
+                  -
+                    type: bold
+                text: athens.czechcentres.cz
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: "\_"
 dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683789449
+updated_at: 1683789527
 ---
