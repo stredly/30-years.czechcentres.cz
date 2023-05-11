@@ -1,7 +1,7 @@
 ---
 id: 92a48b22-4d03-4229-88ac-e57e1954cb43
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Tokio'
 page_content:
   -
     type: paragraph
@@ -303,6 +303,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682504984
+updated_at: 1683786330
 event_date: '2006-02-01'
 ---
