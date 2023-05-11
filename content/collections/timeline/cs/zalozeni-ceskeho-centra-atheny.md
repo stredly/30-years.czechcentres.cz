@@ -202,50 +202,40 @@ page_content:
     content:
       -
         type: text
-        text: "Dagmar Havlová, Dana Kyndrová, Alena Mornštajnová, Lucie Sunková, Martin Vandas, David Zábranský, Bára Zmeková, Michael Žantovský\_"
+        text: 'Dagmar Havlová, Dana Kyndrová, Alena Mornštajnová, Lucie Sunková, Martin Vandas, David Zábranský, Bára Zmeková, Michael Žantovský'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
+        marks:
           -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Webové stránky Českého centra Athény: '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://athens.czechcentres.cz/'
-                      rel: null
-                      target: _blank
-                      title: null
-                  -
-                    type: bold
-                text: athens.czechcentres.cz
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: "\_"
+            type: bold
+        text: 'Webové stránky Českého centra Athény: '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://athens.czechcentres.cz/'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: athens.czechcentres.cz
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "\_"
 dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683789527
+updated_at: 1683789650
 ---
