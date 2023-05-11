@@ -256,6 +256,19 @@ page_content:
         type: text
         text: ", na které ČC Tokio spolupracuje s\_velvyslanectvím ČR od svého založení a která bude v roce 2024 slavit taktéž své 30. výročí."
   -
+    type: set
+    attrs:
+      id: lgxjz79x
+      values:
+        type: gallery
+        gallery:
+          - 'timeline/tokio/pozvanka-na-zahajovaci-vecirek-cctokio,-2006.jpg'
+          - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006-1.jpg'
+          - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006-3.jpg'
+          - timeline/tokio/vera-caslavska--50-let-od-olympiady-v-tokiu-.jpg
+          - timeline/tokio/zahajovaci-vecirek-cc-tokio-2006-2.jpg
+          - timeline/tokio/cesky-festival-v-tokiu-2022.JPG
+  -
     type: heading
     attrs:
       level: 2
@@ -290,19 +303,6 @@ page_content:
         type: text
         text: 'Pavel Šporcl, Jiří Mádl, Jana Boušková, Olga Sommerová, Jan Švankmajer, Jiří Strach, Emil Viklický, Kateřina Šedá nebo ikona českého sportu Věra Čáslavská, která je v Japonsku nesmírně populární. Za 17 let se zde vystřídalo několik tisíc delegátů z Česka.'
   -
-    type: set
-    attrs:
-      id: lgxjz79x
-      values:
-        type: gallery
-        gallery:
-          - 'timeline/tokio/pozvanka-na-zahajovaci-vecirek-cctokio,-2006.jpg'
-          - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006-1.jpg'
-          - 'timeline/tokio/zahajovaci-vecirek-cctokio,-2006-3.jpg'
-          - timeline/tokio/vera-caslavska--50-let-od-olympiady-v-tokiu-.jpg
-          - timeline/tokio/zahajovaci-vecirek-cc-tokio-2006-2.jpg
-          - timeline/tokio/cesky-festival-v-tokiu-2022.JPG
-  -
     type: heading
     attrs:
       level: 5
@@ -329,6 +329,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683811524
+updated_at: 1683811587
 event_date: '2006-02-01'
 ---
