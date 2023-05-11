@@ -24,14 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        Collection::computed('timeline', 'full_title', function ($entry, $value) {
-            $instance = $entry->augmentedValue('cities');
-            if (!is_null($entry->id())) {
-                return $entry->get('title') . ' – ' . $instance->value()->title();
-            }
-            return;
-        });
         // Statamic::script('app', 'cp');
         // Statamic::style('app', 'cp');
     }

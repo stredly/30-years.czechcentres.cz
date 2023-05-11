@@ -8,7 +8,6 @@ preferences:
     timeline:
       columns:
         - title
-        - full_title
         - site
         - slug
     pages:
