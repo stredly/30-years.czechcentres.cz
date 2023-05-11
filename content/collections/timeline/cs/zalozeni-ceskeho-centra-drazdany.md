@@ -1,7 +1,7 @@
 ---
 id: a70e6ebb-b5dc-485c-a44a-950488439e7d
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Drážďany'
 page_content:
   -
     type: paragraph
@@ -325,5 +325,5 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682501174
+updated_at: 1683786313
 ---
