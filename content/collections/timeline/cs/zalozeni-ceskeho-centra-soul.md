@@ -1,7 +1,7 @@
 ---
 id: c66fc52a-6355-4c2a-a86d-0b0926f37d9e
 blueprint: timeline
-title: 'Založení Českého centra'
+title: 'Založení Českého centra Soul'
 page_content:
   -
     type: paragraph
@@ -278,6 +278,6 @@ page_content:
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1682503594
+updated_at: 1683786473
 cities: soul
 ---
