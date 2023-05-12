@@ -16,6 +16,7 @@ export default () => ({
   activeYearEl: document.getElementById('active-year'),
   timelineCenterEl: document.getElementById('timeline-center'),
   firstMarkerEl: document.getElementById('marker-0'),
+  timelineWrapperEl: document.getElementById('timeline-wrapper'),
 
   fetchSidebarContent(url) {
     fetch(`${url}?fetch=true`)
@@ -165,37 +166,13 @@ export default () => ({
       }, 200);
     });
 
-    const element = this.timelineEl;
-
-    let isDragging = false;
-    let touchStartX = 0;
-    let touchStartScrollLeft = 0;
-
-    element.addEventListener('touchstart', (event) => {
-      // Store the touch start position and scroll position
-      isDragging = true;
-      touchStartX = event.touches[0].clientX;
-      touchStartScrollLeft = element.scrollLeft;
-    });
-
-    element.addEventListener('touchmove', (event) => {
-      // Calculate the distance and direction of the touch movement
-      if (isDragging) {
-        const touchX = event.touches[0].clientX;
-        const deltaX = touchX - touchStartX;
-        const newScrollLeft = touchStartScrollLeft - deltaX;
-
-        // Update the scroll position using CSS transform
-        element.style.transform = `translateX(${-newScrollLeft}px)`;
-
-        // Prevent the default touch scrolling behavior
-        event.preventDefault();
+    this.timelineWrapperEl.addEventListener('wheel', (evt) => {
+      if (this.sidebarOpen) {
+        return;
       }
-    });
-
-    element.addEventListener('touchend', () => {
-      // Reset the dragging state
-      isDragging = false;
+      evt.preventDefault();
+      this.timelineWrapperEl.scrollLeft += evt.deltaY;
+      this.checkIntersectection();
     });
   },
 });
