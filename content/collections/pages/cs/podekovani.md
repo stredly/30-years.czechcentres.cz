@@ -2,8 +2,8 @@
 id: bd3723c5-e66c-4601-a5ad-c17cd257c21e
 blueprint: page
 title: Poděkování
-updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1683638720
+updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
+updated_at: 1683886234
 page_content:
   -
     type: paragraph
@@ -38,4 +38,15 @@ page_content:
         logos:
           - partners/cez-skupina_logo_vertikalni_cz_barva_pozitiv_rgb-(1).png
           - partners/cnb_logo_2r_cz_rgb_bar.png
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: "Pokud byste se chtěli připojit k\_pamětníkům Českých center, rádi uvítáme Vaše vzpomínky na akce – fotografie, videa i další materiály a zapracujeme do naší webové mozaiky. Děkujeme."
 ---
