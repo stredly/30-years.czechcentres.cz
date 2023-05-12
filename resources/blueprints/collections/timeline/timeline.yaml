@@ -1,153 +1,174 @@
-sections:
+title: Timeline
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
-        handle: perex
-        field:
-          input_type: text
-          character_limit: 120
-          antlers: false
-          display: Perex
-          type: text
-          icon: text
-          localizable: true
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: background_image
-        field:
-          mode: list
-          container: assets
-          folder: timeline
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Background Image'
-          type: assets
-          icon: assets
-          localizable: false
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: page_content
-        field:
-          collapse: true
-          always_show_set_button: false
-          previews: true
-          smart_typography: false
-          buttons:
-            - h2
-            - h3
-            - h4
-            - h5
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-          container: assets
-          save_html: false
-          inline: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          link_collections:
-            - pages
-            - timeline
-          fullscreen: true
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
-          antlers: false
-          remove_empty_nodes: true
-          display: 'Page Content'
-          type: bard
-          icon: bard
-          localizable: true
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          sets:
-            gallery:
-              display: Gallery
-              fields:
-                -
-                  import: gallery
-            video:
-              display: Video
-              fields:
-                -
-                  import: video
-            downloads:
-              display: Downloads
-              fields:
-                -
-                  import: downloads
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              validate:
+                - required
+          -
+            handle: perex
+            field:
+              input_type: text
+              character_limit: 120
+              antlers: false
+              display: Perex
+              type: text
+              icon: text
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: background_image
+            field:
+              mode: list
+              container: assets
+              folder: timeline
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              max_files: 1
+              display: 'Background Image'
+              type: assets
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: page_content
+            field:
+              collapse: true
+              always_show_set_button: false
+              previews: true
+              smart_typography: false
+              buttons:
+                - h2
+                - h3
+                - h4
+                - h5
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+              container: assets
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              reading_time: false
+              link_collections:
+                - pages
+                - timeline
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              antlers: false
+              remove_empty_nodes: true
+              display: 'Page Content'
+              type: bard
+              icon: bard
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              sets:
+                main:
+                  display: Main
+                  instructions: null
+                  icon: null
+                  sets:
+                    gallery:
+                      display: Gallery
+                      instructions: null
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: gallery
+                    video:
+                      display: Video
+                      instructions: null
+                      icon: media-webcam-video
+                      fields:
+                        -
+                          import: video
+                    downloads:
+                      display: Downloads
+                      instructions: null
+                      icon: download-arrow-down
+                      fields:
+                        -
+                          import: downloads
+                    director:
+                      display: 'Director Signature'
+                      instructions: null
+                      icon: edit-pen
+                      fields: {  }
+              hide_display: false
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-      -
-        handle: dont_show_month
-        field:
-          default: false
-          display: "Don't Show Month"
-          type: toggle
-          icon: toggle
-          localizable: false
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: event_date
-        field:
-          mode: single
-          time_enabled: false
-          time_seconds_enabled: false
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: 'Event Date'
-          type: date
-          icon: date
-          localizable: false
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: cities
-        field:
-          type: terms
-          taxonomies:
-            - cities
-          display: Cities
-          mode: select
-          localizable: false
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          max_items: 1
-          create: true
-title: Timeline
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: dont_show_month
+            field:
+              default: false
+              display: "Don't Show Month"
+              type: toggle
+              icon: toggle
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: event_date
+            field:
+              mode: single
+              time_enabled: false
+              time_seconds_enabled: false
+              full_width: false
+              inline: false
+              columns: 1
+              rows: 1
+              display: 'Event Date'
+              type: date
+              icon: date
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: cities
+            field:
+              type: terms
+              taxonomies:
+                - cities
+              display: Cities
+              mode: select
+              localizable: false
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              max_items: 1
+              create: true

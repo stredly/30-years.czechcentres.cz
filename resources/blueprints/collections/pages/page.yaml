@@ -1,112 +1,135 @@
 title: Page
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
-        handle: heading
-        field:
-          input_type: text
-          antlers: false
-          display: Heading
-          type: text
-          icon: text
-          localizable: true
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: page_content
-        field:
-          collapse: false
-          always_show_set_button: false
-          previews: true
-          smart_typography: false
-          buttons:
-            - h2
-            - h3
-            - h4
-            - h5
-            - bold
-            - italic
-            - underline
-            - unorderedlist
-            - orderedlist
-            - quote
-            - superscript
-            - subscript
-            - anchor
-            - image
-            - alignleft
-            - aligncenter
-            - alignright
-            - alignjustify
-          save_html: false
-          inline: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
-          antlers: false
-          remove_empty_nodes: true
-          display: 'Page Content'
-          type: bard
-          icon: bard
-          localizable: true
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          sets:
-            gallery:
-              display: Gallery
-              fields:
-                -
-                  import: gallery
-            video:
-              display: Video
-              fields:
-                -
-                  import: video
-            downloads:
-              display: Downloads
-              fields:
-                -
-                  import: downloads
-            partners:
-              display: Partners
-              fields:
-                -
-                  import: partners
-          link_collections:
-            - pages
-          container: assets
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              validate:
+                - required
+          -
+            handle: heading
+            field:
+              input_type: text
+              antlers: false
+              display: Heading
+              type: text
+              icon: text
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: page_content
+            field:
+              collapse: false
+              always_show_set_button: false
+              previews: true
+              smart_typography: false
+              buttons:
+                - h2
+                - h3
+                - h4
+                - h5
+                - bold
+                - italic
+                - underline
+                - unorderedlist
+                - orderedlist
+                - quote
+                - superscript
+                - subscript
+                - anchor
+                - image
+                - alignleft
+                - aligncenter
+                - alignright
+                - alignjustify
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              reading_time: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              antlers: false
+              remove_empty_nodes: true
+              display: 'Page Content'
+              type: bard
+              icon: bard
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              sets:
+                main:
+                  display: Main
+                  instructions: null
+                  icon: null
+                  sets:
+                    gallery:
+                      display: Gallery
+                      instructions: null
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: gallery
+                    video:
+                      display: Video
+                      instructions: null
+                      icon: media-webcam-video
+                      fields:
+                        -
+                          import: video
+                    downloads:
+                      display: Downloads
+                      instructions: null
+                      icon: download-arrow-down
+                      fields:
+                        -
+                          import: downloads
+                    partners:
+                      display: Partners
+                      instructions: null
+                      icon: layout-grid-dots
+                      fields:
+                        -
+                          import: partners
+                    director:
+                      display: 'Director Signature'
+                      instructions: null
+                      icon: edit-pen
+                      fields: {  }
+              link_collections:
+                - pages
+              container: assets
+              hide_display: false
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

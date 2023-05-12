@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c370fc2e61e9059e3f60bb11b4a54cd9",
+    "content-hash": "e339add94a52ec57381880e16f95d1f8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4177,21 +4177,21 @@
         },
         {
             "name": "pecotamic/sitemap",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pecotamic/sitemap.git",
-                "reference": "5dcae41f6e4e28ae675ef20e5c282c4eb79b10b9"
+                "reference": "e6607175041042712204bea0467d8365195609c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pecotamic/sitemap/zipball/5dcae41f6e4e28ae675ef20e5c282c4eb79b10b9",
-                "reference": "5dcae41f6e4e28ae675ef20e5c282c4eb79b10b9",
+                "url": "https://api.github.com/repos/pecotamic/sitemap/zipball/e6607175041042712204bea0467d8365195609c5",
+                "reference": "e6607175041042712204bea0467d8365195609c5",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.4 || ^7.0 || ^8.0",
-                "statamic/cms": "^3.0.0"
+                "php": "^5.4|^7.0|^8.0",
+                "statamic/cms": "^3.0|^4.0"
             },
             "type": "statamic-addon",
             "extra": {
@@ -4227,9 +4227,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pecotamic/sitemap/issues",
-                "source": "https://github.com/pecotamic/sitemap/tree/1.4.1"
+                "source": "https://github.com/pecotamic/sitemap/tree/1.4.2"
             },
-            "time": "2023-02-17T17:11:43+00:00"
+            "time": "2023-05-10T21:46:07+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -5333,16 +5333,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "4211420d25eba80712bff236a98960ef68b866b7"
+                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/4211420d25eba80712bff236a98960ef68b866b7",
-                "reference": "4211420d25eba80712bff236a98960ef68b866b7",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/594fd6462aad8ecee0b45ca5045acea4776667f1",
+                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1",
                 "shasum": ""
             },
             "require": {
@@ -5381,7 +5381,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/jsonlint/issues",
-                "source": "https://github.com/Seldaek/jsonlint/tree/1.9.0"
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.10.0"
             },
             "funding": [
                 {
@@ -5393,7 +5393,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-01T13:37:23+00:00"
+            "time": "2023-05-11T13:16:46+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -5631,16 +5631,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.4.11",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "5d148974df5d956ed6ad77bd4c88973aae5113cb"
+                "reference": "cc5914c91e9bc3871c53860d14a87930e41a8c84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/5d148974df5d956ed6ad77bd4c88973aae5113cb",
-                "reference": "5d148974df5d956ed6ad77bd4c88973aae5113cb",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/cc5914c91e9bc3871c53860d14a87930e41a8c84",
+                "reference": "cc5914c91e9bc3871c53860d14a87930e41a8c84",
                 "shasum": ""
             },
             "require": {
@@ -5650,9 +5650,9 @@
                 "facade/ignition-contracts": "^1.0",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
                 "james-heinrich/getid3": "^1.9.21",
-                "laravel/framework": "^8.48.0 || ^9.0",
+                "laravel/framework": "^9.50.0 || ^10.0",
                 "laravel/helpers": "^1.1",
-                "league/commonmark": "^1.5 || ^2.2",
+                "league/commonmark": "^2.2",
                 "league/csv": "^9.0",
                 "league/glide": "^1.1 || ^2.0",
                 "maennchen/zipstream-php": "^2.2",
@@ -5673,8 +5673,9 @@
             "require-dev": {
                 "fakerphp/faker": "~1.10",
                 "google/cloud-translate": "^1.6",
-                "mockery/mockery": "^1.2.3",
-                "orchestra/testbench": "^6.18 || ^7.0"
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench": "^7.0 || ^8.0",
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -5719,7 +5720,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.4.11"
+                "source": "https://github.com/statamic/cms/tree/v4.1.0"
             },
             "funding": [
                 {
@@ -5727,7 +5728,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-06T20:48:08+00:00"
+            "time": "2023-05-11T16:15:10+00:00"
         },
         {
             "name": "statamic/stringy",

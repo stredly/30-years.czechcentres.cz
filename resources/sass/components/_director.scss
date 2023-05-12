@@ -1,0 +1,31 @@
+.director {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+
+  &__photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 !important;
+  }
+
+  &__name {
+    padding-left: 30px;
+    color: var(--black) !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 !important;
+
+    small {
+      display: block;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+
+  &__signature {
+    padding-left: 30px;
+    margin: 0 !important;
+  }
+}

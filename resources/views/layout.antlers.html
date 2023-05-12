@@ -21,7 +21,7 @@
 
         {{ partial:partials/header }}
 
-        <main>
+        <main {{ if class }}class="{{ class }}"{{ /if }}>
             {{ template_content }}
         </main>
 

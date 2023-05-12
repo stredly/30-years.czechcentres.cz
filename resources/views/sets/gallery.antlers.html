@@ -1,12 +1,17 @@
 <div class="gallery">
     {{ gallery }}
-        <img
-            src="{{ glide:url preset="gallery" }}"
-            alt="{{ alt }}"
-            width="300"
-            class="gallery__item"
+        <a
+            href="{{ glide:url width="1100" }}"
             data-fancybox="gallery"
             data-caption="{{ alt ?? title }}"
         >
+            <img
+                src="{{ glide:url preset="gallery" }}"
+                alt="{{ alt }}"
+                width="300"
+                class="gallery__item"
+            >
+        </a>
     {{ /gallery }}
+
 </div>

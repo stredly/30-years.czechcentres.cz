@@ -2,8 +2,8 @@
 id: 1f144146-35c1-4c15-8589-b52dc8df3e02
 blueprint: page
 title: 'Slovo generálního ředitele'
-updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683886212
+updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
+updated_at: 1683899195
 page_content:
   -
     type: paragraph
@@ -46,14 +46,9 @@ page_content:
         type: text
         text: "V\_pozici generálního ředitele jsem v\_roce 2018 navázal na práci svých 10 předchůdců a jednotlivé pobočky v\_zahraničí vedlo a koordinovalo do této doby téměř 200 kolegů a kolegyň, kteří připravili přes padesát tisíc prezentací české kultury ve světě. Všem jim, ale také umělcům, kreativcům, institucím a dalším partnerům patří za uplynulých 30 let spolupráce velký dík. Do budoucna bych síti Českých center přál stabilní zázemí a nadšený a zapálený tým, který je hrdý na své Česko."
   -
-    type: paragraph
+    type: set
     attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Ondřej Černý'
+      id: lhkm3mwn
+      values:
+        type: director
 ---

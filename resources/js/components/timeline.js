@@ -164,5 +164,38 @@ export default () => ({
         this.root.style.setProperty('--timeline-year-opacity', '1');
       }, 200);
     });
+
+    const element = this.timelineEl;
+
+    let isDragging = false;
+    let touchStartX = 0;
+    let touchStartScrollLeft = 0;
+
+    element.addEventListener('touchstart', (event) => {
+      // Store the touch start position and scroll position
+      isDragging = true;
+      touchStartX = event.touches[0].clientX;
+      touchStartScrollLeft = element.scrollLeft;
+    });
+
+    element.addEventListener('touchmove', (event) => {
+      // Calculate the distance and direction of the touch movement
+      if (isDragging) {
+        const touchX = event.touches[0].clientX;
+        const deltaX = touchX - touchStartX;
+        const newScrollLeft = touchStartScrollLeft - deltaX;
+
+        // Update the scroll position using CSS transform
+        element.style.transform = `translateX(${-newScrollLeft}px)`;
+
+        // Prevent the default touch scrolling behavior
+        event.preventDefault();
+      }
+    });
+
+    element.addEventListener('touchend', () => {
+      // Reset the dragging state
+      isDragging = false;
+    });
   },
 });
