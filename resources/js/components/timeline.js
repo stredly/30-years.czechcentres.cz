@@ -45,7 +45,7 @@ export default () => ({
     }
   },
 
-  checkIntersectection() {
+  checkIntersectection(disablePhotoAnimation = false) {
     if (!this.scrolling) {
       const items = this.marks.filter(
         (item) =>
@@ -70,7 +70,10 @@ export default () => ({
       }
 
       this.setAxisLine();
-      this.animatePhoto();
+
+      if (disablePhotoAnimation === false) {
+        this.animatePhoto();
+      }
     }
   },
 
@@ -95,18 +98,18 @@ export default () => ({
       element.getBoundingClientRect().left -
       this.centerX -
       this.markerHalfSize +
-      this.timelineEl.scrollLeft;
+      this.timelineWrapperEl.scrollLeft;
 
     const scrollOptions = {
       left: scroll,
       behavior: 'smooth',
     };
     this.scrolling = true;
-    this.timelineEl.scroll(scrollOptions);
+    this.timelineWrapperEl.scroll(scrollOptions);
 
     setTimeout(() => {
       this.scrolling = false;
-      this.checkIntersectection();
+      this.checkIntersectection(true);
     }, 1000);
   },
 
