@@ -322,7 +322,7 @@ page_content:
           -
             type: link
             attrs:
-              href: 'https://tokyo.czechcentres.cz/'
+              href: 'https://tokyo.czechcentres.cz/?locale=cs'
               rel: null
               target: _blank
               title: null
@@ -332,6 +332,6 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683812773
+updated_at: 1684231262
 event_date: '2006-02-01'
 ---
