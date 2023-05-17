@@ -114,13 +114,10 @@ page_content:
     content:
       -
         type: text
-        text: “
-      -
-        type: text
         marks:
           -
             type: italic
-        text: 'Během působení ve funkci ředitele jsem v Historickém muzeu ve Stockholmu '
+        text: '„Během působení ve funkci ředitele jsem v Historickém muzeu ve Stockholmu '
       -
         type: text
         marks:
@@ -134,10 +131,7 @@ page_content:
         marks:
           -
             type: italic
-        text: ' '
-      -
-        type: text
-        text: 'v rámci projektu '
+        text: ' v rámci projektu '
       -
         type: text
         marks:
@@ -162,22 +156,10 @@ page_content:
         text: 'výstavu čtyř pláten Muchovy Slovanské epopeje '
       -
         type: text
-        text: 'v Malmö Konsthall v jižním Švédsku: '
-      -
-        type: text
         marks:
           -
             type: italic
-        text: 'Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva '
-      -
-        type: text
-        text: 'a '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Slavnost Svantovítova na Rujáně'
+        text: 'v Malmö Konsthall v jižním Švédsku: Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva a Slavnost Svantovítova na Rujáně.”'
       -
         type: text
         marks:
@@ -185,7 +167,7 @@ page_content:
             type: bold
           -
             type: italic
-        text: '.” '
+        text: ' '
       -
         type: text
         text: "řekl o své činnosti ve Stockholmu Zdeněk Lyčka na online přednášce pro studenty Filozofické fakulty Univerzity Karlovy 16. prosince 2020. A my dodáváme, že tato výstava se uskutečnila ve spolupráci s Galerií hl. m. Prahy a byla zařazena do oficiálního programu \"Stockholm 98 – hlavní město evropské kultury\".\_"
@@ -772,17 +754,23 @@ page_content:
         type: text
         text: "\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: "“Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ (Peter Pontvik, ředitel festivalu Stockholm Early Music, ve vysílání Švédského rozhlasu 2, 5. 6. 2014)\_"
-      -
-        type: text
-        text: "\_"
+            type: text
+            text: „
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ (Peter Pontvik, ředitel festivalu Stockholm Early Music, ve vysílání Švédského rozhlasu 2, 5. 6. 2014)\_"
+          -
+            type: text
+            text: "\_"
   -
     type: paragraph
     content:
@@ -936,5 +924,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684321035
+updated_at: 1684327545
 ---
