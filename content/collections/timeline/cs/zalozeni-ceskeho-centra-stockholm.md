@@ -767,10 +767,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“'
-      -
-        type: paragraph
-        content:
+            text: 'Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ '
           -
             type: text
             marks:
@@ -1025,5 +1022,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684328273
+updated_at: 1684328288
 ---
