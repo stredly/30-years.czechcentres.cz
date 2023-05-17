@@ -17,7 +17,7 @@
         {{ partial:gtm/consent }}
         {{ partial:gtm/gtm }}
     </head>
-    <body {{ if template == 'timeline/index' }}x-data="timeline()" x-resize="setClientSizes()"{{ /if }} {{ if !is_homepage}}class="page"{{ /if }}>
+    <body {{ if template == 'timeline/index' }}x-data="timeline()" x-resize="setClientSizes()"{{ /if }} {{ if !is_homepage}}class="page {{ slug }}"{{ /if }}>
 
         {{ partial:partials/header }}
 

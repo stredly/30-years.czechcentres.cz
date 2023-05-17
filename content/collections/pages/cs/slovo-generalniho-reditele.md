@@ -3,7 +3,7 @@ id: 1f144146-35c1-4c15-8589-b52dc8df3e02
 blueprint: page
 title: 'Slovo generálního ředitele'
 updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1683899195
+updated_at: 1684357674
 page_content:
   -
     type: paragraph
@@ -51,4 +51,12 @@ page_content:
       id: lhkm3mwn
       values:
         type: director
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "P. S. Pokud byste se chtěli připojit k\_pamětníkům Českých center, rádi uvítáme Vaše vzpomínky na akce – fotografie, videa i další materiály a zapracujeme do naší webové mozaiky. Děkujeme."
 ---

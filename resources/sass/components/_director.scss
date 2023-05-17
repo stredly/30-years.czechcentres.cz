@@ -1,6 +1,6 @@
 .director {
   display: flex;
-  margin-top: 60px;
+  margin: 60px 0 60px 0;
   align-items: center;
 
   &__photo {
@@ -27,5 +27,55 @@
   &__signature {
     padding-left: 30px;
     margin: 0 !important;
+  }
+}
+
+
+.generalni-reditele {
+  ol {
+    padding-top: 40px;
+    list-style-type: none;
+    padding-left: 150px;
+    position: relative;
+
+    li {
+      position: relative;
+
+      em {
+        font-size: 24px;
+        position: absolute;
+        background-color: var(--blue);
+        padding: 7px 1px;
+        width: 95px;
+        text-align: center;
+        color: var(--white);
+        font-weight: 700;
+        left: -150px;
+        top: -8px;
+        border-bottom: 8px solid #fff;
+        border-top: 8px solid #fff;
+      }
+
+      strong {
+        font-size: 24px;
+        color: var(--red);
+      }
+
+      &:last-of-type {
+        em {
+          border-bottom: 60px solid #fff;
+
+        }
+      }
+    }
+
+    &::before {
+      position: absolute;
+      background-color: var(--gray-light);
+      left: 50px;
+      content: "";
+      height: 100%;
+      width: 1px;
+    }
   }
 }
