@@ -125,13 +125,13 @@ page_content:
             type: bold
           -
             type: italic
-        text: '„recykloval“ výstavu „Mucha a Bílek“'
+        text: "‚recykloval' výstavu ‚Mucha a Bílek' "
       -
         type: text
         marks:
           -
             type: italic
-        text: ' v rámci projektu '
+        text: 'v rámci projektu '
       -
         type: text
         marks:
@@ -761,13 +761,10 @@ page_content:
         content:
           -
             type: text
-            text: „
-          -
-            type: text
             marks:
               -
                 type: italic
-            text: 'Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ '
+            text: '„Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ '
           -
             type: text
             marks:
@@ -788,7 +785,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'přednáška Jaroslava Balvína “Česká literatura po roce 2000”, autorské čtení Petry Hůlové, křest švédského vydání knihy NANOBOOK či účast Jáchyma Topola na literárním večeru STANZA v Malmö'
+        text: 'přednáška Jaroslava Balvína ‚Česká literatura po roce 2000‘, autorské čtení Petry Hůlové, křest švédského vydání knihy NANOBOOK či účast Jáchyma Topola na literárním večeru STANZA v Malmö'
       -
         type: text
         text: ".\_"
@@ -1022,5 +1019,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684328288
+updated_at: 1684328581
 ---
