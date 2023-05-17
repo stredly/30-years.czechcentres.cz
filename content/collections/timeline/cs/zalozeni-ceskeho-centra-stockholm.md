@@ -767,10 +767,10 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ '
+            text: 'Skvělé Collegium Marianum představilo pečlivý výběr z díla proslavených, ale ve Švédsku naprosto neznámých českých barokních skladatelů. Sám jsem, ač odborník, řadu z nich neznal, a jsem moc rád za tuto pestrou ochutnávku úžasných autorů v tak precizním provedení.“ ('
           -
             type: text
-            text: 'Peter Pontvik, ředitel festivalu Stockholm Early Music, ve vysílání Švédského rozhlasu 2, 5. 6. 2014'
+            text: 'Peter Pontvik, ředitel festivalu Stockholm Early Music, ve vysílání Švédského rozhlasu 2, 5. 6. 2014)'
   -
     type: paragraph
     content:
@@ -919,10 +919,98 @@ page_content:
         text: 'https://stockholm.czechcentres.cz/'
       -
         type: text
-        text: ").\_\_"
+        text: ").\_"
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Vedení Českého centra Stockholm'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Prvním ředitelem Českého centra Stockholm byl '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zdeněk Lyčka'
+      -
+        type: text
+        text: ', zaměstnanec MZV a přední odborník na skandinávské země. Po Lyčkovi převzal centrum pod svou správu ostřílený matador Českých center '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jaroslav Kantůrek.'
+      -
+        type: text
+        text: ' Své působení na Českých centrech započal jako ředitel ČC Haag, zkušenosti zúročil ve Stockholmu a práci pro centra završil jako generální ředitel. Neméně zkušená byla i jeho nástupkyně '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Lucie Svobodová'
+      -
+        type: text
+        text: '. Bývalá spolupracovnice Václava Havla, zakladatelka ČC Paříž a jeho první ředitelka a autorka původního loga Českých center se stala třetí ředitelkou ČC Stockholm. Po ní se vedení centra ujímá bývalá zaměstnankyně ústředí Českých center, '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Alena Schagen. '
+      -
+        type: text
+        text: 'Alenu vystřídala marketingová guru '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zuzana Kabelková '
+      -
+        type: text
+        text: 'a v současné době vládne v této severské zemi hudební manažer'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' Michal Brenner'
+      -
+        type: text
+        text: ". Opomenout nesmíme ani několik kolegyň, které se o centrum staraly v době tzv. střídání ředitelů. Poděkování patří Lucii Aberg, Heleně Stiessen a Marii Strakové.\_"
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Významné osobnosti'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Petr Pithart, Ivan Klíma, Petr Borkovec, Petr Halmay, Vladimír Suchánek, Ivan Bukovský, Lubomír Pešek, Jaroslava Těšínská, Martin Kasík, Jitka Hosprová, Adam Skoumal, Ensemble Martinů, Hana Hegerová, Emil Viklický, Marta Kubišová, Josef Svoboda, Brněnský dechový kvintet, Jiří Menzel, Arnošt Lustig, Michal Ajvaz, Jaroslav Rudiš, Oldřich Šembera, Ivana Štenclová, Jakub Hora, Josef Škarka, Tamara Moyzes, Guma guar, A.M. 180 Collective, Jiří Slíva, Jan C. Löbl a kolektiv UJEP, Eva Lustigová, Tomáš Červinka, Judita Matyášová, Mirek Peřina, Bohumír Stehlík, Toybox, Klára Tellnerová, Michaela Pavlátová, Lenka Dusilová & Baromantika, Hana Rezková, Veronika Janátková, Petra Hůlová, Václav Hynčík, Martina Timková, Martina Poliačková, Jana Jarkovská, Zdeněk Holý, Vojtěch Jurík, Miloslav Šmídmajer, Helena Marie-Anna Jonášová, Long Vehicle Circus, Viktor Kolář, Jindřich Štreit, Štěpánka Bieleszová, Vladimír Birgus, Václav Podestát, Dita Pepe, Martin Lanži, Štěpán Rak, Hana Varadzinová, Vojtěch Brtnický, Eliška Vavříková, Iva Pekárková, Darina Alster, Milan Kohout, Karíma Al-Muhtarová\_\_"
 dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684327580
+updated_at: 1684327807
 ---
