@@ -905,21 +905,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Současný ředitel Michal Brenner se vydal zase jinou cestou, snaží se přiblížit modernímu mladému Švédovi a přináší do Stockholmu nejnovější trendy Česka a české kultury. Více o jeho aktivitách se dozvíte zde ('
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://stockholm.czechcentres.cz/'
-              rel: null
-              target: null
-              title: null
-        text: 'https://stockholm.czechcentres.cz/'
-      -
-        type: text
-        text: ").\_"
+        text: 'Současný ředitel Michal Brenner se vydal zase jinou cestou, snaží se přiblížit modernímu mladému Švédovi a přináší do Stockholmu nejnovější trendy Česka a české kultury. '
   -
     type: heading
     attrs:
@@ -1007,10 +993,28 @@ page_content:
     content:
       -
         type: text
-        text: "Petr Pithart, Ivan Klíma, Petr Borkovec, Petr Halmay, Vladimír Suchánek, Ivan Bukovský, Lubomír Pešek, Jaroslava Těšínská, Martin Kasík, Jitka Hosprová, Adam Skoumal, Ensemble Martinů, Hana Hegerová, Emil Viklický, Marta Kubišová, Josef Svoboda, Brněnský dechový kvintet, Jiří Menzel, Arnošt Lustig, Michal Ajvaz, Jaroslav Rudiš, Oldřich Šembera, Ivana Štenclová, Jakub Hora, Josef Škarka, Tamara Moyzes, Guma guar, A.M. 180 Collective, Jiří Slíva, Jan C. Löbl a kolektiv UJEP, Eva Lustigová, Tomáš Červinka, Judita Matyášová, Mirek Peřina, Bohumír Stehlík, Toybox, Klára Tellnerová, Michaela Pavlátová, Lenka Dusilová & Baromantika, Hana Rezková, Veronika Janátková, Petra Hůlová, Václav Hynčík, Martina Timková, Martina Poliačková, Jana Jarkovská, Zdeněk Holý, Vojtěch Jurík, Miloslav Šmídmajer, Helena Marie-Anna Jonášová, Long Vehicle Circus, Viktor Kolář, Jindřich Štreit, Štěpánka Bieleszová, Vladimír Birgus, Václav Podestát, Dita Pepe, Martin Lanži, Štěpán Rak, Hana Varadzinová, Vojtěch Brtnický, Eliška Vavříková, Iva Pekárková, Darina Alster, Milan Kohout, Karíma Al-Muhtarová\_\_"
+        text: 'Petr Pithart, Ivan Klíma, Petr Borkovec, Petr Halmay, Vladimír Suchánek, Ivan Bukovský, Lubomír Pešek, Jaroslava Těšínská, Martin Kasík, Jitka Hosprová, Adam Skoumal, Ensemble Martinů, Hana Hegerová, Emil Viklický, Marta Kubišová, Josef Svoboda, Brněnský dechový kvintet, Jiří Menzel, Arnošt Lustig, Michal Ajvaz, Jaroslav Rudiš, Oldřich Šembera, Ivana Štenclová, Jakub Hora, Josef Škarka, Tamara Moyzes, Guma guar, A.M. 180 Collective, Jiří Slíva, Jan C. Löbl a kolektiv UJEP, Eva Lustigová, Tomáš Červinka, Judita Matyášová, Mirek Peřina, Bohumír Stehlík, Toybox, Klára Tellnerová, Michaela Pavlátová, Lenka Dusilová & Baromantika, Hana Rezková, Veronika Janátková, Petra Hůlová, Václav Hynčík, Martina Timková, Martina Poliačková, Jana Jarkovská, Zdeněk Holý, Vojtěch Jurík, Miloslav Šmídmajer, Helena Marie-Anna Jonášová, Long Vehicle Circus, Viktor Kolář, Jindřich Štreit, Štěpánka Bieleszová, Vladimír Birgus, Václav Podestát, Dita Pepe, Martin Lanži, Štěpán Rak, Hana Varadzinová, Vojtěch Brtnický, Eliška Vavříková, Iva Pekárková, Darina Alster, Milan Kohout, Karíma Al-Muhtarová'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://stockholm.czechcentres.cz/?locale=cs'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: stockholm.czechcentres.cz
 dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684327895
+updated_at: 1684328147
 ---
