@@ -110,67 +110,76 @@ page_content:
         type: text
         text: "V prvních letech se týmu Českého centra se Zdeňkem Lyčkou v čele podařilo uskutečnit řadu vynikajících projektů.\_\_"
   -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Během působení ve funkci ředitele jsem v Historickém muzeu ve Stockholmu '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: "‚recykloval' výstavu ‚Mucha a Bílek' "
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'v rámci projektu '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Stockholm – město kultury 1998 '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'a navíc se mi v jižním Švédsku podařilo zrealizovat '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'výstavu čtyř pláten Muchovy Slovanské epopeje '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'v Malmö Konsthall v jižním Švédsku: Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva a Slavnost Svantovítova na Rujáně.”'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: ' '
+          -
+            type: text
+            text: 'řekl o své činnosti ve Stockholmu Zdeněk Lyčka na online přednášce pro studenty Filozofické fakulty Univerzity Karlovy 16. prosince 2020.'
+  -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: '„Během působení ve funkci ředitele jsem v Historickém muzeu ve Stockholmu '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: "‚recykloval' výstavu ‚Mucha a Bílek' "
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'v rámci projektu '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Stockholm – město kultury 1998 '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'a navíc se mi v jižním Švédsku podařilo zrealizovat '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'výstavu čtyř pláten Muchovy Slovanské epopeje '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'v Malmö Konsthall v jižním Švédsku: Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva a Slavnost Svantovítova na Rujáně.”'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: ' '
-      -
-        type: text
-        text: "řekl o své činnosti ve Stockholmu Zdeněk Lyčka na online přednášce pro studenty Filozofické fakulty Univerzity Karlovy 16. prosince 2020. A my dodáváme, že tato výstava se uskutečnila ve spolupráci s Galerií hl. m. Prahy a byla zařazena do oficiálního programu \"Stockholm 98 – hlavní město evropské kultury\".\_"
+        text: "A my dodáváme, že tato výstava se uskutečnila ve spolupráci s Galerií hl. m. Prahy a byla zařazena do oficiálního programu „Stockholm 98 – hlavní město evropské kultury”.\_"
   -
     type: paragraph
     content:
@@ -872,7 +881,16 @@ page_content:
         text: 'Slow Fashion Show'
       -
         type: text
-        text: " a „zero waste” přehlídka ve spolupráci s UJEP.\_\_"
+        text: ' a „zero waste”'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: ' '
+      -
+        type: text
+        text: "přehlídka ve spolupráci s UJEP.\_\_"
   -
     type: paragraph
     content:
@@ -1019,5 +1037,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684328581
+updated_at: 1684396103
 ---
