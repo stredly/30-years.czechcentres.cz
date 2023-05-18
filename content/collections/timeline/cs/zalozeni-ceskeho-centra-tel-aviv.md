@@ -372,6 +372,8 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -411,16 +413,10 @@ page_content:
         marks:
           -
             type: bold
-        text: "50 let od dramatických politických událostí roku 1968.\_"
+        text: '50 let od dramatických politických událostí roku 1968'
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
+        text: ".\_\_"
   -
     type: paragraph
     content:
@@ -441,12 +437,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'I s Robertem Mikolášem se českému filmu na svaté půdě velmi daří. '
       -
         type: text
@@ -457,12 +447,6 @@ page_content:
       -
         type: text
         text: " je již zavedenou tradiční přehlídkou na kulturní izraelské scéně a díky vysoce držené laťce i hojně navštěvovanou akcí. Podařilo se navázat spolupráci i s dalšími filmovými festivaly a nabídnout nejnovější české snímky i tam.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -488,16 +472,12 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: 'webu ČC Tel Aviv'
       -
         type: text
         text: ".\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -538,13 +518,9 @@ page_content:
         type: text
         text: "\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -560,27 +536,11 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: "České centrum v Tel Avivu zakládal David Stecher, který již měl s prací pro Česká centra bohaté zkušenosti. Do Izraele se stěhoval z Bavorska, kde vedl České centrum Mnichov. V Izraeli působil do roku 2012, kdy ho nahradil spisovatel, dokumentarista a politolog Lukáš Přibyl. Ten zůstal v pozici ředitele ČC Tel Aviv do roku 2017. V letech 2018 až 2023 vedl centrum bývalý zahraniční dopisovatel Českého rozhlasu Robert Mikoláš. V létě 2023 převezme štafetu Jan Štern.\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -588,9 +548,6 @@ page_content:
           -
             type: bold
         text: "Významné české osobnosti\_"
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -598,17 +555,10 @@ page_content:
         type: text
         text: "The Plastic People of the Universe, Nanohach, Arnošt Lustig, Petr Sís, Jan Hřebejk, Petr Zelenka, Irena Pavlásková, Naivní divadlo Liberec, Zdeněk Lukeš, Nakladatelství Labyrint, Joachim Dvořák, Markéta Mališová, Dan Merta, Jiří Mádl, Iva Janžurová, Alois Švehlík, Eliška Křenková, The Tap Tap, Antonín Kratochvíl, Josef Koudelka, Michal Bregant, Andrea Sedláčková, Jiří Peňás, Peer Moshe Friedmann, Štěpán Rak, Karel Vrtiška, Miroslav Ambroš, Jiří Slíva, Barbora Látalová, Martin Rajniš, Eduard Šístek, David Kalhous, Tamara Moyzes, Markéta Štinglová, Josefina Bakošová, Petr Bakoš, Jarmila Poláková, Judit Bárdos, Martin Dvořák, Spitfire Company ad.\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Web Českého centra Tel Aviv: '
       -
         type: text
         marks:
@@ -616,13 +566,15 @@ page_content:
             type: link
             attrs:
               href: 'https://tel-aviv.czechcentres.cz/'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
-        text: tel-aviv
+          -
+            type: bold
+        text: tel-aviv.czechcentres.cz
 dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684408268
+updated_at: 1684408421
 ---
