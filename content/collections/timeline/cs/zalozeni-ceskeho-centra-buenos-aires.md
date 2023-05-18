@@ -25,10 +25,7 @@ page_content:
         marks:
           -
             type: bold
-        text: "Prostory\_"
-      -
-        type: text
-        text: "\_"
+        text: "Prostory\_\_"
   -
     type: paragraph
     content:
@@ -165,5 +162,5 @@ dont_show_month: true
 event_date: '2008-01-01'
 cities: buenos-aires
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683786466
+updated_at: 1684395209
 ---
