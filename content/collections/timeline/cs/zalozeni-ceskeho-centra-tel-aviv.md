@@ -384,27 +384,11 @@ page_content:
       -
         type: text
         text: "\_\_"
-  -
-    type: paragraph
-    content:
       -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'zde obrázek: Věž Ester © Pavlína Schultz'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/tel-aviv/vez-ester-(c)-pavlina-schultz-min.jpg'
+          alt: "Věž Ester © Pavlína Schultz\_"
       -
         type: text
         text: 'Rok 2018 byl přelomový nejen pro celé Česko, ale i pro ČC Tel Aviv. Krátce po příchodu nového ředitele Roberta Mikoláše se otevřel Český dům Jeruzalém (odkaz na kartu ČDJ až bude) a odstartovaly mohutné oslavy 100 let od vzniku samostatného Československa a '
@@ -503,21 +487,6 @@ page_content:
         type: text
         text: ".\_\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: (
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'poprosila bych rovněž nějakou fotečku)'
-      -
-        type: text
-        text: "\_"
-  -
     type: heading
     attrs:
       level: 2
@@ -576,5 +545,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684408506
+updated_at: 1684408674
 ---
