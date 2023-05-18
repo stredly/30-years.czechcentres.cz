@@ -183,21 +183,20 @@ page_content:
                 type: link
                 attrs:
                   href: 'https://www.denik.cz/cestovani/v-soulu-bylo-otevreno-ceske-centrum-v-replice-staromestske-radnice-20130430.html'
-                  rel: 'noreferrer noopener'
+                  rel: null
                   target: _blank
                   title: null
               -
+                type: bold
+              -
                 type: italic
-            text: dnes.cz
+            text: deník.cz
           -
             type: text
             marks:
               -
                 type: italic
             text: )
-          -
-            type: text
-            text: "\_"
   -
     type: paragraph
     content:
@@ -371,6 +370,6 @@ page_content:
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684398787
+updated_at: 1684401248
 cities: soul
 ---
