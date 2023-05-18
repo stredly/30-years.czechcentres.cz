@@ -25,6 +25,14 @@ page_content:
         type: text
         text: 'Následné zahájení před budovou soulské „Staroměstské radnice“ a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.'
   -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/soul/otevreni-cc-soul-(c)-the-korea-times,-6.-5.-2013.jpg'
+          alt: null
+  -
     type: set
     attrs:
       id: lhsx41ly
@@ -373,6 +381,6 @@ page_content:
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684401438
+updated_at: 1684401477
 cities: soul
 ---
