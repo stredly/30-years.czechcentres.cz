@@ -44,10 +44,19 @@ page_content:
         marks:
           -
             type: bold
-        text: "Židé v boji a odboji – Rezistence československých Židů v letech druhé světové války.\_"
+        text: 'Židé v boji a odboji – Rezistence československých Židů v letech druhé světové války'
       -
         type: text
-        text: " Na zahájení se sešli její tvůrce Tomáš Jelínek, kurátorka výstavy Zlatica Zudová-Lešková z Historického ústavu Akademie věd ČR, místopředseda Sdružení židovských vojáků a odborářů a člen Výboru obce legionářů Jindřich Heřkovič či českoslovenští odbojáři Jiří Kafka a Viktor Schwarcz. Význam výstavy tkví především v tom, že mohla publiku představit i málo známý fakt, že za druhé světové války nebyli židovští občané pouze oběťmi holocaustu, ale i aktivními bojovníky na frontě i v odbojových skupinách.\_"
+        text: .
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
+      -
+        type: text
+        text: "Na zahájení se sešli její tvůrce Tomáš Jelínek, kurátorka výstavy Zlatica Zudová-Lešková z Historického ústavu Akademie věd ČR, místopředseda Sdružení židovských vojáků a odborářů a člen Výboru obce legionářů Jindřich Heřkovič či českoslovenští odbojáři Jiří Kafka a Viktor Schwarcz. Význam výstavy tkví především v tom, že mohla publiku představit i málo známý fakt, že za druhé světové války nebyli židovští občané pouze oběťmi holocaustu, ale i aktivními bojovníky na frontě i v odbojových skupinách.\_"
   -
     type: paragraph
     content:
@@ -544,5 +553,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684408711
+updated_at: 1684408764
 ---
