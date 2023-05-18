@@ -313,20 +313,6 @@ page_content:
         type: text
         text: 'Hagai Shaham Trio, soubor divadla Drak, soubor Naivního divadla Liberec, soubor Národního divadla moravskoslezského, Michal Nohejl, Karel Štědrý, Ján Vasilko, Patrik Antzcak'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://jerusalem.czechcentres.cz/'
-              rel: null
-              target: _blank
-              title: null
-        text: jerusalem.czechcentres.cz
-  -
     type: heading
     attrs:
       level: 2
@@ -348,5 +334,5 @@ dont_show_month: false
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684396678
+updated_at: 1684396825
 ---
