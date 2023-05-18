@@ -274,7 +274,7 @@ page_content:
                 marks:
                   -
                     type: bold
-                text: '20 LET ZAHRANIČNÍCH MISÍ ARMÁDY ČESKÉ REPUBLIKY '
+                text: '20 let zahraničních misí Armády České republiky '
               -
                 type: text
                 text: "- Výstava přibližuje působení českých vojáků v Kosovu, Iráku, Afghánistánu, Mali nebo na Islandu. Autory snímků jsou válečná fotografka Jarmila Štuková a fotograf a kameraman Tomáš Štěrba.\_"
@@ -334,5 +334,5 @@ dont_show_month: false
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684396825
+updated_at: 1684415779
 ---
