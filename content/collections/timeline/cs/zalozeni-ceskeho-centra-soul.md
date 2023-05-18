@@ -23,7 +23,15 @@ page_content:
     content:
       -
         type: text
-        text: "Následné zahájení před budovou soulské „Staroměstské radnice“ a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.\_"
+        text: 'Následné zahájení před budovou soulské „Staroměstské radnice“ a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.'
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/soul/otevreni-cc-soul-(c)-the-korea-times,-6.-5.-2013.jpg'
+          alt: null
   -
     type: heading
     attrs:
@@ -346,36 +354,26 @@ page_content:
         type: text
         text: "Tata Bojs, Ahn Trio, Tantehorse, Spitfire Company, Michal Žabka, Roman Kašparovský, Miroslav Ambroš, Kateřina Samková, Petr Vrba, Jan Karel Pavlík, Tomáš Jamník, Džían Baban, Martin C.Putna\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
-      -
-        type: text
-        text: 'Webové stránky Českého centra Soul: '
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://seoul.czechcentres.cz/en/'
-              rel: 'noreferrer noopener'
+              href: 'https://seoul.czechcentres.cz/'
+              rel: null
               target: _blank
               title: null
+          -
+            type: bold
         text: seoul.czechcentres.cz
-      -
-        type: text
-        text: "\_"
-  -
-    type: set
-    attrs:
-      id: lgxj60uw
-      values:
-        type: gallery
-        gallery:
-          - 'timeline/soul/otevreni-cc-soul-(c)-the-korea-times,-6.-5.-2013.jpg'
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684398118
+updated_at: 1684398217
 cities: soul
 ---
