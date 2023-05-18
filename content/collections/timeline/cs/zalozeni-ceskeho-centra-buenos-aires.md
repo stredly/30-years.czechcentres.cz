@@ -8,7 +8,13 @@ page_content:
     content:
       -
         type: text
-        text: "První a zároveň (alespoň prozatím) poslední České centrum (ČC) v Jižní Americe bylo otevřeno v roce 2008. Potřeba rozšířit síť Českých center v zahraničí i na jihoamerický kontinent byla v danou dobu žádoucí a dala tak podnět ke vzniku centra.\_"
+        marks:
+          -
+            type: bold
+        text: 'První a zároveň poslední České centrum (ČC) v Jižní Americe bylo otevřeno v roce 2008.'
+      -
+        type: text
+        text: " Potřeba rozšířit síť Českých center v zahraničí i na jihoamerický kontinent byla v danou dobu žádoucí a dala tak podnět ke vzniku centra.\_"
   -
     type: paragraph
     content:
@@ -47,77 +53,143 @@ page_content:
         type: text
         text: "\_"
   -
-    type: heading
-    attrs:
-      level: 4
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Ve spolupráci s Českým filmovým centrem a Ministerstvem kultury ČR (MK ČR) uspořádalo ČC Buenos Aires při příležitosti svého zahájení rozsáhlou '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'filmovou přehlídku současné české kinematografie'
+      -
+        type: text
+        text: ". Kromě tradičních projekcí pro diváky připravilo centrum také projekce pro místní distributory a další filmové profesionály. Přehlídku zahájila gala projekce filmu Tajnosti za osobní účasti režisérky Alice Nellis.\_\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'České originální '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Dejvické divadlo'
+      -
+        type: text
+        text: " dostalo pozvání na prestižní argentinský mezinárodní divadelní festival FIBA. Jako jediný zástupce Česka uspělo ve velké konkurenci právě Dejvické divadlo s hrou Černá díra v režii Jiřího Havelky. V Buenos Aires se odehrála tři představení před zcela vyprodaným divadlem Sarmiento.\_\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Cestu podpořily finančně i organizačně především zahraniční odbor MK ČR, České centrum Buenos Aires, Velvyslanectví České republiky v Argentině a další.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Kromě zajištění organizace a další podpory divadelního souboru uspořádalo ČC jako součást doprovodného programu festivalu i literární čtení Zahradní slavnosti Václava Havla.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Ve spolupráci s Moravskou galerií v Brně se ČC Buenos Aires podařilo uspořádat vůbec první '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'představení Josefa Sudka'
+      -
+        type: text
+        text: ' v Jižní Americe. Návštěvníci mohli vidět 61 jeho fotografií. Asi čtyři desítky snímků vyšly také v katalogu s doprovodným textem brněnského kurátora Antonína Dufka.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Výstava fotografií Josefa Koudelky '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Invaze 68'
+      -
+        type: text
+        text: " představilo České centrum v rámci festivalu „XVI Encuentros Abiertos – Festival de la Luz“.\_\_"
+  -
+    type: paragraph
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Přehlídka současné české kinematografie'
+        text: 'Bienále Borges – Kafka '
       -
         type: text
-        text: "\_"
+        text: '– v rámci bienále odprezentovalo České centrum českou kulturu s mezinárodním odborným sympoziem.'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: "Ve spolupráci s České filmové centrum a Ministerstvem kultury ČR (MK ČR) uspořádalo v roce 2008 ČC Buenos Aires při příležitosti svého zahájení rozsáhlou filmovou přehlídku současné české kinematografie. Kromě tradičních projekcí pro diváky připravilo také projekce pro místní distributory a další filmové profesionály. Přehlídku zahájila gala projekce filmu Tajnosti za osobní účasti režisérky Alice Nellis.\_\_"
-  -
-    type: heading
-    attrs:
-      level: 4
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'ČERNÁ DÍRA aneb EL AGUJERO NEGRO V BUENOS AIRES'
+        text: 'Mezinárodní filmový festival Pantalla Pinamar'
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "V roce 2009 dostalo společně s řadou dalších souborů z celého světa i Dejvické divadlo pozvání na prestižní argentinský mezinárodní divadelní festival FIBA. Jako jediný zástupce ČR uspělo ve velké konkurenci s představením Černá díra v režii Jiřího Havelky. V Buenos Aires se odehrála tři představení před zcela vyprodaným divadlem Sarmiento.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Cestu podpořili finančně i organizačně především zahraniční odbor MK ČR, Českému centru Buenos Aires, Velvyslanectví České republiky v Buenos Aires a další.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Kromě zajištění veškeré organizace a další podpory divadelního souboru uspořádalo České centrum jako součást doprovodného programu festivalu i literární čtení Zahradní slavnosti Václava Havla.\_"
-  -
-    type: heading
-    attrs:
-      level: 4
-    content:
+        text: ','
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Josef Sudek poprvé v Argentině'
+        text: ' '
       -
         type: text
-        text: "\_"
+        text: 'na kterém bylo Česko speciálním hostem, se spojil s ČC a představil celou řadu českých filmů. Na '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'festivalu BAFICI'
+      -
+        type: text
+        text: ' se uskutečnila rozsáhlá retrospektiva dokumentárních filmů Heleny Třeštíkové, na jejíž účasti se podílelo právě ČC. Projekce dokumentů '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zapomenuté transporty'
+      -
+        type: text
+        text: " Lukáše Přibyla k problematice holocaustu právě v Jižní Americe měla neskutečný ohlas převážně mezi krajanskou komunitou.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Ve spolupráci s Moravskou galerií v Brně se ČC Buenos Aires podařilo v roce 2008 připravit vůbec první představení díla Josefa Sudka v Jižní Americe. Návštěvníci mohli vidět 61 jeho fotografií. Asi čtyři desítky snímků vyšly také v katalogu s doprovodným textem brněnského kurátora Antonína Dufka.\_"
+        text: 'Ani na českou hudbu v Buenos Aires nezapomněli. Koncert '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Tria Pavla J. Ryby'
+      -
+        type: text
+        text: " se konal v rámci jazzového cyklu Jazzología a zaznamenal obrovský úspěch.\_"
   -
     type: heading
     attrs:
@@ -129,9 +201,6 @@ page_content:
           -
             type: bold
         text: 'Personální obsazení'
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -157,10 +226,10 @@ page_content:
     content:
       -
         type: text
-        text: "Alice Nellis, Helena Třeštíková, Dejvické divadlo\_"
+        text: 'Alice Nellis, Helena Třeštíková, Dejvické divadlo'
 dont_show_month: true
 event_date: '2008-01-01'
 cities: buenos-aires
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684395362
+updated_at: 1684400785
 ---
