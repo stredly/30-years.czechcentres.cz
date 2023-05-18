@@ -335,6 +335,8 @@ page_content:
         type: text
         text: "\_"
 dont_show_month: false
+event_date: '2018-01-01'
+cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684395722
+updated_at: 1684395776
 ---
