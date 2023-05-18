@@ -3,7 +3,7 @@ id: bd3723c5-e66c-4601-a5ad-c17cd257c21e
 blueprint: page
 title: Poděkování
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684409093
+updated_at: 1684409250
 page_content:
   -
     type: paragraph
@@ -51,6 +51,13 @@ page_content:
         type: text
         marks:
           -
+            type: link
+            attrs:
+              href: 'https://www.cez.cz/'
+              rel: null
+              target: _blank
+              title: null
+          -
             type: bold
         text: 'skupině ČEZ'
       -
@@ -59,6 +66,13 @@ page_content:
       -
         type: text
         marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.cnb.cz/cs/'
+              rel: null
+              target: _blank
+              title: null
           -
             type: bold
         text: 'České národní bance'
@@ -69,8 +83,21 @@ page_content:
         type: text
         marks:
           -
+            type: link
+            attrs:
+              href: 'https://www.jakubjahn.com/cs/'
+              rel: null
+              target: null
+              title: null
+          -
             type: bold
-        text: 'Jakubu Jahnovi '
+        text: 'Jakubu Jahnovi'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         text: "za dokumentaci historie Českých center.\_"
