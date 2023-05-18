@@ -2,8 +2,8 @@
 id: 13673f5f-4117-4753-ae0f-f61299fc6235
 blueprint: page
 title: 'Generální ředitelé'
-updated_by: 84a5061c-1f53-412f-9037-bfbdae1bb5fc
-updated_at: 1684358072
+updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
+updated_at: 1684409447
 heading: 'Přehled generálních ředitelů'
 page_content:
   -
@@ -66,7 +66,7 @@ page_content:
                 type: hardBreak
               -
                 type: text
-                text: '(pověřen řízením) 1. 10. 1993–30. 9. 1995'
+                text: '1. 10. 1993–30. 9. 1995 (pověřen řízením)'
       -
         type: listItem
         content:
@@ -303,7 +303,7 @@ page_content:
                 type: hardBreak
               -
                 type: text
-                text: '(pověřen řízením) 17. 8. 2015–30. 6. 2016'
+                text: '17. 8. 2015–30. 6. 2016 (pověřen řízením)'
       -
         type: listItem
         content:
@@ -353,7 +353,7 @@ page_content:
                 type: hardBreak
               -
                 type: text
-                text: '(pověřena řízením) 7. 4. 2017–31. 1. 2018'
+                text: '7. 4. 2017–31. 1. 2018 (pověřena řízením)'
       -
         type: listItem
         content:
