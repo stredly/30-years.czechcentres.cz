@@ -131,10 +131,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'sídlí v budově Velvyslanectví'
+        text: 'sídlí v budově Velvyslanectví ČR v Tel Avivu'
       -
         type: text
-        text: ' ČR v Tel Avivu v samotném centru města, v budově, kterou pro stát získal první československý velvyslanec v Izraeli Eduard Goldstücker (později odsouzený ve vykonstruovaném procesu na začátku 50. let 20. století). V budově je přednášková místnost, České centrum ale pro své výstavy menšího charakteru používá především '
+        text: ' v samotném centru města, v budově, kterou pro stát získal první československý velvyslanec v Izraeli Eduard Goldstücker (později odsouzený ve vykonstruovaném procesu na začátku 50. let 20. století). V budově je přednášková místnost, České centrum ale pro své výstavy menšího charakteru používá především '
       -
         type: text
         marks:
@@ -553,5 +553,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684408764
+updated_at: 1684408818
 ---
