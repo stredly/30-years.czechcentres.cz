@@ -553,7 +553,7 @@ page_content:
     content:
       -
         type: text
-        text: "The Plastic People of the Universe, Nanohach, Arnošt Lustig, Petr Sís, Jan Hřebejk, Petr Zelenka, Irena Pavlásková, Naivní divadlo Liberec, Zdeněk Lukeš, Nakladatelství Labyrint, Joachim Dvořák, Markéta Mališová, Dan Merta, Jiří Mádl, Iva Janžurová, Alois Švehlík, Eliška Křenková, The Tap Tap, Antonín Kratochvíl, Josef Koudelka, Michal Bregant, Andrea Sedláčková, Jiří Peňás, Peer Moshe Friedmann, Štěpán Rak, Karel Vrtiška, Miroslav Ambroš, Jiří Slíva, Barbora Látalová, Martin Rajniš, Eduard Šístek, David Kalhous, Tamara Moyzes, Markéta Štinglová, Josefina Bakošová, Petr Bakoš, Jarmila Poláková, Judit Bárdos, Martin Dvořák, Spitfire Company ad.\_"
+        text: 'The Plastic People of the Universe, Nanohach, Arnošt Lustig, Petr Sís, Jan Hřebejk, Petr Zelenka, Irena Pavlásková, Naivní divadlo Liberec, Zdeněk Lukeš, Nakladatelství Labyrint, Joachim Dvořák, Markéta Mališová, Dan Merta, Jiří Mádl, Iva Janžurová, Alois Švehlík, Eliška Křenková, The Tap Tap, Antonín Kratochvíl, Josef Koudelka, Michal Bregant, Andrea Sedláčková, Jiří Peňás, Peer Moshe Friedmann, Štěpán Rak, Karel Vrtiška, Miroslav Ambroš, Jiří Slíva, Barbora Látalová, Martin Rajniš, Eduard Šístek, David Kalhous, Tamara Moyzes, Markéta Štinglová, Josefina Bakošová, Petr Bakoš, Jarmila Poláková, Judit Bárdos, Martin Dvořák, Spitfire Company'
   -
     type: heading
     attrs:
@@ -576,5 +576,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684408421
+updated_at: 1684408506
 ---
