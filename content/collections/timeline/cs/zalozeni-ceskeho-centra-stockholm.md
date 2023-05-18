@@ -173,7 +173,16 @@ page_content:
             text: ' '
           -
             type: text
-            text: 'řekl o své činnosti ve Stockholmu Zdeněk Lyčka na online přednášce pro studenty Filozofické fakulty Univerzity Karlovy 16. prosince 2020.'
+            text: 'řekl o své činnosti ve Stockholmu '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Zdeněk Lyčka'
+          -
+            type: text
+            text: ' na online přednášce pro studenty Filozofické fakulty Univerzity Karlovy 16. prosince 2020.'
   -
     type: paragraph
     content:
@@ -1055,5 +1064,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684396210
+updated_at: 1684397348
 ---
