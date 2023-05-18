@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e339add94a52ec57381880e16f95d1f8",
+    "content-hash": "de2d72d5054261073ce830d90a8886b0",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2089,6 +2089,58 @@
                 }
             ],
             "time": "2022-05-21T17:30:32+00:00"
+        },
+        {
+            "name": "jacksleight/statamic-bard-mutator",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jacksleight/statamic-bard-mutator.git",
+                "reference": "7dab31d1149cc0e0b8e23e0e33c3005baa3da681"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jacksleight/statamic-bard-mutator/zipball/7dab31d1149cc0e0b8e23e0e33c3005baa3da681",
+                "reference": "7dab31d1149cc0e0b8e23e0e33c3005baa3da681",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^3.4 || ^4.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^6.2",
+                "orchestra/testbench": "^7.5",
+                "pestphp/pest": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Bard Mutator",
+                    "description": "This Statamic addon allows you to modify the data and tags rendered by the Bard fieldtype, giving you full control over the final HTML."
+                },
+                "laravel": {
+                    "providers": [
+                        "JackSleight\\StatamicBardMutator\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JackSleight\\StatamicBardMutator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/jacksleight/statamic-bard-mutator/issues",
+                "source": "https://github.com/jacksleight/statamic-bard-mutator/tree/2.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jacksleight",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-05-16T11:47:07+00:00"
         },
         {
             "name": "james-heinrich/getid3",
