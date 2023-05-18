@@ -227,7 +227,16 @@ page_content:
         marks:
           -
             type: bold
-        text: ' Český festival v Norrköpingu k výročí sametové revoluce. '
+        text: ' Český festival v Norrköpingu k výročí sametové revoluce'
+      -
+        type: text
+        text: .
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         text: "Ten se konal u příležitosti desátého výročí sametové revoluce a zaměřil se především na představení české klasické hudby, grafiky, fotografie, filmu a pantomimy.\_\_"
@@ -461,10 +470,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Projekt Československo 1968.'
+        text: 'Projekt Československo 1968'
       -
         type: text
-        text: " Jednalo se o pásmo kulturních akcí, jejichž vrcholem byla slavnostní vernisáž výstavy fotografií s tematikou let 1968 a 1989.\_\_"
+        text: ". Jednalo se o pásmo kulturních akcí, jejichž vrcholem byla slavnostní vernisáž výstavy fotografií s tematikou let 1968 a 1989.\_\_"
   -
     type: paragraph
     content:
@@ -758,10 +767,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Collegia Mariana.'
+        text: 'Collegia Mariana'
       -
         type: text
-        text: "\_"
+        text: ".\_"
   -
     type: blockquote
     content:
@@ -976,7 +985,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Alena Schagen. '
+        text: 'Alena Schagen'
+      -
+        type: text
+        text: .
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         text: 'Alenu vystřídala marketingová guru '
@@ -1037,5 +1055,5 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684396103
+updated_at: 1684396210
 ---
