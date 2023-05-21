@@ -11,4 +11,9 @@
   background-repeat: no-repeat;
   background-position: var(--year-x-position) var(--year-y-position);
   background-size: auto;
+
+  @include media-breakpoint-down(xl) {
+    background-size: 90%;
+    background-position: center 40%;
+  }
 }

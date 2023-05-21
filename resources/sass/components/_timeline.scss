@@ -3,6 +3,10 @@
   display: flex;
   align-items: center;
   overflow-x: hidden;
+  &--is-tablet {
+    overflow-x: scroll;
+  }
+
 }
 
 .timeline {
@@ -21,8 +25,19 @@
     column-gap: 47px;
     margin-top: -70px;
 
+    @include media-breakpoint-down(xl) {
+      column-gap: 27px;
+    }
+
     &__image {
       margin-left: 100px;
+
+      @include media-breakpoint-down(xl) {
+        margin-left: 25px;
+        width: 48%;
+        height: 48%;
+
+      }
     }
 
     &__text {
@@ -44,6 +59,12 @@
         margin-bottom: 49px;
         padding: 0;
 
+        @include media-breakpoint-down(xl) {
+          font-size: 64px;
+          line-height: 71px;
+          margin-bottom: 27px;
+        }
+
         strong {
           color: var(--red);
         }
@@ -54,6 +75,12 @@
         line-height: 30px;
         margin-bottom: 0;
         padding-bottom: 0;
+        white-space: nowrap;
+
+        @include media-breakpoint-down(xl) {
+          font-size: 25px;
+          line-height: 25px;
+        }
       }
 
       p {

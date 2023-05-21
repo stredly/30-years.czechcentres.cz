@@ -2,6 +2,10 @@
   display: flex;
   justify-content: flex-end;
 
+  @include media-breakpoint-down(xl) {
+    display: none;
+  }
+
   &__item {
     list-style-type: none;
     &__link {

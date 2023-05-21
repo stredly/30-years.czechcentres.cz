@@ -1,7 +1,12 @@
 const YEAR_HEIGHT = 373;
 const YEAR_HEIGHT_X_INIT = -20;
 
+const DESKTOP = 'desktop';
+const MOBILE = 'mobile';
+const TABLET = 'tablet';
+
 export default () => ({
+  device: null,
   activeYear: null,
   activeYearImage: null,
   centerX: 0,
@@ -75,6 +80,10 @@ export default () => ({
         this.animatePhoto();
       }
     }
+
+    if (this.device !== DESKTOP) {
+      requestAnimationFrame(() => this.checkIntersectection());
+    }
   },
 
   setAxisLine() {
@@ -143,6 +152,12 @@ export default () => ({
   },
 
   init() {
+    this.setDeviceType();
+
+    if (this.device === TABLET) {
+      this.timelineWrapperEl.classList.add('timeline-wrapper--is-tablet');
+    }
+
     this.marks = Array.from(
       document.querySelectorAll('[id^="timeline-mark-"]')
     );
@@ -169,36 +184,41 @@ export default () => ({
       }, 200);
     });
 
-    this.timelineWrapperEl.addEventListener('touchmove', (evt) => {
-      if (this.sidebarOpen) {
-        return;
-      }
-      evt.preventDefault();
-      this.timelineWrapperEl.scrollLeft += evt.deltaY;
+    if (this.device === DESKTOP) {
+      this.timelineWrapperEl.addEventListener('wheel', (evt) => {
+        if (this.sidebarOpen) {
+          return;
+        }
+        evt.preventDefault();
+        this.timelineWrapperEl.scrollLeft += evt.deltaY;
+        this.checkIntersectection();
+      });
+    } else {
       this.checkIntersectection();
-    });
-
-    this.isiPad();
+    }
   },
 
-  isiPad() {
+  setDeviceType() {
     const userAgent = navigator.userAgent.toLowerCase();
 
-    alert(userAgent);
-
     var isMobile = /iPhone|Android/i.test(navigator.userAgent);
-    console.log(isMobile);
 
     const isTablet =
       /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
         userAgent
       );
-    console.log(isTablet);
+
+    const isIpad =
+      /macintosh/i.test(userAgent) &&
+      navigator.maxTouchPoints &&
+      navigator.maxTouchPoints > 1;
 
     if (isMobile) {
-      alert('Mobile');
-    } else if (isTablet) {
-      alert('Tablet');
+      this.device = MOBILE;
+    } else if (isTablet || isIpad) {
+      this.device = TABLET;
+    } else {
+      this.device = DESKTOP;
     }
   },
 });

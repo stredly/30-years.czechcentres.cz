@@ -65,6 +65,11 @@
       display: block;
       left: -77px;
       top: -294px;
+      @include media-breakpoint-down(xl) {
+        font-size: 60px;
+        line-height: 60px;
+        top: -280px;
+      }
     }
   }
 
