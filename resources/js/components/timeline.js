@@ -119,7 +119,7 @@ export default () => ({
     setTimeout(() => {
       this.scrolling = false;
       this.checkIntersectection(true);
-    }, 1000);
+    }, 800);
   },
 
   setClientSizes() {
@@ -148,6 +148,61 @@ export default () => ({
           7 +
           'px'
       );
+    }
+  },
+
+  getPrevYear() {
+    const yearElements = document.querySelectorAll(
+      '.footer-axis__item__link__year'
+    );
+    const years = Array.from(yearElements).map((yearElement) =>
+      parseInt(yearElement.textContent.trim(), 10)
+    );
+    years.sort((a, b) => b - a); // Sort the years in descending order
+    const activeYearIndex = years.findIndex((year) => year === this.activeYear);
+
+    if (activeYearIndex > 0) {
+      return years[activeYearIndex + 1];
+    }
+  },
+
+  getNextYear() {
+    const yearElements = document.querySelectorAll(
+      '.footer-axis__item__link__year'
+    );
+    const years = Array.from(yearElements).map((yearElement) =>
+      parseInt(yearElement.textContent.trim(), 10)
+    );
+    years.sort((a, b) => b - a); // Sort the years in descending order
+    const activeYearIndex = years.findIndex((year) => year === this.activeYear);
+    if (activeYearIndex > 0) {
+      return years[activeYearIndex - 1];
+    } else {
+      return years[years.length - 1];
+    }
+  },
+
+  setDeviceType() {
+    const userAgent = navigator.userAgent.toLowerCase();
+
+    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
+
+    const isTablet =
+      /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
+        userAgent
+      );
+
+    const isIpad =
+      /macintosh/i.test(userAgent) &&
+      navigator.maxTouchPoints &&
+      navigator.maxTouchPoints > 1;
+
+    if (isMobile) {
+      this.device = MOBILE;
+    } else if (isTablet || isIpad) {
+      this.device = TABLET;
+    } else {
+      this.device = DESKTOP;
     }
   },
 
@@ -196,29 +251,15 @@ export default () => ({
     } else {
       this.checkIntersectection();
     }
-  },
 
-  setDeviceType() {
-    const userAgent = navigator.userAgent.toLowerCase();
-
-    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
-
-    const isTablet =
-      /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
-        userAgent
-      );
-
-    const isIpad =
-      /macintosh/i.test(userAgent) &&
-      navigator.maxTouchPoints &&
-      navigator.maxTouchPoints > 1;
-
-    if (isMobile) {
-      this.device = MOBILE;
-    } else if (isTablet || isIpad) {
-      this.device = TABLET;
-    } else {
-      this.device = DESKTOP;
-    }
+    document.addEventListener('keydown', (event) => {
+      if (!this.scrolling) {
+        if (event.key === 'ArrowLeft') {
+          this.scrollToYear(this.getPrevYear());
+        } else if (event.key === 'ArrowRight') {
+          this.scrollToYear(this.getNextYear());
+        }
+      }
+    });
   },
 });
