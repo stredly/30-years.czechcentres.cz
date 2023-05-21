@@ -81,9 +81,9 @@ export default () => ({
       }
     }
 
-    if (this.device !== DESKTOP) {
+    /* if (this.device !== DESKTOP) {
       requestAnimationFrame(() => this.checkIntersectection());
-    }
+    } */
   },
 
   setAxisLine() {

@@ -38,7 +38,7 @@
                         <span>{{ cities:country }}</span>
                     </h3>
                     <p class="axis-item__perex">
-                        {{ perex | widont(3) ?? 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit' }}
+                        {{ perex | widont(1) ?? 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit' }}
                     </p>
                     {{ unless (prev:event_date | iso_format("Y")) == (event_date | iso_format("Y")) }}
                         <img
