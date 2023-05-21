@@ -169,7 +169,7 @@ export default () => ({
       }, 200);
     });
 
-    this.timelineWrapperEl.addEventListener('wheel', (evt) => {
+    this.timelineWrapperEl.addEventListener('touchmove', (evt) => {
       if (this.sidebarOpen) {
         return;
       }
@@ -177,5 +177,28 @@ export default () => ({
       this.timelineWrapperEl.scrollLeft += evt.deltaY;
       this.checkIntersectection();
     });
+
+    this.isiPad();
+  },
+
+  isiPad() {
+    const userAgent = navigator.userAgent.toLowerCase();
+
+    alert(userAgent);
+
+    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
+    console.log(isMobile);
+
+    const isTablet =
+      /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
+        userAgent
+      );
+    console.log(isTablet);
+
+    if (isMobile) {
+      alert('Mobile');
+    } else if (isTablet) {
+      alert('Tablet');
+    }
   },
 });
