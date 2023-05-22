@@ -7,45 +7,45 @@ function getCookie(e) {
 }
 function getPermissionObject(e) {
     if (void 0 === e)
-        return {
+            return {
                 ad_storage: 'denied',
-                analytics_storage: 'denied',
-                functionality_storage: 'denied',
+          analytics_storage: 'denied',
+          functionality_storage: 'denied',
                 personalization_storage: 'denied',
-                wait_for_update: 500,
+          wait_for_update: 500,
             };
     {
         const t = JSON.parse(decodeURIComponent(e));
         return {
-                ad_storage: t.targeting ? 'granted' : 'denied',
+          ad_storage: t.targeting ? 'granted' : 'denied',
           analytics_storage: t.tracking ? 'granted' : 'denied',
                 functionality_storage: t.functionality ? 'granted' : 'denied',
-                personalization_storage: t.functionality ? 'granted' : 'denied',
+          personalization_storage: t.functionality ? 'granted' : 'denied',
         };
     }
 }
 (window.dataLayer = window.dataLayer || []),
     void 0 === getCookie('cookie_consent_initialized')
-            ? (gtag('consent', 'default', {
+      ? (gtag('consent', 'default', {
         ad_storage: 'denied',
         analytics_storage: 'denied',
-                  functionality_storage: 'denied',
-                  personalization_storage: 'denied',
-        wait_for_update: 500,
+        functionality_storage: 'denied',
+        personalization_storage: 'denied',
+                  wait_for_update: 500,
               }),
       (document.cookie = 'cookie_consent_initialized=true'))
             : gtag(
-        'consent',
+                  'consent',
                   'default',
         getPermissionObject(getCookie('cookie_consent_level'))
-      ),
+              ),
     document.addEventListener('click', function (e) {
       ['cc-cp-foot-save', 'cc-nb-okagree', 'cc-nb-reject'].includes(
         e.target.className
       ) &&
                 setTimeout(function () {
                   gtag(
-                    'consent',
+                        'consent',
                         'update',
                         getPermissionObject(getCookie('cookie_consent_level'))
                   ),
@@ -57,14 +57,14 @@ function getPermissionObject(e) {
 <script type="text/javascript" charset="UTF-8">document.addEventListener('DOMContentLoaded', function () {
     cookieconsent.run({
         notice_banner_type: 'simple',
-        consent_type: 'express',
-            palette: 'light',
+            consent_type: 'express',
+        palette: 'light',
         language: '{{ site:short_locale }}',
-        page_load_consent_levels: ['strictly-necessary'],
-            notice_banner_reject_button_hide: !1,
-        preferences_center_close_button_hide: !1,
+            page_load_consent_levels: ['strictly-necessary'],
+        notice_banner_reject_button_hide: !1,
+            preferences_center_close_button_hide: !1,
         website_name: 'Česká centra',
-            website_privacy_policy_url:
+        website_privacy_policy_url:
                 'https://www.czechcentres.cz/about-us/mandatory-information/personal-data-protection',
     });
 });
@@ -74,7 +74,8 @@ function getPermissionObject(e) {
 
     .termsfeed-com---palette-light.termsfeed-com---nb {
         left: 0;
-        background-color: var(--white-darken);
+        background-color: var(--white);
+        border-top: 1px solid var(--gray-light);
         color: var(--blue);
         opacity: 0.99;
     }
