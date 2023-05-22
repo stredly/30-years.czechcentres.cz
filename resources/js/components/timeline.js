@@ -81,9 +81,9 @@ export default () => ({
       }
     }
 
-    /* if (this.device !== DESKTOP) {
+    if (this.device === TABLET) {
       requestAnimationFrame(() => this.checkIntersectection());
-    } */
+    }
   },
 
   setAxisLine() {
@@ -119,7 +119,7 @@ export default () => ({
     setTimeout(() => {
       this.scrolling = false;
       this.checkIntersectection(true);
-    }, 1000);
+    }, 800);
   },
 
   setClientSizes() {
@@ -253,10 +253,12 @@ export default () => ({
     }
 
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'ArrowLeft') {
-        this.scrollToYear(this.getPrevYear());
-      } else if (event.key === 'ArrowRight') {
-        this.scrollToYear(this.getNextYear());
+      if (!this.scrolling) {
+        if (event.key === 'ArrowLeft') {
+          this.scrollToYear(this.getPrevYear());
+        } else if (event.key === 'ArrowRight') {
+          this.scrollToYear(this.getNextYear());
+        }
       }
     });
   },

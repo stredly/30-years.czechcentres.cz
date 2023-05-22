@@ -10,7 +10,7 @@
   transition: right 0.45s ease-out;
 
   @include media-breakpoint-down(md) {
-    top: 100%;
+    top: 200%;
     width: 100%;
     right: 0;
     left: 0;

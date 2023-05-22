@@ -6,6 +6,7 @@
 
   @include media-breakpoint-down(md) {
     align-items: flex-start;
+    overflow: visible;
   }
 
   &--is-tablet {
