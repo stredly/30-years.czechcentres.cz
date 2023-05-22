@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684745477
+updated_at: 1684746028
 page_content:
   -
     type: paragraph
@@ -712,19 +712,14 @@ page_content:
         type: text
         text: "\_"
   -
-    type: heading
-    attrs:
-      level: 5
+    type: paragraph
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Martin Reiner'
-      -
-        type: text
-        text: ", spisovatel\_"
+        text: "Martin Reiner, spisovatel\_"
   -
     type: paragraph
     content:
@@ -732,38 +727,47 @@ page_content:
         type: text
         text: "(Knižní Arzenál 2017, MAČ 2017 ve Lvově)\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Je to „příběh“, který letos vyprávím pořád dokola, bezmála na potkání.'
-      -
-        type: text
-        text: ' '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: „
           -
-            type: italic
-        text: 'Na Ukrajinu jsem se tak vrátil po třiceti letech, když mi letos vyšla v ukrajinském překladu knížka Jeden z milionu. V květnu jsem četl na knižním veletrhu Arsenal, koncem července jsem byl hostem Měsíce autorského čtení ve Lvově. A musím hned předeslat, že „pomajdanská“ Ukrajina má tady u nás, v Brně, velmi dobrou pověst; jistě i proto, že šéfkou Českého centra je Brňačka Lucka Řehoříková.'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+            type: text
+            text: 'Je t'
           -
-            type: italic
-        text: 'Současná Ukrajina je veliké a milé překvapení... a já přeju jí i nám, aby jí tahle tvůrčí energie vydržela.“'
-      -
-        type: text
-        text: "\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'o ‚příběh‘, který letos vyprávím pořád dokola, bezmála na potkání.'
+          -
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Na Ukrajinu jsem se tak vrátil po třiceti letech, když mi letos vyšla v ukrajinském překladu knížka Jeden z milionu. V květnu jsem četl na knižním veletrhu Arsenal, koncem července jsem byl hostem Měsíce autorského čtení ve Lvově. A musím hned předeslat, že „pomajdanská“ Ukrajina má tady u nás, v Brně, velmi dobrou pověst; jistě i proto, že šéfkou Českého centra je Brňačka Lucka Řehoříková.'
+          -
+            type: text
+            text: "\_"
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Současná Ukrajina je veliké a milé překvapení... a já přeju jí i nám, aby jí tahle tvůrčí energie vydržela.“'
+          -
+            type: text
+            text: "\_"
   -
     type: paragraph
     content:
@@ -772,10 +776,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Radovan Auer'
-      -
-        type: text
-        text: ", ředitel veletrhu Svět knihy\_"
+        text: "Radovan Auer, ředitel veletrhu Svět knihy\_"
   -
     type: paragraph
     content:
@@ -783,29 +784,29 @@ page_content:
         type: text
         text: "(Knižní Arzenál 2018)\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Návštěva veletrhu Knižní Arsenal v Kyjevě mne v mnoha ohledech pozitivně překvapila. Organizace ze strany Českého centra i pořadatelů dokonalá, akce na vysoké kulturní i společenské úrovni, desítky tisíc lidí, co přišly ne za slevami, ale za knihami a autory. A Kyjev? Kyjev je živá EVROPSKÁ metropole, kde se snoubí bohatá historie s až překotným rozvojem. Vím, že Ukrajina má řadu problémů, že musí ještě překonat spoustu dětských nemocí ruskosovětského typu, ale v mnoha ohledech mi Kyjev i Knižní arsenál připomínal dobu po Sametové revoluci u nás. Dobu sice divokou, až šílenou, konvencemi nespoutanou, ale dobu entuziasmu, dobu víry v ideály, hrdosti na vlastní zemi a důvěru ve vlastní schopnosti. To všechno mi teď v České republice hodně chybí, jsem rád, že jsem si to v Kyjevě mohl připomenout.'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Návštěva veletrhu Knižní Arsenal v Kyjevě mne v mnoha ohledech pozitivně překvapila. Organizace ze strany Českého centra i pořadatelů dokonalá, akce na vysoké kulturní i společenské úrovni, desítky tisíc lidí, co přišly ne za slevami, ale za knihami a autory. A Kyjev? Kyjev je živá EVROPSKÁ metropole, kde se snoubí bohatá historie s až překotným rozvojem. Vím, že Ukrajina má řadu problémů, že musí ještě překonat spoustu dětských nemocí ruskosovětského typu, ale v mnoha ohledech mi Kyjev i Knižní arsenál připomínal dobu po Sametové revoluci u nás. Dobu sice divokou, až šílenou, konvencemi nespoutanou, ale dobu entuziasmu, dobu víry v ideály, hrdosti na vlastní zemi a důvěru ve vlastní schopnosti. To všechno mi teď v České republice hodně chybí, jsem rád, že jsem si to v Kyjevě mohl připomenout.'
           -
-            type: italic
-        text: 'Určitě se budu rád vracet, ostatně už jsem oznámil přítelkyni, že na příští eurovíkend nepojedeme do Londýna nebo Paříže, ale do Kyjeva.“'
-      -
-        type: text
-        text: "\_"
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Určitě se budu rád vracet, ostatně už jsem oznámil přítelkyni, že na příští eurovíkend nepojedeme do Londýna nebo Paříže, ale do Kyjeva.“'
+          -
+            type: text
+            text: "\_"
   -
     type: paragraph
     content:
@@ -814,10 +815,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Adam Ernest'
-      -
-        type: text
-        text: ", herec\_"
+        text: "Adam Ernest, herec\_"
   -
     type: paragraph
     content:
@@ -825,17 +823,20 @@ page_content:
         type: text
         text: "(Divadelní projekt „Dialog bez hranic“, 2019)\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Předně bych rád i touto cestou Českému centru poděkoval. Bez podpory této instituce by náš projekt „Dialog bez hranic“ nemohl být realizován. A to by, myslím si, byla pro obě zúčastněné strany velká škoda.“'
-      -
-        type: text
-        text: "\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Předně bych rád i touto cestou Českému centru poděkoval. Bez podpory této instituce by náš projekt „Dialog bez hranic“ nemohl být realizován. A to by, myslím si, byla pro obě zúčastněné strany velká škoda.“'
+          -
+            type: text
+            text: "\_"
   -
     type: heading
     attrs:
