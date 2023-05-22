@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684747209
+updated_at: 1684752075
 page_content:
   -
     type: paragraph
@@ -47,16 +47,7 @@ page_content:
     content:
       -
         type: text
-        text: 'ČC Kyjev se stěhovalo celkem pětkrát. Celkem 3x za působnosti ředitele Rudolfa Sedláčka (jeho poslední sídlo můžete vidět zde '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '(prosím vložit fotku)'
-      -
-        type: text
-        text: ", jednou během funkčního období Dagmar Ostřanské (fotku jejího místa působnosti vložit zde - @ soukromý archiv Dagmar Ostřanské) a naposledy se stěhovalo s Lucií Řehoříkovou. \_"
+        text: "ČC Kyjev se stěhovalo celkem pětkrát. Celkem 3x za působnosti ředitele Rudolfa Sedláčka, jednou během funkčního období Dagmar Ostřanské a naposledy se stěhovalo s Lucií Řehoříkovou. \_"
   -
     type: paragraph
     content:
