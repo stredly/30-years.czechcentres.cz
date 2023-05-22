@@ -89,12 +89,15 @@ page_content:
           -
             type: bold
         text: Prostory
+      -
+        type: text
+        text: "\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ČC Athény sídlí v budově Velvyslanectví ČR v Athénách na adrese Georgiou Seferi 6, v rezidenční čtvrti Palaio Psychiko. Budova velvyslanectví pocházející ze 70. let byla navržena prof. Ing. arch. Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným. Vychází ze stylu typického pro léta normalizace. V letech 1998–⁠99 byla zrekonstruována akad. arch Ing. J. Vranou, bývalým studentem profesora Cubra, s cílem zachovat původní koncepci, ale modernizovat zejména objekt rezidence a vstupní fasády úřadu. Rozsáhlá budova s krásnou zahradou se využívá příležitostně k oslavám státních svátků, ale její umístění a ztížená dostupnost nepomáhá k širšímu využití pro organizování kulturních akcí. Kancelář ČC Athény je využívána pro jednání s partnery, umožňuje přímou spolupráci s ambasádou a poskytuje vhodné skladové prostory, které jsou pomocí v praktickém fungování centra. ČC Athény využívá při organizování akcí prostorů mimo ambasádu, což přispívá k navazování bohatých partnerských vztahů v teritoriu.'
+        text: "ČC Athény sídlí v budově Velvyslanectví ČR v Athénách na adrese Georgiou Seferi 6, v rezidenční čtvrti Palaio Psychiko. Budova velvyslanectví pocházející ze 70. let byla navržena prof. Ing. arch. Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným. Vychází ze stylu typického pro léta normalizace. V letech 1998–⁠99 byla zrekonstruována akad. arch Ing. J. Vranou, bývalým studentem profesora Cubra, s cílem zachovat původní koncepci, ale modernizovat zejména objekt rezidence a vstupní fasády úřadu. Rozsáhlá budova s krásnou zahradou se využívá příležitostně k oslavám státních svátků, ale její umístění a ztížená dostupnost nepomáhá k širšímu využití pro organizování kulturních akcí. Kancelář ČC Athény je využívána pro jednání s partnery, umožňuje přímou spolupráci s ambasádou a poskytuje vhodné skladové prostory, které jsou pomocí v praktickém fungování centra. ČC Athény využívá při organizování akcí prostorů mimo ambasádu, což přispívá k navazování bohatých partnerských vztahů v teritoriu.\_"
   -
     type: heading
     attrs:
@@ -105,7 +108,10 @@ page_content:
         marks:
           -
             type: bold
-        text: "Projekty\_"
+        text: Projekty
+      -
+        type: text
+        text: "\_"
   -
     type: paragraph
     content:
@@ -179,7 +185,10 @@ page_content:
         marks:
           -
             type: bold
-        text: "Vedení centra\_"
+        text: 'Vedení centra'
+      -
+        type: text
+        text: "\_"
   -
     type: paragraph
     content:
@@ -196,24 +205,21 @@ page_content:
         marks:
           -
             type: bold
-        text: "Významné české osobnosti\_"
+        text: 'Významné české osobnosti'
+      -
+        type: text
+        text: "\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Dagmar Havlová, Dana Kyndrová, Alena Mornštajnová, Lucie Sunková, Martin Vandas, David Zábranský, Bára Zmeková, Michael Žantovský'
+        text: "Dagmar Havlová, Dana Kyndrová, Alena Mornštajnová, Lucie Sunková, Martin Vandas, David Zábranský, Bára Zmeková, Michael Žantovský\_"
   -
     type: heading
     attrs:
-      level: 4
+      level: 2
     content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Webové stránky Českého centra Athény: '
       -
         type: text
         marks:
@@ -224,18 +230,10 @@ page_content:
               rel: null
               target: _blank
               title: null
-          -
-            type: bold
         text: athens.czechcentres.cz
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: "\_"
 dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683789650
+updated_at: 1684742575
 ---
