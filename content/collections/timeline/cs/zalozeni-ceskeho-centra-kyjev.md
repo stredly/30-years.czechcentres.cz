@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684746087
+updated_at: 1684746095
 page_content:
   -
     type: paragraph
@@ -833,7 +833,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: '„Předně bych rád i touto cestou Českému centru poděkoval. Bez podpory této instituce by náš projekt ‚Dialog bez hranic‘, nemohl být realizován. A to by, myslím si, byla pro obě zúčastněné strany velká škoda.“'
+            text: '„Předně bych rád i touto cestou Českému centru poděkoval. Bez podpory této instituce by náš projekt ‚Dialog bez hranic‘ nemohl být realizován. A to by, myslím si, byla pro obě zúčastněné strany velká škoda.“'
           -
             type: text
             text: "\_"
