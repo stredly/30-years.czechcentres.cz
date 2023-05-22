@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684746186
+updated_at: 1684746634
 page_content:
   -
     type: paragraph
@@ -499,17 +499,10 @@ page_content:
     type: paragraph
     content:
       -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '(fotografie sochy Berehynia - kredit Nasťa)'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/kyiv/socha-berehynia-autorky-ani-svami-(c)-julia-spitsyna.jpg'
+          alt: 'Socha Berehynia autorky Ani Svami © Julia Spitsyna'
       -
         type: text
         text: "V tomto období se ředitelka ČC Kyjev Radka Rubilina opakovaně vydávala na Ukrajinu s cílenou pomocí, dělala i koordinátorku v evakuačních vlacích.\_\_"
