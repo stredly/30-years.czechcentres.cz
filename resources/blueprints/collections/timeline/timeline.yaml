@@ -158,6 +158,9 @@ tabs:
               listable: hidden
               instructions_position: above
               visibility: visible
+              hide_display: false
+              validate:
+                - required
           -
             handle: cities
             field:
@@ -172,3 +175,6 @@ tabs:
               visibility: visible
               max_items: 1
               create: true
+              hide_display: false
+              validate:
+                - required
