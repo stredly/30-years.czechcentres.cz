@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684747125
+updated_at: 1684747209
 page_content:
   -
     type: paragraph
@@ -670,6 +670,15 @@ page_content:
       -
         type: text
         text: ", která centrum převzala v době probíhajícího válečného konfliktu.\_"
+  -
+    type: set
+    attrs:
+      id: lhymzgh6
+      values:
+        type: gallery
+        gallery:
+          - timeline/sofie/04-cc-sofie.jpg
+          - timeline/sofie/07-cc-sofie.jpg
   -
     type: heading
     attrs:
