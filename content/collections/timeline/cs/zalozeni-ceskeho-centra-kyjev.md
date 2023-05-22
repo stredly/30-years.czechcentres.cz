@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684752075
+updated_at: 1684752761
 page_content:
   -
     type: paragraph
@@ -284,18 +284,6 @@ page_content:
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: 'Zde prosím fotku s Andruchovyčem (opět @ soukromý archiv DO)'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'Největší středoevropský literární festival, tzv. '
       -
         type: text
@@ -429,6 +417,21 @@ page_content:
       -
         type: text
         text: " ve Lvově – tramvaj československé výroby, kterou nechalo v roce České centrum polepit básněmi Jaroslava Seiferta u příležitosti jeho 120 výročí narození.\_"
+  -
+    type: set
+    attrs:
+      id: lhyq9rx2
+      values:
+        type: gallery
+        gallery:
+          - timeline/kyiv/25.jpg
+          - timeline/kyiv/30.jpeg
+          - timeline/kyiv/16.JPG
+          - timeline/kyiv/33.jpg
+          - timeline/kyiv/18.JPG
+          - timeline/kyiv/17.JPG
+          - timeline/kyiv/28.jpg
+          - timeline/kyiv/32.JPG
   -
     type: paragraph
     content:
