@@ -35,6 +35,10 @@ h1,
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 30px;
+  @include media-breakpoint-down(md) {
+    font-size: 34px;
+    line-height: 40px;
+  }
 }
 
 h2,
@@ -43,6 +47,10 @@ h2,
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
+  @include media-breakpoint-down(md) {
+    font-size: 29px;
+    line-height: 36px;
+  }
 }
 
 h3,
@@ -72,6 +80,10 @@ p,
 }
 
 .page-content {
+  padding-bottom: 60px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 160px;
+  }
   ul:not(.downloads__items) {
     margin-left: 16px;
     margin-bottom: 24px;
@@ -101,6 +113,10 @@ p,
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
+    @include media-breakpoint-down(md) {
+      font-size: 29px;
+      line-height: 36px;
+    }
 
   }
 
@@ -146,8 +162,6 @@ p,
     margin-bottom: 2rem;
     display: block;
   }
-
-  padding-bottom: 60px;
 
   strong {
     font-weight: 700;

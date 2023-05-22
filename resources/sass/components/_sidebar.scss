@@ -9,6 +9,14 @@
   z-index: 1000;
   transition: right 0.45s ease-out;
 
+  @include media-breakpoint-down(md) {
+    top: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    transition: top 0.45s ease-out;
+  }
+
   &__toolbar {
     position: absolute;
     left: 0;
@@ -16,6 +24,17 @@
     bottom: 20px;
     width: 70px;
     border-right: 1px solid var(--gray-light);
+
+    @include media-breakpoint-down(md) {
+      height: 55px;
+      width: 100%;
+      left: 0;
+      top: 0;
+      border-right: none;
+      border-bottom: 1px solid var(--gray-light);
+      background: var(--white);
+      z-index: 10;
+    }
 
 
     &__close {
@@ -36,6 +55,16 @@
 
       &:hover {
         left: 11px;
+        @include media-breakpoint-down(md) {
+          left: 50%;
+          top: -17px;
+        }
+      }
+
+      @include media-breakpoint-down(md) {
+        transform: rotate(135deg);
+        top: -20px;
+        left: 50%;
       }
     }
 
@@ -46,10 +75,18 @@
     overflow-x: hidden;
     overflow-y: visible;
     height: calc(100% - 120px);
+
+    @include media-breakpoint-down(md) {
+      padding: 100px 0 200px 0;
+    }
   }
 
   &--open {
     right: 0;
+
+    @include media-breakpoint-down(md) {
+      top: 170px;
+    }
   }
 }
 
@@ -65,6 +102,10 @@
   position: absolute;
   opacity: 0;
   visibility: hidden;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
 
   &--show {
     visibility: visible;

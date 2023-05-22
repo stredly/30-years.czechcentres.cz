@@ -119,7 +119,7 @@ export default () => ({
     setTimeout(() => {
       this.scrolling = false;
       this.checkIntersectection(true);
-    }, 800);
+    }, 1000);
   },
 
   setClientSizes() {
@@ -253,12 +253,10 @@ export default () => ({
     }
 
     document.addEventListener('keydown', (event) => {
-      if (!this.scrolling) {
-        if (event.key === 'ArrowLeft') {
-          this.scrollToYear(this.getPrevYear());
-        } else if (event.key === 'ArrowRight') {
-          this.scrollToYear(this.getNextYear());
-        }
+      if (event.key === 'ArrowLeft') {
+        this.scrollToYear(this.getPrevYear());
+      } else if (event.key === 'ArrowRight') {
+        this.scrollToYear(this.getNextYear());
       }
     });
   },
