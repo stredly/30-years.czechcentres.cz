@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684746634
+updated_at: 1684747125
 page_content:
   -
     type: paragraph
@@ -669,12 +669,17 @@ page_content:
         text: 'Tereza Soušková'
       -
         type: text
-        text: ", která centrum převzala v době probíhajícího válečného konfliktu.\_\_"
+        text: ", která centrum převzala v době probíhajícího válečného konfliktu.\_"
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/kyiv/tym-cc-kyjev.-2008-ljubov-semenova,-rudolf-sedlacek,-katerina-skrypnik,-darya-gusel--(c)-archiv-ceskeho-centra-kyjev.jpg'
+          alt: 'Tým ČC Kyjev. 2008 Ljubov Semenova, Rudolf Sedláček, Kateřina Skrypnik, Darya Gušel  © Archiv Českého centra Kyjev'
       -
         type: text
         marks:
