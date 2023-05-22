@@ -226,7 +226,7 @@ page_content:
           -
             type: link
             attrs:
-              href: 'https://athens.czechcentres.cz/'
+              href: 'https://athens.czechcentres.cz/?locale=cs'
               rel: null
               target: _blank
               title: null
@@ -235,5 +235,5 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684742575
+updated_at: 1684742599
 ---
