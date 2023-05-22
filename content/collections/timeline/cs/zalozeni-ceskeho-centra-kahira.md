@@ -359,6 +359,7 @@ page_content:
         type: text
         text: "Miroslav Bárta, Ladislav Bareš, Jiří Janák, Hana Vymazalová, Lenka Korecká, Marek Švejkar\_"
 dont_show_month: false
+cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684740567
+updated_at: 1684741642
 ---
