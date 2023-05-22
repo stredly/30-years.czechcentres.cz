@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684746161
+updated_at: 1684746177
 page_content:
   -
     type: paragraph
@@ -771,7 +771,9 @@ page_content:
             type: text
             text: "\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
@@ -810,7 +812,9 @@ page_content:
             type: text
             text: "\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
