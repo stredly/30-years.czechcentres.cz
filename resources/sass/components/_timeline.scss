@@ -133,7 +133,7 @@
 
     @include media-breakpoint-down(md) {
       flex-wrap: wrap;
-      padding-top: 170px;
+      padding-top: 130px;
       margin-left: 0;
       padding-left: 10px;
       padding-right: 10px;
@@ -160,6 +160,17 @@
       min-width: var(--mark-span);
       width: var(--red-line-width);
       background-color: var(--red);
+
+      @include media-breakpoint-down(md) {
+        display: block;
+        width: 1px;
+        min-width: 1px;
+        height: 100%;
+        left: 27px;
+        z-index: -1;
+        top: 70px;
+        background-color: var(--gray-light);
+      }
     }
   }
 
