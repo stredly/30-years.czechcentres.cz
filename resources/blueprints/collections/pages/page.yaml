@@ -110,6 +110,13 @@ tabs:
                       instructions: null
                       icon: edit-pen
                       fields: {  }
+                    html:
+                      display: Html
+                      instructions: null
+                      icon: programming-script-code-brackets
+                      fields:
+                        -
+                          import: html
               link_collections:
                 - pages
               container: assets

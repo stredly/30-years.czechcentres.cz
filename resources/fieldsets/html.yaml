@@ -1,0 +1,14 @@
+title: Html
+fields:
+  -
+    handle: html_code
+    field:
+      antlers: false
+      type: textarea
+      display: html_code
+      icon: textarea
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
