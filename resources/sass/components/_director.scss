@@ -3,6 +3,11 @@
   margin: 60px 0 60px 0;
   align-items: center;
 
+  @include media-breakpoint-down(md) {
+    flex-wrap: wrap;
+  }
+
+
   &__photo {
     width: 100px;
     height: 100px;
@@ -27,6 +32,10 @@
   &__signature {
     padding-left: 30px;
     margin: 0 !important;
+
+    @include media-breakpoint-down(md) {
+      margin: 0 0 0 auto !important;
+    }
   }
 }
 
@@ -38,8 +47,19 @@
     padding-left: 150px;
     position: relative;
 
+    @include media-breakpoint-down(md) {
+      padding-left: 110px;
+    }
+
     li {
       position: relative;
+
+      p {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 40px;
+        }
+
+      }
 
       em {
         font-size: 24px;
@@ -54,16 +74,28 @@
         top: -8px;
         border-bottom: 8px solid #fff;
         border-top: 8px solid #fff;
+
+        @include media-breakpoint-down(md) {
+          border: none;
+          top: 0px;
+          left: -110px;
+        }
       }
 
       strong {
         font-size: 24px;
         color: var(--red);
+
+        @include media-breakpoint-down(md) {
+          font-size: 21px;
+        }
       }
 
       &:last-of-type {
         em {
           border-bottom: 60px solid #fff;
+          @include media-breakpoint-down(md) {
+          }
 
         }
       }

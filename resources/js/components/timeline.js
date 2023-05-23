@@ -254,9 +254,9 @@ export default () => ({
 
     document.addEventListener('keydown', (event) => {
       if (!this.scrolling) {
-        if (event.key === 'ArrowLeft') {
+        if (event.code === 'ArrowLeft') {
           this.scrollToYear(this.getPrevYear());
-        } else if (event.key === 'ArrowRight') {
+        } else if (event.code === 'ArrowRight') {
           this.scrollToYear(this.getNextYear());
         }
       }

@@ -1,9 +1,9 @@
 <nav class="navbar">
-    <div class="navbar__container">
+    <div class="navbar__container" x-data="{ open: false }">
         <a href="{{ homepage }}">
             <img src="/img/cc_logo_30let.svg" width="197" height="33" alt="Logo - Česká centra, 30 Let"/>
         </a>
-        <ul class="navigation">
+        <ul class="navigation" :class="{ 'navigation--open': open }" x-show="open">
             {{ nav:main }}
                 <li class="navigation__item {{ if is_current || is_parent }} navigation__item--active{{ /if }}">
                     <a
@@ -15,6 +15,6 @@
                 </li>
             {{ /nav:main }}
         </ul>
-        <button class="navbar__toggle"></button>
+        <button class="navbar__toggle" :class="{ 'navbar__toggle--open': open }" @click="open = !open;console.log(open)"></button>
     </div>
 </nav>
