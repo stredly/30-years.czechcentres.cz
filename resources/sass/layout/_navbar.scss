@@ -38,7 +38,7 @@
     right: 20px;
     transition: all 0.1s ease-in-out;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(xl) {
       display: none;
     }
 

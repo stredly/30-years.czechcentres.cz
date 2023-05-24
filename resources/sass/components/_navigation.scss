@@ -27,7 +27,7 @@
         color: var(--red);
       }
 
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(xl) {
         padding-left: 0;
         padding-right: 0;
         font-size: 17px;
@@ -48,7 +48,7 @@
           background-color: var(--red);
           z-index: 10;
 
-          @include media-breakpoint-down(md) {
+          @include media-breakpoint-down(xl) {
             bottom: -6px;
             height: 2px;
           }
@@ -60,14 +60,14 @@
       padding-right: 0;
     }
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(xl) {
       padding-left: 0;
       padding-right: 0;
       margin-bottom: 30px;
     }
   }
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(xl) {
     display: none;
     text-align: right;
     padding-top: 20px;
