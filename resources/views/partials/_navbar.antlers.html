@@ -3,7 +3,7 @@
         <a href="{{ homepage }}">
             <img src="/img/cc_logo_30let.svg" width="197" height="33" alt="Logo - Česká centra, 30 Let"/>
         </a>
-        <ul class="navigation" :class="{ 'navigation--open': open }" x-show="open">
+        <ul class="navigation" :class="{ 'navigation--open': open }">
             {{ nav:main }}
                 <li class="navigation__item {{ if is_current || is_parent }} navigation__item--active{{ /if }}">
                     <a

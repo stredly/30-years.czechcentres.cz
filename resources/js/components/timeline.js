@@ -14,7 +14,6 @@ export default () => ({
   markerHalfSize: 0,
   marks: [],
   root: document.documentElement,
-  scrolling: false,
   sidebarContent: '',
   sidebarOpen: false,
   timelineEl: document.getElementById('timeline'),
@@ -24,6 +23,7 @@ export default () => ({
   timelineWrapperEl: document.getElementById('timeline-wrapper'),
 
   fetchSidebarContent(url) {
+    document.getElementById('sidebar-container').scrollTop = 0;
     fetch(`${url}?fetch=true`)
       .then((response) => response.text())
       .then((text) => {
@@ -50,40 +50,34 @@ export default () => ({
     }
   },
 
-  checkIntersectection(disablePhotoAnimation = false) {
-    if (!this.scrolling) {
-      const items = this.marks.filter(
-        (item) =>
-          item.getBoundingClientRect().left <=
-          this.centerX + this.markerHalfSize
+  checkIntersectection() {
+    const items = this.marks.filter(
+      (item) =>
+        item.getBoundingClientRect().left <=
+        this.centerX + this.markerHalfSize + 1 //add 1px to ensure that timeline will not skip to prev year on scrol
+    );
+    const currentYear = items.length
+      ? items[items.length - 1].dataset.year
+      : null;
+
+    if (this.activeYear !== currentYear) {
+      this.activeYear = parseInt(currentYear, 10);
+      const currentYearSet = currentYear !== null;
+      this.timelineCenterEl.classList.toggle(
+        'timeline__center--visible',
+        currentYearSet
       );
-      const currentYear = items.length
-        ? items[items.length - 1].dataset.year
-        : null;
-
-      if (this.activeYear !== currentYear) {
-        this.activeYear = parseInt(currentYear, 10);
-        const currentYearSet = currentYear !== null;
-        this.timelineCenterEl.classList.toggle(
-          'timeline__center--visible',
-          currentYearSet
-        );
-        this.firstMarkerEl.parentElement.classList.toggle(
-          'axis-item--intersected-center',
-          currentYearSet
-        );
-      }
-
-      this.setAxisLine();
-
-      if (disablePhotoAnimation === false) {
-        this.animatePhoto();
-      }
+      this.firstMarkerEl.parentElement.classList.toggle(
+        'axis-item--intersected-center',
+        currentYearSet
+      );
     }
 
-    if (this.device === TABLET) {
-      requestAnimationFrame(() => this.checkIntersectection());
-    }
+    this.setAxisLine();
+
+    this.animatePhoto();
+
+    requestAnimationFrame(() => this.checkIntersectection());
   },
 
   setAxisLine() {
@@ -111,15 +105,10 @@ export default () => ({
 
     const scrollOptions = {
       left: scroll,
-      behavior: 'smooth',
+      behavior: 'instant',
     };
-    this.scrolling = true;
-    this.timelineWrapperEl.scroll(scrollOptions);
 
-    setTimeout(() => {
-      this.scrolling = false;
-      this.checkIntersectection(true);
-    }, 800);
+    this.timelineWrapperEl.scroll(scrollOptions);
   },
 
   setClientSizes() {
@@ -208,6 +197,7 @@ export default () => ({
 
   init() {
     this.setDeviceType();
+    this.checkIntersectection();
 
     if (this.device === TABLET) {
       this.timelineWrapperEl.classList.add('timeline-wrapper--is-tablet');
@@ -246,19 +236,14 @@ export default () => ({
         }
         evt.preventDefault();
         this.timelineWrapperEl.scrollLeft += evt.deltaY;
-        this.checkIntersectection();
       });
-    } else {
-      this.checkIntersectection();
     }
 
     document.addEventListener('keydown', (event) => {
-      if (!this.scrolling) {
-        if (event.code === 'ArrowLeft') {
-          this.scrollToYear(this.getPrevYear());
-        } else if (event.code === 'ArrowRight') {
-          this.scrollToYear(this.getNextYear());
-        }
+      if (event.code === 'ArrowLeft') {
+        this.scrollToYear(this.getPrevYear(), true);
+      } else if (event.code === 'ArrowRight') {
+        this.scrollToYear(this.getNextYear(), true);
       }
     });
   },
