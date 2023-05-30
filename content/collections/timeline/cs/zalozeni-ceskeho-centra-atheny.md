@@ -38,16 +38,16 @@ page_content:
         text: Otevření
       -
         type: text
-        text: ' bylo spojeno se slavnostním zahájením výstavy „'
+        text: ' bylo spojeno se slavnostním zahájením výstavy '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Československá státnost 2018'
+        text: '„Československá státnost 2018“'
       -
         type: text
-        text: '“ připravené při příležitosti oslav 100. výročí republiky a výstavy „'
+        text: ' připravené při příležitosti oslav 100. výročí republiky a výstavy „'
       -
         type: text
         marks:
@@ -235,6 +235,6 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685446504
+updated_at: 1685454785
 background_image: timeline/background-image/2018_atheny.JPG
 ---
