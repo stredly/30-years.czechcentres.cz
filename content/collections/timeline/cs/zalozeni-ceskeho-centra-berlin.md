@@ -100,25 +100,7 @@ page_content:
         text: ' jedním z ředitelů kulturního střediska byl Dušan Sedláček'
       -
         type: text
-        text: ', '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: otec
-      -
-        type: text
-        text: ' filmové režisérky, scénáristky a spisovatelky '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Andrey Sedláčkové'
-      -
-        type: text
-        text: .
+        text: ', otec filmové režisérky, scénáristky a spisovatelky Andrey Sedláčkové.'
   -
     type: blockquote
     content:
@@ -1326,5 +1308,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685447548
+updated_at: 1685447838
 ---
