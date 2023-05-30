@@ -21,7 +21,7 @@ page_content:
       -
         type: image
         attrs:
-          src: 'asset::assets::timeline/1994/gita_fuchsova.jpg'
+          src: 'asset::assets::timeline/history/gita_fuchsova.jpg'
           alt: "Gita_Fuchsova: Rozhovor s\_první generální ředitelkou Správy kulturních zařízení/Správy českých center Gitou Fuchsovou © Rudé Právo, 5. 9. 1994, se svolením vydavatele"
       -
         type: text
