@@ -35,11 +35,10 @@ page_content:
     type: paragraph
     content:
       -
-        type: text
-        text: "(výstřižek z Hospodářských novin: Článek pozdější ředitelky Českého centra Hany Schenk, Hospodářské noviny, 16. 7. 1996)\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/rotterdam/_do_textu_clanek-haag-hospodarske-noviny.jpg'
+          alt: null
       -
         type: text
         marks:
@@ -50,7 +49,9 @@ page_content:
         type: text
         text: " v prosinci 1993 za účasti vedoucího zastupitelského úřadu v Haagu Jozefa Brauna, honorárního generálního konzula Oldřicha Uttendorfského a ředitele protokolu nizozemského Ministerstva zahraničních věcí Stanislause van der Posta.\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -101,7 +102,9 @@ page_content:
         type: text
         text: " v blízkosti významných místních kulturních institucí. Má zde k dispozici dvě kanceláře. Vzhledem k tomu, že centrum působí po celém Nizozemsku, vrací se s programem i do Haagu, kde může pro venkovní výstavy využít také plot českého zastupitelského úřadu a rezidence velvyslance.\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -437,17 +440,16 @@ page_content:
         type: text
         text: " či místními univerzitami. \_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Vedení Českého centra v Nizozemsku'
-      -
-        type: text
-        text: "\_"
+        text: 'Vedení Českého centra Haag / Rotterdam'
   -
     type: paragraph
     content:
@@ -500,7 +502,9 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -522,18 +526,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Webové stránky Českého centra Rotterdam: '
-      -
-        type: text
         marks:
           -
             type: link
@@ -552,5 +544,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685457380
+updated_at: 1685457585
 ---
