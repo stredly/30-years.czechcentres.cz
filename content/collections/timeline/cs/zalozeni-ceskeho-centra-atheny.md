@@ -47,31 +47,31 @@ page_content:
         text: '„Československá státnost 2018“'
       -
         type: text
-        text: ' připravené při příležitosti oslav 100. výročí republiky a výstavy „'
+        text: ' připravené při příležitosti oslav 100. výročí republiky a výstavy '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Řekové na Moravě v 19. století'
+        text: '„Řekové na Moravě v 19. století“'
       -
         type: text
-        text: "“ přibližující osobnosti, základní tendence a proudy, které ovlivnily historický vývoj vztahů obou zemí.\_"
+        text: " přibližující osobnosti, základní tendence a proudy, které ovlivnily historický vývoj vztahů obou zemí.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'První samostatnou akcí již plně fungujícího centra byla projekce českého filmu s řeckou tematikou „'
+        text: 'První samostatnou akcí již plně fungujícího centra byla projekce českého filmu s řeckou tematikou '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Můj strýček Archimédes'
+        text: '„Můj strýček Archimédes“ '
       -
         type: text
-        text: "“ v historickém kině Ideal v centru Athén za přítomnosti režiséra řeckého původu Georgose Agathonikiadise (od dvou let žijícího v ČR), který převzal z rukou českého velvyslance ocenění za celoživotní přínos v oblasti upevňování česko-řeckých vztahů.\_\_\_\_\_\_"
+        text: "v historickém kině Ideal v centru Athén za přítomnosti režiséra řeckého původu Georgose Agathonikiadise (od dvou let žijícího v Česku), který převzal z rukou českého velvyslance ocenění za celoživotní přínos v oblasti upevňování česko-řeckých vztahů.\_\_\_\_\_\_"
   -
     type: paragraph
     content:
@@ -235,6 +235,6 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685454785
+updated_at: 1685454846
 background_image: timeline/background-image/2018_atheny.JPG
 ---
