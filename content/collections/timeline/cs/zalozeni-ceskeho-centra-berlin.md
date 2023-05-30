@@ -109,30 +109,36 @@ page_content:
         text: 'Andrey Sedláčkové'
       -
         type: text
-        text: '. '
+        text: .
+  -
+    type: blockquote
+    content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest - byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
-      -
-        type: text
-        text: ' (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest - byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
           -
-            type: link
-            attrs:
-              href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'Paměť národa'
-      -
-        type: text
-        text: ")\_"
+            type: text
+            text: ' (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'Paměť národa'
+          -
+            type: text
+            text: ")\_"
   -
     type: paragraph
     content:
@@ -510,59 +516,71 @@ page_content:
         type: text
         text: ". Prezentace české literatury a jejích autorů je jedním z pilířů programu ČC Berlín.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Česká centra jsou snad jediné instituce v Německu, které se pravidelně věnují propagaci české literatury. Ve srovnání s běžnými německými institucemi jsou '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Česká centra jsou snad jediné instituce v Německu, které se pravidelně věnují propagaci české literatury. Ve srovnání s běžnými německými institucemi jsou '
           -
-            type: bold
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Česká centra'
           -
-            type: italic
-        text: 'Česká centra'
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: ' ve výjimečné situaci, protože '
           -
-            type: italic
-        text: ' ve výjimečné situaci, protože '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'si letitou prací vychovala publikum, které má z velké částí nadprůměrný zájem o českou kulturu a nadprůměrné znalosti o ní'
           -
-            type: bold
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. (…) Pořádáme také autorská čtení na základě přeložených úryvků z knih. Ještě před asi deseti lety se takové akce konaly jen výjimečně, dnes se – i pro malý počet publikovaných překladů – staly pravidelnou součástí programu Českých center. Úspěšné příklady jsou čtení z tehdy ještě nevydaného románu Němci (překlad úryvků: Doris Kouba) a dlouhá diskuse s jeho autorkou Jakubou Katalpou, čtení z románu Dějiny světla (překlad úryvků: Lena Dorn) a diskuse s Janem Němcem nebo rozhovor s Jiřím Padevětem o jeho knize faktů Průvodce protektorátní Prahou.“'
           -
-            type: italic
-        text: 'si letitou prací vychovala publikum, které má z velké částí nadprůměrný zájem o českou kulturu a nadprůměrné znalosti o ní'
-      -
-        type: text
-        marks:
+            type: text
+            text: ' '
           -
-            type: italic
-        text: '. (…) Pořádáme také autorská čtení na základě přeložených úryvků z knih. Ještě před asi deseti lety se takové akce konaly jen výjimečně, dnes se – i pro malý počet publikovaných překladů – staly pravidelnou součástí programu Českých center. Úspěšné příklady jsou čtení z tehdy ještě nevydaného románu Němci (překlad úryvků: Doris Kouba) a dlouhá diskuse s jeho autorkou Jakubou Katalpou, čtení z románu Dějiny světla (překlad úryvků: Lena Dorn) a diskuse s Janem Němcem nebo rozhovor s Jiřím Padevětem o jeho knize faktů Průvodce protektorátní Prahou.“'
-      -
-        type: text
-        text: ' Christina Frankenberg, České centrum Berlín (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Christina Frankenberg, České centrum Berlín'
           -
-            type: link
-            attrs:
-              href: 'https://www.czechlit.cz/cz/feature/ceska-literatura-v-nemeckojazycnem-prostoru/'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'České literární centrum'
-      -
-        type: text
-        text: ")\_"
+            type: text
+            text: ' (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.czechlit.cz/cz/feature/ceska-literatura-v-nemeckojazycnem-prostoru/'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'České literární centrum'
+          -
+            type: text
+            text: ")\_"
   -
     type: paragraph
     content:
@@ -1287,8 +1305,8 @@ page_content:
           -
             type: link
             attrs:
-              href: 'https://berlin.czechcentres.cz/'
-              rel: 'noreferrer noopener'
+              href: 'https://berlin.czechcentres.cz/?locale=cs'
+              rel: null
               target: _blank
               title: null
         text: berlin.czechcentres.cz
@@ -1299,5 +1317,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685447044
+updated_at: 1685447483
 ---
