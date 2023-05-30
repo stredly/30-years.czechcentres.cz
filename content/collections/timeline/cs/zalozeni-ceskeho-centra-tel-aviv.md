@@ -553,6 +553,6 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685446370
+updated_at: 1685446424
 background_image: timeline/background-image/2009_tel-aviv-min.jpg
 ---
