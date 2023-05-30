@@ -522,7 +522,9 @@ page_content:
         type: text
         text: "Jitka Bret Srbová, Jana Hojdová, Patrik Antczak, Slávek Horák, Jan Bodnár, Eliška Cílková, Oskar Helcel, Marek Šindelka, Jan Škrob, Pavel Vančát, Markéta Baňková, Lenka Glisníková, Kateřina Kotyk, Pavla Horáková, Pavel Vančát, Dagmara Abtová, Sarah Atzori, Jindřich Andrš, David Bartoš, Filip Bloem, Tomáš Bojar, Sergej Josef Bovkun, Diana Cam Van Nguyen, Natalie Dufková, Martin Gabriel, Eva Garajová, Tomáš Halík, Jip Hilhorst, Kateřina Konarovská, Pavel Kořínek, Karina Kottová, Zuzana Kučerová, Luis Maly, Lucie Sedláčková Půlpánová, Valentino Russo, Miroslav Sekera, Bertrand Schmitt, Leonie Schneider, Roland Spitzer, Marek Šindelka, Marko Škop, Libor Štichauer, Alice Tabery, Pavel Vančát, Eva Voortman-Šimánková, Radka Weiserová, Andrea Benková, David Böhm, Michal Bregant, Michaela Čapková, Jiří Franta, Tomáš Elšík, Kristýna Květová, Zuzana Kučerová, Pamela Kuťáková, Viktorie Langer, Thom Artway, Jan Neckář, Václav Neckář, Jan Novák, Petr Novotný, Karel Poupě, Jaroslav Rudiš, Dagmar Sedláčková, Miroslav Sekera, Marek Šindelka, Eduard Šístek, Alice Zárubová Tabery, Daniel Vadocký, Pavel Vančát, Tomáš Vrba, Pražský komorní balet, Tomki Němec, Bohdan Holomíček, Věra Bílá, HaDivadlo, soubor Tineola, Bořek Šípek, Václav Havel, Teatr Novogo Fronta, Divadlo bratří Formanů, Hradišťan, Boni Pueri, Gabriela Demeterová, Dana Kyndrová, Jáchym Topol, divadlo Kvelb\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -536,13 +538,10 @@ page_content:
               title: null
           -
             type: bold
-        text: rotterdam.czechcentres.cz/
-      -
-        type: text
-        text: "\_"
+        text: rotterdam.czechcentres.cz
 dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685457585
+updated_at: 1685457773
 ---
