@@ -38,7 +38,7 @@ page_content:
         type: image
         attrs:
           src: 'asset::assets::timeline/rotterdam/_do_textu_clanek-haag-hospodarske-noviny.jpg'
-          alt: null
+          alt: 'Článek pozdější ředitelky Českého centra Hany Schenk, Hospodářské noviny, 16. 7. 1996'
       -
         type: text
         marks:
@@ -543,5 +543,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685457773
+updated_at: 1685458242
 ---
