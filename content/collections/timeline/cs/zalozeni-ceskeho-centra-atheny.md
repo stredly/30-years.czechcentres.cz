@@ -235,5 +235,6 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684742616
+updated_at: 1685446504
+background_image: timeline/background-image/2018_atheny.JPG
 ---
