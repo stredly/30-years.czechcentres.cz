@@ -293,7 +293,32 @@ page_content:
     content:
       -
         type: text
-        text: 'Prvním ředitelem centra byl japanolog, překladatel a pedagog Petr Holý, jehož ve funkci vystřídala v roce 2013 Eva Takamine a plynule navázala na práci svého předchůdce.'
+        text: 'Prvním ředitelem centra byl japanolog, překladatel a pedagog '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/watch?v=i3U90xPoreo&t=360s'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: 'Petr Holý'
+      -
+        type: text
+        text: ', jehož ve funkci vystřídala v roce 2013 '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Eva Takamine'
+      -
+        type: text
+        text: ' a plynule navázala na práci svého předchůdce.'
   -
     type: heading
     attrs:
@@ -332,7 +357,7 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685446152
+updated_at: 1685458077
 event_date: '2006-02-01'
 background_image: timeline/background-image/2006_tokio.jpg
 ---
