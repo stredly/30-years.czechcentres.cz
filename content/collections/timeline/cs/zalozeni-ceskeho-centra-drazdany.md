@@ -8,7 +8,25 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum Drážďany se v roce 1997 stalo po Berlínu druhým centrem na německé půdě.\_\_"
+        text: 'České centrum (ČC) '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Drážďany
+      -
+        type: text
+        text: ' se v roce 1997 stalo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'po Berlínu druhým centrem na německé půdě'
+      -
+        type: text
+        text: ".\_\_"
   -
     type: paragraph
     content:
@@ -34,7 +52,7 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum sídlilo na Hauptstrasse 11,\_ 01097 Dresden – Neustadt.\_"
+        text: "České centrum sídlilo na Hauptstrasse 11 01097, Dresden – Neustadt.\_"
   -
     type: heading
     attrs:
@@ -54,11 +72,9 @@ page_content:
     content:
       -
         type: text
-        text: "Díky blízké poloze centra u hranic s Českem, společnou teritoriální minulostí a úzkým vzájemným vztahům se česko-německé kulturní vazby dobře prohlubovaly. Kulturní akce pořádané Českým centrem měly vždy vysokou návštěvnost. Řada z nich dosud trvá, byť v produkci jiných organizací.\_"
+        text: "Díky blízké poloze centra u hranic s Českem, společné teritoriální minulosti a úzkým vzájemným vztahům se česko-německé kulturní vazby dobře prohlubovaly. Kulturní akce pořádané Českým centrem měly vždy vysokou návštěvnost. Řada z nich dosud trvá, byť v produkci jiných organizací.\_"
   -
-    type: heading
-    attrs:
-      level: 2
+    type: paragraph
     content:
       -
         type: text
@@ -74,17 +90,39 @@ page_content:
     content:
       -
         type: text
-        text: "Největší přehlídkou českého umění v Německu byly ve své době Dny české kultury. Tato pravidelná několikadenní událost obřích rozměrů čítala více než sto akcí. České centrum Drážďany se na tomto projektu podílelo společně s Nadací Brücke – Most. Tato německá nadace zřízená za účelem porozumění a smíření mezi Českem a Německem spolu s dalšími institucemi v pořádání Dnů české kultury pokračovala i po uzavření centra.\_\_\_"
+        marks:
+          -
+            type: bold
+        text: 'Největší přehlídkou českého umění v Německu'
+      -
+        type: text
+        text: ' byly ve své době '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Dny české kultury'
+      -
+        type: text
+        text: '. Tato akce obřích rozměrů čítající více než sto programů se pravidelně konala v průběhu několika dnů. České centrum Drážďany se na tomto projektu podílelo společně s Nadací Brücke / Most. Tato německá nadace zřízená za účelem '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'porozumění a smíření mezi Českem a Německem'
+      -
+        type: text
+        text: " spolu s dalšími institucemi v pořádání Dnů české kultury pokračovala i po uzavření centra.\_\_\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "V programové nabídce tohoto minifestivalu byly tradičně konference historiků o společné české a německé minulosti, dále setkání vědeckých odborníků a samozřejmě desítky koncertů, výstav, autorských čtení či filmové přehlídky. Na zahájení jubilejního 10. ročníku v roce 2008 přijel i tehdejší prezident České republiky Václav Klaus.\_"
+        text: "V programové nabídce tohoto minifestivalu byly tradičně konference historiků o společné české a německé minulosti, dále setkání vědeckých odborníků, a samozřejmě desítky koncertů, výstav, autorských čtení či filmové přehlídky. Na zahájení jubilejního 10. ročníku v roce 2008 přijel i tehdejší prezident České republiky Václav Klaus.\_"
   -
-    type: heading
-    attrs:
-      level: 2
+    type: paragraph
     content:
       -
         type: text
@@ -139,7 +177,7 @@ page_content:
         text: 'Noc literatury'
       -
         type: text
-        text: " poprvé uskutečnila nejen v Praze, ale i v jedenácti Českých centrech v zahraničí. Jedním z nich byly i Drážďany, kde právě toto populární literární čtení zaznamenalo fenomenální úspěch.\_"
+        text: " poprvé uskutečnila nejen v Praze, ale i v dalších jedenácti Českých centrech v zahraničí. Jedním z nich byly i Drážďany, kde právě toto populární literární čtení zaznamenalo fenomenální úspěch.\_"
   -
     type: paragraph
     content:
@@ -151,14 +189,12 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Evropa regionů – Evropa bez bariér. '
+        text: 'Evropa regionů – Evropa bez bariér'
       -
         type: text
-        text: "Jeho součástí byla výstava fotografií kokonínského rodáka Dietera Kleina z Mnichova. Expozice, jejíhož slavnostního zahájení se zúčastnil také tehdejší generální konzul České republiky v Drážďanech Tomáš Podivínský, představila fotografie, jejichž námětem byla zanikající architektura starého Jablonce.\_"
+        text: ". Jeho součástí byla výstava fotografií kokonínského rodáka Dietera Kleina z Mnichova. Expozice, jejíhož slavnostního zahájení se zúčastnil také tehdejší generální konzul České republiky v Drážďanech Tomáš Podivínský, představila fotografie, jejichž námětem byla zanikající architektura starého Jablonce.\_"
   -
-    type: heading
-    attrs:
-      level: 2
+    type: paragraph
     content:
       -
         type: text
@@ -174,7 +210,25 @@ page_content:
     content:
       -
         type: text
-        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit a kostýmů z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum stejně jako to české si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální rekvizity nebo kostýmy spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
+        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum stejně jako to české si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: rekvizity
+      -
+        type: text
+        text: ' nebo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: kostýmy
+      -
+        type: text
+        text: ' spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
       -
         type: text
         marks:
@@ -190,16 +244,14 @@ page_content:
         type: text
         text: " (většina reportáže je v němčině). Vernisáže se zúčastnil i představitel prince Pavel Trávníček a režisér Václav Vorlíček. Právě z této výstavy vychází expozice, která se na zámku opakuje každou zimu.\_"
   -
-    type: heading
-    attrs:
-      level: 2
+    type: paragraph
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: Projekty
+        text: 'Prvotní projekty'
       -
         type: text
         text: "\_"
@@ -208,7 +260,7 @@ page_content:
     content:
       -
         type: text
-        text: "Ředitelka Českého centra, Zuzana Pokorná, během své působnosti v letech 2001 – 2004 připravila řadu projektů, které slavily ohromný úspěch mezi místním publikem.\_"
+        text: "Ředitelka Českého centra, Zuzana Pokorná, během své působnosti v letech 2001–2004 připravila řadu projektů, které slavily ohromný úspěch mezi místním publikem.\_"
   -
     type: paragraph
     content:
@@ -220,7 +272,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Německém muzeu Hygieny – Muzeum člověka'
+        text: 'Německém muzeu Hygieny – Muzeu člověka'
       -
         type: text
         text: ", které je v celoevropském měřítku unikátní muzejní a vzdělávací institucí. Ve své době byla unikátní institucí, jež se zasazovala o šíření moderní hygienické a zdravotní osvěty ve společnosti.\_"
@@ -244,7 +296,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Významnou se stala i spolupráce se Zemským úřadem pro archeologii na výstavě „'
+        text: 'Významnou se stala i spolupráce se Zemským úřadem pro archeologii na výstavě '
       -
         type: text
         marks:
@@ -253,7 +305,7 @@ page_content:
         text: 'Archeologická výloha – Keltové a Germáni na Labi'
       -
         type: text
-        text: "“. Tento projektem nebyl jediným výstavním počinem, kterým se ČC snažilo zaujmout přízeň publika na obou stranách hranice.\_"
+        text: ". Tento projekt nebyl jediným výstavním počinem, kterým se ČC snažilo zaujmout přízeň publika na obou stranách hranice.\_"
   -
     type: paragraph
     content:
@@ -265,10 +317,10 @@ page_content:
         marks:
           -
             type: bold
-        text: ' prezentace firem,'
+        text: ' prezentace firem'
       -
         type: text
-        text: " a to společností Drinks Union a.s. z Ústí nad Labem a Český porcelán a.s. z Dubí u Teplic. V prostorách Českého centra v Drážďanech v rámci programu představování severočeských a západočeských firem proběhla první prezentace. Ty v rámci celodenní akce představili své výrobky, plány a vize mezinárodní spolupráce. Setkali se s německými partnery a prostřednictvím médií oslovily další zájemce o spolupráci.\_"
+        text: ", konkrétně společností Drinks Union a.s. z Ústí nad Labem a Český porcelán a.s. z Dubí u Teplic. V prostorách Českého centra Drážďany v rámci programu představování severočeských a západočeských firem proběhla první prezentace. Ty v rámci celodenní akce představily své výrobky, plány a vize mezinárodní spolupráce. Setkaly se s německými partnery a prostřednictvím médií oslovily další zájemce o spolupráci.\_"
   -
     type: paragraph
     content:
@@ -280,7 +332,7 @@ page_content:
         text: 'Český filmový týden v Erfurtu'
       -
         type: text
-        text: ". Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli shlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
+        text: ". Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli zhlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
   -
     type: heading
     attrs:
@@ -291,7 +343,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Personální obsazení'
+        text: 'Vedení českého centra Drážďany'
       -
         type: text
         text: "\_"
@@ -300,7 +352,34 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum zakládal v roce 1997 Václav Šebek. Jeho nástupkyní se v roce 2001 stala Zuzana Pokorná, kterou po třech letech vystřídala Hana Klabanová, která centrum vedla až do jeho uzavření v roce 2010.\_"
+        text: 'České centrum zakládal v roce 1997 '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Václav Šebek'
+      -
+        type: text
+        text: '. Jeho nástupkyní se v roce 2001 stala '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zuzana Pokorná'
+      -
+        type: text
+        text: ', kterou po třech letech vystřídala '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Hana Klabanová'
+      -
+        type: text
+        text: ", která centrum vedla až do jeho uzavření v roce 2010.\_"
   -
     type: heading
     attrs:
@@ -325,6 +404,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685446020
+updated_at: 1685458728
 background_image: timeline/background-image/1997_drazdany-1685446017.JPG
 ---
