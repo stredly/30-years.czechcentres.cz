@@ -362,5 +362,6 @@ dont_show_month: true
 event_date: '2022-07-01'
 cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684741671
+updated_at: 1685446540
+background_image: timeline/background-image/2022_kahira.jpg
 ---
