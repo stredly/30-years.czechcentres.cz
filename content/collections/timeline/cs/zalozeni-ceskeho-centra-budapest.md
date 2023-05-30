@@ -25,20 +25,17 @@ page_content:
         type: text
         text: "Co se týká novodobé historie, 1. dubna 1993 proběhla na velvyslanectví slavnostní recepce, kde bylo oznámeno založení Českého centra a prvním ředitelem byl jmenován György Magyar. Události se zúčastnila ředitelka Správy českých center Margita Fuchsová.\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Na začátky ČC Budapešť vzpomíná první ředitel György Magyar následovně:'
-  -
     type: blockquote
     content:
       -
         type: paragraph
         content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Na začátky ČC Budapešť vzpomíná první ředitel György Magyar následovně: '
           -
             type: text
             marks:
@@ -780,6 +777,6 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685447703
+updated_at: 1685449355
 background_image: timeline/background-image/1953_budapest.jpg
 ---
