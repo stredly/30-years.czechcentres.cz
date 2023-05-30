@@ -736,7 +736,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'ARCHIczech/ současná česká a pražská architektura'
+        text: 'ARCHIczech / současná česká a pražská architektura'
       -
         type: text
         text: ' ve spolupráci ČC Berlín, Velvyslanectví ČR v Berlíně, Deutches Architektur Zentrum a Galerie Jaroslava Fragnera v Praze. Šlo o cyklus pěti výstav, které si vzaly za cíl představit německému publiku architekturu hlavního města, ale také představit českou architekturu pomocí výjimečného otevření brutalistní budovy velvyslanectví nebo sérií přednášek např. Evy Jiřičné o Janu Kaplickém. V roce 2016 se ČC Berlín stalo součástí '
@@ -1308,5 +1308,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685447838
+updated_at: 1685448139
 ---
