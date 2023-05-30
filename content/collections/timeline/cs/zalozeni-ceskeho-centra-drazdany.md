@@ -81,18 +81,6 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Dny české kultury'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
         text: 'Největší přehlídkou českého umění v Německu'
       -
         type: text
@@ -121,18 +109,6 @@ page_content:
       -
         type: text
         text: "V programové nabídce tohoto minifestivalu byly tradičně konference historiků o společné české a německé minulosti, dále setkání vědeckých odborníků, a samozřejmě desítky koncertů, výstav, autorských čtení či filmové přehlídky. Na zahájení jubilejního 10. ročníku v roce 2008 přijel i tehdejší prezident České republiky Václav Klaus.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'České předsednictví 2009'
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -198,18 +174,6 @@ page_content:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: "Výstava rekvizit z filmu Tři oříšky pro Popelku\_"
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum stejně jako to české si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální '
       -
         type: text
@@ -243,18 +207,6 @@ page_content:
       -
         type: text
         text: " (většina reportáže je v němčině). Vernisáže se zúčastnil i představitel prince Pavel Trávníček a režisér Václav Vorlíček. Právě z této výstavy vychází expozice, která se na zámku opakuje každou zimu.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Prvotní projekty'
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -404,6 +356,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685458728
+updated_at: 1685458955
 background_image: timeline/background-image/1997_drazdany-1685446017.JPG
 ---
