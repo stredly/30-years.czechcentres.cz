@@ -171,7 +171,7 @@ page_content:
         text: ' Václava Havla'
       -
         type: text
-        text: " (projekce, přednášky – např. v řecké Národní knihovně).\_"
+        text: ' (projekce, přednášky – např. v řecké Národní knihovně).'
   -
     type: heading
     attrs:
@@ -180,8 +180,8 @@ page_content:
       -
         type: image
         attrs:
-          src: 'asset::assets::background-image/1995_haag_rotterdam.jpg'
-          alt: 'Pouliční představení Invaze divadla Kvelb © Gabrielle van der Werf'
+          src: 'asset::assets::background-image/2018_atheny.JPG'
+          alt: 'Lavička Václava Havla © Archiv Českého centra Athény'
       -
         type: text
         marks:
@@ -237,6 +237,6 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685536499
+updated_at: 1685536572
 background_image: background-image/2018_atheny.JPG
 ---
