@@ -1298,7 +1298,15 @@ page_content:
         text: 'Jiří Rosenkranz'
       -
         type: text
-        text: ", který prošel ústředím Českých center, kde zastával i pozici tiskového mluvčího a později vedl až do března 2022 ČC Mnichov.\_\_"
+        text: ", který prošel ústředím Českých center, kde zastával i pozici tiskového mluvčího a později vedl až do března 2022 ČC Mnichov.\_"
+  -
+    type: set
+    attrs:
+      id: libct54y
+      values:
+        type: downloads
+        downloads:
+          - downloads/rozhovor_janbondy.pdf
   -
     type: heading
     attrs:
@@ -1342,5 +1350,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685515234
+updated_at: 1685516192
 ---
