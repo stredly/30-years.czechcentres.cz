@@ -623,10 +623,10 @@ page_content:
         marks:
           -
             type: bold
-        text: "Ve znamení svobody. Occupo un piccolo spazio di mondo, ma non l'ho delimitato."
+        text: "Ve znamení svobody. Occupo un piccolo spazio di mondo, ma non l'ho delimitato"
       -
         type: text
-        text: " za zapojení nejvýznamnějších italských a evropských vládních institucí.\_"
+        text: ". za zapojení nejvýznamnějších italských a evropských vládních institucí.\_"
   -
     type: heading
     attrs:
@@ -705,5 +705,5 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: rim
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685530824
+updated_at: 1685530886
 ---
