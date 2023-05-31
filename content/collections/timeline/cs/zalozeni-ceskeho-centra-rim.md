@@ -2,7 +2,7 @@
 id: 9b629ba9-458c-4fb7-8da0-8c7a88bed3b9
 blueprint: timeline
 title: 'Založení Českého centra Řím'
-background_image: timeline/background-image/2005_rim.jpg
+background_image: background-image/2005_rim.jpg
 page_content:
   -
     type: paragraph
