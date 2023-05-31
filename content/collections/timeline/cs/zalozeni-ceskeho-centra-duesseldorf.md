@@ -647,7 +647,15 @@ page_content:
         text: 'Jiří Rosenkranz'
       -
         type: text
-        text: ".\_"
+        text: .
+  -
+    type: set
+    attrs:
+      id: libmhd3p
+      values:
+        type: downloads
+        downloads:
+          - timeline/dusseldorf/rozhovor-s-hanou-klabanovou.pdf
   -
     type: heading
     attrs:
@@ -693,5 +701,5 @@ dont_show_month: true
 event_date: '2009-12-31'
 cities: duesseldorf
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685531865
+updated_at: 1685532450
 ---
