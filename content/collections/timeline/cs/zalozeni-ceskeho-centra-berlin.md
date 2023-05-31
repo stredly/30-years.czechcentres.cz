@@ -61,11 +61,6 @@ page_content:
     type: paragraph
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1955_berlin.jpg'
-          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín'
-      -
         type: text
         text: 'Z dochovaných záznamů vyplývá, že '
       -
@@ -415,8 +410,6 @@ page_content:
   -
     type: blockquote
     content:
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -803,47 +796,50 @@ page_content:
         type: text
         text: ", jež představila práce umělců žijících a tvořících v Česku a na Slovensku a odkrývala různé aspekty otázky transgenderu, snažila se naznačit její šíři a současně poodhalit zažívané pocity a kontext, ve kterém tyto osoby žijí. Takové projekty jsou velkým přínosem pro destigmatizaci a přijetí většinovou společností.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        text: 'Jednou z velkých a současně nejúspěšnějších akcí roku 2013 se stala '
-      -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: bold
-        text: 'výstava Alois Nebel – Život podle jízdního řádu'
-      -
-        type: text
-        text: '. Jak napovídá název, výstava, která byla k vidění v Českém centru Berlín a v Akademii pro ilustraci a design AID Berlín vznikla podle komiksu Jaroslava Rudiše a Jaromíra 99, který tou dobou vyšel v Německu již ve druhém vydání. Vernisáž byla spojena s '
-      -
-        type: text
-        marks:
+            type: text
+            text: 'Jednou z velkých a současně nejúspěšnějších akcí roku 2013 se stala '
           -
-            type: bold
-        text: 'prezentací regionu Jeseníky'
-      -
-        type: text
-        text: ', kde se děj komiksu odehrává, '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'výstava Alois Nebel – Život podle jízdního řádu'
           -
-            type: bold
-        text: 'autorským čtením Jaroslava Rudiše'
-      -
-        type: text
-        text: ' a '
-      -
-        type: text
-        marks:
+            type: text
+            text: '. Jak napovídá název, výstava, která byla k vidění v Českém centru Berlín a v Akademii pro ilustraci a design AID Berlín vznikla podle komiksu Jaroslava Rudiše a Jaromíra 99, který tou dobou vyšel v Německu již ve druhém vydání. Vernisáž byla spojena s '
           -
-            type: bold
-        text: 'živým koncertem kapely Priessnitz'
-      -
-        type: text
-        text: ". Celá akce měla vysokou návštěvnost a skvělé ohlasy v mediích.\_"
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'prezentací regionu Jeseníky'
+          -
+            type: text
+            text: ', kde se děj komiksu odehrává, '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'autorským čtením Jaroslava Rudiše'
+          -
+            type: text
+            text: ' a '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'živým koncertem kapely Priessnitz'
+          -
+            type: text
+            text: ". Celá akce měla vysokou návštěvnost a skvělé ohlasy v mediích.\_"
   -
     type: paragraph
     content:
@@ -883,6 +879,14 @@ page_content:
       -
         type: text
         text: " proběhla další změna během pandemie Covid-19, kdy festival probíhal v on-line podobě.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1955_berlin.jpg'
+          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín'
   -
     type: blockquote
     content:
@@ -1357,5 +1361,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685537527
+updated_at: 1685538350
 ---
