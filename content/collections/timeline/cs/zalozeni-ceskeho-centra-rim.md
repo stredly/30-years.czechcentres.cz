@@ -257,17 +257,10 @@ page_content:
     type: paragraph
     content:
       -
-        type: text
-        text: "fotka s papežem – kredit:\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Ředitel Českého centra Řím Miloslav Hirsch při předání betlému papeži Benediktu XVI. © Archiv Miloslava Hirsche\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/rim/reditel-ceskeho-centra-rim-miloslav-hirsch-pri-predani-betlemu-papezi-benediktu-xvi.-(c)-archiv-miloslava-hirsche.jpg'
+          alt: 'Ředitel Českého centra Řím Miloslav Hirsch při předání betlému papeži Benediktu XVI. © Archiv Miloslava Hirsche '
       -
         type: text
         text: 'Součást výstavy s názvem '
@@ -705,5 +698,5 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: rim
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685530886
+updated_at: 1685530985
 ---
