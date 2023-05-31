@@ -511,7 +511,13 @@ page_content:
         text: 'Josefa Koudelky'
       -
         type: text
-        text: '. ČC spolupracovalo s hlavním organizátorem výstavy na doprovodném programu zahrnujícím čtyři on-line setkání s předními italskými experty v oblasti archeologie, fotografie a geografie. Navíc se centrum dostalo do širokého povědomí italské sportovní komunity. Jeho projekt s názvem '
+        text: '. ČC spolupracovalo s hlavním organizátorem výstavy na doprovodném programu zahrnujícím čtyři on-line setkání s předními italskými experty v oblasti archeologie, fotografie a geografie.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Navíc se centrum dostalo do širokého povědomí italské sportovní komunity. Jeho projekt s názvem '
       -
         type: text
         marks:
@@ -529,7 +535,18 @@ page_content:
         text: 'We Run Rome'
       -
         type: text
-        text: '. Doprovodný program sestával z projekce (a zároveň italské premiéry) filmu Zátopek a z dětského běžeckého workshopu. Byla také uzavřena dohoda o recipročních literárních rezidencích mezi římskou '
+        text: '. Doprovodný program sestával z projekce (a zároveň italské premiéry) filmu Zátopek a z dětského běžeckého workshopu. '
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2005_rim.jpg'
+          alt: 'Silvestrovský běžecký závod Atleticom We Run Rome 2022 © Atleticom'
+      -
+        type: text
+        text: 'Byla také uzavřena dohoda o recipročních literárních rezidencích mezi římskou '
       -
         type: text
         marks:
@@ -706,5 +723,5 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: rim
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685531597
+updated_at: 1685535884
 ---
