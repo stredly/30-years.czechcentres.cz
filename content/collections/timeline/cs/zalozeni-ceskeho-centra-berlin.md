@@ -2,7 +2,7 @@
 id: 37bbf028-bdda-46b5-a24d-7c7e526c04e3
 blueprint: timeline
 title: 'Založení Českého centra Berlín'
-background_image: timeline/background-image/1955_berlin.jpg
+background_image: background-image/1955_berlin.jpg
 page_content:
   -
     type: paragraph
