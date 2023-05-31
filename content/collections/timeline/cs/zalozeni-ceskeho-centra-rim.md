@@ -654,7 +654,15 @@ page_content:
         text: 'Petra Březáčková'
       -
         type: text
-        text: ", která má zkušenosti z honorárního konzulátu ve Florencii a byla i členkou vědecké komise Museo Fondazione Del Bianco.\_"
+        text: ', která má zkušenosti z honorárního konzulátu ve Florencii a byla i členkou vědecké komise Museo Fondazione Del Bianco.'
+  -
+    type: set
+    attrs:
+      id: liblx13x
+      values:
+        type: downloads
+        downloads:
+          - timeline/rim/rozhovor-s-miroslavem-hirschem.pdf
   -
     type: heading
     attrs:
@@ -698,5 +706,5 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: rim
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685530985
+updated_at: 1685531531
 ---
