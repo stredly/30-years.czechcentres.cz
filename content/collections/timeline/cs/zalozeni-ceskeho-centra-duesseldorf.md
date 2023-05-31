@@ -2,7 +2,7 @@
 id: d80720fc-2f31-4d37-8796-9f36d540c219
 blueprint: timeline
 title: 'Založení Českého centra Düsseldorf'
-background_image: timeline/background-image/2010_duesseldorf.jpg
+background_image: background-image/2010_duesseldorf.jpg
 page_content:
   -
     type: paragraph
