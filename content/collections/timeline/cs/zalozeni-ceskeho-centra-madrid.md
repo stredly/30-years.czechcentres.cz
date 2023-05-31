@@ -309,7 +309,6 @@ page_content:
       values:
         type: gallery
         gallery:
-          - timeline/madrid/reziserka-helena-trestikova-ziskala-s-filmem-marcela-prvni-cenu-za-nejlepsi-dokumentarni-film-na-festivalu-evropskeho-filmu-v-seville-(c)-archiv-ceskeho-centra-madrid.JPG
           - 'timeline/madrid/jiri-menzel-na-filmovem-festivalu-sevilla-festival-de-cine-100%-europeo,-listopad-2007-(c)-seville-cine-europeo.JPG'
   -
     type: paragraph
@@ -1137,5 +1136,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685533494
+updated_at: 1685533516
 ---
