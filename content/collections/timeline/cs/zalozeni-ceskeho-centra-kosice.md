@@ -187,5 +187,5 @@ event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
 updated_at: 1685446063
-background_image: timeline/background-image/2005_kosice.jpg
+background_image: background-image/2005_kosice.jpg
 ---

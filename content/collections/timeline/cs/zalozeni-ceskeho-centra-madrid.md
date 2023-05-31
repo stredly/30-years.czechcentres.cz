@@ -2,7 +2,7 @@
 id: c84c7eb4-65e4-4615-a234-ac59e743183e
 blueprint: timeline
 title: 'Založení Českého centra Madrid'
-background_image: timeline/background-image/2004_madrid.JPG
+background_image: background-image/2004_madrid.JPG
 page_content:
   -
     type: paragraph
