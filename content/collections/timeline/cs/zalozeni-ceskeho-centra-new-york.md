@@ -346,22 +346,15 @@ page_content:
         text: 'slavnostní setkání prezidenta Václava Havla se zhruba tisícovkou krajanů na Ellis Island'
       -
         type: text
-        text: " – ostrově, přes který v minulosti procházely miliony emigrantů do USA. Prezident s manželkou a převážnou částí hostů připlul lodí, následovala prohlídka stálé expozice, zahájení výstavy fotografií Čeští emigranti v Americe a samotné setkání s krajany. Zazněla česká a americká hymna, ale i Dvořákova Novosvětská symfonie. Kromě prezidenta zde promluvil i ředitel Českého centra Přemysl Pela, zástupce krajanské komunity Jan Pokorný a velvyslanec Alexandr Vondra. Atmosféra byla plná radosti a dojetí.\_"
+        text: ' – ostrově, přes který v minulosti procházely miliony emigrantů do USA. Prezident s manželkou a převážnou částí hostů připlul lodí, následovala prohlídka stálé expozice, zahájení výstavy fotografií Čeští emigranti v Americe a samotné setkání s krajany. Zazněla česká a americká hymna, ale i Dvořákova Novosvětská symfonie. Kromě prezidenta zde promluvil i ředitel Českého centra Přemysl Pela, zástupce krajanské komunity Jan Pokorný a velvyslanec Alexandr Vondra. Atmosféra byla plná radosti a dojetí.'
   -
     type: paragraph
     content:
       -
-        type: text
-        text: "fotka: V. Havel, P. Pela a další s mrakodrapy v pozadí\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Václav Havel na setkání s krajany na Ellis Island v roce 2000 Ó Karel Cudlín / 400ASA\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/new-york/v.-havel_nyc-2000_kredit_k.cudlin_400asa.jpg'
+          alt: "Václav Havel na setkání s krajany na Ellis Island v roce 2000 © Karel Cudlín / 400ASA\_"
       -
         type: text
         text: 'Ve středu 14. listopadu 2001 '
@@ -1119,5 +1112,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685519009
+updated_at: 1685519451
 ---
