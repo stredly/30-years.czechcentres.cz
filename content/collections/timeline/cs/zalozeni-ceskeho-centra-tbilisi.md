@@ -199,7 +199,16 @@ page_content:
     content:
       -
         type: text
-        text: "Od roku 2021 vede ČC Tbilisi jako zakládající ředitelka Ivana Bursíková.\_\_"
+        text: 'Od roku 2021 vede ČC Tbilisi jako zakládající ředitelka '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Ivana Bursíková'
+      -
+        type: text
+        text: ".\_\_"
   -
     type: heading
     attrs:
@@ -242,7 +251,7 @@ page_content:
 dont_show_month: true
 event_date: '2021-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685538730
+updated_at: 1685538758
 cities: tbilisi
 background_image: background-image/2021_tbilisi.jpg
 ---
