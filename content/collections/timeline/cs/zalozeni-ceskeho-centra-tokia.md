@@ -357,7 +357,8 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685458077
+updated_at: 1685546886
 event_date: '2006-02-01'
 background_image: background-image/2006_tokio.jpg
+perex: 'První České centrum v Asii.'
 ---
