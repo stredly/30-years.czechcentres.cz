@@ -2,7 +2,7 @@
 id: c13a092d-2a09-4f2e-ba5e-ef8574499ea7
 blueprint: timeline
 title: 'Založení Českého centra New York'
-background_image: timeline/background-image/1995_new-york.jpeg
+background_image: background-image/1995_new-york.jpeg
 page_content:
   -
     type: paragraph
