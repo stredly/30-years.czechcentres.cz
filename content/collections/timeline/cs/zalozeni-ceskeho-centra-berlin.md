@@ -753,13 +753,13 @@ page_content:
         text: 'Make City'
       -
         type: text
-        text: ' – '
+        text: ' '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Festivalu architektury a městského designu'
+        text: '– Festivalu architektury a městského designu'
       -
         type: text
         text: ". Program festivalu zahrnoval 125 výstav, odborné diskuse a rozhovory či speciální městské prohlídky.\_"
@@ -860,31 +860,43 @@ page_content:
         type: text
         text: " proběhla další změna během pandemie Covid-19, kdy festival probíhal v on-line podobě.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Naší ambicí je představit Česko v jiných souvislostech, než v jakých se v Německu běžně objevuje. Česko a Německo jsou ekonomicky mimořádně provázané, zatím ale především v oblasti klasické výroby. My se chceme zaměřit na projekty s mimořádnou přidanou hodnotou a spolu s tím ukázat i inteligentní a kreativní tvář naší země. A samozřejmě nám jde o výměnu myšlenek na obou stranách hranice.“'
-      -
-        type: text
-        text: ' Tomáš Sacher, ředitel ČC Berlín (zdroj: Milan Loucký, '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Naší ambicí je představit Česko v jiných souvislostech, než v jakých se v Německu běžně objevuje. Česko a Německo jsou ekonomicky mimořádně provázané, zatím ale především v oblasti klasické výroby. My se chceme zaměřit na projekty s mimořádnou přidanou hodnotou a spolu s tím ukázat i inteligentní a kreativní tvář naší země. A samozřejmě nám jde o výměnu myšlenek na obou stranách hranice.“'
           -
-            type: link
-            attrs:
-              href: 'https://www.prumysl.cz/czech-innovation-festival-v-berline/'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'web ČVUT'
-      -
-        type: text
-        text: ", 2016)\_"
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Tomáš Sacher, ředitel ČC Berlín'
+          -
+            type: text
+            text: ' (zdroj: Milan Loucký, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.prumysl.cz/czech-innovation-festival-v-berline/'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'web ČVUT'
+          -
+            type: text
+            text: ", 2016)\_"
   -
     type: paragraph
     content:
@@ -1313,5 +1325,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685515122
+updated_at: 1685515211
 ---
