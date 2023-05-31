@@ -721,13 +721,9 @@ page_content:
         type: text
         text: " 2022. ČC se rovněž zapojilo do akcí na podporu Ukrajiny. \_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
@@ -1120,5 +1116,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685518845
+updated_at: 1685518928
 ---
