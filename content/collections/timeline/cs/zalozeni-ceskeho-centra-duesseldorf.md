@@ -137,6 +137,11 @@ page_content:
       level: 2
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2010_duesseldorf.jpg'
+          alt: 'Dny česko-německé kultury 2006 spojené s oslavami 800 let města Drážďany © Archiv Českého centra Drážďany'
+      -
         type: text
         marks:
           -
@@ -701,5 +706,5 @@ dont_show_month: true
 event_date: '2009-12-31'
 cities: duesseldorf
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685532619
+updated_at: 1685539111
 ---
