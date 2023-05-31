@@ -375,5 +375,5 @@ event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
 updated_at: 1685446441
 cities: soul
-background_image: timeline/background-image/2013_soul.jpg
+background_image: background-image/2013_soul.jpg
 ---
