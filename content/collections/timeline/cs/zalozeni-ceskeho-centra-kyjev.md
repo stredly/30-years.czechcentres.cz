@@ -852,5 +852,5 @@ page_content:
               title: null
         text: "kyiv.czechcentres.cz\_"
 event_date: '1996-01-01'
-background_image: timeline/background-image/1996_kyjev.jpg
+background_image: background-image/1996_kyjev.jpg
 ---
