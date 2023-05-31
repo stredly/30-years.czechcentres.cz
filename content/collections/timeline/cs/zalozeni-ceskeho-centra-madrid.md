@@ -307,24 +307,6 @@ page_content:
     content:
       -
         type: text
-        text: "fotografie:\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Jiří Menzel na filmovém festivalu Sevilla Festival de Cine 100% Europeo, listopad 2007 Ó Seville Cine Europeo\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Režisérka Helena Třeštíková získala s filmem Marcela první cenu za nejlepší dokumentární film na festivalu evropského filmu v Seville Ó Archiv Českého centra Madrid\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'Znakem roku 2008 byly'
       -
         type: text
@@ -928,13 +910,10 @@ page_content:
     type: paragraph
     content:
       -
-        type: text
-        text: "(foto muralu): Přemysl Černý a jeho mural v rámci festivalu FLIPAS Ó Archiv Českého centra Madrid\_"
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/madrid/premysl-cerny-a-jeho-mural-v-ramci-festivalu-flipas-(c)-archiv-ceskeho-centra-madrid.jpeg'
+          alt: 'Přemysl Černý a jeho mural v rámci festivalu FLIPAS © Archiv Českého centra Madrid'
       -
         type: text
         marks:
@@ -1149,5 +1128,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685533013
+updated_at: 1685533309
 ---
