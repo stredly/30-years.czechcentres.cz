@@ -56,7 +56,9 @@ page_content:
         type: text
         text: " v městském kulturním centru Conde Duque za přítomnosti velvyslance Martina Povejšila a generálního ředitele Správy českých center (což byl oficiální název Českých center do 30. 6. 2004) Jana Bondyho.\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -64,9 +66,6 @@ page_content:
           -
             type: bold
         text: Prostory
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -92,7 +91,9 @@ page_content:
         type: text
         text: ". Nedisponuje vlastními reprezentativními prostory, pouze dvěma kancelářemi. Od počátku se činnost orientovala na spolupráci s významnými kulturními institucemi a festivaly i jinými institucemi po celém Španělsku.\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -100,9 +101,6 @@ page_content:
           -
             type: bold
         text: 'Kulturní program'
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -176,63 +174,69 @@ page_content:
         type: text
         text: "ve Španělsku. Spolupráce s bratry Formanovými pak pokračovala během následujících let, kdy byly ve Španělsku uvedeny jejich další projekty.\_\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '"Sezóna české scény a především pak česko-francouzský projekt Boudy bratří Formanů vzbudily velký zájem Španělů i tamních médií. Za vše hovoří dva články v celostátním a nejčtenějším španělském deníku El País," '
-      -
-        type: text
-        marks:
+            type: text
+            text: „
           -
-            type: bold
-        text: zhodnotila
-      -
-        type: text
-        text: ' událost '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Sezóna české scény a především pak česko-francouzský projekt Boudy bratří Formanů vzbudily velký zájem Španělů i tamních médií. Za vše hovoří dva články v celostátním a nejčtenějším španělském deníku El País," '
           -
-            type: bold
-        text: 'Adriana Krásová'
-      -
-        type: text
-        text: ', první ředitelka Českého centra v Madridu, '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: bold
+            text: zhodnotila
           -
-            type: bold
-        text: 'v článku Milana Hostýna pro '
-      -
-        type: text
-        marks:
+            type: text
+            text: ' událost '
           -
-            type: link
-            attrs:
-              href: 'https://archiv.hn.cz/c1-18683010-spanele-o-nas-moc-nevedi-snad-jen-prozatim'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Adriana Krásová'
           -
-            type: bold
-        text: 'Hospodářské noviny'
-      -
-        type: text
-        text: '. Autor sám popisuje atmosféru představení takto: „'
-      -
-        type: text
-        marks:
+            type: text
+            text: ', první ředitelka Českého centra v Madridu, '
           -
-            type: italic
-        text: 'Jedna salva smíchu provázela druhou a atmosféra v Boudě bratří Formanů byla báječná. Ať už to bylo v Madridu nebo ve Valencii. Každý den bylo vyprodáno a lidé ještě po začátku představení čekali, zda se přece jen nedostanou do sálu. I to patřilo k letošní Sezóně české scény ve Španělsku.“'
-      -
-        type: text
-        text: "\_"
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'v článku Milana Hostýna pro '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://archiv.hn.cz/c1-18683010-spanele-o-nas-moc-nevedi-snad-jen-prozatim'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+              -
+                type: bold
+            text: 'Hospodářské noviny'
+          -
+            type: text
+            text: '. Autor sám popisuje atmosféru představení takto: „'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Jedna salva smíchu provázela druhou a atmosféra v Boudě bratří Formanů byla báječná. Ať už to bylo v Madridu nebo ve Valencii. Každý den bylo vyprodáno a lidé ještě po začátku představení čekali, zda se přece jen nedostanou do sálu. I to patřilo k letošní Sezóně české scény ve Španělsku.“'
+          -
+            type: text
+            text: "\_"
   -
     type: paragraph
     content:
@@ -316,12 +320,6 @@ page_content:
       -
         type: text
         text: "Režisérka Helena Třeštíková získala s filmem Marcela první cenu za nejlepší dokumentární film na festivalu evropského filmu v Seville Ó Archiv Českého centra Madrid\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -603,17 +601,29 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: "\_„Výstava byla velkým úspěchem ani ne proto, že ji navštívily desetitisíce diváků, ale proto, že podle ohlasu řady návštěvníků posunula jejich vnímání reality. Surrealisté neorganizují své výstavy, aby se pochlubili svou tvorbou, ale proto, že hledají spolupracovníky ke změně světa a proměně života. Je třeba vyzdvihnout maximální aktivitu pracovníků ČC, kteří se podíleli nejen na organizaci a přípravě výstavy, ale i na její prezentaci a propagaci.“"
-      -
-        type: text
-        text: " Jan Švankmajer\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: "\_„Výstava byla velkým úspěchem ani ne proto, že ji navštívily desetitisíce diváků, ale proto, že podle ohlasu řady návštěvníků posunula jejich vnímání reality. Surrealisté neorganizují své výstavy, aby se pochlubili svou tvorbou, ale proto, že hledají spolupracovníky ke změně světa a proměně života. Je třeba vyzdvihnout maximální aktivitu pracovníků ČC, kteří se podíleli nejen na organizaci a přípravě výstavy, ale i na její prezentaci a propagaci.“"
+          -
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Jan Švankmajer'
+          -
+            type: text
+            text: "\_"
   -
     type: paragraph
     content:
@@ -921,7 +931,9 @@ page_content:
         type: text
         text: "(foto muralu): Přemysl Černý a jeho mural v rámci festivalu FLIPAS Ó Archiv Českého centra Madrid\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -1093,13 +1105,9 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -1117,20 +1125,10 @@ page_content:
         type: text
         text: "Jiří Turek a Jana Jabůrková, Martin Janecký, Eva Koťátková, Lucie Faulerová, Eduard Šístek, Michael Žantovský, Jaroslav Róna, Jiří Mádl, Olmo Omerzu, Agnieszka Holland, Marek Šindelka, Herrmann & Coufal, Bianca Bellová, Adéla Součková, Jitka Kolbe Růžičková, Jan Kaláb, Michaela Šilpochová, Ondřej Kobza, Marek Beneš, Pavel Hroch, Filip Šroubek, Jaroslav Šíp, Martin Rajniš, Tomáš Kosnar, Tereza Ruller, Petr Pavel, Jiří Kovanda, Miloš Urban, Romana Uhríčková, Martin Kloda, Hana Procházková, Alena Mornštajnová, Jaroslav Kolář, Arno Pařík, Petr Forman, Jan Svěrák, Galina Miklínová, Michaela Pavlátová, Martin Rajniš, Petr Nikl, Jiří Sozanský, Radka Denemarková, Petr Placák, Marek Toman, Petr Stančík, Dana Kyndrová, Daniel Vávra, Ludvík Kunz, Ivan Souček, Václav Šípek, Kateřina Hager, Václav Kadrnka, Tomáš Baroš, Adam Kost, studio Mjölk: Jan Vondrák, Jan Mach a Lukáš Holub, Kateřina Rudčenková, Petr Halmay , Petr Borkovec, Patrik Ouředník, Emil Hakl, Jan Balabán, Michal Ajvaz, Magdaléna Platzová, Jaroslav Rudiš\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Webové stránky Českého centra Madrid: '
       -
         type: text
         marks:
@@ -1151,5 +1149,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685516959
+updated_at: 1685533013
 ---
