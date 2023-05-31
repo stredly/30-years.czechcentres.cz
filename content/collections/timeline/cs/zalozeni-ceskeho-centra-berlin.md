@@ -334,31 +334,42 @@ page_content:
         type: text
         text: " (neboli Tschechisches Zentrum Berlin). Bylo možné využívat i kinosál a přilehlé reprezentativní sály v prostorách velvyslanectví.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„České centrum Berlín se nedávno přestěhovalo do budovy Velvyslanectví České republiky na rohu Wilhelmstrasse a Mohrenstrasse v Berlínské části Mitte. Sídlíme v originálních, z architektonického hlediska vysoce zajímavých prostorách, které skýtají mnoho potenciálu pro různé formáty kulturních akcí. Přímé sousedství s ambasádou nám umožní ještě užší spolupráci s kolegy z velvyslanectví.“ prohlásila v roce 2012 Monika Štěpánová, ředitelka Českého centra Berlín'
-      -
-        type: text
-        text: ' (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„České centrum Berlín se nedávno přestěhovalo do budovy Velvyslanectví České republiky na rohu Wilhelmstrasse a Mohrenstrasse v Berlínské části Mitte. Sídlíme v originálních, z architektonického hlediska vysoce zajímavých prostorách, které skýtají mnoho potenciálu pro různé formáty kulturních akcí. Přímé sousedství s ambasádou nám umožní ještě užší spolupráci s kolegy z velvyslanectví.“ prohlásila v roce 2012 '
           -
-            type: link
-            attrs:
-              href: 'https://www.madambusiness.cz/novinky/990-cesky-element-v-berline'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'Madam Business'
-      -
-        type: text
-        text: ")\_"
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Monika Štěpánová, ředitelka Českého centra Berlín'
+          -
+            type: text
+            text: ' (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.madambusiness.cz/novinky/990-cesky-element-v-berline'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'Madam Business'
+          -
+            type: text
+            text: ")\_"
   -
     type: paragraph
     content:
@@ -1302,5 +1313,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685514858
+updated_at: 1685515122
 ---
