@@ -235,7 +235,13 @@ page_content:
         text: 'katedru bohemistiky na světě'
       -
         type: text
-        text: '. Světové úrovně dosahující a mnoho dekád trvající práce českých egyptologů shrnula výstava '
+        text: .
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Světové úrovně dosahující a mnoho dekád trvající práce českých egyptologů shrnula výstava '
       -
         type: text
         marks:
@@ -284,7 +290,15 @@ page_content:
         text: 'Zápisníku Štěpána Macháčka'
       -
         type: text
-        text: ". Autorské čtení spisovatelky Markéty Pilátové zase hostil příjemný prostor GrEEK Campus v centru (downtown) Káhiry. \_"
+        text: '. Autorské čtení spisovatelky Markéty Pilátové zase hostil příjemný prostor GrEEK Campus v centru (downtown) Káhiry. '
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2022_kahira.jpg'
+          alt: 'Cesta české egyptologie, 1. 11. 2022 © Magdalena Dubnová'
   -
     type: blockquote
     content:
@@ -311,11 +325,6 @@ page_content:
     attrs:
       level: 2
     content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/2022_kahira.jpg'
-          alt: 'Cesta české egyptologie, 1. 11. 2022 © Magdalena Dubnová'
       -
         type: text
         marks:
@@ -364,6 +373,6 @@ dont_show_month: true
 event_date: '2022-07-01'
 cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685535305
+updated_at: 1685535594
 background_image: background-image/2022_kahira.jpg
 ---
