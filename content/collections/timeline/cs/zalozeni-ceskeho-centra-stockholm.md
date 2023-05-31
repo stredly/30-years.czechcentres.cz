@@ -1064,6 +1064,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685446044
+updated_at: 1685546697
 background_image: background-image/1997_stockholm.jpg
+perex: 'Jediné České centrum ve Skandinávii.'
 ---
