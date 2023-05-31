@@ -1082,12 +1082,6 @@ page_content:
         type: text
         text: " v období pandemie Covid-19.\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
     type: heading
     attrs:
       level: 2
@@ -1129,5 +1123,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685518713
+updated_at: 1685518736
 ---
