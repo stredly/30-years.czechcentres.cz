@@ -314,7 +314,7 @@ page_content:
       -
         type: image
         attrs:
-          src: 'asset::assets::timeline/background-image/2022_kahira.jpg'
+          src: 'asset::assets::background-image/2022_kahira.jpg'
           alt: 'Cesta české egyptologie, 1. 11. 2022 © Magdalena Dubnová'
       -
         type: text
@@ -365,5 +365,5 @@ event_date: '2022-07-01'
 cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
 updated_at: 1685535305
-background_image: timeline/background-image/2022_kahira.jpg
+background_image: background-image/2022_kahira.jpg
 ---
