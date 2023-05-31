@@ -64,11 +64,6 @@ page_content:
       level: 2
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::timeline/background-image/2022_kahira.jpg'
-          alt: 'Cesta české egyptologie, 1. 11. 2022 © Magdalena Dubnová'
-      -
         type: text
         marks:
           -
@@ -311,14 +306,16 @@ page_content:
               -
                 type: bold
             text: 'ředitelka ČC Káhira Tereza Svášková'
-          -
-            type: text
-            text: "\_"
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/background-image/2022_kahira.jpg'
+          alt: 'Cesta české egyptologie, 1. 11. 2022 © Magdalena Dubnová'
       -
         type: text
         marks:
@@ -367,6 +364,6 @@ dont_show_month: true
 event_date: '2022-07-01'
 cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685535196
+updated_at: 1685535305
 background_image: timeline/background-image/2022_kahira.jpg
 ---
