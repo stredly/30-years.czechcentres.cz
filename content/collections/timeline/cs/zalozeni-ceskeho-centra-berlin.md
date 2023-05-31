@@ -141,16 +141,16 @@ page_content:
         marks:
           -
             type: bold
-        text: Berlín
+        text: Berlín.
       -
         type: text
-        text: '. To působí ve většině Spolkové republiky Německo, avšak '
+        text: ' To působí ve většině Spolkové republiky Německo, avšak v'
       -
         type: text
         marks:
           -
             type: bold
-        text: 'v Bavorsku zastupuje českou kulturu České centrum Mnichov'
+        text: ' Bavorsku zastupuje českou kulturu České centrum Mnichov'
       -
         type: text
         text: ". Na území SRN v minulosti sídlila i ČC Drážďany a ČC Düsseldorf. ČC Drážďany bylo uzavřeno v roce 2010 a agenda ČC Düsseldorf přešla v roce 2017 právě pod Berlín.\_"
@@ -1302,5 +1302,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685514641
+updated_at: 1685514858
 ---
