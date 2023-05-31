@@ -238,5 +238,5 @@ event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
 updated_at: 1685517977
-background_image: timeline/background-image/1949_varsava.jpg
+background_image: background-image/1949_varsava.jpg
 ---
