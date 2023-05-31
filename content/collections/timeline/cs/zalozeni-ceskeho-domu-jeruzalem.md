@@ -334,6 +334,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685518081
+updated_at: 1685546192
 background_image: background-image/2018_jeruzalem.jpg
+perex: 'Kousek Česka pod horou Sijón.'
 ---
