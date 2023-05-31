@@ -35,16 +35,15 @@ page_content:
         type: text
         text: " 29. října 1995 v Christ and St. Steven Church. Na programu byly skladby významných českých komponistů: Voříška, Dvořáka, Janáčka, Martinů a Smetany. Od ledna 1996 pak vycházel Newsletter ČC NY Ahoy.\_\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "obrázek: První tým Českého centra New York Ó Archiv Českého centra New York\_"
-  -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/new-york/prvni-tym-cc-ny-orez-1685519683.jpg'
+          alt: 'První tým Českého centra New York © Archiv Českého centra New York '
       -
         type: text
         marks:
@@ -1111,5 +1110,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685519562
+updated_at: 1685519741
 ---
