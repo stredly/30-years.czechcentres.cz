@@ -2,6 +2,7 @@
 id: c84c7eb4-65e4-4615-a234-ac59e743183e
 blueprint: timeline
 title: 'Založení Českého centra Madrid'
+background_image: timeline/background-image/2004_madrid.JPG
 page_content:
   -
     type: paragraph
@@ -1150,5 +1151,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685459409
+updated_at: 1685516959
 ---
