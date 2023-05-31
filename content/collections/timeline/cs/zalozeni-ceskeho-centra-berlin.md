@@ -100,36 +100,30 @@ page_content:
         text: ' jedním z ředitelů kulturního střediska byl Dušan Sedláček'
       -
         type: text
-        text: ', otec filmové režisérky, scénáristky a spisovatelky Andrey Sedláčkové.'
-  -
-    type: blockquote
-    content:
+        text: ', otec filmové režisérky, scénáristky a spisovatelky Andrey Sedláčkové. '
       -
-        type: paragraph
-        content:
+        type: text
+        marks:
           -
-            type: text
-            marks:
-              -
-                type: italic
-            text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest - byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
+            type: italic
+        text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest - byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
+      -
+        type: text
+        text: ' (zdroj: '
+      -
+        type: text
+        marks:
           -
-            type: text
-            text: ' (zdroj: '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
-                  rel: 'noreferrer noopener'
-                  target: _blank
-                  title: null
-            text: 'Paměť národa'
-          -
-            type: text
-            text: ")\_"
+            type: link
+            attrs:
+              href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+        text: 'Paměť národa'
+      -
+        type: text
+        text: ")\_"
   -
     type: paragraph
     content:
@@ -1308,5 +1302,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685448139
+updated_at: 1685514641
 ---
