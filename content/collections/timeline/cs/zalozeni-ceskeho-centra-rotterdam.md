@@ -2,7 +2,7 @@
 id: 39e195cf-8b61-4314-aa75-23d5b25e010d
 blueprint: timeline
 title: 'Založení Českého centra Haag / Rotterdam'
-background_image: timeline/background-image/1995_haag_rotterdam.jpg
+background_image: background-image/1995_haag_rotterdam.jpg
 page_content:
   -
     type: paragraph
