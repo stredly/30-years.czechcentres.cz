@@ -408,17 +408,34 @@ page_content:
         type: text
         text: ". Z tohoto důvodu se v na začátku roku 2023 České centrum Berlín dočasně přestěhovalo, a to do sídla Goethe-Institutu Neue Schönhauser Straße 20. Přestěhování do prostor Goethe Institutu představuje pro činnost Českého centra Berlín změnu v přístupu k programové koncepci. Nově zde nejsou k dispozici vlastní výstavní prostory, ani prostory pro pořádání večerních akcí, autorských čtení, debat či filmových projekcí. Pro takové aktivity si ČC bude hledat partnerské nebo komerční prostory.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„K této změně nepřistupujeme negativně, spíše naopak. To, že jsme o vlastní galerii dočasně přišli, vnímáme spíše jako pozitivní impuls, který nás přiměl jít s našimi projekty za novými partnery, tedy i za jejich publikem. Po realizaci několika prvních akcí se nám ukazuje, že je to ta správná cesta,“ prohlásil Jiří Rosenkranz, ředitel Českého centra Berlín.'
-      -
-        type: text
-        text: "\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„K této změně nepřistupujeme negativně, spíše naopak. To, že jsme o vlastní galerii dočasně přišli, vnímáme spíše jako pozitivní impuls, který nás přiměl jít s našimi projekty za novými partnery, tedy i za jejich publikem. Po realizaci několika prvních akcí se nám ukazuje, že je to ta správná cesta,“ prohlásil '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Jiří Rosenkranz, ředitel Českého centra Berlín'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: .
+          -
+            type: text
+            text: "\_"
   -
     type: heading
     attrs:
@@ -1325,5 +1342,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685515211
+updated_at: 1685515234
 ---
