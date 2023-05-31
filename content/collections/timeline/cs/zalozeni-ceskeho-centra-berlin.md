@@ -906,8 +906,8 @@ page_content:
               -
                 type: link
                 attrs:
-                  href: 'https://www.prumysl.cz/czech-innovation-festival-v-berline/'
-                  rel: 'noreferrer noopener'
+                  href: 'https://www.aktualne.cvut.cz/zpravy-z-medii/20170622-czech-innovation-festival-probehl-o-vikendu-v-berline'
+                  rel: null
                   target: _blank
                   title: null
             text: 'web ČVUT'
@@ -1350,5 +1350,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685516467
+updated_at: 1685531775
 ---
