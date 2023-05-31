@@ -1038,16 +1038,7 @@ page_content:
         text: 'Miroslav Konvalina'
       -
         type: text
-        text: '. '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: Rozhovor
-      -
-        type: text
-        text: ', který dal Českému rozhlasu ve svých začátcích ve funkci ředitele ČC New York je k dispozici '
+        text: '. Rozhovor, který dal Českému rozhlasu ve svých začátcích ve funkci ředitele ČC New York je k dispozici '
       -
         type: text
         marks:
@@ -1128,5 +1119,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685518986
+updated_at: 1685519009
 ---
