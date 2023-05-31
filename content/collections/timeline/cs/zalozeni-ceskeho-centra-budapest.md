@@ -56,12 +56,17 @@ page_content:
         text: 'Zpočátku bylo ČC Budapešť z velké části orientováno i na ekonomickou diplomacii'
       -
         type: text
-        text: ", a to především v éře ředitele Tamáse Csémyho a jeho předchůdce Jozefa Kollára, jenž se ve spolupráci s českým zastupitelským úřadem snažil propojit české dodavatele s maďarským trhem a zaměřil se především na regiony snahou o navázání vztahu s župami. V prvních pěti letech fungování centra se podařilo oslovit na 300 podniků. Postupně se však fungování ČC stále více ubíralo směrem kulturní diplomacie.\_"
+        text: ', a to především v éře ředitele Tamáse Csémyho a jeho předchůdce Jozefa Kollára, jenž se ve spolupráci s českým zastupitelským úřadem snažil propojit české dodavatele s maďarským trhem a zaměřil se především na regiony snahou o navázání vztahu s župami. V prvních pěti letech fungování centra se podařilo oslovit na 300 podniků. Postupně se však fungování ČC stále více ubíralo směrem kulturní diplomacie.'
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1953_budapest.jpg'
+          alt: 'Noc literatury 2017 © Archiv Českého centra Budapešť'
       -
         type: text
         marks:
@@ -777,6 +782,6 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685449355
+updated_at: 1685538090
 background_image: background-image/1953_budapest.jpg
 ---
