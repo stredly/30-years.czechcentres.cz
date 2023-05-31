@@ -834,17 +834,29 @@ page_content:
         type: text
         text: ", které mohlo publikum zhlédnout, patří například Alois Nebel, Donšajni, Obsluhoval jsem anglického krále, Ostře sledované vlaky, Nevinnost, Signál, Polski film, Starci na chmelu, Postřižiny, Zlatý podraz, Tátova volha, Hastrman, trilogie Zahradnictví, Dukla 1961, Jan Palach, Všechno bude, Colette, Po strništi bos, Bába z ledu a desítky dalších.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Pro americkou odbornou veřejnost je český film stále pojem. České snímky mají své znalce a milovníky, a v New Yorku tomu není jinak. Diváci se zajímají o současný vývoj naší kinematografie, rádi se setkávají s českými režiséry a dalšími filmovými protagonisty. Zahraniční filmová prezentace Českých center je jednou z klíčových oblastí, ve které se snažíme podpořit povědomí o současném životě a realitě v naší zemi, zároveň také přispět k prosazení českých filmařů na mezinárodní filmové scéně.“'
-      -
-        type: text
-        text: " Pavla Niklová, ředitelka Českého centra New York, 2013\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Pro americkou odbornou veřejnost je český film stále pojem. České snímky mají své znalce a milovníky, a v New Yorku tomu není jinak. Diváci se zajímají o současný vývoj naší kinematografie, rádi se setkávají s českými režiséry a dalšími filmovými protagonisty. Zahraniční filmová prezentace Českých center je jednou z klíčových oblastí, ve které se snažíme podpořit povědomí o současném životě a realitě v naší zemi, zároveň také přispět k prosazení českých filmařů na mezinárodní filmové scéně.“'
+          -
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Pavla Niklová, ředitelka Českého centra New York'
+          -
+            type: text
+            text: ", 2013\_"
   -
     type: heading
     attrs:
@@ -1116,5 +1128,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685518941
+updated_at: 1685518986
 ---
