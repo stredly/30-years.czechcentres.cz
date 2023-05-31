@@ -266,11 +266,10 @@ page_content:
     type: paragraph
     content:
       -
-        type: text
-        text: "obrázek: program oslavy 60. narozenin prezidenta Václava Havla Ó Archiv Českého centra New York\_"
-  -
-    type: paragraph
-    content:
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/new-york/pozvanka_oslava_vh.jpg'
+          alt: 'program oslavy 60. narozenin prezidenta Václava Havla © Archiv Českého centra New York'
       -
         type: text
         text: 'Od roku 1998 ČC New York společně s generálním konzulátem a krajanským spolkem pořádalo první říjnovou sobotu '
@@ -1112,5 +1111,5 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685519451
+updated_at: 1685519562
 ---
