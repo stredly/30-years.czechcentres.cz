@@ -174,12 +174,20 @@ page_content:
         text: 'České hrdinky '
       -
         type: text
-        text: "byla v roce 2022 představena hned v několika gruzínských městech a v roce 2023 ve svém tour i nadále pokračuje.\_"
+        text: 'byla v roce 2022 představena hned v několika gruzínských městech a v roce 2023 ve svém tour i nadále pokračuje.'
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2021_tbilisi.jpg'
+          alt: 'Alžběta Jungrová, Výstava Tradice, 2023 © Archiv Českého centra Tbilisi'
+      -
+        type: text
+        text: "\_"
       -
         type: text
         marks:
@@ -237,7 +245,7 @@ page_content:
 dont_show_month: true
 event_date: '2021-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685456926
+updated_at: 1685538720
 cities: tbilisi
 background_image: background-image/2021_tbilisi.jpg
 ---
