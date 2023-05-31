@@ -63,11 +63,6 @@ page_content:
       level: 2
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1953_budapest.jpg'
-          alt: 'Noc literatury 2017 © Archiv Českého centra Budapešť'
-      -
         type: text
         marks:
           -
@@ -456,6 +451,11 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1953_budapest.jpg'
+          alt: 'Noc literatury 2017 © Archiv Českého centra Budapešť'
+      -
         type: text
         text: 'Obroční '
       -
@@ -782,6 +782,6 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685538090
+updated_at: 1685538161
 background_image: background-image/1953_budapest.jpg
 ---
