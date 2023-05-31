@@ -61,6 +61,11 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1955_berlin.jpg'
+          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín'
+      -
         type: text
         text: 'Z dochovaných záznamů vyplývá, že '
       -
@@ -410,6 +415,8 @@ page_content:
   -
     type: blockquote
     content:
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -876,14 +883,6 @@ page_content:
       -
         type: text
         text: " proběhla další změna během pandemie Covid-19, kdy festival probíhal v on-line podobě.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1955_berlin.jpg'
-          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín'
   -
     type: blockquote
     content:
@@ -1358,5 +1357,5 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685537023
+updated_at: 1685537121
 ---
