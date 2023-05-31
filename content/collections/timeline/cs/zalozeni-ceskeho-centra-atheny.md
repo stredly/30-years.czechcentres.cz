@@ -182,11 +182,6 @@ page_content:
         attrs:
           src: 'asset::assets::background-image/2018_atheny.JPG'
           alt: 'Lavička Václava Havla © Archiv Českého centra Athény'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
       -
         type: text
         marks:
@@ -251,6 +246,6 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685536593
+updated_at: 1685536610
 background_image: background-image/2018_atheny.JPG
 ---
