@@ -399,6 +399,11 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2004_madrid.JPG'
+          alt: 'Z Čech až na konec světa. Průvod na mys Finisterre, 2009 © Archiv Adriany Krásové'
+      -
         type: text
         text: 'Ani po skončení funkčního období první ředitelky ČC Madrid a nástupu nové, Věry Zátopkové, '
       -
@@ -1146,5 +1151,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685625055
+updated_at: 1685627111
 ---
