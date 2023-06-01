@@ -399,7 +399,7 @@ page_content:
           alt: "Věž Ester © Pavlína Schultz\_"
       -
         type: text
-        text: 'Rok 2018 byl přelomový nejen pro celé Česko, ale i pro ČC Tel Aviv. Krátce po příchodu nového ředitele Roberta Mikoláše se otevřel Český dům Jeruzalém (odkaz na kartu ČDJ až bude) a odstartovaly mohutné oslavy 100 let od vzniku samostatného Československa a '
+        text: 'Rok 2018 byl přelomový nejen pro celé Česko, ale i pro ČC Tel Aviv. Krátce po příchodu nového ředitele Roberta Mikoláše se otevřel Český dům Jeruzalém a odstartovaly mohutné oslavy 100 let od vzniku samostatného Československa a '
       -
         type: text
         marks:
@@ -493,12 +493,17 @@ page_content:
         text: Smartwings
       -
         type: text
-        text: ".\_\_"
+        text: .
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2009_tel-aviv-min.jpg'
+          alt: null
       -
         type: text
         marks:
@@ -513,7 +518,43 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum v Tel Avivu zakládal David Stecher, který již měl s prací pro Česká centra bohaté zkušenosti. Do Izraele se stěhoval z Bavorska, kde vedl České centrum Mnichov. V Izraeli působil do roku 2012, kdy ho nahradil spisovatel, dokumentarista a politolog Lukáš Přibyl. Ten zůstal v pozici ředitele ČC Tel Aviv do roku 2017. V letech 2018 až 2023 vedl centrum bývalý zahraniční dopisovatel Českého rozhlasu Robert Mikoláš. V létě 2023 převezme štafetu Jan Štern.\_"
+        text: 'České centrum v Tel Avivu zakládal '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'David Stecher'
+      -
+        type: text
+        text: ', který již měl s prací pro Česká centra bohaté zkušenosti. Do Izraele se stěhoval z Bavorska, kde vedl České centrum Mnichov. V Izraeli působil do roku 2012, kdy ho nahradil spisovatel, dokumentarista a politolog '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Lukáš Přibyl'
+      -
+        type: text
+        text: '. Ten zůstal v pozici ředitele ČC Tel Aviv do roku 2017. V letech 2018 až 2023 vedl centrum bývalý zahraniční dopisovatel Českého rozhlasu '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Robert Mikoláš'
+      -
+        type: text
+        text: '. V létě 2023 převezme štafetu '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jan Štern'
+      -
+        type: text
+        text: ".\_"
   -
     type: heading
     attrs:
@@ -553,7 +594,7 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685547118
+updated_at: 1685624296
 background_image: background-image/2009_tel-aviv-min.jpg
 perex: 'První České centrum na Blízkém východě.'
 ---
