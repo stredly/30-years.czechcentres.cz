@@ -102,10 +102,15 @@ page_content:
         text: 'porozumění a smíření mezi Českem a Německem'
       -
         type: text
-        text: " spolu s dalšími institucemi v pořádání Dnů české kultury pokračovala i po uzavření centra.\_\_\_"
+        text: " spolu s dalšími institucemi v pořádání Dnů české kultury pokračovala i po uzavření centra.\_"
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1997_drazdany.JPG'
+          alt: 'Dny česko-německé kultury 2006 spojené s oslavami 800 let města Drážďany © Archiv Českého centra Drážďany'
       -
         type: text
         text: "V programové nabídce tohoto minifestivalu byly tradičně konference historiků o společné české a německé minulosti, dále setkání vědeckých odborníků, a samozřejmě desítky koncertů, výstav, autorských čtení či filmové přehlídky. Na zahájení jubilejního 10. ročníku v roce 2008 přijel i tehdejší prezident České republiky Václav Klaus.\_"
@@ -364,6 +369,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685616181
+updated_at: 1685621923
 background_image: background-image/1997_drazdany-1685446017.JPG
 ---
