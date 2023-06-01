@@ -951,6 +951,11 @@ page_content:
       level: 2
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/stockholm/1997_stockholm.jpg'
+          alt: 'Vystoupení cirkusového spolku bra3 v tricku na Kulturním festivalu ve Stockholmu, 2014 © Archiv Českého centra Stockholm'
+      -
         type: text
         marks:
           -
@@ -1064,7 +1069,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546697
+updated_at: 1685621287
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
