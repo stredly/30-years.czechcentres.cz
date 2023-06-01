@@ -38,18 +38,15 @@ page_content:
         type: text
         text: ".\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: image
         attrs:
           src: 'asset::assets::background-image/1997_pariz.jpg'
           alt: 'Knižní burza na Českém centru Paříž © Tereza Nováková'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
       -
         type: text
         marks:
@@ -862,7 +859,7 @@ page_content:
             type: link
             attrs:
               href: 'https://paris.czechcentres.cz/'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
         text: paris.czechcentres.cz
@@ -870,5 +867,5 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685612734
+updated_at: 1685612859
 ---
