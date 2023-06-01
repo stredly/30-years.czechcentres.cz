@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685617216
+updated_at: 1685617384
 page_content:
   -
     type: paragraph
@@ -22,7 +22,7 @@ page_content:
         type: image
         attrs:
           src: 'asset::assets::history/gita_fuchsova.jpg'
-          alt: "Gita_Fuchsova: Rozhovor s\_první generální ředitelkou Správy kulturních zařízení/Správy českých center Gitou Fuchsovou © Rudé Právo, 5. 9. 1994, se svolením vydavatele"
+          alt: "Rozhovor s\_první generální ředitelkou Správy kulturních zařízení/Správy českých center Gitou Fuchsovou © Rudé Právo, 5. 9. 1994, se svolením vydavatele"
       -
         type: text
         text: "Po revoluci na činnost KIS navázala Správa zahraničních kulturních zařízení, která se roku 1994 přejmenovala na Správu českých center, později pouze Česká centra. Popřevratovou snahou bylo pokračovat v činnosti v regionech, kde již střediska založena byla, zároveň však rozšířit svoje působení především do zemí západní Evropy. Roku 1993 vznikla centra ve dvou z největších západoevropských metropolích – Londýně a Vídni, zřízeno bylo i moskevské centrum v Rusku, s nímž ČR usilovala o korektní, rovnoprávné vztahy, nezatížené minulostí. V 90. letech byla téměř každoročně otvírána nová centra – v\_Haagu (dnes působnost v\_Rotterdamu), Bratislavě, Bruselu, Paříži či Stockholmu. Významným milníkem bylo v\_roce 1995 zřízení prvního mimoevropského centra v New Yorku."
