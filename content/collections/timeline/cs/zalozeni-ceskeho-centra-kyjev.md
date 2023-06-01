@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685628059
+updated_at: 1685628141
 page_content:
   -
     type: paragraph
@@ -694,7 +694,14 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum Kyjev za celou dobu jeho působnosti navštívila celá škála významných osobností z řad umělců, politiků či diplomatů. Za všechny: Štěpán Rak, Joachim Dvořák, Jaroslav Rudiš, Karel Schwarzenberg, Ondřej Kobza, Kateřina Šedá, Tereza Swadoschova, Jiří Stejskal, Filip Remunda, Martin Dušek, Romana Rybenská, Jarmila Bilkovská, Jana Jánska Lonská, Mgr. Dalibor Levíček, Věra Palanová, Petr Čichoň, Yveta Ellerová, Ilona Polanská, Radovan Přikryl, Zdenka Benešová, Petruška Šustrová, Břetislav Rychlík, Karel Schwarzenberg, Ilona Polanská, Martin Sodomka, Alexej Sevruk, Jan Souček, Petra Pospěchová, Petr Kostrhun, Jan Plachý, Vojtěch Varyš, Markéta Hejkalová, Karel Škrabal, Šárka Svobodová, Jaroslav Sedlák, Tomáš Pastrňák, David Jan Žák, Petr Stančík, Igor Malijevský, Tereza Boučková, Kateřina Hédervári Tučková, Jakub Hradílek, Jiří Kunecký, Eliška Podzimková, Ivo Dokoupil, Irena Dousková, Tomáš Prokůpek, Tereza Semotamová, Barbora Antonová, Ivan Motýl, Petr Stančík, Eva Turnová, Radka Denemarková, Karol Sidon, Jiří Hájíček, Michail Ajvaz, Jindřich Krippner, Robert Forman, Michal Princ, Viktor Dořičák, Marcela Kučová, Barbora Zmeková, Ivo Návrat, Zbyněk Linhart, Zbyněk Baladrán, Daniel Konrád, Stanislav Abrahám, Dmitrij Rubinštejn, Jiří Stejskal, Martina Pecková Černá, Robert Kusmierski, Marek Pokorný, Michal Dočekal, Galina Hausknechtová, Jan Burian, Martin Černý.\_"
+        text: 'České centrum Kyjev za celou dobu jeho působnosti navštívila celá škála významných osobností z řad umělců, politiků či diplomatů. Za všechny: Štěpán Rak, Joachim Dvořák, Jaroslav Rudiš, Karel Schwarzenberg, Ondřej Kobza, Kateřina Šedá, Tereza Swadoschova, Jiří Stejskal, Filip Remunda, Martin Dušek, Romana Rybenská, Jarmila Bilkovská, Jana Jánska Lonská, Mgr. Dalibor Levíček, Věra Palanová, Petr Čichoň, Yveta Ellerová, Ilona Polanská, Radovan Přikryl, Zdenka Benešová, Petruška Šustrová, Břetislav Rychlík, Karel Schwarzenberg, Ilona Polanská, Martin Sodomka, Alexej Sevruk, Jan Souček, Petra Pospěchová, Petr Kostrhun, Jan Plachý, Vojtěch Varyš, Markéta Hejkalová, Karel Škrabal, Šárka Svobodová, Jaroslav Sedlák, Tomáš Pastrňák, David Jan Žák, Petr Stančík, Igor Malijevský, Tereza Boučková, Kateřina Hédervári Tučková, Jakub Hradílek, Jiří Kunecký, Eliška Podzimková, Ivo Dokoupil, Irena Dousková, Tomáš Prokůpek, Tereza Semotamová, Barbora Antonová, Ivan Motýl, Petr Stančík, Eva Turnová, Radka Denemarková, Karol Sidon, Jiří Hájíček, Michail Ajvaz, Jindřich Krippner, Robert Forman, Michal Princ, Viktor Dořičák, Marcela Kučová, Barbora Zmeková, Ivo Návrat, Zbyněk Linhart, Zbyněk Baladrán, Daniel Konrád, Stanislav Abrahám, Dmitrij Rubinštejn, Jiří Stejskal, Martina Pecková Černá, Robert Kusmierski, Marek Pokorný, Michal Dočekal, Galina Hausknechtová, Jan Burian, Martin Černý.'
+  -
+    type: set
+    attrs:
+      id: lid7gev1
+      values:
+        type: html
+        html_code: '<iframe sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23fed500&d=knizka_bez_hranic_page&pageNumber=1&u=czech.centres"></iframe>'
   -
     type: heading
     attrs:
