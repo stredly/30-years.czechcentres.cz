@@ -227,7 +227,16 @@ page_content:
             text: 'Hospodářské noviny'
           -
             type: text
-            text: '. Autor sám popisuje atmosféru představení takto: „'
+            text: .
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Autor sám popisuje atmosféru představení takto: „'
           -
             type: text
             marks:
@@ -1128,5 +1137,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685533617
+updated_at: 1685624826
 ---
