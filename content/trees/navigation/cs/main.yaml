@@ -18,3 +18,7 @@ tree:
   -
     id: 1dec1ab4-2864-4849-8d1e-9cdd2f9baec0
     entry: bd3723c5-e66c-4601-a5ad-c17cd257c21e
+  -
+    id: 8702ce03-30cf-4a48-9482-9467c501f2fc
+    title: 'Česká centra'
+    url: 'https://www.czechcentres.cz/'
