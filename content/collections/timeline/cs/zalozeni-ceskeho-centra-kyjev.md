@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685445962
+updated_at: 1685627821
 page_content:
   -
     type: paragraph
@@ -109,7 +109,7 @@ page_content:
         text: 'Zlatá šedesátá'
       -
         type: text
-        text: ", což byla výstava filmových plakátů s přehlídkou deseti nejúspěšnějších filmů z období tzv. Československé nové vlny.\_\_"
+        text: ', což byla výstava filmových plakátů s přehlídkou deseti nejúspěšnějších filmů z období tzv. Československé nové vlny.'
   -
     type: paragraph
     content:
@@ -143,6 +143,11 @@ page_content:
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1996_kyjev.jpg'
+          alt: 'Promítání filmu Panelstory aneb Jak se rodí sídliště (1979) v Syretském Parku v Kyjevě, 2021 © Сусіди'
       -
         type: text
         text: 'Dříve než se dnes již legendární Noc literatury přenesla i na Ukrajinu, zavedlo České centrum projekt '
