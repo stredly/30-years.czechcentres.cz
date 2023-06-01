@@ -481,7 +481,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Lille 3000 – Europe XXL. '
+        text: 'Lille 3000 – Europe XXL'
+      -
+        type: text
+        text: .
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         text: "V rámci programu tohoto festivalu odprezentovalo výběr z českého divadla, výtvarného umění, hudby a designu.\_\_"
@@ -867,5 +876,5 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685612859
+updated_at: 1685612888
 ---
