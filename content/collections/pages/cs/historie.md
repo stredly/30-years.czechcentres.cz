@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685610622
+updated_at: 1685617216
 page_content:
   -
     type: paragraph
@@ -197,5 +197,4 @@ page_content:
           - downloads/annual_reports/2004.pdf
           - downloads/annual_reports/2003.pdf
           - downloads/annual_reports/2002.pdf
-heading: 'Cesta českých center, aneb jak šel čas …'
 ---
