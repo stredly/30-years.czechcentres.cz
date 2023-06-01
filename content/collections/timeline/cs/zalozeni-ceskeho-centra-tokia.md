@@ -208,6 +208,11 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2006_tokio.jpg'
+          alt: 'Japonská císařovna Mičiko na návštěvě výstavy Sto let s překlady Karla Čapka, 2018 © Archiv Českého centra Tokio'
+      -
         type: text
         text: 'K nejvýznamnějším projektům posledních deseti let lze zařadit rozsáhlou '
       -
@@ -357,7 +362,7 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546886
+updated_at: 1685623261
 event_date: '2006-02-01'
 background_image: background-image/2006_tokio.jpg
 perex: 'První České centrum v Asii.'
