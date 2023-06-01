@@ -312,6 +312,15 @@ page_content:
         type: text
         text: '. Třešničkou na dortu, přesněji řečeno dvěma třešničkami, byla cena za nejlepší dokumentární film režisérky Heleny Třeštíkové (za film Marcela) a zvláštní ocenění Jiřího Menzela, který byl čestným hostem festivalu.'
   -
+    type: set
+    attrs:
+      id: lid5j93x
+      values:
+        type: gallery
+        gallery:
+          - timeline/madrid/reziserka-helena-trestikova-ziskala-s-filmem-marcela-prvni-cenu-za-nejlepsi-dokumentarni-film-na-festivalu-evropskeho-filmu-v-seville-(c)-archiv-ceskeho-centra-madrid.JPG
+          - 'timeline/madrid/jiri-menzel-na-filmovem-festivalu-sevilla-festival-de-cine-100%-europeo,-listopad-2007-(c)-seville-cine-europeo.JPG'
+  -
     type: paragraph
     content:
       -
@@ -1137,5 +1146,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685624826
+updated_at: 1685624901
 ---
