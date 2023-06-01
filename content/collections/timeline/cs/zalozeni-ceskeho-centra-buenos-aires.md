@@ -27,6 +27,11 @@ page_content:
       level: 2
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2008_buenos-aires.JPG'
+          alt: 'Vernisáž výstavy fotografií Prahy P. Šálka © Archiv Českého centra Buenos Aires'
+      -
         type: text
         marks:
           -
@@ -234,7 +239,7 @@ dont_show_month: true
 event_date: '2008-01-01'
 cities: buenos-aires
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546849
+updated_at: 1685621664
 background_image: background-image/2008_buenos-aires.JPG
 perex: 'První České centrum v Jižní Americe.'
 ---
