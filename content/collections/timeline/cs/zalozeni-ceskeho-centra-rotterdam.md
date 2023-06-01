@@ -369,10 +369,15 @@ page_content:
         text: 'prezentace knihy Pražské jaro – Praagse lente REVISITED'
       -
         type: text
-        text: ", v níž se přes třicet významných českých a nizozemských osobností podělilo o své vzpomínky na rok 1968). \_"
+        text: ', v níž se přes třicet významných českých a nizozemských osobností podělilo o své vzpomínky na rok 1968). '
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1995_haag_rotterdam.jpg'
+          alt: 'Pouliční představení Invaze divadla Kvelb © Gabrielle van der Werf'
       -
         type: text
         text: 'Po Petře Prinsové převzala vedení '
@@ -543,6 +548,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685547359
+updated_at: 1685621756
 perex: 'Ve stopách Jana Amose Komenského.'
 ---
