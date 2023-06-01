@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685628188
+updated_at: 1685628210
 page_content:
   -
     type: paragraph
@@ -701,7 +701,7 @@ page_content:
       id: lid7gev1
       values:
         type: html
-        html_code: '<iframe sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?backgroundColor=%23fed500&d=knizka_bez_hranic_page&pageNumber=1&u=czech.centres"></iframe>'
+        html_code: '<iframe sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true"style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html backgroundColor=%23fed500&d=knizka_bez_hranic_page&pageNumber=1&u=czech.centres"></iframe>'
   -
     type: heading
     attrs:
