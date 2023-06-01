@@ -1064,6 +1064,6 @@ dont_show_month: true
 event_date: '2020-01-01'
 cities: milan
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685614966
+updated_at: 1685615039
 perex: 'V hlavním městě módy.'
 ---
