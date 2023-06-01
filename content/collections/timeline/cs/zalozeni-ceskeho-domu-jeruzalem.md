@@ -14,12 +14,17 @@ page_content:
     content:
       -
         type: text
-        text: "Ten se jeho slavnostního otevření osobně zúčastnil společně s izraelským premiérem Benjaminem Netanjahuem dne 27. 11. 2018.\_"
+        text: 'Ten se jeho slavnostního otevření osobně zúčastnil společně s izraelským premiérem Benjaminem Netanjahuem dne 27. 11. 2018.'
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2018_jeruzalem.jpg'
+          alt: 'Slavnostní otevření Českého domu Jeruzalém © Archiv Českého domu Jeruzalém'
       -
         type: text
         marks:
@@ -334,7 +339,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546192
+updated_at: 1685621832
 background_image: background-image/2018_jeruzalem.jpg
 perex: 'Kousek Česka pod horou Sijón.'
 ---
