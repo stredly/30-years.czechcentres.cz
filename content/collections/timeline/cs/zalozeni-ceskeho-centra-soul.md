@@ -25,18 +25,15 @@ page_content:
         type: text
         text: 'Následné zahájení před budovou soulské „Staroměstské radnice“ a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: image
         attrs:
           src: 'asset::assets::timeline/soul/otevreni-cc-soul-(c)-the-korea-times,-6.-5.-2013.jpg'
           alt: 'Otevření ČC Soul © The Korea Times, 6. 5. 2013'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
       -
         type: text
         marks:
@@ -299,12 +296,17 @@ page_content:
         text: 'Slovanské epopeje'
       -
         type: text
-        text: " (1911–1928) či interaktivní výstava výběru ilustrovaných knih.\_\_"
+        text: " (1911–1928) či interaktivní výstava výběru ilustrovaných knih.\_"
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2013_soul.jpg'
+          alt: 'Výstava Zátopek © Archiv Českého centra Soul'
       -
         type: text
         marks:
@@ -373,7 +375,7 @@ page_content:
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546636
+updated_at: 1685623942
 cities: soul
 background_image: background-image/2013_soul.jpg
 perex: 'Pátý evropský kulturní institut působící v Korejské republice.'
