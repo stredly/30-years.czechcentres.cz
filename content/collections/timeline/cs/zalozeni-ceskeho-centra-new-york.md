@@ -76,10 +76,15 @@ page_content:
         text: 'V roce 2008 se ČC New York přestěhovalo do nově zrekonstruované České národní budovy'
       -
         type: text
-        text: " (Bohemian National Hall).\_\_"
+        text: " (Bohemian National Hall).\_"
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1995_new-york.jpeg'
+          alt: 'Přestřižení pásky zrekonstruované České národní budovy krajany © Marian Beneš'
       -
         type: text
         marks:
@@ -1110,6 +1115,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546562
+updated_at: 1685622729
 perex: 'První České centrum v USA.'
 ---
