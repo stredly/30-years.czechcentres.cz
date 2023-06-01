@@ -331,7 +331,15 @@ page_content:
         text: 'Hana Klabanová'
       -
         type: text
-        text: ", která centrum vedla až do jeho uzavření v roce 2010.\_"
+        text: ', která centrum vedla až do jeho uzavření v roce 2010.'
+  -
+    type: set
+    attrs:
+      id: lid0c7hm
+      values:
+        type: downloads
+        downloads:
+          - timeline/dusseldorf/rozhovor-s-hanou-klabanovou.pdf
   -
     type: heading
     attrs:
@@ -356,6 +364,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685458955
+updated_at: 1685616169
 background_image: background-image/1997_drazdany-1685446017.JPG
 ---
