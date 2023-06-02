@@ -46,7 +46,7 @@ page_content:
     content:
       -
         type: text
-        text: "Budova zastupitelského úřadu postavená v\_letech 1975-1977 je ve světovém kontextu českých ambasád naprostým unikátem. "
+        text: "Budova zastupitelského úřadu postavená v\_letech 1975–1977 je ve světovém kontextu českých ambasád naprostým unikátem. "
       -
         type: text
         marks:
@@ -334,7 +334,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Významné osobnosti'
+        text: 'Významné české osobnosti'
   -
     type: paragraph
     content:
@@ -362,7 +362,7 @@ page_content:
 dont_show_month: true
 cities: tokio
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685623261
+updated_at: 1685711944
 event_date: '2006-02-01'
 background_image: background-image/2006_tokio.jpg
 perex: 'První České centrum v Asii.'
