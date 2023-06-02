@@ -273,7 +273,52 @@ page_content:
     content:
       -
         type: text
-        text: 'Zakládající ředitelkou byla Dana Brabcová, která již v minulosti vedla České centrum Bukurešť a po ČC Praha řídila úspěšně i České centrum Moskva. Danu Brabcovou vystřídala na postu ředitelky ČC Praha Jolana Součková. Po jejím 2,5 letém působení se na postu ředitele vystřídali od roku 2013 až do uzavření centra Lukáš Matásek, Zdeněk Lyčka a Renata Talacková.'
+        text: 'Zakládající ředitelkou byla '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Dana Brabcov'
+      -
+        type: text
+        text: 'á, která již v minulosti vedla České centrum Bukurešť a po ČC Praha řídila úspěšně i České centrum Moskva. Danu Brabcovou vystřídala na postu ředitelky ČC Praha '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jolana Součková'
+      -
+        type: text
+        text: '. Po jejím 2,5 letém působení se na postu ředitele vystřídali od roku 2013 až do uzavření centra '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Lukáš Matásek'
+      -
+        type: text
+        text: ', '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zdeněk Lyčka'
+      -
+        type: text
+        text: ' a '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Renata Talacková'
+      -
+        type: text
+        text: .
   -
     type: heading
     attrs:
@@ -295,7 +340,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685699578
+updated_at: 1685699645
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
