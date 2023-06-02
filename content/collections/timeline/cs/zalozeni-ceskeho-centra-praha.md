@@ -320,6 +320,22 @@ page_content:
         type: text
         text: .
   -
+    type: set
+    attrs:
+      id: lieea60g
+      values:
+        type: downloads
+        downloads:
+          - timeline/praha/rozhovor_danabrabcova_kor.pdf
+  -
+    type: set
+    attrs:
+      id: lieea9pc
+      values:
+        type: downloads
+        downloads:
+          - timeline/praha/rozhovor_zdenek_lycka_kor.pdf
+  -
     type: heading
     attrs:
       level: 2
@@ -340,7 +356,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685699735
+updated_at: 1685700150
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
