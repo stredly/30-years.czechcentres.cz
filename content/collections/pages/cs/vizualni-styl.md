@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685696709
+updated_at: 1685696903
 page_content:
   -
     type: paragraph
@@ -271,7 +271,16 @@ page_content:
     content:
       -
         type: text
-        text: "Dynamická doba a potřeba moderní on-line komunikace na nových platformách, si vyžádala reflexi vizuálního stylu a redesign loga sítě Českých center, čehož se ujalo Studio Najbrt.\_\_"
+        text: 'Dynamická doba a potřeba moderní on-line komunikace na nových platformách, si vyžádala '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'reflexi vizuálního stylu a redesign loga'
+      -
+        type: text
+        text: " sítě Českých center, čehož se ujalo Studio Najbrt.\_\_"
   -
     type: blockquote
     content:
@@ -285,10 +294,84 @@ page_content:
             marks:
               -
                 type: italic
-            text: '„Novým silným komunikačním prvkem je symbol meandru s písmenem C v jeho středu. Tvar je inspirován původním symbolem spirály. Linku vycházející ze spirály nahradil volný prostor mezi dvěma řádky v názvu instituce a příslušného města pobočky. Jednoznačným motivem práce na současném redesignu bylo zjednodušení a minimalizace používaných prvků, kterých v průběhu let přibývalo. Vyčištění nánosů a návrat k jádru potřeb prostřednictvím práce s výrazným symbolem a barvami přináší jasnou identifikaci, čitelnost a sebevědomí pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků. Barevný kód se nyní shoduje s barvami Ministerstva zahraničních věcí ČR jako připomínka toho, že české národní barvy, červená a modrá, by měly mít jednotnou kodifikaci,”'
+            text: '„Novým silným komunikačním prvkem je '
           -
             type: text
-            text: " uvedli Andrea Vacovská a Aleš Najbrt k redesignu Českých center.\_\_"
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'symbol meandru s písmenem C v jeho středu'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. Tvar je inspirován původním symbolem spirály. Linku vycházející ze spirály nahradil volný prostor mezi dvěma řádky v názvu instituce a příslušného města pobočky. Jednoznačným motivem práce na současném redesignu bylo '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'zjednodušení a minimalizace používaných prvků'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', kterých v průběhu let přibývalo. Vyčištění nánosů a návrat k jádru potřeb prostřednictvím práce s výrazným symbolem a barvami přináší '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'jasnou identifikaci, čitelnost a sebevědomí pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků. '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Barevný kód se nyní shoduje s barvami Ministerstva zahraničních věcí ČR jako připomínka toho, že české národní barvy, červená a modrá, by měly mít jednotnou kodifikaci'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ',”'
+          -
+            type: text
+            text: ' uvedli '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Andrea Vacovská'
+          -
+            type: text
+            text: ' a '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Aleš Najbrt'
+          -
+            type: text
+            text: " k redesignu Českých center.\_\_"
   -
     type: paragraph
     attrs:
