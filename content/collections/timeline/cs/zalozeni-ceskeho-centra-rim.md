@@ -723,5 +723,6 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: rim
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685610725
+updated_at: 1685713107
+perex: 'Návrat do Věčného města.'
 ---
