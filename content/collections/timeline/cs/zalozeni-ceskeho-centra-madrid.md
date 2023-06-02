@@ -751,7 +751,7 @@ page_content:
         text: 'předsedalo poprvé'
       -
         type: text
-        text: ' od jeho založení v období od října 2018 do října 2019 španělskému '
+        text: ' od jeho založení, v období od října 2018 do října 2019, španělskému '
       -
         type: text
         marks:
@@ -910,7 +910,7 @@ page_content:
     content:
       -
         type: text
-        text: 'V období druhého českého předsednictví v Radě EU v druhé polovině roku 2022 byla jedním z nejvýraznějších počinů ČC Madrid '
+        text: 'V období druhého českého předsednictví v Radě EU, v druhé polovině roku 2022, byla jedním z nejvýraznějších počinů ČC Madrid '
       -
         type: text
         marks:
@@ -1150,5 +1150,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685712191
+updated_at: 1685712304
 ---
