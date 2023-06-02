@@ -106,13 +106,13 @@ page_content:
     content:
       -
         type: text
-        text: "V roce 2018 se centrum přestěhovalo do co-workingového komplexu přímo v centru města a přizpůsobilo se na lokální podmínky. České centrum Stockholm sdílelo prostor budovy The Castle společně se Svenska Institutem, designéry, freelancery, IT developery a dalšími kreativními profesionály. Inspirovalo se švédským modelem spolupráce, který byl již úspěšně aplikován v institucích jako Goethe-Institut nebo Instituto Cervantes.\_"
+        text: "V roce 2018 se centrum přestěhovalo do co-workingového komplexu přímo v centru města a přizpůsobilo se lokálním podmínkám. České centrum Stockholm sdílelo prostor budovy The Castle společně se Svenska Institutem, designéry, freelancery, IT developery a dalšími kreativními profesionály. Inspirovalo se švédským modelem spolupráce, který byl již úspěšně aplikován v institucích jako Goethe-Institut nebo Instituto Cervantes.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "V roce 2022 se z finančních důvodů centrum stěhovalo znovu. V současnosti obývá 2 kanceláře v ulici Åsögatan.\_"
+        text: "V roce 2022 se z finančních důvodů centrum stěhovalo znovu. V současnosti obývá dvě kanceláře v ulici Åsögatan.\_"
   -
     type: heading
     attrs:
@@ -195,7 +195,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'v Malmö Konsthall v jižním Švédsku: Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva a Slavnost Svantovítova na Rujáně.”'
+            text: 'v Malmö Konsthall v jižním Švédsku: Slované v Pravlasti, Mont Athos, Apoteóza z dějin Slovanstva a Slavnost Svantovítova na Rujáně.“'
           -
             type: text
             marks:
@@ -221,7 +221,16 @@ page_content:
     content:
       -
         type: text
-        text: "A my dodáváme, že tato výstava se uskutečnila ve spolupráci s Galerií hl. m. Prahy a byla zařazena do oficiálního programu „Stockholm 98 – hlavní město evropské kultury”.\_"
+        text: 'A my dodáváme, že tato výstava se uskutečnila ve spolupráci s Galerií hl. m. Prahy a byla zařazena do oficiálního programu „Stockholm 98 – hlavní město evropské kultury'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: “
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     content:
@@ -251,7 +260,16 @@ page_content:
         text: 'Český pivní festival ve Stockholmu'
       -
         type: text
-        text: ". Česká pivnice u Švejka vedená českým majitelem každoročně vyhlašovala soutěž o nejlepší točené pivo. Ředitel Lyčka nechal nainstalovat v pivnici “pro příjemnou pohodu a lepší přemýšlení” výstavu reprodukcí české kubistické kresby.\_"
+        text: '. Česká pivnice u Švejka vedená českým majitelem každoročně vyhlašovala soutěž o nejlepší točené pivo. Ředitel Lyčka nechal nainstalovat v pivnici „pro příjemnou pohodu a lepší přemýšlení'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: “
+      -
+        type: text
+        text: " výstavu reprodukcí české kubistické kresby.\_"
   -
     type: paragraph
     content:
@@ -668,7 +686,16 @@ page_content:
         text: ' Solidaritet 68 / Solidarita 68'
       -
         type: text
-        text: " - výstava, jež tvoří dobové dokumenty dokazující solidaritu Švédského království s okupovaným Československem. Pod záštitou Jana Káry, velvyslance ČR ve Švédsku a Petra Kmece, velvyslance SR ve Švédsku.\_"
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: –
+      -
+        type: text
+        text: " výstava, jež tvoří dobové dokumenty dokazující solidaritu Švédského království s okupovaným Československem. Pod záštitou Jana Káry, velvyslance ČR ve Švédsku a Petra Kmece, velvyslance SR ve Švédsku.\_"
   -
     type: paragraph
     content:
@@ -739,7 +766,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Brilliant by Design či OKOLO - Subjects of Interest'
+        text: 'Brilliant by Design či OKOLO – Subjects of Interest'
       -
         type: text
         text: ".\_"
@@ -913,7 +940,7 @@ page_content:
     content:
       -
         type: text
-        text: 'V roce 2019, v roce kdy se plíživým tempem blížil Covid-19, stihli ještě vystavit na dobu 3 měsíců'
+        text: 'V roce 2019, v době kdy se plíživým tempem blížil Covid-19, stihli ještě vystavit na dobu 3 měsíců'
       -
         type: text
         marks:
@@ -922,7 +949,7 @@ page_content:
         text: ' Růžový tank Davida Černého'
       -
         type: text
-        text: " v rámci Bienále Örebro. V rámci doprovodného programu se uskutečnila fotografická výstava Jiřího Jírů, výstava k sametové revoluci Dany Kyndrové a umělecké dílo Lucie Frýdlové.\_"
+        text: " v rámci Bienále Örebro. Doprovodný programem byla fotografická výstava Jiřího Jírů, výstava k sametové revoluci Dany Kyndrové a umělecké dílo Lucie Frýdlové.\_"
   -
     type: paragraph
     content:
@@ -937,7 +964,7 @@ page_content:
         text: 'Slow Fashion Show'
       -
         type: text
-        text: ' a „zero waste”'
+        text: ' a „zero waste“'
       -
         type: text
         marks:
@@ -1118,7 +1145,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685700707
+updated_at: 1685711333
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
