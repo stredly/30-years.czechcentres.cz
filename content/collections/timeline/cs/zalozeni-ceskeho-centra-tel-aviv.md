@@ -226,7 +226,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Židovští architekti v Praze 1900–1938 (Jewish Architects in Prague 1900-1938)'
+        text: 'Židovští architekti v Praze 1900–1938 (Jewish Architects in Prague 1900–1938)'
       -
         type: text
         text: ' z produkce Galerie Jaroslava Fragnera zaznamenala úspěch zejména mezi milovníky architektury. '
@@ -565,7 +565,7 @@ page_content:
         marks:
           -
             type: bold
-        text: "Významné české osobnosti\_"
+        text: "Významné osobnosti\_"
   -
     type: paragraph
     content:
@@ -594,7 +594,7 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: tel-aviv
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685624507
+updated_at: 1685711900
 background_image: background-image/2009_tel-aviv-min.jpg
 perex: 'První České centrum na Blízkém východě.'
 ---
