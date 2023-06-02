@@ -14,7 +14,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'historie české kulturní diplomacie v Maďarsku však sahá až do roku 1953'
+        text: 'historie české kulturní diplomacie v Maďarsku sahá až do roku 1953'
       -
         type: text
         text: ", kdy zde vzniklo Československé kulturní středisko.\_"
@@ -782,6 +782,6 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685709080
+updated_at: 1685709762
 background_image: background-image/1953_budapest.jpg
 ---
