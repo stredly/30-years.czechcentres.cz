@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685696903
+updated_at: 1685696953
 page_content:
   -
     type: paragraph
@@ -330,13 +330,13 @@ page_content:
                 type: bold
               -
                 type: italic
-            text: 'jasnou identifikaci, čitelnost a sebevědomí pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě'
+            text: 'jasnou identifikaci, čitelnost a sebevědomí '
           -
             type: text
             marks:
               -
                 type: italic
-            text: '. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků. '
+            text: 'pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků. '
           -
             type: text
             marks:
