@@ -14,7 +14,7 @@ page_content:
     content:
       -
         type: text
-        text: "\_České centrum bylo "
+        text: 'České centrum bylo '
       -
         type: text
         marks:
@@ -35,7 +35,7 @@ page_content:
     content:
       -
         type: text
-        text: "\_K 1. březnu 2011 bylo České centrum Košice "
+        text: 'K 1. březnu 2011 bylo České centrum Košice '
       -
         type: text
         marks:
@@ -109,16 +109,13 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-      -
-        type: text
         marks:
           -
             type: bold
         text: 'Dny české kultury na Slovensku'
       -
         type: text
-        text: ' se konají každoročně a během trvání činnosti ČC Košice i s jeho podporou. Akce byla organizována ve spolupráci s Českým spolkem v Košicích za finanční podpory Ministerstva kultury SR a Ministerstva zahraničních věcí ČR. Festival přináší širokou nabídku ze současné české kultury. Festival, situovaný tradičně mezi dva české národní svátky - památku hlavního českého patrona svatého Václava a výročí vzniku československého státu - přinesl do metropole východního Slovenska i do několika jiných měst tohoto regionu žánrově pestrou a programově vyrovnanou nabídku české kultury. Více se o Dnech české kultury z roku 2006 dozvíte '
+        text: ' se konají každoročně a během trvání činnosti ČC Košice i s jeho podporou. Akce byla organizována ve spolupráci s Českým spolkem v Košicích za finanční podpory Ministerstva kultury SR a Ministerstva zahraničních věcí ČR. Festival přináší širokou nabídku ze současné české kultury. Festival, situovaný tradičně mezi dva české národní svátky – památku hlavního českého patrona svatého Václava a výročí vzniku československého státu – přinesl do metropole východního Slovenska i do několika jiných měst tohoto regionu žánrově pestrou a programově vyrovnanou nabídku české kultury. Více se o Dnech české kultury z roku 2006 dozvíte '
       -
         type: text
         marks:
@@ -147,7 +144,7 @@ page_content:
         text: 'Pět statečných famáků'
       -
         type: text
-        text: ". Tvorba této nové generace režisérů a tvůrců animovaných filmů - Michala Žabky, Václava Švankmajera, Noro Držiaka, Jana Bubeníčka a Davida Súkupa, absolventů pražské FAMU, dokázala přenést návštěvníky nejen zpět do dětství, ale také poodhalila roušku hravého pohledu na vážný svět.\_"
+        text: ". Tvorba této nové generace režisérů a tvůrců animovaných filmů – Michala Žabky, Václava Švankmajera, Noro Držiaka, Jana Bubeníčka a Davida Súkupa, absolventů pražské FAMU, dokázala přenést návštěvníky nejen zpět do dětství, ale také poodhalila roušku hravého pohledu na vážný svět.\_"
   -
     type: paragraph
     content:
@@ -259,6 +256,6 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685614693
+updated_at: 1685712089
 background_image: background-image/2005_kosice.jpg
 ---
