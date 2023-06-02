@@ -9,7 +9,7 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Paříž bylo '
+        text: 'České centrum Paříž (ČC) bylo '
       -
         type: text
         marks:
@@ -70,7 +70,7 @@ page_content:
         text: 'Rue Bonaparte č. 18 v 6. obvodu'
       -
         type: text
-        text: ", kde v letech 1916-1918 sídlila Česká a posléze Československá Národní rada v čele s Edvardem Benešem. Již za první světové války zde měla své sídlo Masarykova prozatímní vláda a později konzulát. Než byla předána k užívání Českému centru, musela budova projít náročnou a kompletní rekonstrukcí. Autorem této přestavby, jež proběhla v letech 1992–1996 je architekt Zdeněk Zavřel.\_\_"
+        text: ", kde v letech 1916–1918 sídlila Česká a posléze Československá Národní rada v čele s Edvardem Benešem. Již za první světové války zde měla své sídlo Masarykova prozatímní vláda a později konzulát. Než byla předána k užívání Českému centru, musela budova projít náročnou a kompletní rekonstrukcí. Autorem této přestavby, jež proběhla v letech 1992–1996, je architekt Zdeněk Zavřel.\_\_"
   -
     type: paragraph
     content:
@@ -292,7 +292,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Noc literatury - 2009'
+        text: 'Noc literatury – 2009'
       -
         type: text
         text: ' ČC Paříž uspořádalo večer s Boženou Němcovou ve sklepení budovy ve stylu literární kavárny. V rámci této první Noci literatury se četla '
@@ -598,7 +598,7 @@ page_content:
         text: Přesahy
       -
         type: text
-        text: '. Ta byla určitými “Ozvěnami pražského Quadriennale”. K vidění byla díla 13 českých současných umělců, scénografických tvůrců pro prostor mimo divadlo a naopak díla tvůrců mimo divadelních pro scénografii. V rámci doprovodného programu zazněl koncert kapely '
+        text: '. Ta byla určitými „Ozvěnami pražského Quadriennale“. K vidění byla díla 13 českých současných umělců, scénografických tvůrců pro prostor mimo divadlo a naopak díla tvůrců mimo divadelních pro scénografii. V rámci doprovodného programu zazněl koncert kapely '
       -
         type: text
         marks:
@@ -664,7 +664,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'llustrovaná nástěnná časová osa 1918-2018'
+        text: 'llustrovaná nástěnná časová osa 1918–2018'
       -
         type: text
         text: " v prostoru schodiště ParisPrague jazz clubu. Tento dnes již ikonický pařížský jazzový klub dal vzniknout nástěnné malbě 2 ikon české ilustrace. Dílem umělců Davida Böhma & Jiřího Franty byla ilustrovaná časová osa, která obecenstvo hravou formou seznámila s významnými historickými, kulturními, vědeckými i sportovními událostmi od vzniku Československa do dnešní doby. Časovou osu dne 21. 3. 2018 slavnostně odhalil historik a politolog Jacques Rupnik.\_"
@@ -730,7 +730,7 @@ page_content:
             content:
               -
                 type: text
-                text: "Kraj Vysočina - v rámci výstavy předního českého výtvarníka Emanuela Ranného za přítomnosti autora, J. E. Velvyslankyně ČR ve Francii Marie Chatardové a hejtmana Kraje Vysočina Jiřího Běhounka. Akce byla pořádána ve spolupráci s Krajem Vysočina a s agenturou CzechTourism.\_"
+                text: "Kraj Vysočina – v rámci výstavy předního českého výtvarníka Emanuela Ranného za přítomnosti autora, J. E. Velvyslankyně ČR ve Francii Marie Chatardové a hejtmana Kraje Vysočina Jiřího Běhounka. Akce byla pořádána ve spolupráci s Krajem Vysočina a s agenturou CzechTourism.\_"
   -
     type: heading
     attrs:
@@ -876,5 +876,5 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685621576
+updated_at: 1685710724
 ---
