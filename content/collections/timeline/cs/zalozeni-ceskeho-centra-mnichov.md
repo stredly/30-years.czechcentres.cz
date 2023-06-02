@@ -123,7 +123,7 @@ page_content:
             attrs:
               href: 'https://sokolmnichov.de/kronika/mikulasskezabavy/18-mikulaska-zabava-2008'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -172,7 +172,7 @@ page_content:
             attrs:
               href: 'https://www.bbkult.net/cz/prispevky/cebb/55469-czech-stars-ceske-hvezdy/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -194,7 +194,7 @@ page_content:
             attrs:
               href: 'https://www.nocliteratury.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -399,7 +399,7 @@ page_content:
             attrs:
               href: 'https://munich.czechcentres.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -536,6 +536,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685702393
+updated_at: 1685712510
 perex: 'Za českou kulturou do Bavorska.'
 ---
