@@ -83,13 +83,13 @@ page_content:
         text: 'Poblíž starověkých pyramid v Gíze se nachází Velvyslanectví České republiky v Káhiře'
       -
         type: text
-        text: ", brutalistní architektura přizpůsobená pouštnímu klimatu, jejíž dominantou je třináctipodlažní obytná budova. Právě v té, konkrétně v 7. patře se nachází také prostory ČCZ. Součástí areálu je rozsáhlá úřední budova i rezidence velvyslance.\_"
+        text: ", brutalistní architektura přizpůsobená pouštnímu klimatu, jejíž dominantou je třináctipodlažní obytná budova. Právě v té, konkrétně v 7. patře, se nachází také prostory ČCZ. Součástí areálu je rozsáhlá úřední budova i rezidence velvyslance.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Velvyslanectví, které navrhl renomovaný český architekt Karel Filsak ve spolupráci s kolegou Vladimírem Tomsem, bylo postaveno v letech 1977-1980. Žlutobéžový tón budovy je ódou na zlatavé písky regionu, zatímco labyrintový styl vnějšího vzhledu má méně co do činění s estetikou a více s filtrováním silného slunečního světla.\_\_"
+        text: "Velvyslanectví, které navrhl renomovaný český architekt Karel Filsak ve spolupráci s kolegou Vladimírem Tomsem, bylo postaveno v letech 1977–1980. Žlutobéžový tón budovy je ódou na zlatavé písky regionu, zatímco labyrintový styl vnějšího vzhledu má méně co do činění s estetikou a více s filtrováním silného slunečního světla.\_\_"
   -
     type: paragraph
     content:
@@ -368,12 +368,12 @@ page_content:
     content:
       -
         type: text
-        text: "Miroslav Bárta, Ladislav Bareš, Jiří Janák, Hana Vymazalová, Lenka Korecká, Marek Švejkar\_"
+        text: 'Miroslav Bárta, Ladislav Bareš, Jiří Janák, Hana Vymazalová, Lenka Korecká, Marek Švejkar'
 dont_show_month: true
 event_date: '2022-07-01'
 cities: kahira
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685545600
+updated_at: 1685711613
 background_image: background-image/2022_kahira.jpg
 perex: 'První centrum na africkém kontinentě.'
 ---
