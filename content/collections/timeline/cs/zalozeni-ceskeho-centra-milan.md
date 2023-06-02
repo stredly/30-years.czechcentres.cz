@@ -783,7 +783,7 @@ page_content:
         text: 'ilustrovanou '
       -
         type: text
-        text: 'mozaiku příběhů významných českých žen - panovnic, političek, umělkyň, badatelek či sportovkyň, které otiskly výraznou stopu do historie i současnosti nejen v českých zemích, ale i v mezinárodním kontextu. Projekt byl inspirován 100. výročím uzákonění rovného volebního práva pro československé ženy'
+        text: 'mozaiku příběhů významných českých žen – panovnic, političek, umělkyň, badatelek či sportovkyň, které otiskly výraznou stopu do historie i současnosti nejen v českých zemích, ale i v mezinárodním kontextu. Projekt byl inspirován 100. výročím uzákonění rovného volebního práva pro československé ženy'
       -
         type: text
         marks:
@@ -1064,6 +1064,6 @@ dont_show_month: true
 event_date: '2020-01-01'
 cities: milan
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685615039
+updated_at: 1685711723
 perex: 'V hlavním městě módy.'
 ---
