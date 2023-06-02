@@ -378,6 +378,19 @@ page_content:
         type: paragraph
         content:
           -
+            type: image
+            attrs:
+              src: 'asset::assets::background-image/1994_bratislava.jpg'
+              alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://bratislava.czechcentres.cz/?locale=cs'
+                  rel: null
+                  target: _blank
+                  title: null
+          -
             type: text
             marks:
               -
@@ -471,17 +484,29 @@ page_content:
         type: text
         text: .
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Samozřejmě ta česká přítomnost je tu velice silná, to nelze popírat. Ale přesto je tady pořád ještě veliký prostor pro prezentaci kultury nebo vůbec aktivit alternativní, menšinové kultury, mladé kultury, která ještě není tak vyprofilovaná, aby se čistě z komerčního hlediska vyplatila.“ '
-      -
-        type: text
-        text: 'doplnila Wanatowiczová Bartošová.'
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Samozřejmě ta česká přítomnost je tu velice silná, to nelze popírat. Ale přesto je tady pořád ještě veliký prostor pro prezentaci kultury nebo vůbec aktivit alternativní, menšinové kultury, mladé kultury, která ještě není tak vyprofilovaná, aby se čistě z komerčního hlediska vyplatila.“ '
+          -
+            type: text
+            text: 'doplnila '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Wanatowiczová Bartošová'
+          -
+            type: text
+            text: .
   -
     type: paragraph
     content:
@@ -526,7 +551,23 @@ page_content:
     content:
       -
         type: text
-        text: 'V roce 2005 bylo České centrum z bezpečnostních a finančních důvodů přesunuto na východ do Košic. O působení Českého centra Košice naleznete více informací zde (proklik na ČC Košice).'
+        text: 'V roce 2005 bylo České centrum z bezpečnostních a finančních důvodů přesunuto na východ do Košic. O působení Českého centra Košice naleznete více informací '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://30years.czechcentres.cz/zalozeni-ceskeho-centra-kosice'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: zde
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -1019,22 +1060,6 @@ page_content:
     type: paragraph
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1994_bratislava.jpg'
-          alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://bratislava.czechcentres.cz/?locale=cs'
-              rel: null
-              target: _blank
-              title: null
-  -
-    type: paragraph
-    content:
-      -
         type: text
         text: 'Největší mezinárodní festival fotografie na Slovensku s epicentrem v Prepoštské ulici, kde sídlí České centrum spolu se Středoevropským domem fotografie, se stal s řadou českých fotografických výstav největší akcí, do které se ČC aktivně zapojilo po celý měsíc. I z této akce se stala tradice a '
       -
@@ -1216,5 +1241,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685705532
+updated_at: 1685705909
 ---
