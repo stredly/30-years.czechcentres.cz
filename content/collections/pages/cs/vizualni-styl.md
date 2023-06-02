@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1683718895
+updated_at: 1685696540
 page_content:
   -
     type: paragraph
@@ -12,7 +12,34 @@ page_content:
     content:
       -
         type: text
-        text: "Během uplynulých 30 let se logo Českých center vyvíjelo a měnilo, aby reflektovalo nové požadavky v oblasti komunikace a přizpůsobilo se rychle se měnícím trendům prezentace ve společnosti. Nicméně barvy české vlajky byly v logu a vizuálním stylu Českých center zastoupeny vždy a představují symbol prezentace české kultury ve světě.\_"
+        text: 'Během uplynulých 30 let se logo Českých center vyvíjelo a měnilo, aby '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'reflektovalo nové požadavky v oblasti komunikace a přizpůsobilo se rychle se měnícím trendům'
+      -
+        type: text
+        text: ' prezentace ve společnosti. Nicméně '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'barvy české vlajky'
+      -
+        type: text
+        text: ' byly v logu a vizuálním stylu Českých center zastoupeny vždy a představují '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'symbol prezentace české kultury ve světě'
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     attrs:
@@ -20,7 +47,20 @@ page_content:
     content:
       -
         type: text
-        text: 'Studio Najbrt bylo v průběhu let důležitým partnerem při tvorbě grafického designu a pomohlo vytvořit i současnou podobu loga a vizuálního stylu Českých center.'
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.najbrt.cz/'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: 'Studio Najbrt'
+      -
+        type: text
+        text: ' bylo v průběhu let důležitým partnerem při tvorbě grafického designu a pomohlo vytvořit i současnou podobu loga a vizuálního stylu Českých center.'
   -
     type: set
     attrs:
