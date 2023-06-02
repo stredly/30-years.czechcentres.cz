@@ -133,7 +133,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Rok 2006 byl doslova Sezonou české scény'
+        text: 'Rok 2006 byl doslova Sezónou české scény'
       -
         type: text
         text: ', tak byla totiž nazvána celoroční přehlídka českých divadelních a tanečních představení na řadě významných festivalů, především v Madridu a Valencii. '
@@ -187,7 +187,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'Sezóna české scény a především pak česko-francouzský projekt Boudy bratří Formanů vzbudily velký zájem Španělů i tamních médií. Za vše hovoří dva články v celostátním a nejčtenějším španělském deníku El País," '
+            text: 'Sezóna české scény a především pak česko-francouzský projekt Boudy bratří Formanů vzbudily velký zájem Španělů i tamních médií. Za vše hovoří dva články v celostátním a nejčtenějším španělském deníku El País,“ '
           -
             type: text
             marks:
@@ -242,7 +242,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'Jedna salva smíchu provázela druhou a atmosféra v Boudě bratří Formanů byla báječná. Ať už to bylo v Madridu nebo ve Valencii. Každý den bylo vyprodáno a lidé ještě po začátku představení čekali, zda se přece jen nedostanou do sálu. I to patřilo k letošní Sezóně české scény ve Španělsku.“'
+            text: 'Jedna salva smíchu provázela druhou a atmosféra v Boudě bratří Formanů byla báječná. Ať už to bylo v Madridu nebo ve Valencii. Každý den bylo vyprodáno a lidé ještě po začátku představení čekali, zda se přece jen nedostanou do sálu. I to patřilo k letošní Sezoně české scény ve Španělsku.“'
           -
             type: text
             text: "\_"
@@ -293,7 +293,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Sevilla Festival de Cine 100% Europeo'
+        text: 'Sevilla Festival de Cine 100 % Europeo'
       -
         type: text
         text: ' aj. Více o tomto projektu můžete zjistit na stránkách '
@@ -547,7 +547,7 @@ page_content:
         text: 'Dva zlaté prstýnky'
       -
         type: text
-        text: " svůj konceptuální projekt realizovaný na míru výstavní galerie Palacio de Cristal Museo Reina Sofía v Madridu.\_\_"
+        text: " svůj konceptuální projekt realizovaný na míru výstavní galerii Palacio de Cristal Museo Reina Sofía v Madridu.\_\_"
   -
     type: paragraph
     content:
@@ -1150,5 +1150,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685712304
+updated_at: 1685712471
 ---
