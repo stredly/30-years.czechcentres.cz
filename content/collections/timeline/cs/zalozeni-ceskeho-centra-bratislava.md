@@ -372,59 +372,62 @@ page_content:
         type: text
         text: ", která byla připravena k jeho nedožitým čtyřicátinám. Výstava byla součástí rozsáhlé expozice o slovenském profesionálním divadle, které bylo celoživotně propojeno s tím českým. \_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Představili jsme i '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Představili jsme i '
           -
-            type: bold
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Knihovnu Václava Havla'
           -
-            type: italic
-        text: 'Knihovnu Václava Havla'
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', kterou přijel představit pan '
           -
-            type: italic
-        text: ', kterou přijel představit pan '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Vilém Prečan'
           -
-            type: bold
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', historik, který sestavil první publikaci, kterou Knihovna Václava Havla vydala. Zájem veřejnosti byl obrovský,“ '
           -
-            type: italic
-        text: 'Vilém Prečan'
-      -
-        type: text
-        marks:
+            type: text
+            text: 'řekla ředitelka centra v rozhovoru pro '
           -
-            type: italic
-        text: ', historik, který sestavil první publikaci, kterou Knihovna Václava Havla vydala. Zájem veřejnosti byl obrovský,“ '
-      -
-        type: text
-        text: 'řekla ředitelka centra v rozhovoru pro '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cesky.radio.cz/o-ceskou-kulturu-je-na-slovensku-stale-velky-zajem-8096904'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Radio Prague International'
           -
-            type: link
-            attrs:
-              href: 'https://cesky.radio.cz/o-ceskou-kulturu-je-na-slovensku-stale-velky-zajem-8096904'
-              rel: null
-              target: null
-              title: null
-        text: 'Radio Prague International'
-      -
-        type: text
-        text: ' ze dne 16. 3. 2005.'
+            type: text
+            text: ' ze dne 16. 3. 2005.'
   -
     type: paragraph
     content:
@@ -544,16 +547,31 @@ page_content:
         text: ' Františka Skály – Pravdivý příběh Cílka a Lídy'
       -
         type: text
-        text: '. Kurátorem byl Martin Souček. Autor nad projektem přemýšlel 20 let a pracoval na něm dva roky. Fotografoval ve volné přírodě a na výstavě v Bratislavě představil 40 stran z knihy Pravdivý příběh Cílka a Lídy, která obsahuje celý příběh těchto dvou pohádkových bytostí. '
+        text: '. Kurátorem byl Martin Souček. Autor nad projektem přemýšlel 20 let a pracoval na něm dva roky. Fotografoval ve volné přírodě a na výstavě v Bratislavě představil 40 stran z knihy Pravdivý příběh Cílka a Lídy, která obsahuje celý příběh těchto dvou pohádkových bytostí.'
+  -
+    type: blockquote
+    content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Bylo to o obrovské trpělivosti, protože pořízení jednoho záběru mi někdy trvalo celé odpoledne'
-      -
-        type: text
-        text: ",“ řekl Skála.\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Bylo to o obrovské trpělivosti, protože pořízení jednoho záběru mi někdy trvalo celé odpoledne'
+          -
+            type: text
+            text: ',“ řekl '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: Skála
+          -
+            type: text
+            text: ".\_"
   -
     type: paragraph
     content:
@@ -577,8 +595,10 @@ page_content:
             attrs:
               href: 'https://vltava.rozhlas.cz/ceske-soucasne-umeni-na-dunaji-5139825#volume'
               rel: null
-              target: null
+              target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -723,7 +743,23 @@ page_content:
         text: 'Noc literatury'
       -
         type: text
-        text: ' přivedla na Slovensko Jana Burianová v roce 2009. Více o tomto fenomenálním projektu Českých center naleznete zde (proklik).'
+        text: ' přivedla na Slovensko Jana Burianová v roce 2009. Více o tomto fenomenálním projektu Českých center naleznete '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.nocliteratury.cz/'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: zde
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -1022,23 +1058,6 @@ page_content:
         type: text
         text: "České centrum nejen že navázalo, ale začalo dále rozvíjet spolupráci s partnery\_ v rámci akcí jako je Bratislava Design Week, Festival českého divadla, Jeden svět, Festival Pohoda, ale především Noc literatury."
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Více o akcích ČC Bratislava: '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://bratislava.czechcentres.cz/program'
-              rel: null
-              target: null
-              title: null
-        text: zde
-  -
     type: heading
     attrs:
       level: 2
@@ -1105,5 +1124,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685704214
+updated_at: 1685705312
 ---
