@@ -17,7 +17,7 @@ page_content:
         text: 'The Image Gallery'
       -
         type: text
-        text: ", historické aristokratické rezidenci nacházející se v centru města v těsné blízkosti parlamentu Řecké republiky za přítomnosti Velvyslance ČR v Athénách Jana Bondyho, řecké ministryně kultury Mirsini Zorba, náměstka ministra zahraničí ČR Lukáše Kauckého a jeho řeckého protějšku Markose Bolarise, ředitele Odboru států jižní a jihovýchodní Evropy MZV ČR Martina Košatky, zmocněnce řeckého ministra zahraničí Petrose Panagiotopoulose, velvyslankyně Slovenska Ivety Hricové, české konzulky\_ s dalšími zaměstnanci ambasády aj. Inaugurace se účastnili také velvyslanci jiných zemí, honorární konzul ČR v Pireu, Andreas Lionis, někteří řečtí poslanci, novináři, zástupci řeckých kulturních institucí, včetně "
+        text: ', historické aristokratické rezidenci nacházející se v centru města v těsné blízkosti parlamentu Řecké republiky za přítomnosti Velvyslance ČR v Athénách Jana Bondyho, řecké ministryně kultury Mirsini Zorba, náměstka ministra zahraničí ČR Lukáše Kauckého a jeho řeckého protějšku Markose Bolarise, ředitele Odboru států jižní a jihovýchodní Evropy MZV ČR Martina Košatky, zmocněnce řeckého ministra zahraničí Petrose Panagiotopoulose, velvyslankyně Slovenska Ivety Hricové, české konzulky s dalšími zaměstnanci ambasády aj. Inaugurace se účastnili také velvyslanci jiných zemí, honorární konzul ČR v Pireu, Andreas Lionis, někteří řečtí poslanci, novináři, zástupci řeckých kulturních institucí, včetně '
       -
         type: text
         marks:
@@ -246,7 +246,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685546978
+updated_at: 1685711800
 background_image: background-image/2018_atheny.JPG
 perex: 'Kulturní institut v kolébce evropské civilizace.'
 ---
