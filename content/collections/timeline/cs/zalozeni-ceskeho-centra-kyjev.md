@@ -5,14 +5,14 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685629533
+updated_at: 1685710320
 page_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'V roce 1996 byla založena hned dvě Česká centra (ČC) - Kyjev a New York a Český dům Moskva, který ovšem v té době ještě nespadal pod správu Českých center. Díky '
+        text: 'V roce 1996 byla založena hned dvě Česká centra (ČC) – Kyjev a New York a Český dům Moskva, který ovšem v té době ještě nespadal pod správu Českých center. Díky '
       -
         type: text
         marks:
@@ -47,7 +47,7 @@ page_content:
     content:
       -
         type: text
-        text: "ČC Kyjev se stěhovalo celkem pětkrát. Celkem 3x za působnosti ředitele Rudolfa Sedláčka, jednou během funkčního období Dagmar Ostřanské a naposledy se stěhovalo s Lucií Řehoříkovou. \_"
+        text: "ČC Kyjev se stěhovalo celkem pětkrát. Celkem třikrát za působnosti ředitele Rudolfa Sedláčka, jednou během funkčního období Dagmar Ostřanské a naposledy se stěhovalo s Lucií Řehoříkovou. \_"
   -
     type: paragraph
     content:
@@ -192,7 +192,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'výstava CI.CZ - firemní styl'
+        text: 'výstava CI.CZ – firemní styl'
       -
         type: text
         text: ", která vyprávěla příběh českého firemního designu. Výstava CI.CZ byla unikátním projektem, který představoval výběr firemních stylů vzniklých v Česku po roce 1990. Vybrané projekty si z různých důvodů vydobyly příkladného postavení, ať už prvenstvím vzniku, inovativní formou výtvarného řešení, nebo komplexním dosahem na vývoj Corporate Designu.\_"
@@ -367,7 +367,7 @@ page_content:
         text: 'České stopy'
       -
         type: text
-        text: '. V současné době se tento vědecko-populárně výzkumný projekt orientuje na dvě ukrajinské oblasti - '
+        text: '. V současné době se tento vědecko-populárně výzkumný projekt orientuje na dvě ukrajinské oblasti – '
       -
         type: text
         marks:
@@ -685,7 +685,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Významné české osobnosti'
+        text: 'Významné osobnosti'
       -
         type: text
         text: "\_"
@@ -694,7 +694,7 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Kyjev za celou dobu jeho působnosti navštívila celá škála významných osobností z řad umělců, politiků či diplomatů. Za všechny: Štěpán Rak, Joachim Dvořák, Jaroslav Rudiš, Karel Schwarzenberg, Ondřej Kobza, Kateřina Šedá, Tereza Swadoschova, Jiří Stejskal, Filip Remunda, Martin Dušek, Romana Rybenská, Jarmila Bilkovská, Jana Jánska Lonská, Mgr. Dalibor Levíček, Věra Palanová, Petr Čichoň, Yveta Ellerová, Ilona Polanská, Radovan Přikryl, Zdenka Benešová, Petruška Šustrová, Břetislav Rychlík, Karel Schwarzenberg, Ilona Polanská, Martin Sodomka, Alexej Sevruk, Jan Souček, Petra Pospěchová, Petr Kostrhun, Jan Plachý, Vojtěch Varyš, Markéta Hejkalová, Karel Škrabal, Šárka Svobodová, Jaroslav Sedlák, Tomáš Pastrňák, David Jan Žák, Petr Stančík, Igor Malijevský, Tereza Boučková, Kateřina Hédervári Tučková, Jakub Hradílek, Jiří Kunecký, Eliška Podzimková, Ivo Dokoupil, Irena Dousková, Tomáš Prokůpek, Tereza Semotamová, Barbora Antonová, Ivan Motýl, Petr Stančík, Eva Turnová, Radka Denemarková, Karol Sidon, Jiří Hájíček, Michail Ajvaz, Jindřich Krippner, Robert Forman, Michal Princ, Viktor Dořičák, Marcela Kučová, Barbora Zmeková, Ivo Návrat, Zbyněk Linhart, Zbyněk Baladrán, Daniel Konrád, Stanislav Abrahám, Dmitrij Rubinštejn, Jiří Stejskal, Martina Pecková Černá, Robert Kusmierski, Marek Pokorný, Michal Dočekal, Galina Hausknechtová, Jan Burian, Martin Černý.'
+        text: 'Štěpán Rak, Joachim Dvořák, Jaroslav Rudiš, Karel Schwarzenberg, Ondřej Kobza, Kateřina Šedá, Tereza Swadoschova, Jiří Stejskal, Filip Remunda, Martin Dušek, Romana Rybenská, Jarmila Bilkovská, Jana Jánska Lonská, Mgr. Dalibor Levíček, Věra Palanová, Petr Čichoň, Yveta Ellerová, Ilona Polanská, Radovan Přikryl, Zdenka Benešová, Petruška Šustrová, Břetislav Rychlík, Karel Schwarzenberg, Ilona Polanská, Martin Sodomka, Alexej Sevruk, Jan Souček, Petra Pospěchová, Petr Kostrhun, Jan Plachý, Vojtěch Varyš, Markéta Hejkalová, Karel Škrabal, Šárka Svobodová, Jaroslav Sedlák, Tomáš Pastrňák, David Jan Žák, Petr Stančík, Igor Malijevský, Tereza Boučková, Kateřina Hédervári Tučková, Jakub Hradílek, Jiří Kunecký, Eliška Podzimková, Ivo Dokoupil, Irena Dousková, Tomáš Prokůpek, Tereza Semotamová, Barbora Antonová, Ivan Motýl, Petr Stančík, Eva Turnová, Radka Denemarková, Karol Sidon, Jiří Hájíček, Michail Ajvaz, Jindřich Krippner, Robert Forman, Michal Princ, Viktor Dořičák, Marcela Kučová, Barbora Zmeková, Ivo Návrat, Zbyněk Linhart, Zbyněk Baladrán, Daniel Konrád, Stanislav Abrahám, Dmitrij Rubinštejn, Jiří Stejskal, Martina Pecková Černá, Robert Kusmierski, Marek Pokorný, Michal Dočekal, Galina Hausknechtová, Jan Burian, Martin Černý.'
   -
     type: heading
     attrs:
@@ -762,7 +762,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'Na Ukrajinu jsem se tak vrátil po třiceti letech, když mi letos vyšla v ukrajinském překladu knížka Jeden z milionu. V květnu jsem četl na knižním veletrhu Arsenal, koncem července jsem byl hostem Měsíce autorského čtení ve Lvově. A musím hned předeslat, že „pomajdanská“ Ukrajina má tady u nás, v Brně, velmi dobrou pověst; jistě i proto, že šéfkou Českého centra je Brňačka Lucka Řehoříková.'
+            text: 'Na Ukrajinu jsem se tak vrátil po třiceti letech, když mi letos vyšla v ukrajinském překladu knížka Jeden z milionu. V květnu jsem četl na knižním veletrhu Arsenal, koncem července jsem byl hostem Měsíce autorského čtení ve Lvově. A musím hned předeslat, že ‚pomajdanská‘ Ukrajina má tady u nás, v Brně, velmi dobrou pověst; jistě i proto, že šéfkou Českého centra je Brňačka Lucka Řehoříková.'
           -
             type: text
             text: "\_"
