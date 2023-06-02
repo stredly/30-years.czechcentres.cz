@@ -1029,7 +1029,23 @@ page_content:
         text: ' Michal Brenner'
       -
         type: text
-        text: ". Opomenout nesmíme ani několik kolegyň, které se o centrum staraly v době tzv. střídání ředitelů. Poděkování patří Lucii Aberg, Heleně Stiessen a Marii Strakové.\_"
+        text: '. Opomenout nesmíme ani několik kolegyň, které se o centrum staraly v době tzv. střídání ředitelů. Poděkování patří Lucii Aberg, Heleně Stiessen a Marii Strakové.'
+  -
+    type: set
+    attrs:
+      id: lieekx1j
+      values:
+        type: downloads
+        downloads:
+          - downloads/rozhovor_lucie_svobodova.pdf
+  -
+    type: set
+    attrs:
+      id: lieekl2v
+      values:
+        type: downloads
+        downloads:
+          - timeline/praha/rozhovor_zdenek_lycka_kor.pdf
   -
     type: heading
     attrs:
@@ -1069,7 +1085,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685621434
+updated_at: 1685700559
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
