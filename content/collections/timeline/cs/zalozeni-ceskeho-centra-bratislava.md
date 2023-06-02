@@ -1019,6 +1019,22 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1994_bratislava.jpg'
+          alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://bratislava.czechcentres.cz/?locale=cs'
+              rel: null
+              target: _blank
+              title: null
+  -
+    type: paragraph
+    content:
+      -
         type: text
         text: 'Největší mezinárodní festival fotografie na Slovensku s epicentrem v Prepoštské ulici, kde sídlí České centrum spolu se Středoevropským domem fotografie, se stal s řadou českých fotografických výstav největší akcí, do které se ČC aktivně zapojilo po celý měsíc. I z této akce se stala tradice a '
       -
@@ -1115,14 +1131,9 @@ page_content:
           -
             type: bold
         text: bratislava.czechcentres.cz
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1994_bratislava.jpg'
-          alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
 dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685705312
+updated_at: 1685705367
 ---
