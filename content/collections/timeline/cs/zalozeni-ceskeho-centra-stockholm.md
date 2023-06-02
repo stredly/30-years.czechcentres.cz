@@ -14,19 +14,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'jediné České centrum'
+        text: 'jediné České centrum (ČC), které máme v severských zemích,'
       -
         type: text
-        text: ' (ČC), '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'které máme v severských zemích'
-      -
-        type: text
-        text: ", bylo založeno v roce 1997. U jeho zrodu stáli dva zaměstnanci Ministerstva zahraničních věcí, Pavla Veličkinová, která se podílela na výběru prostor budoucího centra, a následně vedení převzal její kolega z Černínského paláce Zdeněk Lyčka.\_"
+        text: " bylo založeno v roce 1997, ale již v roce 1996 odjela s pověřovacími listinami Pavla Veličkinová do Švédska, aby zařídila prostory a zajistila organizaci prvních akcí.\_\_"
   -
     type: paragraph
     content:
@@ -35,10 +26,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Slavnostní otevření'
+        text: 'Slavnostního zahájení'
       -
         type: text
-        text: " se uskutečnilo 10. června 1997 za účasti náměstka ministra zahraničních věcí ČR Hynka Kmoníčka a ředitele Správy Českých center Vladimíra Kollera.\_\_"
+        text: " v roce 1997 se chopil Zdeněk Lyčka, který byl jmenován prvním ředitelem. To se uskutečnilo 10. června 1997 za účasti náměstka ministra zahraničních věcí ČR Hynka Kmoníčka a ředitele Správy Českých center Vladimíra Kollera.\_\_"
   -
     type: paragraph
     content:
@@ -53,7 +44,7 @@ page_content:
         text: 'vernisáž výstavy Stefana Milkova'
       -
         type: text
-        text: ', známého jako jednoho z představitelů umělecké skupiny Tvrdohlaví, a generačně i výrazově spřízněného Petra Jareše.'
+        text: ", známého jako jednoho z představitelů umělecké skupiny Tvrdohlaví, a generačně i výrazově spřízněného Petra Jareše.\_"
   -
     type: heading
     attrs:
@@ -65,6 +56,36 @@ page_content:
           -
             type: bold
         text: Prostory
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Během prvního roku své existence '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'sídlilo centrum ve dvou kancelářích tehdejšího sídla českého velvyslanectví'
+      -
+        type: text
+        text: " v ulici Floragatan. Objemná brutalistní budova z roku 1972 byla dílem architekta Jana Bočana. Po rozdělení státu a odchodu pracovníků nově vzniklého velvyslanectví Slovenska se objekt stal pro Česko nerentabilní a Ministerstvo zahraničních věcí jej prodalo. Po rekonstrukci nově zakoupeného domu v sousedící ulici Villagatan podle projektu architekta Josefa Pleskota bylo v areálu nového úřadu již počítáno s prostory pro ČC.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Někdejší stáje a přístřešek pro panské kočáry byl kompletně zrekonstruován pro potřeby Českého centra. Takzvaný '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Domeček
+      -
+        type: text
+        text: " měl k dispozici polyfunkční výstavní sál pro 50 osob vybavený promítací technikou a informační kancelář pro veřejnost s knihovnou a videotékou.\_"
   -
     type: paragraph
     content:
@@ -103,6 +124,18 @@ page_content:
           -
             type: bold
         text: 'Kulturní program'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "První významnou akcí, která představila nové ČC, resp. Česko, byl společný projekt s velvyslanectvím v prostorách terminálu stockholmského letiště Arlanda na jaře 1997. Společně s ČC se během celodenní prezentační akce představili čeští exportéři a zastoupení ve Švédsku (např. Plzeňského Prazdroje, ČSA ap.), proběhly prezentace s diskusemi o českém kulturním dědictví a česko-švédských vztazích.\_\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Ve stejném roce se Česko prostřednictvím ČC poprvé zapojilo v roli nové kandidátské země EU do kulturního projektu Delegace EU ve Stockholmu, nazvaném Okna do Evropy, a to venkovní výstavou kreseb karikaturisty Vladimíra Jiránka v Královském sadu v centru Stockholmu.\_\_"
   -
     type: paragraph
     content:
@@ -1085,7 +1118,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685700559
+updated_at: 1685700707
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
