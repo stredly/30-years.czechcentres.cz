@@ -33,7 +33,7 @@ page_content:
         text: 'první akcí klavírní koncert Radoslava Kvapila'
       -
         type: text
-        text: " 29. října 1995 v Christ and St. Steven Church. Na programu byly skladby významných českých komponistů: Voříška, Dvořáka, Janáčka, Martinů a Smetany. Od ledna 1996 pak vycházel Newsletter ČC NY Ahoy.\_\_"
+        text: " 29. října 1995 v Christ and St. Steven Church. Na programu byly skladby významných českých komponistů: Voříška, Dvořáka, Janáčka, Martinů a Smetany. Od ledna 1996 pak vycházel Newsletter ČC New York Ahoy.\_\_"
   -
     type: heading
     attrs:
@@ -129,7 +129,7 @@ page_content:
         text: 'městskou památkou'
       -
         type: text
-        text: ' a vznikl plán na její rekonstrukci. V roce 2001 byla zchátralá budova prodána českou krajanskou organizací BBLA České republice za symbolický 1 dolar. Na oplátku se česká vláda zavázala k '
+        text: ' a vznikl plán na její rekonstrukci. V roce 2001 byla zchátralá budova prodána českou krajanskou organizací BBLA Česku za symbolický 1 dolar. Na oplátku se česká vláda zavázala k '
       -
         type: text
         marks:
@@ -273,7 +273,7 @@ page_content:
         type: image
         attrs:
           src: 'asset::assets::timeline/new-york/pozvanka_oslava_vh.jpg'
-          alt: 'program oslavy 60. narozenin prezidenta Václava Havla © Archiv Českého centra New York'
+          alt: 'Program oslavy 60. narozenin prezidenta Václava Havla © Archiv Českého centra New York'
       -
         type: text
         text: 'Od roku 1998 ČC New York společně s generálním konzulátem a krajanským spolkem pořádalo první říjnovou sobotu '
@@ -399,7 +399,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'New Europe in New Amsterdam - Europe takes over Brooklyn'
+        text: 'New Europe in New Amsterdam – Europe takes over Brooklyn'
       -
         type: text
         text: ". Jednalo se o sérii hudebních, výstavních a kulinárních akcí.\_"
@@ -1115,6 +1115,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685700265
+updated_at: 1685710112
 perex: 'První České centrum v Severní Americe.'
 ---
