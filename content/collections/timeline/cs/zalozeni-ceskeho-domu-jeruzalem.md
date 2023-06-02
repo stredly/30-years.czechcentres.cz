@@ -264,7 +264,16 @@ page_content:
                 marks:
                   -
                     type: bold
-                text: 'JSG - Jerusalem Skater Girls a WeSkate Israel '
+                text: 'JSG '
+              -
+                type: text
+                text: –
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ' Jerusalem Skater Girls a WeSkate Israel '
               -
                 type: text
                 text: "uspořádali v roce 2019 čtvrtý ročník mistrovství Jeruzaléma ve skateboardingu. Společně s Českým domem Jeruzalém! Hlavním rozhodčím byl Petr Humpl z České republiky.\_"
@@ -282,7 +291,7 @@ page_content:
                 text: '20 let zahraničních misí Armády České republiky '
               -
                 type: text
-                text: "- Výstava přibližuje působení českých vojáků v Kosovu, Iráku, Afghánistánu, Mali nebo na Islandu. Autory snímků jsou válečná fotografka Jarmila Štuková a fotograf a kameraman Tomáš Štěrba.\_"
+                text: "– Výstava přibližuje působení českých vojáků v Kosovu, Iráku, Afghánistánu, Mali nebo na Islandu. Autory snímků jsou válečná fotografka Jarmila Štuková a fotograf a kameraman Tomáš Štěrba.\_"
   -
     type: heading
     attrs:
@@ -310,7 +319,7 @@ page_content:
         marks:
           -
             type: bold
-        text: "Významní hosté\_"
+        text: 'Významné osobnosti'
   -
     type: paragraph
     content:
@@ -339,7 +348,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685621832
+updated_at: 1685711840
 background_image: background-image/2018_jeruzalem.jpg
 perex: 'Kousek Česka pod horou Sijón.'
 ---
