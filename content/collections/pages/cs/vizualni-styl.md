@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685696540
+updated_at: 1685696647
 page_content:
   -
     type: paragraph
@@ -84,7 +84,16 @@ page_content:
     content:
       -
         type: text
-        text: "V té době ještě „Správa českých center“ (v roce 2004 přejmenována na Česká centra) využívala oficiální logo Ministerstva zahraničních věcí České republiky. V logu byla zobrazena stylizovaná česká vlajka v obdélníkovém výřezu.\_\_"
+        text: 'V té době ještě „Správa českých center“ (v roce 2004 přejmenována na Česká centra) využívala oficiální logo Ministerstva zahraničních věcí České republiky. V logu byla zobrazena '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'stylizovaná česká vlajka v obdélníkovém výřezu'
+      -
+        type: text
+        text: ".\_\_"
   -
     type: heading
     attrs:
@@ -104,7 +113,16 @@ page_content:
     content:
       -
         type: text
-        text: "Potřeba prezentovat organizaci jako mladou a moderní instituci, která se prezentuje svým symbolem jak na domácí scéně, tak i na mezinárodní úrovni vedla k rozhodnutí vytvořit zcela nové logo. Důvodem ke změně bylo také nevhodné užití státní vlajky – dosavadní logo porušovalo svou grafickou úpravou zákony na její ochranu.\_\_"
+        text: 'Potřeba prezentovat organizaci jako mladou a moderní instituci, která se prezentuje svým symbolem jak na domácí scéně, tak i na mezinárodní úrovni vedla k rozhodnutí vytvořit zcela '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'nové logo'
+      -
+        type: text
+        text: ". Důvodem ke změně bylo také nevhodné užití státní vlajky – dosavadní logo porušovalo svou grafickou úpravou zákony na její ochranu.\_\_"
   -
     type: paragraph
     attrs:
@@ -112,7 +130,16 @@ page_content:
     content:
       -
         type: text
-        text: "Nově navržené logo pro Správu českých center bylo vybráno ve třetím kole konkurzu, který vyhrála Lucie Svobodová (bývalá ředitelka Českého centra Paříž a Českého centra Stockholm) a neslo název „Labyrint“.\_\_"
+        text: 'Nově navržené logo pro Správu českých center bylo vybráno ve třetím kole konkurzu, který vyhrála Lucie Svobodová (bývalá ředitelka Českého centra Paříž a Českého centra Stockholm) a neslo název '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: „Labyrint“
+      -
+        type: text
+        text: ".\_\_"
   -
     type: blockquote
     content:
@@ -126,10 +153,33 @@ page_content:
             marks:
               -
                 type: italic
-            text: '„Odmalička jsem byla zvyklá kreslit i malovat, protože můj otec je výtvarník, a vždycky jsem mu tak trochu koukala pod ruce. Napadlo mě, že vytvořím labyrint, který symbolizuje hledání, objevování a propojování.“'
+            text: '„Odmalička jsem byla zvyklá kreslit i malovat, protože můj otec je výtvarník, a vždycky jsem mu tak trochu koukala pod ruce. Napadlo mě, že vytvořím labyrint, který '
           -
             type: text
-            text: " říká autorka loga Lucie Svobodová.\_"
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'symbolizuje hledání, objevování a propojování'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: .“
+          -
+            type: text
+            text: ' říká autorka loga '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Lucie Svobodová'
+          -
+            type: text
+            text: ".\_"
   -
     type: heading
     attrs:
