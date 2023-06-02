@@ -1089,9 +1089,9 @@ page_content:
           -
             type: link
             attrs:
-              href: 'https://bratislava.czechcentres.cz/'
+              href: 'https://bratislava.czechcentres.cz/?locale=cs'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -1105,5 +1105,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685704186
+updated_at: 1685704214
 ---
