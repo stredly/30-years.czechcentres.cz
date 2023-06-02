@@ -85,7 +85,7 @@ page_content:
         text: 'Die Welt'
       -
         type: text
-        text: ")\_ Zatímco v Československu se tou dobou poměry dočasně uvolňovaly, v NDR tomu bylo právě naopak a řada knih, filmů a divadelních her byla na dlouhá léta zakázána.\_"
+        text: ") Zatímco v Československu se tou dobou poměry dočasně uvolňovaly, v NDR tomu bylo právě naopak a řada knih, filmů a divadelních her byla na dlouhá léta zakázána.\_"
   -
     type: paragraph
     content:
@@ -106,7 +106,16 @@ page_content:
         marks:
           -
             type: italic
-        text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest - byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
+        text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest '
+      -
+        type: text
+        text: –
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: ' byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
       -
         type: text
         text: ' (zdroj: '
@@ -278,7 +287,7 @@ page_content:
         text: zde
       -
         type: text
-        text: ". Sídlo centra sestávalo z přízemního galerijního a informačního prostoru, který byl nazván Galerií CzechPoint a mansardového prostoru s knihovnou, multifunkční místností a zasedací místností.\_"
+        text: ". Sídlo centra sestávalo z přízemního galerijního a informačního prostoru, který byl nazván Galerií CzechPoint, a mansardového prostoru s knihovnou, multifunkční místností a zasedací místností.\_"
   -
     type: paragraph
     content:
@@ -691,7 +700,16 @@ page_content:
         text: 'Václav Havel: Perpetuum Mobile'
       -
         type: text
-        text: '. Téměř neznámé libreto pantomimy, jehož autorem je Václav Havel, vzniklo na žádost přátel ve vězení začátkem roku 1989. Pojednává o 7 dnech pana A. v cele, kde se snaží s nastalou nespravedlivou a absurdní situací po svém vypořádat. Sám autor napsal do libreta režijní poznámku „Fantazii se meze nekladou!” V roce 2019 pak proběhla společná akce Velvyslanectví České republiky v Berlíně, Českého centra Berlín, divadelního souboru Lachende Bestien a spolku Drama Panorama k 30. výročí Sametové revoluce, '
+        text: '. Téměř neznámé libreto pantomimy, jehož autorem je Václav Havel, vzniklo na žádost přátel ve vězení začátkem roku 1989. Pojednává o 7 dnech pana A. v cele, kde se snaží s nastalou nespravedlivou a absurdní situací po svém vypořádat. Sám autor napsal do libreta režijní poznámku „Fantazii se meze nekladou!'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: “
+      -
+        type: text
+        text: ' V roce 2019 pak proběhla společná akce Velvyslanectví České republiky v Berlíně, Českého centra Berlín, divadelního souboru Lachende Bestien a spolku Drama Panorama k 30. výročí Sametové revoluce, '
       -
         type: text
         marks:
@@ -1358,6 +1376,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685614336
+updated_at: 1685712881
 perex: 'Ve stínu Berlínské zdi.'
 ---
