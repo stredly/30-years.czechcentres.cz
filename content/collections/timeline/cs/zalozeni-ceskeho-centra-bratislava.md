@@ -372,24 +372,27 @@ page_content:
         type: text
         text: ", která byla připravena k jeho nedožitým čtyřicátinám. Výstava byla součástí rozsáhlé expozice o slovenském profesionálním divadle, které bylo celoživotně propojeno s tím českým. \_"
   -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1994_bratislava.jpg'
+          alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://bratislava.czechcentres.cz/?locale=cs'
+              rel: null
+              target: _blank
+              title: null
+  -
     type: blockquote
     content:
       -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: 'asset::assets::background-image/1994_bratislava.jpg'
-              alt: 'Divadlo Kvelb a Karel IV. v Bratislavě © Archiv Českého centra Bratislava'
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://bratislava.czechcentres.cz/?locale=cs'
-                  rel: null
-                  target: _blank
-                  title: null
           -
             type: text
             marks:
@@ -1241,5 +1244,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685705909
+updated_at: 1685705948
 ---
