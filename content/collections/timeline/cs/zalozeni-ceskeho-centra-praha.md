@@ -39,7 +39,7 @@ page_content:
             attrs:
               href: 'https://www.hrady.cz/klaster-obutych-karmelitanu-s-kostelem-sv-havla'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: hrady.cz
       -
@@ -92,7 +92,7 @@ page_content:
             attrs:
               href: 'https://www.facebook.com/ccpraha/?locale=cs_CZ'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: 'Galerie Českých center'
       -
@@ -168,7 +168,7 @@ page_content:
             attrs:
               href: 'https://www.nocliteratury.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: zde
       -
@@ -251,7 +251,7 @@ page_content:
             attrs:
               href: 'https://www.artmap.cz/galerie-ceskych-center/'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: Artmap
       -
@@ -356,7 +356,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685700190
+updated_at: 1685711974
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
