@@ -3,7 +3,7 @@ id: bd3723c5-e66c-4601-a5ad-c17cd257c21e
 blueprint: page
 title: Poděkování
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684409250
+updated_at: 1685711425
 page_content:
   -
     type: paragraph
@@ -87,7 +87,7 @@ page_content:
             attrs:
               href: 'https://www.jakubjahn.com/cs/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
