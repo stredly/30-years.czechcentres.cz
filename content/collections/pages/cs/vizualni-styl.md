@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685696647
+updated_at: 1685696709
 page_content:
   -
     type: paragraph
@@ -202,7 +202,16 @@ page_content:
     content:
       -
         type: text
-        text: "Po sedmi letech bylo logo symbolizující labyrint redesignováno Studiem Najbrt. Původní šikmý znak byl „narovnán“ a bylo zvoleno jiné firemní písmo. Vzhledem k vývoji on-line i off-line komunikace byl navržen kompletní manuál vizuálního stylu, který se dále rozšířil v roce 2009.\_"
+        text: 'Po sedmi letech bylo logo symbolizující labyrint redesignováno Studiem Najbrt. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Původní šikmý znak byl „narovnán“ a bylo zvoleno jiné firemní písmo.'
+      -
+        type: text
+        text: " Vzhledem k vývoji on-line i off-line komunikace byl navržen kompletní manuál vizuálního stylu, který se dále rozšířil v roce 2009.\_"
   -
     type: heading
     attrs:
