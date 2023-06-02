@@ -1089,13 +1089,94 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Bratislava v polovině devadesátých let zakládala Jiřina Hůlková. Dle dochovaných materiálů, byl zkušební provoz zahájen na základě mezivládní dohody o založení a činnosti tzv. kulturních a informačních institutů v ČR a SR. V Praze naleznete Slovenský inštitút, v Bratislavě České centrum. Jiřinu Hůlkovou po necelých dvou letech působení vystřídal Albert Černý, bývalý disident, v minulosti působící jako herec Slezského a Těšínského divadla i Státního divadla v Brně. Bývalá ředitelka Jiřina Hůlková se rozloučila se slovenskou metropolí koncertem Spirituál kvintetu u příležitosti českého státního svátku.'
+        text: 'České centrum Bratislava v polovině devadesátých let zakládala '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jiřina Hůlková'
+      -
+        type: text
+        text: '. Dle dochovaných materiálů, byl zkušební provoz zahájen na základě mezivládní dohody o založení a činnosti tzv. kulturních a informačních institutů v ČR a SR. V Praze naleznete Slovenský inštitút, v Bratislavě České centrum. Jiřinu Hůlkovou po necelých dvou letech působení vystřídal '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Albert Černý'
+      -
+        type: text
+        text: ', bývalý disident, v minulosti působící jako herec Slezského a Těšínského divadla i Státního divadla v Brně. Bývalá ředitelka Jiřina Hůlková se rozloučila se slovenskou metropolí koncertem Spirituál kvintetu u příležitosti českého státního svátku.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Na práci Alberta Černého plynule navázal česko-centerský matador Rudolf Sedláček, mající zkušenosti ze Sofie a následně i Kyjeva. Bývalá herečka, moderátorka, diplomatka, žena mnoha tváří Stanislava Wanatowiczová Bartošová převzala vedení Českého centra v roce 2003. Její nástupkyně, bývalá vedoucí umělecké správy Národního divadla či tajemnice Dejvického divadla Jana Burianová přinesla do bratislavské kanceláře svěží vítr. Janu střídá v roce 2011 disidentka a brněnský živel Lenka Zogatová, jejíž působení ve funkci ředitelky je poznamenáno osobní tragédií. Rok vede ČC Jana Polívková a v roce 2015 již centrum přebírá Vilma Anýžová. Ani té nejsou Česká centra neznámá, dříve působila v Českém centru Bukurešť, následně jako programová vedoucí na ústředí ČC a poté postoupila do křesla generální ředitelky Českých center. V roce 2020 se mění s Monikou Koblerovou, zkušenou dlouholetou programovou ředitelku na ústředí ČC, ale i ředitelku Českého centra New York, která přichází s jasnou vizí.'
+        text: 'Na práci Alberta Černého plynule navázal česko-centerský matador '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Rudolf Sedláček'
+      -
+        type: text
+        text: ', mající zkušenosti ze Sofie a následně i Kyjeva. Bývalá herečka, moderátorka, diplomatka, žena mnoha tváří '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Stanislava Wanatowiczová Bartošová'
+      -
+        type: text
+        text: ' převzala vedení Českého centra v roce 2003. Její nástupkyně, bývalá vedoucí umělecké správy Národního divadla či tajemnice Dejvického divadla '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jana Burianová'
+      -
+        type: text
+        text: ' přinesla do bratislavské kanceláře svěží vítr. Janu střídá v roce 2011 disidentka a brněnský živel '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Lenka Zogatová'
+      -
+        type: text
+        text: ', jejíž působení ve funkci ředitelky je poznamenáno osobní tragédií. Rok vede ČC '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jana Polívková'
+      -
+        type: text
+        text: ' a v roce 2015 již centrum přebírá '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Vilma Anýžová'
+      -
+        type: text
+        text: '. Ani té nejsou Česká centra neznámá, dříve působila v Českém centru Bukurešť, následně jako programová vedoucí na ústředí ČC a poté postoupila do funkce generální ředitelky Českých center. V roce 2020 se mění s '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Monikou Koblerovou'
+      -
+        type: text
+        text: ', zkušenou dlouholetou programovou ředitelku na ústředí ČC, ale i ředitelku Českého centra New York, která přichází s jasnou vizí.'
   -
     type: heading
     attrs:
@@ -1135,5 +1216,5 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685705367
+updated_at: 1685705532
 ---
