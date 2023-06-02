@@ -148,7 +148,7 @@ page_content:
         text: 'v roce 1971 udělil Jad vašem Emanuelovi a Josefovi Zimovým titul Spravedlivý mezi národy'
       -
         type: text
-        text: "; na jejich počest byl také zasazen strom v Aleji spravedlivých.\_\_"
+        text: ", na jejich počest byl také zasazen strom v Aleji spravedlivých.\_\_"
   -
     type: paragraph
     content:
@@ -782,6 +782,6 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685538161
+updated_at: 1685709080
 background_image: background-image/1953_budapest.jpg
 ---
