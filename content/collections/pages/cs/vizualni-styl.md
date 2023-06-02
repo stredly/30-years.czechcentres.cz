@@ -3,7 +3,7 @@ id: af30d2d5-d38c-403e-80d2-f0c4c2daa864
 blueprint: page
 title: 'Vizuální styl'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685696953
+updated_at: 1685697182
 page_content:
   -
     type: paragraph
@@ -336,7 +336,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: 'pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků. '
+            text: 'pro Česká centra s jejich 26 pobočkami prezentujícími Česko a jeho kulturu po celém světě. Posunutí barevného kódu červené a modré bylo jedním z důležitých kroků.'
           -
             type: text
             marks:
@@ -344,13 +344,13 @@ page_content:
                 type: bold
               -
                 type: italic
-            text: 'Barevný kód se nyní shoduje s barvami Ministerstva zahraničních věcí ČR jako připomínka toho, že české národní barvy, červená a modrá, by měly mít jednotnou kodifikaci'
+            text: ' '
           -
             type: text
             marks:
               -
                 type: italic
-            text: ',”'
+            text: 'Barevný kód se nyní shoduje s barvami Ministerstva zahraničních věcí ČR jako připomínka toho, že české národní barvy, červená a modrá, by měly mít jednotnou kodifikaci,”'
           -
             type: text
             text: ' uvedli '
@@ -439,6 +439,15 @@ page_content:
       -
         type: text
         marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.czechcentres.cz/about-us/annual-reports'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
           -
             type: underline
         text: zde
