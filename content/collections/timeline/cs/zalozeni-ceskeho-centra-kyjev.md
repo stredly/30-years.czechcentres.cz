@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685710320
+updated_at: 1685712960
 page_content:
   -
     type: paragraph
@@ -866,4 +866,5 @@ page_content:
         text: "kyiv.czechcentres.cz\_"
 event_date: '1996-01-01'
 background_image: background-image/1996_kyjev.jpg
+perex: 'Jediné České centrum, které bylo nuceno přejít do exilu.'
 ---
