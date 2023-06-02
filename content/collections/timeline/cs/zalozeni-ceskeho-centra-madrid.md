@@ -930,7 +930,9 @@ page_content:
         type: text
         text: ", jehož tématy bylo sousedství, komunita a vzájemnost.\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: image
@@ -942,10 +944,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Vedení Českého centra Madrid'
-      -
-        type: text
-        text: "\_"
+        text: "Vedení Českého centra Madrid\_"
   -
     type: paragraph
     content:
@@ -1151,5 +1150,5 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685627146
+updated_at: 1685712191
 ---
