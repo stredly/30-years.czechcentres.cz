@@ -126,10 +126,10 @@ page_content:
         marks:
           -
             type: bold
-        text: ' prezentace firem,'
+        text: ' prezentace firem'
       -
         type: text
-        text: " a to společností Drinks Union a.s. z Ústí nad Labem a Český porcelán a.s. z Dubí u Teplic. V prostorách Českého centra v Drážďanech v rámci programu představování severočeských a západočeských firem proběhla první prezentace. Ty v rámci celodenní akce představili své výrobky, plány a vize mezinárodní spolupráce. Setkali se s německými partnery a prostřednictvím médií oslovily další zájemce o spolupráci.\_"
+        text: ", společností Drinks Union a.s. z Ústí nad Labem a Český porcelán a.s. z Dubí u Teplic. V prostorách Českého centra v Drážďanech v rámci programu představování severočeských a západočeských firem proběhla první prezentace. Ty v rámci celodenní akce představily své výrobky, plány a vize mezinárodní spolupráce. Setkaly se s německými partnery a prostřednictvím médií oslovily další zájemce o spolupráci.\_"
   -
     type: paragraph
     content:
@@ -141,7 +141,7 @@ page_content:
         text: 'Český filmový týden v Erfurtu'
       -
         type: text
-        text: ". Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli shlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
+        text: ". Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli zhlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
   -
     type: paragraph
     content:
@@ -254,7 +254,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit a kostýmů z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum stejně jako to české si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální rekvizity nebo kostýmy spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
+        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit a kostýmů z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum, stejně jako to české, si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální rekvizity nebo kostýmy spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
       -
         type: text
         marks:
@@ -343,11 +343,11 @@ page_content:
     content:
       -
         type: text
-        text: "soubor Linha Singers, Stadlerův kvartet, cembalistka Monika Knoblochová, Trio Emila Viklického, Lenka Reinerová, Patrik Ouředník, Činoherní studio v Ústí nad Labem, Dagmar Pecková, Jiří Stivín, Arnošt Lustig, Jiří Gruša, Kateřina Englichová, mezzosopranistka Lucie Ceralová, pianistka Hana Vlasáková a soubor Virtuosi di Praga\_"
+        text: "soubor Linha Singers, Stadlerův kvartet, cembalistka Monika Knoblochová, Trio Emila Viklického, Lenka Reinerová, Patrik Ouředník, Činoherní studio v Ústí nad Labem, Dagmar Pecková, Jiří Stivín, Arnošt Lustig, Jiří Gruša, Kateřina Englichová, Lucie Ceralová, Hana Vlasáková, soubor Virtuosi di Praga\_"
 dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685701511
+updated_at: 1685710527
 background_image: background-image/1997_drazdany-1685446017.JPG
 ---
