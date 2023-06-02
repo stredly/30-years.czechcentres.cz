@@ -496,7 +496,7 @@ page_content:
         text: 'Petra Prinsová'
       -
         type: text
-        text: ', dlouholetá zaměstnankyně ČC, které se během jejího vedení přestěhovalo z Haagu do Rotterdamu. Od roku 2011 je v čele centra její dlouhodobá kolegyně '
+        text: ', dlouholetá zaměstnankyně ČC, které se během jejího vedení přestěhovalo z Haagu do Rotterdamu. Od roku 2011 je v čele centra její dlouholetá kolegyně '
       -
         type: text
         marks:
@@ -516,7 +516,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Významné české osobnosti'
+        text: 'Významné osobnosti'
       -
         type: text
         text: "\_"
@@ -548,6 +548,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685621756
+updated_at: 1685709982
 perex: 'Ve stopách Jana Amose Komenského.'
 ---
