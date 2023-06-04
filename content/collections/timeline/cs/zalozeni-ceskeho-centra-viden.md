@@ -368,12 +368,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'I ve Vídni se prezentovali kraje či jednotlivá města, obce či regiony. Historicky první prezentace českých krajů pod širým nebem proběhla právě zde ve Vídni již počátkem nového tisíciletí. Více se dozvíte '
       -
         type: text
@@ -394,22 +388,10 @@ page_content:
     content:
       -
         type: text
-        text: "\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         marks:
           -
             type: bold
         text: 'Personální obsazení'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
       -
         type: text
         text: "\_"
@@ -451,12 +433,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'V roce 2007 žezlo přebírá '
       -
         type: text
@@ -476,12 +452,6 @@ page_content:
       -
         type: text
         text: "Martin se svého úkolu zhostil se ctí a všechny své nabité zkušenosti úspěšně zúročil ve svém dalším angažmá na Českém centru v Berlíně.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -507,29 +477,16 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Významné osobnosti'
-      -
-        type: text
-        text: "\_"
+        text: "Významné osobnosti\_"
   -
     type: paragraph
     content:
@@ -545,6 +502,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685902997
+updated_at: 1685903068
 perex: 'Česká kultura na Dunaji.'
 ---
