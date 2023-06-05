@@ -79,8 +79,8 @@ page_content:
           - timeline/bucharest/foto-3_kronika-aktivit-ccb-1981-89.jpg
           - timeline/bucharest/foto-4_festival-one-world-romania-2014.jpg
           - timeline/bucharest/foto-5_projekce-filmu-documentary-mondays_2018.jpg
-          - timeline/bucharest/foto-6_festival-cinemascop_2021.jpg
           - timeline/bucharest/foto-7_festival-cinemascop_2019.jpg
+          - timeline/bucharest/foto-6_festival-cinemascop_2021.jpg
           - timeline/bucharest/foto-8_josef-koudelka-v-rumunsku.JPG
           - timeline/bucharest/foto-9_dvorak-remastered_krest-cd.jpg
   -
@@ -829,7 +829,7 @@ page_content:
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958254
+updated_at: 1685958319
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 ---
