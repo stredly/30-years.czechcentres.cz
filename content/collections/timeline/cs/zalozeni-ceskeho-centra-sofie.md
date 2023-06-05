@@ -575,11 +575,29 @@ page_content:
           - timeline/sofie/58-cc-sofie.jpg
           - timeline/sofie/60-cc-sofie.JPG
           - timeline/sofie/61-cc-sofie.jpg
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://sofia.czechcentres.cz/'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: sofia.czechcentres.cz
 dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958608
+updated_at: 1685958694
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
