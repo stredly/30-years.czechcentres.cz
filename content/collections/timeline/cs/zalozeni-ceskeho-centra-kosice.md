@@ -67,11 +67,6 @@ page_content:
       level: 2
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/2005_kosice.jpg'
-          alt: 'Budova Českého centra Košice © Archiv Českého centra Košice'
-      -
         type: text
         marks:
           -
@@ -97,6 +92,11 @@ page_content:
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/2005_kosice.jpg'
+          alt: 'Budova Českého centra Košice © Archiv Českého centra Košice'
       -
         type: text
         marks:
@@ -260,7 +260,7 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685972276
+updated_at: 1685972308
 background_image: background-image/2005_kosice.jpg
 perex: 'Druhá pobočka na Slovensku.'
 ---
