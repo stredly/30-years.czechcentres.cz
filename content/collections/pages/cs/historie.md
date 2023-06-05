@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685987719
+updated_at: 1685987790
 page_content:
   -
     type: paragraph
@@ -407,9 +407,10 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -500,9 +501,10 @@ page_content:
         type: text
         text: " pořádaných Českými centry a bylo patrné, že dlouhodobá snaha proniknout do přirozeného kulturního prostředí daných zemí sklízí své ovoce. Tohoto posunu Česká centra dosahovala více způsoby, především navazováním spolupráce a budováním vztahů s místními organizacemi, což se projevilo i v číslech: v letech 2003–2006 se soustavně zvyšoval počet akcí, které ČC pomáhala organizovat, ale nebyla hlavním organizátorem. Zároveň iniciovala akce, které probíhaly mimo vlastní prostory a které postupně mezi pořádanými událostmi začaly dominovat.\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -649,9 +651,10 @@ page_content:
         type: text
         text: ", jejíž vítězné práce pak měly být použity při prezentaci v rámci sítě Českých center v zahraničí. Snaha o větší koncepčnost byla viditelná i v jiných oblastech. Pokračováním trendu sjednocení priorit prezentace Česka bylo vydání Strategie činnosti 2012–2015, která se koncepčně věnuje také veřejné diplomacii.\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -716,9 +719,10 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -871,9 +875,10 @@ page_content:
         type: text
         text: ".\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1014,9 +1019,10 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1112,9 +1118,10 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1143,9 +1150,10 @@ page_content:
         type: text
         text: ", zároveň se však snažila získat peníze na fungování organizace z jiných zdrojů. Řešením se stalo rozšíření výdělečné aktivity Českého domu v Moskvě, příjem z jeho ubytovacích a gastronomických služeb tvořil stále větší procento celkového příjmu ČC.\_\_\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1191,9 +1199,10 @@ page_content:
         type: text
         text: " (program CULTURE 2007–2013).\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1231,9 +1240,10 @@ page_content:
         type: text
         text: " otevřený v době her všem fanouškům. Czech Open 2012 představil v Londýně projekty a tvorbu mnoha desítek českých a britských umělců s tvůrčím zapojením londýnských i českých dětí.\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1354,9 +1364,10 @@ page_content:
         type: text
         text: "V rámci vnějších ekonomických vztahů došlo k intenzivnějšímu propojení zahraniční kulturní prezentace s významnými českými značkami. Českým subjektům byla zprostředkována účast na zahraničních projektech, ještě více se prohloubil networking v oblasti rozvoje mezinárodní spolupráce.\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1430,9 +1441,10 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1564,9 +1576,10 @@ page_content:
         type: text
         text: ". Představuje stoletou historii země v oblasti výzkumu a vědy, tradiční světem uznávané průmyslové značky, ale také nastupující novou generaci představitelů vědeckého, inovativního a podnikatelského prostředí. Interaktivní výstava byla na první pohled neviditelná, návštěvníkům se zobrazila teprve při použití aplikace rozšířené reality. První uvedení výstavy v České republice proběhlo v rámci Mezinárodního strojírenského veletrhu v Brně v roce 2018 za účasti premiérů Česka a Slovenska, poté zahájila své putování v zahraničí. Úspěchy zaznamenala od Evropy až po Asii při uvedení v institucích mezinárodního významu.\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
@@ -1792,9 +1805,10 @@ page_content:
         type: text
         text: ".\_\_"
   -
-    type: paragraph
+    type: heading
     attrs:
       textAlign: left
+      level: 5
     content:
       -
         type: text
