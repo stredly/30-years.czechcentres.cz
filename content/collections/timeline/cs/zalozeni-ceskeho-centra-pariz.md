@@ -634,16 +634,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Se zatím posledním ředitelem '
+        text: 'Se zatím posledním ředitelem Jiřím Hnilicou skočilo České centrum stejně jako s Martinem J. Bonhardem přímo do '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Jiřím Hnilicou'
+        text: 'oslav stého výročí založení republiky a českého předsednictví v Radě EU'
       -
         type: text
-        text: " skočilo České centrum stejně jako s Martinem J. Bonhardem přímo do oslav stého výročí založení republiky a českého předsednictví v Radě EU, tentokrát v pořadí druhého.\_\_"
+        text: ", tentokrát v pořadí druhého.\_\_"
   -
     type: paragraph
     content:
@@ -876,6 +876,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982011
+updated_at: 1685982099
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
