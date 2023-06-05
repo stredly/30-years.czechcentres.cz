@@ -20,10 +20,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'slavnostně otevřeno'
+        text: 'slavnostně otevřeno 26. října 2005'
       -
         type: text
-        text: " 26. října 2005 za účasti ministra zahraničních věcí ČR Cyrila Svobody a jeho slovenského protějšku Eduarda Kukana. Hlavním hřebem otevření ČC Košice byl koncert v Domě umění, na kterém vystoupili za doprovodu orchestru Daniel Hůlka, Iveta Bartošová, Sisa Sklovska, Tereza Mátlová a Bohuš Matuš. \_"
+        text: " za účasti ministra zahraničních věcí ČR Cyrila Svobody a jeho slovenského protějšku Eduarda Kukana. Hlavním hřebem otevření ČC Košice byl koncert v Domě umění, na kterém vystoupili za doprovodu orchestru Daniel Hůlka, Iveta Bartošová, Sisa Sklovska, Tereza Mátlová a Bohuš Matuš. \_"
   -
     type: paragraph
     content:
@@ -256,7 +256,7 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963861
+updated_at: 1685972172
 background_image: background-image/2005_kosice.jpg
 perex: 'Druhá pobočka na Slovensku.'
 ---
