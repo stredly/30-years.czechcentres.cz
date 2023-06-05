@@ -32,31 +32,13 @@ page_content:
     content:
       -
         type: text
-        text: 'Postupem času se '
+        text: 'Postupem času se'
       -
         type: text
         marks:
           -
             type: bold
-        text: měnil
-      -
-        type: text
-        text: ' jak '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'obsah činnosti'
-      -
-        type: text
-        text: ', tak i '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: názvy
+        text: ' měnil jak obsah činnosti, tak i názvy'
       -
         type: text
         text: ": Československé kulturní středisko, Československé kulturní a informační středisko, Československé kulturní a informační středisko ČSFR, České centrum Sofie.\_\_"
@@ -596,7 +578,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958808
+updated_at: 1685964521
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
