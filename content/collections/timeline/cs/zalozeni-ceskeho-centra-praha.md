@@ -92,7 +92,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Architektonický záměr interiéru centra byl dílem Alberta di Stefana, Lenky Křemenové a Davida Maštálky. Alberto di Stefano je majitelem galerie Futura a byl zároveň kurátorem zahajovací výstavy Odlet – Lowcost generation, o které se zmiňujeme níže.'
+        text: 'Architektonický záměr interiéru centra byl dílem Alberta di Stefana, Lenky Křemenové a Davida Maštálky. Alberto di Stefano je majitelem galerie Futura a byl zároveň kurátorem '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'zahajovací výstavy Odlet – Lowcost generation'
+      -
+        type: text
+        text: ', o které se zmiňujeme níže.'
   -
     type: paragraph
     content:
@@ -408,7 +417,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984645
+updated_at: 1685984675
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
