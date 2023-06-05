@@ -156,7 +156,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'doprovázených tematickou výstavou o životě a díle B. Martinů'
+        text: 'doprovázené tematickou výstavou o životě a díle B. Martinů'
       -
         type: text
         text: ".\_"
@@ -191,7 +191,16 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava ilustrací a textů doprovázející novou knihu P. Síse „Zeď“.Při příležitosti vydání nové knihy P. Síse „Zeď“, která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU vznikne stejnojmenná výstava složené z ilustrací a textů doprovázející knihu.\_"
+        text: 'Výstava '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'ilustrací a textů doprovázející novou knihu P. Síse „Zeď“'
+      -
+        type: text
+        text: ". Při příležitosti vydání nové knihy P. Síse „Zeď“, která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU vznikne stejnojmenná výstava složené z ilustrací a textů doprovázející knihu.\_"
   -
     type: paragraph
     content:
@@ -229,7 +238,13 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava současného českého designu. Současný český design s důrazem na porcelán, sklo a emoce. (Kurátoři Jana Zielinski a Jiří Macek, architekt: Maxim Velčovský). Stejně KŘEHKÉ jako je sklo nebo porcelán je i postavení současného designu a s ním spojeného českého průmyslu ve světě.\_"
+        marks:
+          -
+            type: bold
+        text: 'Výstava současného českého designu.'
+      -
+        type: text
+        text: " Současný český design s důrazem na porcelán, sklo a emoce. (Kurátoři Jana Zielinski a Jiří Macek, architekt: Maxim Velčovský). Stejně KŘEHKÉ jako je sklo nebo porcelán je i postavení současného designu a s ním spojeného českého průmyslu ve světě.\_"
   -
     type: paragraph
     content:
@@ -261,7 +276,13 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava o vývoji\_ českého firemního designu. Výstava CI.CZ byl unikátní projekt, který představoval výběr firemních stylů vzniklých v Čechách po roce 1990.\_"
+        marks:
+          -
+            type: bold
+        text: "Výstava o vývoji\_ českého firemního designu."
+      -
+        type: text
+        text: " Výstava CI.CZ byl unikátní projekt, který představoval výběr firemních stylů vzniklých v Čechách po roce 1990.\_"
   -
     type: paragraph
     content:
@@ -290,7 +311,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Český architektonický kubismus 1911-1914'
+        text: 'Český architektonický kubismus 1911'
+      -
+        type: text
+        text: –
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '1914'
       -
         type: text
         text: " \_"
@@ -299,7 +329,7 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava se soustředila na nejvýznamnější období let 1911-14 a prezentovala prominentní osobnosti kubismu a jejich práce: Pavla Janáka, Josefa Gočára,Vlastislava Hofmana, Josefa Chochola a Emila Králíčka, dále pak kubistický design, nerealizované projekty i další vývoj pro roce 1918\_"
+        text: "Výstava se soustředila na nejvýznamnější období let 1911–14 a prezentovala prominentní osobnosti kubismu a jejich práce: Pavla Janáka, Josefa Gočára, Vlastislava Hofmana, Josefa Chochola a Emila Králíčka, dále pak kubistický design, nerealizované projekty i další vývoj pro roce 1918\_"
   -
     type: paragraph
     content:
@@ -476,5 +506,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985073
+updated_at: 1685985234
 ---
