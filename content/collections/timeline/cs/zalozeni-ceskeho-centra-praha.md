@@ -39,7 +39,16 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Praha se nacházelo v nově zrekonstruovaných prostorách části bývalého kláštera řádu obutých karmelitánů. Ten stojí při kostele svatého Havla v Praze 1 - Starém Městě jako někdejší konvent řádu. Při původně románském, v době panování Karla IV. goticky upraveném kostele sv. Havla, existoval starší klášter magdalenitek, který v průběhu času zanikl. (zdroj: '
+        text: 'České centrum Praha se nacházelo v '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'nově zrekonstruovaných prostorách části bývalého kláštera řádu obutých karmelitánů'
+      -
+        type: text
+        text: '. Ten stojí při kostele svatého Havla v Praze 1 - Starém Městě jako někdejší konvent řádu. Při původně románském, v době panování Karla IV. goticky upraveném kostele sv. Havla, existoval starší klášter magdalenitek, který v průběhu času zanikl. (zdroj: '
       -
         type: text
         marks:
@@ -365,7 +374,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984223
+updated_at: 1685984247
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
