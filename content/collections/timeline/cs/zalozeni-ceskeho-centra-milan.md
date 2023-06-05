@@ -552,13 +552,13 @@ page_content:
         text: 'propagaci českých'
       -
         type: text
-        text: ' současných '
+        text: ' '
       -
         type: text
         marks:
           -
             type: bold
-        text: autorů
+        text: 'současných autorů'
       -
         type: text
         text: ' v Itálii, což vyústilo ve vydání nových titulů. V rámci oslav zde rezonovaly události spojené s '
@@ -1064,6 +1064,6 @@ dont_show_month: true
 event_date: '2010-01-02'
 cities: milan
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963475
+updated_at: 1685968689
 perex: 'V hlavním městě módy.'
 ---
