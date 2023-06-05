@@ -38,6 +38,8 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -706,6 +708,6 @@ dont_show_month: true
 event_date: '2010-01-01'
 cities: duesseldorf
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963405
+updated_at: 1685973676
 perex: 'Čtvrté České centrum v Německu.'
 ---
