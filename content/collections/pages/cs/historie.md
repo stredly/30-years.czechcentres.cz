@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685987995
+updated_at: 1685988129
 page_content:
   -
     type: paragraph
@@ -1911,6 +1911,93 @@ page_content:
         type: text
         text: ", šek na více než 4,5 milionu korun.\_"
   -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 5
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::history/podekovani-starosta-new-yorku_orez.jpg'
+          alt: 'Děkovný fax starosty města New York za pomoc Českého centra po teroristických útocích 11. září 2001.'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Druhé české předsednictví v Radě EU'
+      -
+        type: text
+        text: "\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'České předsednictví v EU v druhé polovině roku 2022 znamenalo příležitost pro celkovou pozitivní prezentaci naší země nejen v Evropě. Při příležitosti CZ PRES připravila Česká centra širokou škálu aktivit. Pod mottem '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Vize pro Evropu'
+      -
+        type: text
+        text: ' se v síti českých kulturních institutů v EU i v mimoevropských destinacích představilo 10 síťových projektů, které tvořily hlavní linii nadcházející kulturní sezóny. Program vznikl za podpory Ministerstva zahraničních věcí ČR a k realizaci se spolu s Českými centry v zahraničí připojily také zastupitelské úřady. Co vše Česká centra přichystala pro předsednictví, se můžete dočíst v '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.czechcentres.cz/blog/2022/07/newsletter-ceskych-center-cerven-2022'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+          -
+            type: underline
+        text: 'newsletteru Českých center'
+      -
+        type: text
+        text: '. A pro příště se můžete '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.czechcentres.cz/about-us/newsletter-of-czech-centers/prihlaseni-k-odberu'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+          -
+            type: bold
+          -
+            type: underline
+        text: 'přihlásit k jeho odběru'
+      -
+        type: text
+        text: ".\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Při pohledu zpět je jasné, že Česká centra za dobu své existence ušla dlouhou cestu. Značně rozšířila svou činnost, a to jak teritoriálně, tak programově, zapojila se do evropských struktur, navázala spolupráci s mnoha partnery a dokázala, že jsou schopna pružně reagovat na nové výzvy.\_\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Pro srovnání se můžete podívat na článek z roku 1997, kdy Česká centra teprve zjišťovala své možnosti na internetu, který se v té době ještě psal s velkým písmenem, a poté navštivte naše nové webové stránky nebo sociální sítě.\_"
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -1918,8 +2005,8 @@ page_content:
       -
         type: image
         attrs:
-          src: 'asset::assets::history/podekovani-starosta-new-yorku_orez.jpg'
-          alt: 'Děkovný fax starosty města New York za pomoc Českého centra po teroristických útocích 11. září 2001.'
+          src: 'asset::assets::history/zdroj_-pravo_2.7.1997_-na-internetu-nabizime-i-proexportni-sluzby.jpg'
+          alt: "Rozhovor s ředitelem Správy českých center Janem Bondym v deníku Právo z 2. 7. 1997, autor článku: Antonín Falta. Zveřejněno se souhlasem vydavatele.\_"
   -
     type: set
     attrs:
