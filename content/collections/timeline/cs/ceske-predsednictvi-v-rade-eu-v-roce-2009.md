@@ -25,12 +25,17 @@ page_content:
         text: 'Oficiální doprovodná akce předsednictví ČR v Radě EU'
       -
         type: text
-        text: "“ a logo předsednictví.\_"
+        text: '“ a logo předsednictví.'
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/eu2009cz-znacka.jpg'
+          alt: 'Logo k předsednictví Rady EU v roce 2009'
       -
         type: text
         marks:
@@ -438,5 +443,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964217
+updated_at: 1685964389
 ---
