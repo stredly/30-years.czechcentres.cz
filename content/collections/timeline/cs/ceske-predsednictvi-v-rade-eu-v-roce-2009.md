@@ -144,7 +144,22 @@ page_content:
     content:
       -
         type: text
-        text: "Koncerty České filharmonie (Brusel), Symfonického orchestru Českého rozhlasu (Budapešť), komorních těles a sólistů, doprovázených tematickou výstavou o životě a díle B. Martinů \_"
+        marks:
+          -
+            type: bold
+        text: Koncerty
+      -
+        type: text
+        text: ' České filharmonie (Brusel), Symfonického orchestru Českého rozhlasu (Budapešť), komorních těles a sólistů, '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'doprovázených tematickou výstavou o životě a díle B. Martinů'
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     content:
@@ -461,5 +476,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985017
+updated_at: 1685985073
 ---
