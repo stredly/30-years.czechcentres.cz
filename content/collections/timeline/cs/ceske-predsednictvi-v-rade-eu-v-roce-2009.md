@@ -191,16 +191,25 @@ page_content:
     content:
       -
         type: text
-        text: 'Výstava '
+        text: 'Při příležitosti vydání nové knihy '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'ilustrací a textů doprovázející novou knihu P. Síse „Zeď“'
+        text: 'Petra Síse „Zeď“'
       -
         type: text
-        text: ". Při příležitosti vydání nové knihy P. Síse „Zeď“, která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU vznikne stejnojmenná výstava složené z ilustrací a textů doprovázející knihu.\_"
+        text: ', která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'vznikla stejnojmenná výstava složená z ilustrací a textů doprovázející knihu'
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     content:
@@ -329,7 +338,16 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava se soustředila na nejvýznamnější období let 1911–14 a prezentovala prominentní osobnosti kubismu a jejich práce: Pavla Janáka, Josefa Gočára, Vlastislava Hofmana, Josefa Chochola a Emila Králíčka, dále pak kubistický design, nerealizované projekty i další vývoj pro roce 1918\_"
+        text: 'Výstava se soustředila na nejvýznamnější'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' období let 1911–14 a prezentovala prominentní osobnosti kubismu a jejich práce'
+      -
+        type: text
+        text: ": Pavla Janáka, Josefa Gočára, Vlastislava Hofmana, Josefa Chochola a Emila Králíčka, dále pak kubistický design, nerealizované projekty i další vývoj po roce 1918.\_"
   -
     type: paragraph
     content:
@@ -361,7 +379,16 @@ page_content:
     content:
       -
         type: text
-        text: "Projekt navázal na úspěšnou výstavu kurátora z roku 2000, kdy bylo osloveno 120 nejlepších fotografů ČR, aby v jeden den vyfotografovali obyčejný den v ČR. \_"
+        text: 'Projekt navázal na úspěšnou výstavu kurátora z roku 2000, kdy bylo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'osloveno 120 nejlepších fotografů Česka, aby v jeden den vyfotografovali obyčejný den v Česku'
+      -
+        type: text
+        text: ". \_"
   -
     type: paragraph
     content:
@@ -506,5 +533,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985234
+updated_at: 1685985414
 ---
