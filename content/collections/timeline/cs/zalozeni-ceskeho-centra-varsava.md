@@ -998,12 +998,30 @@ page_content:
     content:
       -
         type: text
-        text: "Radka Denemarková, Barbora Gregorová, Anna Freimanová, Jiří Kovanda, Petr Vlček, Lucie Lomová, Barbora Čermáková, Jiří Ptáček, Petra Hůlová, Daniela Dostálková, Linda Dostálková, Renata Putzlacher-Buchtová, Apolena Rychlíková, Tereza Boučková, Monika Granja, Jiří Žák, Jozef Mrva, Pavel Vangeli, Dorota Barová, Trio, Jiří Červenka, Adéla Elbel, Libuše Jarcovjáková, Ivo Kahánek, Lukáš Kokeš, Pavel Kořínek, Vojtěch Kovařík, Jan Vytiska, Michaela Koudelková, Ondřej Kundra, Marek Rubec, Prof. Vladimír Šlapeta, Dr. Zuzana Fellegi, Ivana Myšková, Petr Borkovec, Marie Iljašenko, Josef Formánek, David Böhm, Jiří Franta, Milan Pekař, Bára Prášilová, Lukáš Jabůrek, Tomáš Mazal, Václav Špalek, Vít Havránek, Veronika Svobodová, Jakub Matějka, Jan Jeništa, Jarmila Poláková, Jan Čižmář, Bohdan Bláhovec, Martin Janíček, Tomáš Procházka, Karel Ksandr, Vlastimil Volák, Zdeněk Zavičák, Petr Vilgus, Martin Foret, František Frances, Petr Wagner, Vojtěch Havel, Irena Havlová, Radim Kopáč, Pavel Štourač, Mikuláš Novotný, Vladimír Drápal, Antonín Tesař, Michal Kráčmer, Dana Nekardová, Kateřina Bartošová, Jan Svatoš, Jaromír Hanzlík, Kateřina Lukášová\_"
+        text: 'Radka Denemarková, Barbora Gregorová, Anna Freimanová, Jiří Kovanda, Petr Vlček, Lucie Lomová, Barbora Čermáková, Jiří Ptáček, Petra Hůlová, Daniela Dostálková, Linda Dostálková, Renata Putzlacher-Buchtová, Apolena Rychlíková, Tereza Boučková, Monika Granja, Jiří Žák, Jozef Mrva, Pavel Vangeli, Dorota Barová, Trio, Jiří Červenka, Adéla Elbel, Libuše Jarcovjáková, Ivo Kahánek, Lukáš Kokeš, Pavel Kořínek, Vojtěch Kovařík, Jan Vytiska, Michaela Koudelková, Ondřej Kundra, Marek Rubec, Prof. Vladimír Šlapeta, Dr. Zuzana Fellegi, Ivana Myšková, Petr Borkovec, Marie Iljašenko, Josef Formánek, David Böhm, Jiří Franta, Milan Pekař, Bára Prášilová, Lukáš Jabůrek, Tomáš Mazal, Václav Špalek, Vít Havránek, Veronika Svobodová, Jakub Matějka, Jan Jeništa, Jarmila Poláková, Jan Čižmář, Bohdan Bláhovec, Martin Janíček, Tomáš Procházka, Karel Ksandr, Vlastimil Volák, Zdeněk Zavičák, Petr Vilgus, Martin Foret, František Frances, Petr Wagner, Vojtěch Havel, Irena Havlová, Radim Kopáč, Pavel Štourač, Mikuláš Novotný, Vladimír Drápal, Antonín Tesař, Michal Kráčmer, Dana Nekardová, Kateřina Bartošová, Jan Svatoš, Jaromír Hanzlík, Kateřina Lukášová'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://warsaw.czechcentres.cz/?locale=cs'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: warsaw.czechcentres.cz
 dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685952674
+updated_at: 1685952849
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
