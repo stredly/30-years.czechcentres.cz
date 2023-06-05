@@ -5,7 +5,7 @@ title: 'Založení Českého centra Kyjev'
 dont_show_month: true
 cities: kyjev
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685712960
+updated_at: 1685974363
 page_content:
   -
     type: paragraph
@@ -375,7 +375,7 @@ page_content:
             type: link
             attrs:
               href: 'https://kyiv.czechcentres.cz/o-nas/Czech-steps-zakarpati'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
           -
@@ -391,7 +391,7 @@ page_content:
             type: link
             attrs:
               href: 'https://kyiv.czechcentres.cz/o-nas/Czech-steps-uzhorod'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
           -
