@@ -222,6 +222,25 @@ page_content:
         type: text
         text: " byly hitem literární večery, ze kterých se zrodilo legendární představení Čapkových pohádek. Povídání s Karlem Čapkem se stala jednou z nejpopulárnějších původních inscenací, s reprízami na scéně Sofijské univerzity, byla představena i na divadelním festivalu v Berlíně a uvedena v Praze.\_"
   -
+    type: set
+    attrs:
+      id: lgxjrg2b
+      values:
+        type: gallery
+        gallery:
+          - timeline/sofie/17-cc-sofie.jpg
+          - timeline/sofie/04-cc-sofie.jpg
+          - timeline/sofie/07-cc-sofie.jpg
+          - timeline/sofie/08-cc-sofie.jpg
+          - timeline/sofie/16-cc-sofie.jpg
+          - timeline/sofie/32-cc-sofie.jpg
+          - timeline/sofie/20-cc-sofie.jpg
+          - timeline/sofie/24-cc-sofie.jpg
+          - timeline/sofie/27-cc-sofie.jpg
+          - timeline/sofie/29-cc-sofie-.jpg
+          - timeline/sofie/38-cc-sofie.jpg
+          - timeline/sofie/61-cc-sofie.jpg
+  -
     type: paragraph
     content:
       -
@@ -545,25 +564,6 @@ page_content:
         type: text
         text: "Jan Žamboch, Alice Klouzková, Johana Švarcová, Jaromír Honzák, Dana Kyndrová, Dan Trantina, Petr Motyčka, Martin Reiner, Zbyněk Baladrán, Jan Novák, Ondřej Hrab, Studio Dechem, Josef Tomšej, Losers, Lída Holá, Julie Nekova Nováková, Marek Steyer, Martin Čech, Miloš Rejsek, Jiří Hradil, Václav Girsa, Edith Jeřábková, Martin Polák, Lukáš Jasanský, Petr Jedlička, Divadlo Na zábradlí, Kateřina Rudčenková, Jindřich Štreit, Jiří Kubíček, Monika Načeva, Tomáš Gööz, Alex Limburg, Petr Michálek, Daniel Raček, Eliška Vavříková, Eduard Prokhasko, Viliam Dočolomanský, Marcel Bárta, Emil Leeger, Minh Hieu Nguyen, Hana Varadzinová, Anna Gromanová, Jun Wan Kim, Olda Smysl, Lucia Škandíková, Felice Ross, Erik Bartoš, Jiří Kovanda, Andrea Tachezy, Lyuben Petrov, Jitka Čechová, Jitka Hosprová, Adam Gebrian, Rafani, Tereza Sikorová, Tomáš Makovský, Pavel Horáček, Kateřina Šedá, Martin Talaga, Tereza Boučková, Vladimír Merta, Petr Placák, Václav Bělohradský, Marek Wollner, Alžběta Ambrožová, Matouš Hartman, David Kabzan, Alena Mornštajnová, Lenka Sárová Malíská, Václav Marhoul, Dorota Barová, Miroslav Chyška, David Böhm, Jiří Franta, Milan Pekař, Bára Prášilová, Lukáš Jabůrek\_"
   -
-    type: set
-    attrs:
-      id: lgxjrg2b
-      values:
-        type: gallery
-        gallery:
-          - timeline/sofie/17-cc-sofie.jpg
-          - timeline/sofie/04-cc-sofie.jpg
-          - timeline/sofie/07-cc-sofie.jpg
-          - timeline/sofie/08-cc-sofie.jpg
-          - timeline/sofie/16-cc-sofie.jpg
-          - timeline/sofie/32-cc-sofie.jpg
-          - timeline/sofie/20-cc-sofie.jpg
-          - timeline/sofie/24-cc-sofie.jpg
-          - timeline/sofie/27-cc-sofie.jpg
-          - timeline/sofie/29-cc-sofie-.jpg
-          - timeline/sofie/38-cc-sofie.jpg
-          - timeline/sofie/61-cc-sofie.jpg
-  -
     type: heading
     attrs:
       level: 2
@@ -585,7 +585,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685965497
+updated_at: 1685965679
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
