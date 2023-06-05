@@ -105,7 +105,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Tschechische Kulturtage Freiburg im Breisgau. '
+        text: 'Tschechische Kulturtage Freiburg im Breisgau'
+      -
+        type: text
+        text: .
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         text: 'Tyto '
@@ -545,6 +554,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685955407
+updated_at: 1685955458
 perex: 'Za českou kulturou do Bavorska.'
 ---
