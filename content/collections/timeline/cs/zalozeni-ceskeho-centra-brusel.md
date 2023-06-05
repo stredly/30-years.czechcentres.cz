@@ -1158,11 +1158,29 @@ page_content:
     content:
       -
         type: text
-        text: "Šimon Pánek, Radek Baborák, Dan Bárta, Marcel Bárta, Iva Bittová, Petr Blažek, Čechomor, Miřenka Čechová, František Drtikol, Lenka Dusilová, Petr Fischer, Šárka Gmiterková, Jiří Hájíček, Ondřej Havelka a Melody Makers, Beata Hlavenková, Tereza Hradilková, Martha Issová, Nina Formánek Jaganjacová, Tomáš Jungwirth, Karolína Juříková, Daria Kashcheeva, Aleš Kisil, Alice Klouzková, Pavel Kořínek, Pavlína Kvapilová, Aneta Langerová, Lobkowicz Trio, Václav Marhoul, Ondřej Macl, Radek Malý, Tamara Moyzes, Kristian Mráček, Alena Mornštajnová, Václav Neužil, David Ondříček, David Pěruška, Martin Polák, Tomáš Pospiszyl, Tomáš Procházka, Barbora Procházková, Jiří Přibáň, Michael Romancov, Apolena Rychlíková, Petr Šabach, Kateřina Šédová, Pavel Šporcl, Petruška Šustrová, Švandovo divadlo, Jaromír Typlt, Lenka Vacková, Petr Vidomus, Emil Viklický, Darina Zavadilová, Martin Zet, Jiří Slíva, Kateřina Šedá, Jiří Slíva, Jakub Nepraš, Helena Třeštíková, Markéta Pilátová, Radeq Brousil, Jáchym Topol, Rudolf Samohejl, Vojtěch Boháč\_"
+        text: 'Šimon Pánek, Radek Baborák, Dan Bárta, Marcel Bárta, Iva Bittová, Petr Blažek, Čechomor, Miřenka Čechová, František Drtikol, Lenka Dusilová, Petr Fischer, Šárka Gmiterková, Jiří Hájíček, Ondřej Havelka a Melody Makers, Beata Hlavenková, Tereza Hradilková, Martha Issová, Nina Formánek Jaganjacová, Tomáš Jungwirth, Karolína Juříková, Daria Kashcheeva, Aleš Kisil, Alice Klouzková, Pavel Kořínek, Pavlína Kvapilová, Aneta Langerová, Lobkowicz Trio, Václav Marhoul, Ondřej Macl, Radek Malý, Tamara Moyzes, Kristian Mráček, Alena Mornštajnová, Václav Neužil, David Ondříček, David Pěruška, Martin Polák, Tomáš Pospiszyl, Tomáš Procházka, Barbora Procházková, Jiří Přibáň, Michael Romancov, Apolena Rychlíková, Petr Šabach, Kateřina Šédová, Pavel Šporcl, Petruška Šustrová, Švandovo divadlo, Jaromír Typlt, Lenka Vacková, Petr Vidomus, Emil Viklický, Darina Zavadilová, Martin Zet, Jiří Slíva, Kateřina Šedá, Jiří Slíva, Jakub Nepraš, Helena Třeštíková, Markéta Pilátová, Radeq Brousil, Jáchym Topol, Rudolf Samohejl, Vojtěch Boháč'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://brussels.czechcentres.cz/?locale=cs'
+              rel: null
+              target: null
+              title: null
+          -
+            type: bold
+        text: brussels.czechcentres.cz
 dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963639
+updated_at: 1685964177
 perex: 'Česká kultura v hlavním městě Evropy.'
 ---
