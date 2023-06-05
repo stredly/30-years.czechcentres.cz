@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685987865
+updated_at: 1685987995
 page_content:
   -
     type: paragraph
@@ -1877,6 +1877,49 @@ page_content:
       -
         type: text
         text: " na Moravě.\_"
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::history/pravo-06-08.10.1997.JPG'
+          alt: 'Článek Jana Horáka v deníku Právo z 8. října 1997 o pomoci Českých center obětem záplav. Zveřejněno se souhlasem vydavatele.'
+      -
+        type: text
+        text: 'V listopadu 2001 předal ředitel Českého centra New York Přemysl Pela starostovi New Yorku Rudolfu Giulianimu '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://cesky.radio.cz/ceske-centrum-predalo-new-yorku-sek-na-pomoc-obetem-terorismu-8538919'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+          -
+            type: underline
+        text: 'výtěžek sbírky'
+      -
+        type: text
+        text: ' na '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'pomoc po zářijových teroristických útocích'
+      -
+        type: text
+        text: ", šek na více než 4,5 milionu korun.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::history/podekovani-starosta-new-yorku_orez.jpg'
+          alt: 'Děkovný fax starosty města New York za pomoc Českého centra po teroristických útocích 11. září 2001.'
   -
     type: set
     attrs:
