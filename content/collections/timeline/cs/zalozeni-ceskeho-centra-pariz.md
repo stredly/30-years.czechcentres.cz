@@ -233,10 +233,13 @@ page_content:
     content:
       -
         type: text
+        text: 'V '
+      -
+        type: text
         marks:
           -
             type: bold
-        text: 'V katedrále Notre Dame'
+        text: 'katedrále Notre Dame'
       -
         type: text
         text: ' v Paříži odsloužil pařížský arcibiskup André Vingt-Trois spolu s pražským biskupem Václavem Malým '
@@ -876,6 +879,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982156
+updated_at: 1685982247
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
