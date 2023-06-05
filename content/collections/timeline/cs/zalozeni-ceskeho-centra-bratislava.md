@@ -1100,7 +1100,7 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum nejen že navázalo, ale začalo dále rozvíjet spolupráci s partnery\_ v rámci akcí jako je Bratislava Design Week, Festival českého divadla, Jeden svět, Festival Pohoda, ale především Noc literatury."
+        text: 'České centrum nejen že navázalo, ale začalo dále rozvíjet spolupráci s partnery v rámci akcí jako je Bratislava Design Week, Festival českého divadla, Jeden svět, Festival Pohoda, ale především Noc literatury.'
   -
     type: heading
     attrs:
@@ -1244,6 +1244,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963698
+updated_at: 1685981453
 perex: 'První pobočka u nejbližších sousedů.'
 ---
