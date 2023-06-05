@@ -1022,12 +1022,6 @@ page_content:
     content:
       -
         type: text
-        text: 'I přes výměnu ředitelky pokračovalo České centrum v tradičních a oblíbených projektech, jako Bratislava Design Week, Festival českého divadla či Noc literatury.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'V současné době je na postu ředitelky Českého centra / Českého domu Bratislava Monika Koblerová.'
   -
     type: paragraph
@@ -1244,6 +1238,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685981453
+updated_at: 1685981587
 perex: 'První pobočka u nejbližších sousedů.'
 ---
