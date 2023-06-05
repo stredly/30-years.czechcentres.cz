@@ -256,7 +256,7 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685713027
+updated_at: 1685963861
 background_image: background-image/2005_kosice.jpg
-perex: 'Slovensko dostává druhou pobočku.'
+perex: 'Druhá pobočka na Slovensku.'
 ---
