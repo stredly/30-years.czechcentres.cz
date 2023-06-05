@@ -178,6 +178,25 @@ page_content:
         type: text
         text: ", jako v roce 1949.\_"
   -
+    type: set
+    attrs:
+      id: lgxjrg2b
+      values:
+        type: gallery
+        gallery:
+          - timeline/sofie/17-cc-sofie.jpg
+          - timeline/sofie/04-cc-sofie.jpg
+          - timeline/sofie/07-cc-sofie.jpg
+          - timeline/sofie/08-cc-sofie.jpg
+          - timeline/sofie/16-cc-sofie.jpg
+          - timeline/sofie/32-cc-sofie.jpg
+          - timeline/sofie/20-cc-sofie.jpg
+          - timeline/sofie/24-cc-sofie.jpg
+          - timeline/sofie/27-cc-sofie.jpg
+          - timeline/sofie/29-cc-sofie-.jpg
+          - timeline/sofie/38-cc-sofie.jpg
+          - timeline/sofie/61-cc-sofie.jpg
+  -
     type: heading
     attrs:
       level: 2
@@ -221,25 +240,6 @@ page_content:
       -
         type: text
         text: " byly hitem literární večery, ze kterých se zrodilo legendární představení Čapkových pohádek. Povídání s Karlem Čapkem se stala jednou z nejpopulárnějších původních inscenací, s reprízami na scéně Sofijské univerzity, byla představena i na divadelním festivalu v Berlíně a uvedena v Praze.\_"
-  -
-    type: set
-    attrs:
-      id: lgxjrg2b
-      values:
-        type: gallery
-        gallery:
-          - timeline/sofie/17-cc-sofie.jpg
-          - timeline/sofie/04-cc-sofie.jpg
-          - timeline/sofie/07-cc-sofie.jpg
-          - timeline/sofie/08-cc-sofie.jpg
-          - timeline/sofie/16-cc-sofie.jpg
-          - timeline/sofie/32-cc-sofie.jpg
-          - timeline/sofie/20-cc-sofie.jpg
-          - timeline/sofie/24-cc-sofie.jpg
-          - timeline/sofie/27-cc-sofie.jpg
-          - timeline/sofie/29-cc-sofie-.jpg
-          - timeline/sofie/38-cc-sofie.jpg
-          - timeline/sofie/61-cc-sofie.jpg
   -
     type: paragraph
     content:
@@ -585,7 +585,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685965679
+updated_at: 1685965701
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
