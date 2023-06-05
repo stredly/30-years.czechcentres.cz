@@ -69,16 +69,7 @@ page_content:
         text: 'zdarma jakožto výraz vděku'
       -
         type: text
-        text: " Česku za to, že v roce 1948 pomohlo Izraeli v prvních válkách s Araby. Tomu se později dostalo osobního poděkování za toto jedinečné vyjádření vděčnosti z úst bývalého ministra zahraničí Tomáše Petříčka při setkání v Praze.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Více o osobě a díle Buki Zukera naleznete '
+        text: ' Česku za to, že v roce 1948 pomohlo Izraeli v prvních válkách s Araby. Tomu se později dostalo osobního poděkování za toto jedinečné vyjádření vděčnosti z úst bývalého ministra zahraničí Tomáše Petříčka při setkání v Praze. Více o osobě a díle Buki Zukera naleznete '
       -
         type: text
         marks:
@@ -94,9 +85,6 @@ page_content:
         text: zde
       -
         type: text
-        marks:
-          -
-            type: bold
         text: .
   -
     type: heading
@@ -348,7 +336,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: jeruzalem
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685711840
+updated_at: 1685971848
 background_image: background-image/2018_jeruzalem.jpg
 perex: 'Kousek Česka pod horou Sijón.'
 ---
