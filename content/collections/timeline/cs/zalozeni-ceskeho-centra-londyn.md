@@ -641,24 +641,6 @@ page_content:
         type: text
         text: "Za třicet let svého působení přivítalo České centrum Londýn stovky významných osobností české i světové kultury. Namátkou jmenujme: Václav Havel, Jiří Bělohlávek, David Černý, Sir Tom Stoppard, Miroslav Holub, Jan Švankmajer, Jan Kaplický, Plastic People of the Universe, Josef Koudelka, Stanislav Kolíbal, Ian Anderson, Timothy Garton Ash, Aleš Najbrt, David Vávra, Sir Michael Burton, Sir John Tusa, Herbert Lom. Jednu z\_akcí navštívil i současný král Spojeného království Karel III., v\_té době princ z\_Walesu."
   -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://london.czechcentres.cz/'
-              rel: null
-              target: _blank
-              title: null
-          -
-            type: bold
-        text: london.czechcentres.cz
-  -
     type: paragraph
     content:
       -
@@ -698,7 +680,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685981285
+updated_at: 1685994544
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
