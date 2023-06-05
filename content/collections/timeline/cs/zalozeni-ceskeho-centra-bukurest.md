@@ -825,11 +825,29 @@ page_content:
     content:
       -
         type: text
-        text: "Jiří Přibáň, Maria Makeeva, Osamu Okamura, Veronika Pařízková, Tomáš Etzler, Lukáš Houdek, Jaromír Typlt, Barbora Idesová, Petr Blažek, Michal Hába, Adam Štěch, Ivan Palacký, Andreas Gajdošík, Petr Bittner, Johanna Nejedlová, Martin Zet, Jana Horálková, Michal Kindernay, Miroslav Sosoi, Jana Orlová, Pavel Kohout, Peter Serge Butko, Michal Varga, Vítězslav Sommer, Ondřej Dufek, Tomáš Pospiszyl, Vít Havránek, Eliška Děcká, Pavel Horáček, Martin Jakubek, Estela Hojná, Oto Bunda, Ida Kelarová, Lumír Nykl, Monika Hojná, Ondřej Soukup, Lukáš Kokeš, Klára Tasovská, Thom Artway, Petr Kadlec, Kurt Neubauer, Desiderius \"Dežo\" Dužda, Jakub Plíhal, Jan Látal, Bruno Solařík, Adam Brothánek, Schwarzprior, Ondřej Vicena, Radim Kopáč, Roman Ráž, Martin Vopěnka, Tomáš Zmeškal, Tomáš Míka, Lidia-Veronica Našincová, Jan Zdvořák, Tomáš Svoboda, Marcus Steinweg, Jiří Stejskal, Adam Velíšek, Adam Kovalčík, Petra Křivová, Jan Balej, Radka Denemarková, David Doubek, Ondřej Mikula, Pavel Karafiát, Alice Prajzentová, Milan Mikuláštík, Martina Smutná, Michal Cáb, Jiří Navrátil\_"
+        text: 'Jiří Přibáň, Maria Makeeva, Osamu Okamura, Veronika Pařízková, Tomáš Etzler, Lukáš Houdek, Jaromír Typlt, Barbora Idesová, Petr Blažek, Michal Hába, Adam Štěch, Ivan Palacký, Andreas Gajdošík, Petr Bittner, Johanna Nejedlová, Martin Zet, Jana Horálková, Michal Kindernay, Miroslav Sosoi, Jana Orlová, Pavel Kohout, Peter Serge Butko, Michal Varga, Vítězslav Sommer, Ondřej Dufek, Tomáš Pospiszyl, Vít Havránek, Eliška Děcká, Pavel Horáček, Martin Jakubek, Estela Hojná, Oto Bunda, Ida Kelarová, Lumír Nykl, Monika Hojná, Ondřej Soukup, Lukáš Kokeš, Klára Tasovská, Thom Artway, Petr Kadlec, Kurt Neubauer, Desiderius "Dežo" Dužda, Jakub Plíhal, Jan Látal, Bruno Solařík, Adam Brothánek, Schwarzprior, Ondřej Vicena, Radim Kopáč, Roman Ráž, Martin Vopěnka, Tomáš Zmeškal, Tomáš Míka, Lidia-Veronica Našincová, Jan Zdvořák, Tomáš Svoboda, Marcus Steinweg, Jiří Stejskal, Adam Velíšek, Adam Kovalčík, Petra Křivová, Jan Balej, Radka Denemarková, David Doubek, Ondřej Mikula, Pavel Karafiát, Alice Prajzentová, Milan Mikuláštík, Martina Smutná, Michal Cáb, Jiří Navrátil'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://bucharest.czechcentres.cz/'
+              rel: null
+              target: null
+              title: null
+          -
+            type: bold
+        text: bucharest.czechcentres.cz
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958324
+updated_at: 1685958643
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 ---
