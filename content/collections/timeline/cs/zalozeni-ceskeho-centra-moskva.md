@@ -410,216 +410,237 @@ page_content:
         attrs:
           src: 'asset::assets::background-image/1993_moskvacc.JPG'
           alt: 'Koncert Pražského filharmonického sboru v Zarjadje v roce 2019 © Archiv Českého centra Moskva'
+      -
+        type: text
+        text: 'O činnosti Českého centra Moskva v posledních letech si přečtěte v rozhovoru s jeho poslední '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'ředitelkou Hanou Skládalovou'
+      -
+        type: text
+        text: " pro web klasikaplus.cz:\_"
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: „
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Co se týče Českého centra Moskva, zabýváme se prezentací různorodých oblastí kultury, jako je film, hudba – především vážná, jazzová, moderní a folklorní – a také výtvarná a designová tvorba. Současně se zaměřujeme na literaturu: podporujeme vydávání překladů českých autorů v Ruské federaci, z nedávné doby mohu jmenovat například knihu Chladná zem od autora '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Jáchyma Topola'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', který osobně přijel do Moskvy pokřtít vydání knihy. Dále připravujeme různorodé výstavy. Podařilo se nám vystavovat ve významném muzeu MAMM (Multimedia Art Museum, Moscow), kde jsme představili například výtvarníka '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Viktora Pivovarova'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', a na podzim 2019 jsme uspořádali setkání k třicátému výročí sametové revoluce. Na veletrhu knih Non Fiction jsme uvedli české ilustrátory knih, například'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: ' Davida Böhma'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. V průběhu roku 2019 jsme v rámci Ruské federace uspořádali sérii výstav týkajících se literatury – ilustrace: Dvanáct světů, Sto let komiksu, Manamana a tvorba '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Ondřeje Sekory'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. Ve spolupráci s naším velvyslanectvím jsme uspořádali společný projekt – venkovní Festival České republiky v Moskvě s návštěvností 55000 diváků. V roce 2020 bude pokračovat již třetím ročníkem. A nedílnou součástí naší činnosti je organizování jazykových kurzů pro cizince. Výuka probíhá ve třech semestrech pro zhruba pět set studentů'
+          -
+            type: text
+            text: "“, řekla Hana Skládalová.\_"
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'A následně dodává: „'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'V lednu 2020 navštívili Moskvu '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Beata Rajská'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Karolína Mališová'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ','
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: ' Eva Perkausová'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ' a představitelé jablonecké bižuterie a společně jsme pod záštitou pana velvyslance '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Vítězslava Pivoňky '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'a jeho manželky '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Moniky Pivoňkové'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: " uspořádali na velvyslanectví den českých tradic pro členky IWC (The International Women's Club of Moscow). Tento den se velmi vydařil. V médiích bylo zveřejněno několik pozitivních ohlasů. V lednu 2020 jsme také spoluorganizovali s Českým domem koncert "
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Collegia 1704'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ' s '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Václavem Luksem'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '. Koncertní sál Zarjaďje v Moskvě hostil mimořádný koncert, po kterém následovaly standing ovation na deset minut. Po koncertě Pražského filharmonického sboru v březnu, kromě tradičního Česko-slovenského plesu, pořádáme i Kongres módy, jehož autorem jsem já a '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: italic
+            text: 'Julie Popová'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', ředitelka módního domu Slavy Zajceva. V květnu pak proběhne prezentace České republiky v Novorossijsku a Anapě, kde představíme filmový festival Czech In.'
+          -
+            type: text
+            text: "“ (Klasikaplus.cz)\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "O činnosti Českého centra Moskva v posledních letech si přečtěte v rozhovoru s jeho poslední ředitelkou Hanou Skládalovou pro web klasikaplus.cz:\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: “
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Co se týče Českého centra Moskva, zabýváme se prezentací různorodých oblastí kultury, jako je film, hudba – především vážná, jazzová, moderní a folklorní – a také výtvarná a designová tvorba. Současně se zaměřujeme na literaturu: podporujeme vydávání překladů českých autorů v Ruské federaci, z nedávné doby mohu jmenovat například knihu Chladná zem od autora '
+        text: 'Vzhledem k vzájemným diplomatickým neshodám došlo v roce 2020 k '
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: italic
-        text: 'Jáchyma Topola'
+        text: 'vyloučení několika diplomatů'
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: ', který osobně přijel do Moskvy pokřtít vydání knihy. Dále připravujeme různorodé výstavy. Podařilo se nám vystavovat ve významném muzeu MAMM (Multimedia Art Museum, Moscow), kde jsme představili například výtvarníka '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Viktora Pivovarova'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ', a na podzim 2019 jsme uspořádali setkání k třicátému výročí sametové revoluce. Na veletrhu knih Non Fiction jsme uvedli české ilustrátory knih, například'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: ' Davida Böhma'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '. V průběhu roku 2019 jsme v rámci Ruské federace uspořádali sérii výstav týkajících se literatury – ilustrace: Dvanáct světů, Sto let komiksu, Manamana a tvorba '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Ondřeje Sekory'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '. Ve spolupráci s naším velvyslanectvím jsme uspořádali společný projekt – venkovní Festival České republiky v Moskvě s návštěvností 55000 diváků. V roce 2020 bude pokračovat již třetím ročníkem. A nedílnou součástí naší činnosti je organizování jazykových kurzů pro cizince. Výuka probíhá ve třech semestrech pro zhruba pět set studentů'
-      -
-        type: text
-        text: "”, řekla Hana Skládalová.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'A následně dodává: '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '“V lednu 2020 navštívili Moskvu '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Beata Rajská'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ', '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Karolína Mališová'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ','
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: ' Eva Perkausová'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ' a představitelé jablonecké bižuterie a společně jsme pod záštitou pana velvyslance '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Vítězslava Pivoňky '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'a jeho manželky '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Moniky Pivoňkové'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: " uspořádali na velvyslanectví den českých tradic pro členky IWC (The International Women's Club of Moscow). Tento den se velmi vydařil. V médiích bylo zveřejněno několik pozitivních ohlasů. V lednu 2020 jsme také spoluorganizovali s Českým domem koncert "
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Collegia 1704'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ' s '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Václavem Luksem'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: '. Koncertní sál Zarjaďje v Moskvě hostil mimořádný koncert, po kterém následovaly standing ovation na deset minut. Po koncertě Pražského filharmonického sboru v březnu, kromě tradičního Česko-slovenského plesu, pořádáme i Kongres módy, jehož autorem jsem já a '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: 'Julie Popová'
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: ', ředitelka módního domu Slavy Zajceva. V květnu pak proběhne prezentace České republiky v Novorossijsku a Anapě, kde představíme filmový festival Czech In.” '
-      -
-        type: text
-        text: "(Klasikaplus.cz)\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Vzhledem k vzájemným diplomatickým neshodám došlo v roce 2020 k vyloučení několika diplomatů a na naší straně to byla právě ředitelka Českého centra Hana Skládalová. Dočasně vedla centrum na dálku z rumunské Bukurešti.\_\_"
+        text: " a na naší straně to byla právě ředitelka Českého centra Hana Skládalová. Dočasně vedla centrum na dálku z rumunské Bukurešti.\_\_"
   -
     type: paragraph
     content:
@@ -742,6 +763,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685986049
+updated_at: 1685986286
 perex: 'Rozdělené cesty.'
 ---
