@@ -70,7 +70,16 @@ page_content:
         text: 'Rue Bonaparte č. 18 v 6. obvodu'
       -
         type: text
-        text: ", kde v letech 1916–1918 sídlila Česká a posléze Československá Národní rada v čele s Edvardem Benešem. Již za první světové války zde měla své sídlo Masarykova prozatímní vláda a později konzulát. Než byla předána k užívání Českému centru, musela budova projít náročnou a kompletní rekonstrukcí. Autorem této přestavby, jež proběhla v letech 1992–1996, je architekt Zdeněk Zavřel.\_\_"
+        text: ', kde v letech 1916–1918 sídlila Česká a posléze Československá Národní rada v čele s Edvardem Benešem. Již za první světové války zde měla své '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'sídlo Masarykova prozatímní vláda a později konzulát'
+      -
+        type: text
+        text: ". Než byla předána k užívání Českému centru, musela budova projít náročnou a kompletní rekonstrukcí. Autorem této přestavby, jež proběhla v letech 1992–1996, je architekt Zdeněk Zavřel.\_\_"
   -
     type: paragraph
     content:
@@ -870,6 +879,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982383
+updated_at: 1685982469
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
