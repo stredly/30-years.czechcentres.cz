@@ -67,23 +67,17 @@ page_content:
         type: text
         text: " Milan Cais, Luboš Fidler, Ivan Havlíček, Martin Janíček, Jaroslav Kořán, Petr Lorenc, Jiří Melzer, Petr Nikl, Ondřej Smeykal, Václav Smolka, Čestmír Suška, Zdeněk Šmíd, Miloš Vojtěchovský\_"
   -
-    type: bulletList
+    type: paragraph
     content:
       -
-        type: listItem
-        content:
+        type: text
+        marks:
           -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Uvedeno v:'
-              -
-                type: text
-                text: " ČC Brusel, ČC Bukurešť, ČC Sofie, ČC Bratislava, ČC Praha\_"
+            type: bold
+        text: 'Uvedeno v:'
+      -
+        type: text
+        text: " ČC Brusel, ČC Bukurešť, ČC Sofie, ČC Bratislava, ČC Praha\_"
   -
     type: heading
     attrs:
@@ -467,5 +461,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985004
+updated_at: 1685985017
 ---
