@@ -33,30 +33,42 @@ page_content:
         text: 'Československé kulturní a informační středisko'
       -
         type: text
-        text: ', jehož součástí byla i prodejna československého kulturního zboží. Návštěvníci si zde mohli zakoupit například knihy, gramofonové desky s vážnou i populární hudbou z vydavatelství Suprafon nebo oblíbené české sklo. Dům československé kultury byl i místem setkávání s významnými kulturními osobnostmi: '
+        text: ', jehož součástí byla i prodejna československého kulturního zboží. Návštěvníci si zde mohli zakoupit například knihy, gramofonové desky s vážnou i populární hudbou z vydavatelství Suprafon nebo oblíbené české sklo. Dům československé kultury byl i místem setkávání s významnými kulturními osobnostmi:'
+  -
+    type: blockquote
+    content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„S Ludvíkem Kunderou jsem se setkal v 60. letech v Domě československé kultury v Berlíně, v baráku u nádraží Friedrichstrasse. Byli tam i Skácel a Hrubín.“'
-      -
-        type: text
-        text: ' vzpomínal překladatel Eduard Schreiber Radonitzer (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„S Ludvíkem Kunderou jsem se setkal v 60. letech v Domě československé kultury v Berlíně, v baráku u nádraží Friedrichstrasse. Byli tam i Skácel a Hrubín.“'
           -
-            type: link
-            attrs:
-              href: 'https://casopiskontexty.cz/slava-azuru/'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'Kontexty 6/2021'
+            type: text
+            text: ' vzpomínal překladatel Eduard Schreiber Radonitzer (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://casopiskontexty.cz/slava-azuru/'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'Kontexty 6/2021'
+          -
+            type: text
+            text: ).
+  -
+    type: paragraph
+    content:
       -
         type: text
-        text: "). Pořádaly se zde besedy, výstavy, divadelní a taneční představení nebo filmová promítání.\_"
+        text: "Pořádaly se zde besedy, výstavy, divadelní a taneční představení nebo filmová promítání.\_"
   -
     type: paragraph
     content:
@@ -1376,6 +1388,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685712888
+updated_at: 1685949994
 perex: 'Ve stínu Berlínské zdi.'
 ---
