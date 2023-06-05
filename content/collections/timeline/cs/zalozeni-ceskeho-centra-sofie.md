@@ -43,15 +43,20 @@ page_content:
         type: text
         text: ": Československé kulturní středisko, Československé kulturní a informační středisko, Československé kulturní a informační středisko ČSFR, České centrum Sofie.\_\_"
   -
+    type: set
+    attrs:
+      id: liis0i0a
+      values:
+        type: gallery
+        gallery:
+          - timeline/sofie/58-cc-sofie.jpg
+          - timeline/sofie/denik_pravo_28.11.1996_autorka_violeta_micevova.JPG
+          - timeline/sofie/pravo_4.8.1998_autorka_violeta_micevova.JPG
+  -
     type: heading
     attrs:
       level: 2
     content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1949_sofie.jpg'
-          alt: 'Slavnostní otevření Českého centra Sofie po rekonstrukci, vlevo ministr zahraničních věcí ČR Jaroslav Šedivý a vpravo ředitel ČC Rudolf Sedláček, duben 1998 © Archiv Českého centra Sofie'
       -
         type: text
         marks:
@@ -583,7 +588,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964930
+updated_at: 1685964993
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
