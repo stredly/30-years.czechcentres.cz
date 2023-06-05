@@ -68,6 +68,22 @@ page_content:
         type: text
         text: ". Zejména se snaží mladé rumunské generaci přiblížit současné české umění a nejnovější objevy na české kulturní scéně – především v oblasti dokumentárního filmu, hudby, výtvarného umění, fotografie a architektury. V programové nabídce má také akce týkající se ekologie, sociálních témat či lidských práv – jak ve formě uměleckých projektů, tak v podobě přednášek a workshopů.\_"
   -
+    type: set
+    attrs:
+      id: lg2b92h7
+      values:
+        type: gallery
+        gallery:
+          - timeline/bucharest/foto-1_vyrocni-vystava-ccb.jpg
+          - timeline/bucharest/foto-2_vyrocni-vystava-ccb.jpg
+          - timeline/bucharest/foto-3_kronika-aktivit-ccb-1981-89.jpg
+          - timeline/bucharest/foto-4_festival-one-world-romania-2014.jpg
+          - timeline/bucharest/foto-5_projekce-filmu-documentary-mondays_2018.jpg
+          - timeline/bucharest/foto-6_festival-cinemascop_2021.jpg
+          - timeline/bucharest/foto-7_festival-cinemascop_2019.jpg
+          - timeline/bucharest/foto-8_josef-koudelka-v-rumunsku.JPG
+          - timeline/bucharest/foto-9_dvorak-remastered_krest-cd.jpg
+  -
     type: paragraph
     content:
       -
@@ -810,26 +826,10 @@ page_content:
       -
         type: text
         text: "Jiří Přibáň, Maria Makeeva, Osamu Okamura, Veronika Pařízková, Tomáš Etzler, Lukáš Houdek, Jaromír Typlt, Barbora Idesová, Petr Blažek, Michal Hába, Adam Štěch, Ivan Palacký, Andreas Gajdošík, Petr Bittner, Johanna Nejedlová, Martin Zet, Jana Horálková, Michal Kindernay, Miroslav Sosoi, Jana Orlová, Pavel Kohout, Peter Serge Butko, Michal Varga, Vítězslav Sommer, Ondřej Dufek, Tomáš Pospiszyl, Vít Havránek, Eliška Děcká, Pavel Horáček, Martin Jakubek, Estela Hojná, Oto Bunda, Ida Kelarová, Lumír Nykl, Monika Hojná, Ondřej Soukup, Lukáš Kokeš, Klára Tasovská, Thom Artway, Petr Kadlec, Kurt Neubauer, Desiderius \"Dežo\" Dužda, Jakub Plíhal, Jan Látal, Bruno Solařík, Adam Brothánek, Schwarzprior, Ondřej Vicena, Radim Kopáč, Roman Ráž, Martin Vopěnka, Tomáš Zmeškal, Tomáš Míka, Lidia-Veronica Našincová, Jan Zdvořák, Tomáš Svoboda, Marcus Steinweg, Jiří Stejskal, Adam Velíšek, Adam Kovalčík, Petra Křivová, Jan Balej, Radka Denemarková, David Doubek, Ondřej Mikula, Pavel Karafiát, Alice Prajzentová, Milan Mikuláštík, Martina Smutná, Michal Cáb, Jiří Navrátil\_"
-  -
-    type: set
-    attrs:
-      id: lg2b92h7
-      values:
-        type: gallery
-        gallery:
-          - timeline/bucharest/foto-1_vyrocni-vystava-ccb.jpg
-          - timeline/bucharest/foto-2_vyrocni-vystava-ccb.jpg
-          - timeline/bucharest/foto-3_kronika-aktivit-ccb-1981-89.jpg
-          - timeline/bucharest/foto-4_festival-one-world-romania-2014.jpg
-          - timeline/bucharest/foto-5_projekce-filmu-documentary-mondays_2018.jpg
-          - timeline/bucharest/foto-6_festival-cinemascop_2021.jpg
-          - timeline/bucharest/foto-7_festival-cinemascop_2019.jpg
-          - timeline/bucharest/foto-8_josef-koudelka-v-rumunsku.JPG
-          - timeline/bucharest/foto-9_dvorak-remastered_krest-cd.jpg
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958100
+updated_at: 1685958254
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 ---
