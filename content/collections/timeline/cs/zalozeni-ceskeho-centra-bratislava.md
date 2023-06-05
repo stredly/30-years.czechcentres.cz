@@ -920,7 +920,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Po smutných událostech, kdy Lenka Zogatová z rodinných důvodů musela ze svého postu odstoupit, se po malé přestávce ujímá vedení Vilma Anýžová, bývalá generální ředitelka Českých center. I ona se držela spíše alternativnějšího směru.'
+        text: 'Po Lence Zogatové se vedení ujímá Vilma Anýžová, bývalá generální ředitelka Českých center. I ona se držela spíše alternativnějšího směru.'
   -
     type: paragraph
     content:
@@ -1238,6 +1238,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685981587
+updated_at: 1685981835
 perex: 'První pobočka u nejbližších sousedů.'
 ---
