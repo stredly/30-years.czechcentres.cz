@@ -8,7 +8,16 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Praha slavnostně otevřeli dne 20. dubna 2006 náměstek ministra zahraničních věcí Pavel Svoboda, generální ředitel Českých center Jan Bondy, vládní koordinátor prezentace ČR v zahraničí Otto Jelínek, státní tajemník ministerstva zahraničních věcí Vladimír Zavázal a ředitelka Českého centra Praha Dana Brabcová.'
+        text: 'České centrum Praha slavnostně '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'otevřeli dne 20. dubna 2006'
+      -
+        type: text
+        text: ' náměstek ministra zahraničních věcí Pavel Svoboda, generální ředitel Českých center Jan Bondy, vládní koordinátor prezentace ČR v zahraničí Otto Jelínek, státní tajemník ministerstva zahraničních věcí Vladimír Zavázal a ředitelka Českého centra Praha Dana Brabcová.'
   -
     type: heading
     attrs:
@@ -356,7 +365,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685711974
+updated_at: 1685984223
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
