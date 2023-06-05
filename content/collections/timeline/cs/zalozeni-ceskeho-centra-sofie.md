@@ -495,7 +495,16 @@ page_content:
         text: 'Noc literatury'
       -
         type: text
-        text: ", která se zde pořádá od roku 2012, a to pod hlavičkou sdružení evropských kulturních institutů EUNIC. V roce 2023 se bude konat již 12. ročník a aktuálně se jí účastní přes 20 partnerů ve 21 bulharských městech.\_"
+        text: ', která se zde pořádá od roku 2012, a to pod hlavičkou sdružení evropských kulturních institutů EUNIC. V roce 2023 se bude konat již 12. ročník a aktuálně se jí účastní přes 20 partnerů ve 21 bulharských městech.'
+  -
+    type: set
+    attrs:
+      id: liirwd5f
+      values:
+        type: gallery
+        gallery:
+          - timeline/sofie/denik_pravo_28.11.1996_autorka_violeta_micevova.JPG
+          - timeline/sofie/pravo_4.8.1998_autorka_violeta_micevova.JPG
   -
     type: heading
     attrs:
@@ -581,7 +590,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964554
+updated_at: 1685964789
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
