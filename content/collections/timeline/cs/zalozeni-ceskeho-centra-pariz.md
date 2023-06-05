@@ -200,10 +200,10 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
-        text: 'jeho životě ve Francii, o tom, jak se dostal k práci pro Česká centra, ale i o obrovské konkurenci.'
+        text: 'jeho životě ve Francii, o tom, jak se dostal k práci pro Česká centra, ale i o obrovské konkurenci'
       -
         type: text
-        text: "\_"
+        text: .
   -
     type: paragraph
     content:
@@ -876,6 +876,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963759
+updated_at: 1685982011
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
