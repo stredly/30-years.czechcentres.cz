@@ -243,7 +243,7 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum Štětín sídlilo na ulici Śląska 38 v činžovním domě postaveném v letech 1892–1893 (fotografie budovy a detailů její výzdoby si můžete prohlédnout na těchto polských webových '
+        text: 'České centrum Štětín sídlilo na ulici Śląska 38 v činžovním domě postaveném v letech 1892–1893 (fotografie budovy a detailů její výzdoby si můžete prohlédnout na těchto polských '
       -
         type: text
         marks:
@@ -251,10 +251,10 @@ page_content:
             type: link
             attrs:
               href: 'https://fotopolska.eu/111444,obiekt.html?map_z=17'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
-        text: stránkách
+        text: 'webových stránkách'
       -
         type: text
         text: ").\_"
@@ -1001,7 +1001,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685952577
+updated_at: 1685952613
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
