@@ -949,6 +949,8 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -1001,7 +1003,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685952613
+updated_at: 1685952674
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
