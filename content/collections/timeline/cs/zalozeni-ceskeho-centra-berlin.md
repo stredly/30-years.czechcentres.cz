@@ -168,16 +168,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Novodobá historie se pak začala psát roku 1993 pod hlavičkou Českého centra '
-      -
-        type: text
-        text: '(ČC) '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: Berlín.
+        text: 'Novodobá historie se pak začala psát roku 1993 pod hlavičkou Českého centra (ČC) Berlín.'
       -
         type: text
         text: ' To působí ve většině Spolkové republiky Německo, avšak v'
@@ -1403,6 +1394,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685955792
+updated_at: 1685955907
 perex: 'Ve stínu Berlínské zdi.'
 ---
