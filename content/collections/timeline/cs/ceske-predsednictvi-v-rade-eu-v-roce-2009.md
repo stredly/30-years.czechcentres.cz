@@ -44,13 +44,16 @@ page_content:
     content:
       -
         type: text
-        text: "Interaktivní expozice Petra Nikla a spol. ORBIS PICTUS . Putovní expozice aneb „Brána do světa tvořivé lidské fantazie“ rozvíjí představivost a fantazii prostřednictvím interaktivních zvukových, optických a pohybových objektů a instalací.\_"
-  -
-    type: paragraph
-    content:
+        text: 'Interaktivní expozice Petra Nikla a spol. ORBIS PICTUS . Putovní expozice aneb „Brána do světa tvořivé lidské fantazie“ rozvíjí '
       -
         type: text
-        text: "Autoři výtvarných objektů expozice jsou: Milan Cais, Luboš Fidler, Ivan Havlíček, Martin Janíček, Jaroslav Kořán, Petr Lorenc, Jiří Melzer, Petr Nikl, Ondřej Smeykal, Václav Smolka, Čestmír Suška, Zdeněk Šmíd, Miloš Vojtěchovský\_"
+        marks:
+          -
+            type: bold
+        text: 'představivost a fantazii prostřednictvím interaktivních zvukových, optických a pohybových objektů a instalací'
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     content:
@@ -59,10 +62,28 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Uvedeno v:'
+        text: 'Autoři výtvarných objektů expozice jsou:'
       -
         type: text
-        text: " ČC Brusel, ČC Bukurešť, ČC Sofie, ČC Bratislava, ČC Praha\_"
+        text: " Milan Cais, Luboš Fidler, Ivan Havlíček, Martin Janíček, Jaroslav Kořán, Petr Lorenc, Jiří Melzer, Petr Nikl, Ondřej Smeykal, Václav Smolka, Čestmír Suška, Zdeněk Šmíd, Miloš Vojtěchovský\_"
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Uvedeno v:'
+              -
+                type: text
+                text: " ČC Brusel, ČC Bukurešť, ČC Sofie, ČC Bratislava, ČC Praha\_"
   -
     type: heading
     attrs:
@@ -82,7 +103,16 @@ page_content:
     content:
       -
         type: text
-        text: "Program projektu je koncipován jako pocta těm, kteří se zasadili o pád železné opony. Projekt by měl ve své nejrozmanitější podobě představil to nejlepší z tvorby generace před pádem železné opony a po ní.\_\_"
+        text: 'Program projektu je koncipován jako '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'pocta těm, kteří se zasadili o pád železné opony'
+      -
+        type: text
+        text: ". Projekt by měl ve své nejrozmanitější podobě představil to nejlepší z tvorby generace před pádem železné opony a po ní.\_\_"
   -
     type: paragraph
     content:
@@ -437,5 +467,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984913
+updated_at: 1685985004
 ---
