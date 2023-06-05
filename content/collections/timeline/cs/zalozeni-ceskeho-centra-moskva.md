@@ -24,19 +24,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Od března 2022'
-      -
-        type: text
-        text: ' došlo kvůli ruské agresi na Ukrajině k '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'pozastavení veškeré činnosti Českého centra v Moskvě'
-      -
-        type: text
-        text: ".\_"
+        text: "Od března 2022 došlo kvůli ruské agresi na Ukrajině k pozastavení veškeré činnosti Českého centra v Moskvě.\_"
   -
     type: heading
     attrs:
@@ -729,6 +717,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985662
+updated_at: 1685985686
 perex: 'Rozdělené cesty.'
 ---
