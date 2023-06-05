@@ -283,35 +283,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: ', je česká kultura velmi oblíbená, a sám starosta města se aktivně podílel na úspěchu akce, která naplnila koncertní síň vděčnými diváky. '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-            text: Po
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: ' zdlouhavé '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-            text: rekonstrukci
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: ' prostor vymezených pro kanceláře a sálu Českého centra '
+            text: ', je česká kultura velmi oblíbená, a sám starosta města se aktivně podílel na úspěchu akce, která naplnila koncertní síň vděčnými diváky. Po zdlouhavé rekonstrukci prostor vymezených pro kanceláře a sálu Českého centra '
           -
             type: text
             marks:
@@ -782,7 +754,7 @@ dont_show_month: true
 event_date: '1953-01-01'
 cities: budapest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963657
+updated_at: 1685973357
 background_image: background-image/1953_budapest.jpg
 perex: 'Česká kultura na Dunaji.'
 ---
