@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685988473
+updated_at: 1685988561
 page_content:
   -
     type: paragraph
@@ -262,7 +262,14 @@ page_content:
         text: 'Česká centra'
       -
         type: text
-        text: ". Popřevratovou snahou bylo pokračovat v činnosti v regionech, kde již střediska založena byla, zároveň však rozšířit svoje působení především do zemí západní Evropy.\_\_"
+        text: ". Popřevratovou snahou bylo pokračovat v činnosti v regionech, kde již střediska založena byla, zároveň však rozšířit svoje působení především do zemí západní Evropy.\_"
+  -
+    type: set
+    attrs:
+      id: lij6252z
+      values:
+        type: video
+        video: 'https://www.youtube.com/watch?v=3v8xOii2R_4&list=PLfFRqNyapNPF8U-FZyTGWh4m9oXFCCxVO'
   -
     type: heading
     attrs:
@@ -2004,13 +2011,6 @@ page_content:
         attrs:
           src: 'asset::assets::history/zdroj_-pravo_2.7.1997_-na-internetu-nabizime-i-proexportni-sluzby.jpg'
           alt: "Rozhovor s ředitelem Správy českých center Janem Bondym v deníku Právo z 2. 7. 1997, autor článku: Antonín Falta. Zveřejněno se souhlasem vydavatele.\_"
-  -
-    type: set
-    attrs:
-      id: lhgaadpp
-      values:
-        type: video
-        video: 'https://www.youtube.com/watch?v=3v8xOii2R_4'
   -
     type: set
     attrs:
