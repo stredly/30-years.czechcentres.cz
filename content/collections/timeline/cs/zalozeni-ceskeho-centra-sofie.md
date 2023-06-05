@@ -66,6 +66,11 @@ page_content:
       level: 2
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1949_sofie.jpg'
+          alt: 'Slavnostní otevření Českého centra Sofie po rekonstrukci, vlevo ministr zahraničních věcí ČR Jaroslav Šedivý a vpravo ředitel ČC Rudolf Sedláček, duben 1998 © Archiv Českého centra Sofie'
+      -
         type: text
         marks:
           -
@@ -522,6 +527,9 @@ page_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: "V letech 1949–2023 v Českém centru Sofie působili tito ředitelé a ředitelky:\_"
   -
     type: paragraph
@@ -546,14 +554,6 @@ page_content:
       -
         type: text
         text: "Jan Žamboch, Alice Klouzková, Johana Švarcová, Jaromír Honzák, Dana Kyndrová, Dan Trantina, Petr Motyčka, Martin Reiner, Zbyněk Baladrán, Jan Novák, Ondřej Hrab, Studio Dechem, Josef Tomšej, Losers, Lída Holá, Julie Nekova Nováková, Marek Steyer, Martin Čech, Miloš Rejsek, Jiří Hradil, Václav Girsa, Edith Jeřábková, Martin Polák, Lukáš Jasanský, Petr Jedlička, Divadlo Na zábradlí, Kateřina Rudčenková, Jindřich Štreit, Jiří Kubíček, Monika Načeva, Tomáš Gööz, Alex Limburg, Petr Michálek, Daniel Raček, Eliška Vavříková, Eduard Prokhasko, Viliam Dočolomanský, Marcel Bárta, Emil Leeger, Minh Hieu Nguyen, Hana Varadzinová, Anna Gromanová, Jun Wan Kim, Olda Smysl, Lucia Škandíková, Felice Ross, Erik Bartoš, Jiří Kovanda, Andrea Tachezy, Lyuben Petrov, Jitka Čechová, Jitka Hosprová, Adam Gebrian, Rafani, Tereza Sikorová, Tomáš Makovský, Pavel Horáček, Kateřina Šedá, Martin Talaga, Tereza Boučková, Vladimír Merta, Petr Placák, Václav Bělohradský, Marek Wollner, Alžběta Ambrožová, Matouš Hartman, David Kabzan, Alena Mornštajnová, Lenka Sárová Malíská, Václav Marhoul, Dorota Barová, Miroslav Chyška, David Böhm, Jiří Franta, Milan Pekař, Bára Prášilová, Lukáš Jabůrek\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1949_sofie.jpg'
-          alt: 'Slavnostní otevření Českého centra Sofie po rekonstrukci, vlevo ministr zahraničních věcí ČR Jaroslav Šedivý a vpravo ředitel ČC Rudolf Sedláček, duben 1998 © Archiv Českého centra Sofie'
   -
     type: set
     attrs:
@@ -597,7 +597,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958694
+updated_at: 1685958778
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
