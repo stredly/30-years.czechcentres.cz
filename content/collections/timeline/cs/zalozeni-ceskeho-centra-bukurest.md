@@ -839,7 +839,7 @@ page_content:
             attrs:
               href: 'https://bucharest.czechcentres.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -847,7 +847,7 @@ page_content:
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685958643
+updated_at: 1685958654
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 ---
