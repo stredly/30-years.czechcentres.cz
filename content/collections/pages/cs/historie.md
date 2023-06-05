@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685988638
+updated_at: 1685988732
 page_content:
   -
     type: paragraph
@@ -416,6 +416,11 @@ page_content:
       textAlign: left
       level: 4
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::history/gita_fuchsova.jpg'
+          alt: 'Rozhovor s první generální ředitelkou Správy kulturních zařízení/Správy českých center Gitou Fuchsovou © Rudé Právo, 5. 9. 1994, se svolením vydavatele'
       -
         type: text
         marks:
