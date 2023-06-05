@@ -132,22 +132,13 @@ page_content:
     content:
       -
         type: text
-        text: 'Francie byla odjakživa zemí, kde vysoký standard kultury národa je něco, co mají Francouzi ve své DNA. A proto i kultury jiných států přijímají kladně. České centrum za celou dobu svého působení, i vzhledem ke společné historii, uspořádalo '
+        text: 'Francie byla odjakživa zemí, kde vysoký standard kultury národa je něco, co mají Francouzi ve své DNA. A proto i kultury jiných států přijímají kladně. České centrum za celou dobu svého působení, i vzhledem ke společné historii, uspořádalo'
       -
         type: text
         marks:
           -
             type: bold
-        text: stovky
-      -
-        type: text
-        text: ' divácky i mediálně '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'úspěšných akcí'
+        text: ' stovky divácky i mediálně úspěšných akcí'
       -
         type: text
         text: ", a to nejen v Paříži.\_"
@@ -879,6 +870,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982345
+updated_at: 1685982383
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
