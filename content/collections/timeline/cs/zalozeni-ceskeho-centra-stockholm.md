@@ -129,7 +129,16 @@ page_content:
     content:
       -
         type: text
-        text: "První významnou akcí, která představila nové ČC, resp. Česko, byl společný projekt s velvyslanectvím v prostorách terminálu stockholmského letiště Arlanda na jaře 1997. Společně s ČC se během celodenní prezentační akce představili čeští exportéři a zastoupení ve Švédsku (např. Plzeňského Prazdroje, ČSA ap.), proběhly prezentace s diskusemi o českém kulturním dědictví a česko-švédských vztazích.\_\_"
+        text: 'První významnou akcí, která představila nové ČC, resp. Česko, byl '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'společný projekt s velvyslanectvím v prostorách terminálu stockholmského letiště Arlanda'
+      -
+        type: text
+        text: " na jaře 1997. Společně s ČC se během celodenní prezentační akce představili čeští exportéři a zastoupení ve Švédsku (např. Plzeňského Prazdroje, ČSA ap.), proběhly prezentace s diskusemi o českém kulturním dědictví a česko-švédských vztazích.\_\_"
   -
     type: paragraph
     content:
@@ -1154,7 +1163,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685956406
+updated_at: 1685956760
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
