@@ -88,7 +88,7 @@ page_content:
         text: 'Česká filmová desítka'
       -
         type: text
-        text: ', kdy diváci mohli zhlédnout 14 českých filmů z let 1920 –2000. Celá retrospektiva vyvrcholila koncertem Jaromíra Nohavici a byla prezentována v Nižním Novgorodě. Velký úspěch zaznamenal také retrospektiva československých filmů 60. let '
+        text: ', kdy diváci mohli zhlédnout 14 českých filmů z let 1920–2000. Celá retrospektiva vyvrcholila koncertem Jaromíra Nohavici a byla prezentována v Nižním Novgorodě. Velký úspěch zaznamenal také retrospektiva československých filmů 60. let '
       -
         type: text
         marks:
@@ -717,6 +717,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985720
+updated_at: 1685985747
 perex: 'Rozdělené cesty.'
 ---
