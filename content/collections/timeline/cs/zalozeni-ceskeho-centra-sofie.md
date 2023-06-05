@@ -497,15 +497,6 @@ page_content:
         type: text
         text: ', která se zde pořádá od roku 2012, a to pod hlavičkou sdružení evropských kulturních institutů EUNIC. V roce 2023 se bude konat již 12. ročník a aktuálně se jí účastní přes 20 partnerů ve 21 bulharských městech.'
   -
-    type: set
-    attrs:
-      id: liirwd5f
-      values:
-        type: gallery
-        gallery:
-          - timeline/sofie/denik_pravo_28.11.1996_autorka_violeta_micevova.JPG
-          - timeline/sofie/pravo_4.8.1998_autorka_violeta_micevova.JPG
-  -
     type: heading
     attrs:
       level: 2
@@ -568,6 +559,16 @@ page_content:
           - timeline/sofie/38-cc-sofie.jpg
           - timeline/sofie/60-cc-sofie.JPG
           - timeline/sofie/61-cc-sofie.jpg
+          - timeline/sofie/denik_pravo_28.11.1996_autorka_violeta_micevova.JPG
+          - timeline/sofie/pravo_4.8.1998_autorka_violeta_micevova.JPG
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/sofie/denik_pravo_28.11.1996_autorka_violeta_micevova.JPG'
+          alt: null
   -
     type: heading
     attrs:
@@ -590,7 +591,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964789
+updated_at: 1685964857
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
