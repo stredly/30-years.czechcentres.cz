@@ -224,7 +224,23 @@ page_content:
     content:
       -
         type: text
-        text: 'O všech projektech, které byly představeny českému publiku v Českém centru Praha v rámci prvního předsednictví, si můžete přečíst zde.'
+        text: 'O všech projektech, které byly představeny českému publiku v Českém centru Praha v rámci prvního předsednictví, si můžete přečíst '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://30years.czechcentres.cz/ceske-predsednictvi-v-rade-eu-v-roce-2009'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: zde
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -374,7 +390,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984247
+updated_at: 1685984334
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
