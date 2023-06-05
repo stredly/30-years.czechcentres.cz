@@ -138,10 +138,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Český filmový týden v Erfurtu'
+        text: 'Český filmový týden v Erfurtu.'
       -
         type: text
-        text: ". Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli zhlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
+        text: " Ani oblast filmu nebyla opomenuta. České centrum uskutečnilo první ročník filmového týdne a jako zahajovací město byl vybrán právě Erfurt. Filmy, které se jako první představily německému publiku, byly tematicky rozrůzněné. Diváci tak mohli zhlédnout Návrat idiota, Rok ďábla, Tmavomodrý svět, Musíme si pomáhat a pohádku Král sokolů.\_"
   -
     type: paragraph
     content:
@@ -348,6 +348,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685710527
+updated_at: 1685954755
 background_image: background-image/1997_drazdany-1685446017.JPG
 ---
