@@ -364,18 +364,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: “
       -
         type: text
@@ -442,12 +430,6 @@ page_content:
       -
         type: text
         text: "”, řekla Hana Skládalová.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -580,19 +562,7 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: "Vzhledem k vzájemným diplomatickým neshodám došlo v roce 2020 k vyloučení několika diplomatů a na naší straně to byla právě ředitelka Českého centra Hana Skládalová. Dočasně vedla centrum na dálku z rumunské Bukurešti.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -600,29 +570,16 @@ page_content:
         type: text
         text: "Od března 2022 došlo kvůli ruské agresi na Ukrajině k pozastavení veškeré činnosti Českého centra v Moskvě.\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Personální obsazení'
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
+        text: 'Vedení Českého centra Moskva'
   -
     type: paragraph
     content:
@@ -679,12 +636,6 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'V této době se do Ruska navrací '
       -
         type: text
@@ -714,29 +665,16 @@ page_content:
         type: text
         text: ".\_"
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Významné osobnosti'
-      -
-        type: text
-        text: "\_"
+        text: "Významné osobnosti\_"
   -
     type: paragraph
     content:
@@ -752,6 +690,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685966578
+updated_at: 1685966636
 perex: 'Rozdělené cesty.'
 ---
