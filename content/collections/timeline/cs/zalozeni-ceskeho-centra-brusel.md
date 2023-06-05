@@ -815,6 +815,14 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1997_brusel.jpg'
+          alt: "Módní přehlídka We're next © Dagmar Kneřová"
+  -
+    type: paragraph
+    content:
+      -
         type: text
         text: 'Nabitých šest měsíců českého předsednictví symbolicky uzavřel multižánrový večer '
       -
@@ -999,17 +1007,16 @@ page_content:
         type: text
         text: ", například v návaznosti kurátorských cest (například i z Lucemburku patřícího do teritoria ČC Brusel - MUDAM), České centrum Brusel podporuje také přímé spolupráce mezi belgickými a českými subjekty, přičemž některé výrazné projekty (například v kontextu výročí let 1918 a 1989) byly také spolufinancovány z EU zdrojů (Revolution Is Not a Garden Party). Výrazné stopy v místním tisku (Le Soir, De Standaard) zanechali autoři, kteří byli hosty ČC v rámci press tripů, speciální fokus na Česko byl uveden v tisku v kontextu Pražského jara 1968 (časopis Deus Ex Machina), fokusu na český komiks (StripGids) a další.\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Vedení Českého centra Brusel'
-      -
-        type: text
-        text: "\_"
+        text: "Vedení Českého centra Brusel\_"
   -
     type: paragraph
     content:
@@ -1121,7 +1128,9 @@ page_content:
         type: text
         text: ", která má zkušenosti z Kunsthalle Praha nebo Nadace Proměny Karla Komárka.\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -1138,18 +1147,10 @@ page_content:
       -
         type: text
         text: "Šimon Pánek, Radek Baborák, Dan Bárta, Marcel Bárta, Iva Bittová, Petr Blažek, Čechomor, Miřenka Čechová, František Drtikol, Lenka Dusilová, Petr Fischer, Šárka Gmiterková, Jiří Hájíček, Ondřej Havelka a Melody Makers, Beata Hlavenková, Tereza Hradilková, Martha Issová, Nina Formánek Jaganjacová, Tomáš Jungwirth, Karolína Juříková, Daria Kashcheeva, Aleš Kisil, Alice Klouzková, Pavel Kořínek, Pavlína Kvapilová, Aneta Langerová, Lobkowicz Trio, Václav Marhoul, Ondřej Macl, Radek Malý, Tamara Moyzes, Kristian Mráček, Alena Mornštajnová, Václav Neužil, David Ondříček, David Pěruška, Martin Polák, Tomáš Pospiszyl, Tomáš Procházka, Barbora Procházková, Jiří Přibáň, Michael Romancov, Apolena Rychlíková, Petr Šabach, Kateřina Šédová, Pavel Šporcl, Petruška Šustrová, Švandovo divadlo, Jaromír Typlt, Lenka Vacková, Petr Vidomus, Emil Viklický, Darina Zavadilová, Martin Zet, Jiří Slíva, Kateřina Šedá, Jiří Slíva, Jakub Nepraš, Helena Třeštíková, Markéta Pilátová, Radeq Brousil, Jáchym Topol, Rudolf Samohejl, Vojtěch Boháč\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1997_brusel.jpg'
-          alt: "Módní přehlídka We're next © Dagmar Kneřová"
 dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685949659
+updated_at: 1685949753
 perex: 'V hlavním městě Evropy.'
 ---
