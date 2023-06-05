@@ -1061,9 +1061,9 @@ page_content:
             type: bold
         text: milano.czechcentres.cz
 dont_show_month: true
-event_date: '2020-01-01'
+event_date: '2010-01-01'
 cities: milan
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685711770
+updated_at: 1685963429
 perex: 'V hlavním městě módy.'
 ---
