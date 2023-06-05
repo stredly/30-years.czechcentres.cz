@@ -631,7 +631,7 @@ page_content:
             attrs:
               href: 'https://london.czechcentres.cz/'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -680,6 +680,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685967572
+updated_at: 1685967590
 background_image: background-image/1993_londyn.JPG
 ---
