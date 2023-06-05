@@ -106,13 +106,28 @@ page_content:
     content:
       -
         type: text
-        text: "V roce 2018 se centrum přestěhovalo do co-workingového komplexu přímo v centru města a přizpůsobilo se lokálním podmínkám. České centrum Stockholm sdílelo prostor budovy The Castle společně se Svenska Institutem, designéry, freelancery, IT developery a dalšími kreativními profesionály. Inspirovalo se švédským modelem spolupráce, který byl již úspěšně aplikován v institucích jako Goethe-Institut nebo Instituto Cervantes.\_"
+        text: 'V roce 2018 se centrum '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'přestěhovalo do co-workingového komplexu přímo v centru města'
+      -
+        type: text
+        text: " a přizpůsobilo se lokálním podmínkám. České centrum Stockholm sdílelo prostor budovy The Castle společně se Svenska Institutem, designéry, freelancery, IT developery a dalšími kreativními profesionály. Inspirovalo se švédským modelem spolupráce, který byl již úspěšně aplikován v institucích jako Goethe-Institut nebo Instituto Cervantes.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "V roce 2022 se z finančních důvodů centrum stěhovalo znovu. V současnosti obývá dvě kanceláře v ulici Åsögatan.\_"
+        text: 'V roce 2022 se z finančních důvodů centrum stěhovalo znovu. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "V současnosti obývá dvě kanceláře v ulici Åsögatan.\_"
   -
     type: heading
     attrs:
@@ -1172,7 +1187,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685956807
+updated_at: 1685956883
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
