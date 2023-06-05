@@ -9,7 +9,16 @@ page_content:
     content:
       -
         type: text
-        text: "K otevření Českého centra Vídeň došlo pár let po sametové revoluci – v březnu roku 1994. Přípravy k jeho založení však započaly již v roce 1993. První ředitel Milan Sedláček začínal s ambiciózním programem.\_\_"
+        text: 'K otevření Českého centra Vídeň došlo pár let po sametové revoluci – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'v březnu roku 1994'
+      -
+        type: text
+        text: ". Přípravy k jeho založení však započaly již v roce 1993. První ředitel Milan Sedláček začínal s ambiciózním programem.\_\_"
   -
     type: paragraph
     content:
@@ -502,6 +511,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963600
+updated_at: 1685986728
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
