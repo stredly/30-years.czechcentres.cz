@@ -30,7 +30,25 @@ page_content:
         text: 'Zpočátku vedle organizování kulturních akcí napomáhalo českým firmám navazovat obchodní kontakty'
       -
         type: text
-        text: " s nizozemskými podnikatelskými subjekty a podporovalo rozvoj cestovního ruchu mezi oběma zeměmi. Zřízením ČC Haag byla pověřena JUDr. Jitka Stavinohová a na jeho aktivitách se zpočátku podílela také Dana Braunová.\_\_"
+        text: ' s nizozemskými podnikatelskými subjekty a podporovalo rozvoj cestovního ruchu mezi oběma zeměmi. Zřízením ČC Haag byla pověřena JUDr. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jitka Stavinohová'
+      -
+        type: text
+        text: ' a na jeho aktivitách se zpočátku podílela také '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Dana Braunová'
+      -
+        type: text
+        text: ".\_\_"
   -
     type: paragraph
     content:
@@ -548,6 +566,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685709982
+updated_at: 1685954588
 perex: 'Ve stopách Jana Amose Komenského.'
 ---
