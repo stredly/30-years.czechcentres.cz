@@ -23,16 +23,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Následné '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'zahájení před budovou soulské „Staroměstské radnice“'
-      -
-        type: text
-        text: ' a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.'
+        text: 'Následné zahájení před budovou soulské „Staroměstské radnice“ a v prostorách samotného centra proběhlo za účasti generálního ředitele Korejské kulturní a informační služby U Čin-jonga, viceprezidentky Korean Air Emily Cho, prezidenta konglomerátu Ilshin Kim Jong-ho, velvyslance Evropské unie v Korejské republice Tomasze Kozlowskeho a ředitele Soulského historického muzea KangHong-bina a více než dalších stovky významných osobností z kulturního a veřejného života.'
   -
     type: heading
     attrs:
@@ -384,7 +375,7 @@ page_content:
 dont_show_month: true
 event_date: '2013-01-01'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685971995
+updated_at: 1685972028
 cities: soul
 background_image: background-image/2013_soul.jpg
 perex: 'Pátý evropský kulturní institut působící v Korejské republice.'
