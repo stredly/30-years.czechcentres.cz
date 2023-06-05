@@ -49,21 +49,14 @@ page_content:
         text: 'cenu RIBA'
       -
         type: text
-        text: " (Cena Královského institutu britských architektů), což je doposud nejvyšší ocenění, jakého se novostavbě českého velvyslanectví dostalo. Po rozdělení Československa v\_roce 1993 si nově vzniklé republiky rozdělily dvě hlavní budovy původní stavby sdílející společnou zahradu. Více o oceněné brutalistní stavbě velvyslanectví a jejích specifikách můžete zjistit ve videu "
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://www.youtube.com/watch?v=xgA378dBk9E'
-              rel: null
-              target: null
-              title: null
-        text: 'Brutal Beauty'
-      -
-        type: text
-        text: ', ve kterém budovami provází britský kritik a spisovatel zabývající se architekturou, Owen Hatherley.'
+        text: " (Cena Královského institutu britských architektů), což je doposud nejvyšší ocenění, jakého se novostavbě českého velvyslanectví dostalo. Po rozdělení Československa v\_roce 1993 si nově vzniklé republiky rozdělily dvě hlavní budovy původní stavby sdílející společnou zahradu. Více o oceněné brutalistní stavbě velvyslanectví a jejích specifikách můžete zjistit ve videu Brutal Beauty, ve kterém budovami provází britský kritik a spisovatel zabývající se architekturou, Owen Hatherley."
+  -
+    type: set
+    attrs:
+      id: liite62m
+      values:
+        type: video
+        video: 'https://vimeo.com/825118958/5a4083b5ec?share=copy'
   -
     type: heading
     attrs:
@@ -679,6 +672,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685967228
+updated_at: 1685967290
 background_image: background-image/1993_londyn.JPG
 ---
