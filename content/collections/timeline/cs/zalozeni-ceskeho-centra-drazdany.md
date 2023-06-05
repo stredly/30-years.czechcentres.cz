@@ -254,7 +254,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla ojedinělá výstava rekvizit a kostýmů z filmu Tři oříšky pro Popelku na zámku Moritzburg. Právě na tomto zámku se legendární pohádka natáčela a německé publikum, stejně jako to české, si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální rekvizity nebo kostýmy spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
+        text: 'Rok 2009 byl plný krásných projektů a jedním z nich byla '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'ojedinělá výstava rekvizit a kostýmů z filmu Tři oříšky pro Popelku na zámku Moritzburg'
+      -
+        type: text
+        text: '. Právě na tomto zámku se legendární pohádka natáčela a německé publikum, stejně jako to české, si bez ní neumí vánoční svátky představit. ČC Drážďany na výstavě spolupracovalo kromě zámku i s filmovými ateliéry Babelsberg v Postupimi. Návštěvníci se mohli těšit na originální rekvizity nebo kostýmy spojené s filmovou pohádkou. Záběry z otevření výstavy, kterou navštívilo více než 100 000 návštěvníků, můžete zhlédnout '
       -
         type: text
         marks:
@@ -265,6 +274,8 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -348,6 +359,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: drazdany
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685954755
+updated_at: 1685955066
 background_image: background-image/1997_drazdany-1685446017.JPG
 ---
