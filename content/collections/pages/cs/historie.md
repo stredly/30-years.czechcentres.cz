@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685988391
+updated_at: 1685988473
 page_content:
   -
     type: paragraph
@@ -267,7 +267,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -407,7 +407,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -501,7 +501,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -648,7 +648,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -716,7 +716,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -872,7 +872,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1016,7 +1016,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1115,7 +1115,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1147,7 +1147,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1196,7 +1196,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1237,7 +1237,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1361,7 +1361,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1438,7 +1438,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1573,7 +1573,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1802,7 +1802,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -1911,7 +1911,7 @@ page_content:
     type: heading
     attrs:
       textAlign: left
-      level: 5
+      level: 4
     content:
       -
         type: image
