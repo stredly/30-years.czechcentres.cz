@@ -33,16 +33,7 @@ page_content:
         marks:
           -
             type: bold
-        text: Slavnostní
-      -
-        type: text
-        text: ' akt '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: zahájení
+        text: 'Slavnostní akt zahájení'
       -
         type: text
         text: ' jeho činnosti proběhl '
@@ -1150,6 +1141,6 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685713201
+updated_at: 1685973762
 perex: 'Česká kultura v zemi býčích zápasů.'
 ---
