@@ -66,6 +66,11 @@ page_content:
       level: 2
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1993_viden.jpg'
+          alt: 'České centrum Vídeň © Archiv Českého centra Vídeň'
+      -
         type: text
         marks:
           -
@@ -148,7 +153,16 @@ page_content:
     content:
       -
         type: text
-        text: "V roce 1999 nastupuje do Vídně Jozef Kollár, který programově navazuje na svého předchůdce. Marcel Sauer využil svých konexí mezi undergroundovými či v té době méně známými umělci a Vídeň si v letech 2003 – 2006 užila umělce z této sféry. České centrum v těchto letech navštívili například skupina DG307, výtvarník Jiří David, instrumentalistka Iva Bittová, sklář Zdeněk Lhotský apod.\_\_"
+        text: 'V roce 1999 nastupuje do Vídně Jozef Kollár, který programově navazuje na svého předchůdce. Marcel Sauer využil svých konexí mezi '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'undergroundovými či v té době méně známými umělci'
+      -
+        type: text
+        text: " a Vídeň si v letech 2003–2006 užila umělce z této sféry. České centrum v těchto letech navštívili například skupina DG307, výtvarník Jiří David, instrumentalistka Iva Bittová, sklář Zdeněk Lhotský apod.\_\_"
   -
     type: paragraph
     content:
@@ -299,79 +313,22 @@ page_content:
         text: ' (Modré inovace. Současné tendence v tvorbě tradičního českého modrotisku)'
       -
         type: text
-        text: ' pořádaná v souvislosti s nominací modrotisku na seznam UNESCO v březnu 2017. Dalším úspěšným projektem byla výstava v rámci spolupráce EUNIC Austria „'
+        text: ' pořádaná v souvislosti s nominací modrotisku na seznam UNESCO v březnu 2017. Dalším úspěšným projektem byla výstava v rámci spolupráce EUNIC Austria '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'EUNIC-UNIQUE: Paralympiáda – motivace pro nás'
+        text: '„EUNIC-UNIQUE: Paralympiáda – motivace pro nás“'
       -
         type: text
-        text: "“, která zachytila emotivní momenty z posledních paralympijských her v Riu de Janeiru (2016) a Soči (2014). České centrum Vídeň zorganizovalo řadu akcí, které reprezentovaly ČR nejen ve Vídni, ale také v Grazu, Linzi, Windhaagu, Salzburgu či v Bad Ischlu.\_"
+        text: ", která zachytila emotivní momenty z posledních paralympijských her v Riu de Janeiru (2016) a Soči (2014). České centrum Vídeň zorganizovalo řadu akcí, které reprezentovaly ČR nejen ve Vídni, ale také v Grazu, Linzi, Windhaagu, Salzburgu či v Bad Ischlu.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "V posledních letech se České centrum orientovalo spíše na mezinárodně známá jména. České centrum se zaměřilo na vytváření tematických řad (ženy, umělkyně), kulaté stoly s vystavujícími umělci. Podařilo se realizovat společné velké akce s širokým mediálním a společenským dopadem (Magdalena Kožená s přeshraničním setkáním starostů, Česká filharmonie). Příprava zásadních přeshraničních kulturních akcí na 2020 (Kateřina Šedá v ČCV a AT komise UNESCO) a 2021 (CZ/AT spojující umělce z výstavy Nezlomní a nezveřejněné dopisy F. Kafky v přední galerii KunstForum). Orientace na mladé publikum (ToyBox, výstava tetování) a podpora návštěvnosti společným vystoupením známého rakouského autora s českým (Tučková + Stavarič).\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://dvojka.rozhlas.cz/prepis-jak-vidi-martin-krafl-21-cervence-7473308'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: Zde
-      -
-        type: text
-        text: " si můžete přečíst rozhovor s Martinem Kraflem.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Martin Krafl byl rovněž velmi aktivní jako blogger na Aktuálně.cz. '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://blog.aktualne.cz/blogy/martin-krafl.php?archivelist=37'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: Zde
-      -
-        type: text
-        text: " nabízíme jeho vzpomínky na působení v Vídni i Berlíně.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Rozhovor s Mojmírem Jeřábkem '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'http://www.kulturklub.at/pdf/1906_rozhovor.pdf'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: zde.
-      -
-        type: text
-        text: "\_"
+        text: "V posledních letech se České centrum orientovalo spíše na mezinárodně známá jména. České centrum se zaměřilo na vytváření tematických řad (ženy, umělkyně), kulaté stoly s vystavujícími umělci. Podařilo se realizovat společné velké akce s širokým mediálním a společenským dopadem (Magdalena Kožená s přeshraničním setkáním starostů, Česká filharmonie). Příprava zásadních přeshraničních kulturních akcí na 2020 (Kateřina Šedá v ČCV a AT komise UNESCO) a 2021 (CZ/AT spojující umělce z výstavy Nezlomní a nezveřejněné dopisy F. Kafky v přední galerii KunstForum). Orientace na mladé publikum (ToyBox, výstava tetování) a podpora návštěvnosti společným vystoupením známého rakouského autora s českým (K. Tučková a M. Stavarič).\_"
   -
     type: paragraph
     content:
@@ -388,12 +345,16 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
         text: ".\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -461,6 +422,34 @@ page_content:
       -
         type: text
         text: "Martin se svého úkolu zhostil se ctí a všechny své nabité zkušenosti úspěšně zúročil ve svém dalším angažmá na Českém centru v Berlíně.\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://dvojka.rozhlas.cz/prepis-jak-vidi-martin-krafl-21-cervence-7473308'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+        text: Zde
+      -
+        type: text
+        text: " si můžete přečíst rozhovor s Martinem Kraflem.\_\_Martin Krafl byl rovněž velmi aktivní jako blogger na Aktuálně.cz. "
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://blog.aktualne.cz/blogy/martin-krafl.php?archivelist=37'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+        text: Zde
+      -
+        type: text
+        text: " nabízíme jeho vzpomínky na působení v Vídni i Berlíně.\_\_"
   -
     type: paragraph
     content:
@@ -475,7 +464,21 @@ page_content:
         text: 'Mojmír Jeřábek,'
       -
         type: text
-        text: ' absolvent bohemistiky a germanistiky na Filozofické fakultě MU. Před tím působil jako dlouholetý vedoucí odboru zahraničních vztahů na Magistrátu města Brna. V loňském roce skončil a příští rok na post nového ředitele Českého centra Vídeň nastoupí stávající generální ředitel Českých center, bývalý ředitel Českého centra Mnichov a bývalý ředitel Národního divadla, '
+        text: ' absolvent bohemistiky a germanistiky na Filozofické fakultě MU. Před tím působil jako dlouholetý vedoucí odboru zahraničních vztahů na Magistrátu města Brna. Rozhovor s Mojmírem Jeřábkem si přečtěte '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.kulturklub.at/pdf/1906_rozhovor.pdf'
+              rel: 'noreferrer noopener'
+              target: _blank
+              title: null
+        text: zde.
+      -
+        type: text
+        text: "\_V loňském roce skončil a příští rok na post nového ředitele Českého centra Vídeň nastoupí stávající generální ředitel Českých center, bývalý ředitel Českého centra Mnichov a bývalý ředitel Národního divadla, "
       -
         type: text
         marks:
@@ -502,15 +505,10 @@ page_content:
       -
         type: text
         text: "Jakub Špaňhel, Galina Miklínová, Toy Box, Jiří Hájíček, Pavel Kořínek, Jiří Rejzek, Lída Rakušanová, Jan Jeništa, Marie Filippovová, Michaela Holubec Birtusová, Katta, Petra Dočekalová, Kateřina Olivová, Kateřina Tučková, Jiří Netík, divadlo Sklep, Jaroslav Róna, Petr Nikl, František Skála, Zdeněk Lhotský, Čestmír Suška, Aleš Najbrt, Michal Cihlář, Tono Stano, skupina DG307 a řada dalších.\_"
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1993_viden.jpg'
-          alt: 'České centrum Vídeň © Archiv Českého centra Vídeň'
 dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685986873
+updated_at: 1685987245
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
