@@ -48,7 +48,16 @@ page_content:
             text: '„S Ludvíkem Kunderou jsem se setkal v 60. letech v Domě československé kultury v Berlíně, v baráku u nádraží Friedrichstrasse. Byli tam i Skácel a Hrubín.“'
           -
             type: text
-            text: ' vzpomínal překladatel Eduard Schreiber Radonitzer (zdroj: '
+            text: ' vzpomínal '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'překladatel Eduard Schreiber Radonitzer'
+          -
+            type: text
+            text: ' (zdroj: '
           -
             type: text
             marks:
@@ -1388,6 +1397,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685949994
+updated_at: 1685950014
 perex: 'Ve stínu Berlínské zdi.'
 ---
