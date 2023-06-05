@@ -163,28 +163,16 @@ page_content:
             text: 'Sezóna české scény a především pak česko-francouzský projekt Boudy bratří Formanů vzbudily velký zájem Španělů i tamních médií. Za vše hovoří dva články v celostátním a nejčtenějším španělském deníku El País,“ '
           -
             type: text
-            marks:
-              -
-                type: bold
-            text: zhodnotila
-          -
-            type: text
-            text: ' událost '
+            text: 'zhodnotila událost '
           -
             type: text
             marks:
               -
                 type: bold
-            text: 'Adriana Krásová'
+            text: 'Adriana Krásová, první ředitelka Českého centra v Madridu'
           -
             type: text
-            text: ', první ředitelka Českého centra v Madridu, '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'v článku Milana Hostýna pro '
+            text: ', v článku Milana Hostýna pro '
           -
             type: text
             marks:
@@ -195,8 +183,6 @@ page_content:
                   rel: 'noreferrer noopener'
                   target: _blank
                   title: null
-              -
-                type: bold
             text: 'Hospodářské noviny'
           -
             type: text
@@ -1123,6 +1109,6 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973802
+updated_at: 1685973833
 perex: 'Česká kultura v zemi býčích zápasů.'
 ---
