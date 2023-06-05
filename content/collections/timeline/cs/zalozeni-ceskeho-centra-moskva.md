@@ -263,7 +263,7 @@ page_content:
         text: 'Mezinárodním veletrhu intelektuální literatury NON/FICTION.'
       -
         type: text
-        text: ' Veletrhu se často zúčastnili hosté z České republiky, například spisovatel Jaroslav Rudiš, básník a performer Igor Malijevský, nakladatel Martin Souček za společnosti Arbor Vitae či zpěvák Mikoláš Chadima. '
+        text: ' Veletrhu se často zúčastnili hosté z Česka, například spisovatel Jaroslav Rudiš, básník a performer Igor Malijevský, nakladatel Martin Souček za společnosti Arbor Vitae či zpěvák Mikoláš Chadima. '
       -
         type: text
         marks:
@@ -733,6 +733,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985837
+updated_at: 1685985956
 perex: 'Rozdělené cesty.'
 ---
