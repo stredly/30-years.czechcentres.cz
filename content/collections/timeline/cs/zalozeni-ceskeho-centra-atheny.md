@@ -103,10 +103,10 @@ page_content:
         marks:
           -
             type: bold
-        text: ' '
+        text: ' sídlí v budově Velvyslanectví ČR v Athénách'
       -
         type: text
-        text: "sídlí v budově Velvyslanectví ČR v Athénách na adrese Georgiou Seferi 6, v rezidenční čtvrti Palaio Psychiko. Budova velvyslanectví pocházející ze 70. let byla navržena prof. Ing. arch. Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným. Vychází ze stylu typického pro léta normalizace. V letech 1998–⁠99 byla zrekonstruována akad. arch Ing. J. Vranou, bývalým studentem profesora Cubra, s cílem zachovat původní koncepci, ale modernizovat zejména objekt rezidence a vstupní fasády úřadu. Rozsáhlá budova s krásnou zahradou se využívá příležitostně k oslavám státních svátků, ale její umístění a ztížená dostupnost nepomáhá k širšímu využití pro organizování kulturních akcí. Kancelář ČC Athény je využívána pro jednání s partnery, umožňuje přímou spolupráci s ambasádou a poskytuje vhodné skladové prostory, které jsou pomocí v praktickém fungování centra. ČC Athény využívá při organizování akcí prostorů mimo ambasádu, což přispívá k navazování bohatých partnerských vztahů v teritoriu.\_"
+        text: " na adrese Georgiou Seferi 6, v rezidenční čtvrti Palaio Psychiko. Budova velvyslanectví pocházející ze 70. let byla navržena prof. Ing. arch. Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným. Vychází ze stylu typického pro léta normalizace. V letech 1998–⁠99 byla zrekonstruována akad. arch Ing. J. Vranou, bývalým studentem profesora Cubra, s cílem zachovat původní koncepci, ale modernizovat zejména objekt rezidence a vstupní fasády úřadu. Rozsáhlá budova s krásnou zahradou se využívá příležitostně k oslavám státních svátků, ale její umístění a ztížená dostupnost nepomáhá k širšímu využití pro organizování kulturních akcí. Kancelář ČC Athény je využívána pro jednání s partnery, umožňuje přímou spolupráci s ambasádou a poskytuje vhodné skladové prostory, které jsou pomocí v praktickém fungování centra. ČC Athény využívá při organizování akcí prostorů mimo ambasádu, což přispívá k navazování bohatých partnerských vztahů v teritoriu.\_"
   -
     type: heading
     attrs:
@@ -255,7 +255,7 @@ dont_show_month: true
 event_date: '2018-01-01'
 cities: atheny
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685953119
+updated_at: 1685954521
 background_image: background-image/2018_atheny.JPG
 perex: 'Kulturní institut v kolébce evropské civilizace.'
 ---
