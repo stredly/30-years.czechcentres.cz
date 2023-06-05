@@ -640,12 +640,21 @@ page_content:
         text: 'vyloučení několika diplomatů'
       -
         type: text
-        text: " a na naší straně to byla právě ředitelka Českého centra Hana Skládalová. Dočasně vedla centrum na dálku z rumunské Bukurešti.\_\_"
+        text: ' a na naší straně to byla právě ředitelka Českého centra Hana Skládalová. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "Dočasně vedla centrum na dálku z rumunské Bukurešti.\_\_"
   -
     type: paragraph
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: "Od března 2022 došlo kvůli ruské agresi na Ukrajině k pozastavení veškeré činnosti Českého centra v Moskvě.\_"
   -
     type: heading
@@ -763,6 +772,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685986286
+updated_at: 1685986431
 perex: 'Rozdělené cesty.'
 ---
