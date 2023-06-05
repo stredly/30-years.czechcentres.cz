@@ -9,7 +9,25 @@ page_content:
     content:
       -
         type: text
-        text: "V roce 1993 se otevřelo České centrum Moskva, které by v letošním roce rovněž oslavilo 30 let své činnosti. Jeho úkolem bylo prezentovat českou kulturu ruským občanům.\_Od března 2022 došlo kvůli ruské agresi na Ukrajině k "
+        text: 'V roce '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '1993 '
+      -
+        type: text
+        text: "se otevřelo České centrum Moskva, které by v letošním roce rovněž oslavilo 30 let své činnosti. Jeho úkolem bylo prezentovat českou kulturu ruským občanům.\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Od března 2022'
+      -
+        type: text
+        text: ' došlo kvůli ruské agresi na Ukrajině k '
       -
         type: text
         marks:
@@ -67,7 +85,7 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie.. naší i vlastní. A jako každý kulturní institut se k nám často a rádi chodili učit češtinu.\_"
+        text: "České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie – naší i vlastní. A jako každý kulturní institut se k nám často a rádi chodili učit češtinu.\_"
   -
     type: paragraph
     content:
@@ -370,7 +388,15 @@ page_content:
         text: 'turné Pražského filharmonického sboru'
       -
         type: text
-        text: ", Open festival ČR a výstava Česká hračka včera a dnes.\_\_"
+        text: ", Open festival ČR a výstava Česká hračka včera a dnes.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1993_moskvacc.JPG'
+          alt: 'Koncert Pražského filharmonického sboru v Zarjadje v roce 2019 © Archiv Českého centra Moskva'
   -
     type: paragraph
     content:
@@ -699,15 +725,10 @@ page_content:
       -
         type: text
         text: "Robert Vano, Martin Ryšavý, Jiří Dědeček, Jan Gogola ml., Jaromír Nohavica, Dana Kyndrová, Jaroslav Rudiš, taneční skupina Nanohach, zástupci NFA, zástupci Arbor Vitae, Petr Pithart, Jiří Černický, Monika Drápalová, Jiří Strach, Veronika Wolf, David Böhm, Vendula Chalánková, Tomáš Kučerovský, Tomáš Prokůpek, Jan Jeništa, Kateřina Hager, Filip Remunda, Milan Svoboda, Michal Macháček, Miroslav Pošvic, Jana Počtová, Kamila Poláková, Alice Máselníková, Jiří Dvořák, Vít Karas, Jan Šrámek, kapela Fleret, Jáchym Topol, Radek Bajgar, Jakub Kohák, Filip Cíl, Pavel Steidl, Petra Ernyei, kapela Yellow sisters, Beata Rajská, skupina The Tap Tap, Martin Rajniš\_"
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1993_moskvacc.JPG'
-          alt: 'Koncert Pražského filharmonického sboru v Zarjadje v roce 2019 © Archiv Českého centra Moskva'
 dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685966715
+updated_at: 1685985662
 perex: 'Rozdělené cesty.'
 ---
