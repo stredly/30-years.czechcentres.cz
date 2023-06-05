@@ -70,13 +70,10 @@ page_content:
     content:
       -
         type: text
-        text: 'V roce 2017 byla '
-      -
-        type: text
         marks:
           -
             type: bold
-        text: 'agenda Českého centra Düsseldorf přesunuta pod České centrum Berlín'
+        text: 'V roce 2017 byla agenda Českého centra Düsseldorf přesunuta pod České centrum Berlín'
       -
         type: text
         text: ".\_"
@@ -708,6 +705,6 @@ dont_show_month: true
 event_date: '2010-01-01'
 cities: duesseldorf
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973676
+updated_at: 1685973690
 perex: 'Čtvrté České centrum v Německu.'
 ---
