@@ -128,6 +128,8 @@ page_content:
               rel: 'noreferrer noopener'
               target: _blank
               title: null
+          -
+            type: bold
         text: zde
       -
         type: text
@@ -258,7 +260,7 @@ dont_show_month: true
 event_date: '2005-01-01'
 cities: kosice
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685972202
+updated_at: 1685972276
 background_image: background-image/2005_kosice.jpg
 perex: 'Druhá pobočka na Slovensku.'
 ---
