@@ -942,31 +942,43 @@ page_content:
         type: text
         text: ", který v roce 2011 České centrum spolu s několika dalšími členy EUNIC Brussels iniciovalo – tento formát vícejazyčného festivalu současné poezie, který osciloval za posledních více než deset let mezi komorními čteními, výstavami v parku a čtení v metru a nákupních galeriích, je stále pokračujícím projektem, do kterého se zapojilo za jeho existenci stovky básníků a básnířek - a jehož archiv je impozantním kolektivním dílem. Za 12 let festival předvedl 290 básní 265 autorů.\_"
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„V rámci své programové koncepce se snažím představit současnou českou literaturu v plné šíři, připomínat slavná jména a výročí českých literátů a zároveň představovat mladé, talentované české autory. Nezaměřuji se „jen" na prózu či beletrii, ale využívám i formátů, které atraktivní formou přibližují českou básnickou tvorbu. Jedním z nich je právě Transpoesie, která umožňuji představit zdánlivě opomíjenou literární oblast opravdu masově,"'
-      -
-        type: text
-        text: ' nechala se slyšet Kristina Prunerová. (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„V rámci své programové koncepce se snažím představit současnou českou literaturu v plné šíři, připomínat slavná jména a výročí českých literátů a zároveň představovat mladé, talentované české autory. Nezaměřuji se „jen" na prózu či beletrii, ale využívám i formátů, které atraktivní formou přibližují českou básnickou tvorbu. Jedním z nich je právě Transpoesie, která umožňuji představit zdánlivě opomíjenou literární oblast opravdu masově,"'
           -
-            type: link
-            attrs:
-              href: 'https://www.madambusiness.cz/novinky/1670-ceska-basen-udava-ton'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'Madam business'
-      -
-        type: text
-        text: ")\_"
+            type: text
+            text: ' nechala se slyšet '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Kristina Prunerová'
+          -
+            type: text
+            text: '. (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.madambusiness.cz/novinky/1670-ceska-basen-udava-ton'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'Madam business'
+          -
+            type: text
+            text: ")\_"
   -
     type: paragraph
     content:
@@ -1151,6 +1163,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685949753
+updated_at: 1685950215
 perex: 'V hlavním městě Evropy.'
 ---
