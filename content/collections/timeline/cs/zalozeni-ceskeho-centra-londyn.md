@@ -287,19 +287,7 @@ page_content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: "Mezi více než třicet autorů jednotlivých vagónků patří česká a britská výtvarná elita, zahrnující\_ jména autorů zastoupených v respektovaných mezinárodních sbírkách, na světových výstavách a aukcích. Například Gavin Turk je jeden z prominentních členů YBA, hnutí Young British Aritsts (kam se řadí vedle dalších umělců i Damien Hirst nebo Tracey Emin), které určovalo podobu britské scény v 90. letech minulého století. Vagónek vytvořila rovněž\_ Tessa Farmer, proslavená detailní aplikací mrtvého hmyzu do výtvarných instalací, Bob a Roberta Smith, ilustrátorský kolektiv Le Gun a další. Mezi české autory se řadí Josef Bolf, Veronika Bromová,\_ Jiří David, Milena Dopitová,\_ Roman Franta, Jiří Kovanda, Michal Pěchouček, Michal Rittstein, Jiří Surůvka, Jakub Špaňhel.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -680,7 +668,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685994544
+updated_at: 1685994586
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
