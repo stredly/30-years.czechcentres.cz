@@ -3,7 +3,7 @@ id: 13673f5f-4117-4753-ae0f-f61299fc6235
 blueprint: page
 title: 'Generální ředitelé'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1684409447
+updated_at: 1685951699
 heading: 'Přehled generálních ředitelů'
 page_content:
   -
@@ -222,7 +222,7 @@ page_content:
                 type: hardBreak
               -
                 type: text
-                text: '1. 3. 2007–14. 9. 2009 (do 29. 2. 2008 pověřen řízením)'
+                text: '1. 3. 2007–14. 9. 2009'
       -
         type: listItem
         content:
