@@ -411,7 +411,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Viktor Kronbauer - Pětice vybarvených'
+        text: 'Viktor Kronbauer '
+      -
+        type: text
+        text: –
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' Pětice vybarvených'
       -
         type: text
         text: " \_"
@@ -420,7 +429,13 @@ page_content:
     content:
       -
         type: text
-        text: "Výstava velkoformátových fotografií z inscenací uvedených režisérů, které budou doplněny o jejich medailony a DVD z ukázkami z inscenací. Přehlídka tvorby nejvýraznějších představitelů současné české divadelní režie: J. A. Pitínského, Jana Nebeského, Vladimíra Morávka, Jiřího Pokorného a Davida Pařízka.\_"
+        marks:
+          -
+            type: bold
+        text: 'Výstava velkoformátových fotografií z inscenací uvedených režisérů, které budou doplněny o jejich medailony a DVD z ukázkami z inscenací.'
+      -
+        type: text
+        text: " Přehlídka tvorby nejvýraznějších představitelů současné české divadelní režie: J. A. Pitínského, Jana Nebeského, Vladimíra Morávka, Jiřího Pokorného a Davida Pařízka.\_"
   -
     type: paragraph
     content:
@@ -452,7 +467,16 @@ page_content:
     content:
       -
         type: text
-        text: "Celodenní program v Českých centrech v zahraničí, který zahrnoval společnou prezentaci tradičních a významných značek českých firem spolu s ukázkami české kultury a prezentací krajů. Cílem projektu byl napomoci zviditelnit Českou republiku a její špičkové značky a zároveň upozornit na činnost Českých center a jejich síť v zahraničí.\_"
+        text: 'Celodenní program v Českých centrech v zahraničí, který zahrnoval společnou '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'prezentaci tradičních a významných značek českých firem spolu s ukázkami české kultury a prezentací krajů.'
+      -
+        type: text
+        text: " Cílem projektu byl napomoci zviditelnit Česko, její špičkové značky a zároveň upozornit na činnost Českých center a její síti v zahraničí.\_"
   -
     type: paragraph
     content:
@@ -484,6 +508,9 @@ page_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: "Filmové ozvěny festivalu s lidskoprávní tematikou.\_"
   -
     type: paragraph
@@ -516,7 +543,13 @@ page_content:
     content:
       -
         type: text
-        text: "Scénické čtení české literatury v podání předních umělců na zajímavých místech Prahy, resp. měst, kde působí Česká centra. Jedná se o úspěšný projekt, který ÚČC zahájilo již v roce 2006 v Praze. \_"
+        marks:
+          -
+            type: bold
+        text: 'Scénické čtení české literatury v podání předních umělců na zajímavých místech'
+      -
+        type: text
+        text: " Prahy, resp. měst, kde působí Česká centra. Jedná se o úspěšný projekt, který ÚČC zahájilo již v roce 2006 v Praze. \_"
   -
     type: paragraph
     content:
@@ -533,5 +566,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985414
+updated_at: 1685985533
 ---
