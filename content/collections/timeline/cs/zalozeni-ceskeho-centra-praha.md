@@ -68,7 +68,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Budova patří v současnosti Ministerstvu zahraničních věcí ČR a stojí v Rytířské ulici, kousek od Stavovského divadla. Šlo o přibližně 100 m² výstavních prostor a přilehlý multifunkční sál s možností jej využít k pořádání besed, tiskových konferencí, přednášek a firemních prezentací. Pro výstavní účely bylo možné využít i přizpůsobený suterén. Po určité období zde také fungovala kavárna Café CZ.'
+        text: 'Budova patří v současnosti Ministerstvu zahraničních věcí ČR a stojí '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'v Rytířské ulici, kousek od Stavovského divadla.'
+      -
+        type: text
+        text: ' Šlo o přibližně 100 m² výstavních prostor a přilehlý multifunkční sál s možností jej využít k pořádání besed, tiskových konferencí, přednášek a firemních prezentací. Pro výstavní účely bylo možné využít i přizpůsobený suterén. Po určité období zde také fungovala kavárna Café CZ.'
   -
     type: paragraph
     content:
@@ -390,7 +399,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984549
+updated_at: 1685984627
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
