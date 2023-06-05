@@ -63,13 +63,16 @@ page_content:
     content:
       -
         type: text
+        text: 'Budova ČC Sofie se nachází na '
+      -
+        type: text
         marks:
           -
             type: bold
-        text: 'Budova ČC Sofie'
+        text: 'jedné z nejhlavnějších sofijských ulic v zástavě z první poloviny 20. století'
       -
         type: text
-        text: " se nachází na jedné z nejhlavnějších sofijských ulic v zástavě z první poloviny 20. století.\_\_"
+        text: ".\_\_"
   -
     type: paragraph
     content:
@@ -578,7 +581,7 @@ dont_show_month: true
 event_date: '1949-01-01'
 cities: sofie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964521
+updated_at: 1685964554
 perex: 'Nejstarší česká instituce svého druhu v zahraničí.'
 background_image: background-image/1949_sofie.jpg
 ---
