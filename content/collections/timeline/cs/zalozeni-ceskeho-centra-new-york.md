@@ -753,10 +753,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Open House New York'
+        text: 'Open House New York:'
       -
         type: text
-        text: ": České centrum New York, resp. Česká národní budova se opakovaně účastní newyorského dne otevřených dveří, který se koná na různých místech po celém městě.\_"
+        text: " České centrum New York, resp. Česká národní budova se opakovaně účastní newyorského dne otevřených dveří, který se koná na různých místech po celém městě.\_"
   -
     type: paragraph
     content:
@@ -765,10 +765,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Mannes Sounds Festival'
+        text: 'Mannes Sounds Festival: '
       -
         type: text
-        text: ": každoroční koncert, během něhož účinkují studenti hudební školy Mannes School of Music. \_"
+        text: "každoroční koncert, během něhož účinkují studenti hudební školy Mannes School of Music. \_"
   -
     type: paragraph
     content:
@@ -777,10 +777,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Filmové léto na střeše'
+        text: 'Filmové léto na střeše:'
       -
         type: text
-        text: ": každoroční oblíbená promítání českých filmů na střeše České národní budovy v letních měsících\_"
+        text: " každoroční oblíbená promítání českých filmů na střeše České národní budovy v letních měsících\_"
   -
     type: paragraph
     content:
@@ -789,7 +789,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Ozvěny Ji.hlavy'
+        text: 'Ozvěny Ji.hlavy:'
       -
         type: text
         text: " představuje ČC New York od roku 2017. MFDF Ji.hlava patří mezi festivaly, jejichž vítězné snímky jsou posuzovány pro Ceny americké filmové akademie a Evropských filmových cen.\_\_"
@@ -801,10 +801,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Czech That Film'
+        text: 'Czech That Film:'
       -
         type: text
-        text: ": filmový festival koordinovaný pražským ústředím Českých center ve spolupráci s českým velvyslanectvím ve Washingtonu, generálním konzulátem v Los Angeles, generálním konzulátem v Chicagu a samozřejmě s Českým centrem New York. U jeho zrodu byl v roce 2012 tehdejší konzul v Los Angeles Milan Sedláček. Do roku 2022 se jednalo o největší českou kulturní událost ve Spojených státech, která přinášela americkému publiku ty nejlepší filmy z Česka. V roce 2023 mění ve svém 12. ročníku podobu z filmového festivalu pořádaného v USA a Kanadě na kurátorovanou kolekci českých filmů za rok 2022, která je nabídnuta všem zastupitelským úřadům a Českým centrům na světě. Kolekce zahrnuje snímky celovečerní (hrané i animované), dokumentární i krátké napříč žánry.\_"
+        text: " filmový festival koordinovaný pražským ústředím Českých center ve spolupráci s českým velvyslanectvím ve Washingtonu, generálním konzulátem v Los Angeles, generálním konzulátem v Chicagu a samozřejmě s Českým centrem New York. U jeho zrodu byl v roce 2012 tehdejší konzul v Los Angeles Milan Sedláček. Do roku 2022 se jednalo o největší českou kulturní událost ve Spojených státech, která přinášela americkému publiku ty nejlepší filmy z Česka. V roce 2023 mění ve svém 12. ročníku podobu z filmového festivalu pořádaného v USA a Kanadě na kurátorovanou kolekci českých filmů za rok 2022, která je nabídnuta všem zastupitelským úřadům a Českým centrům na světě. Kolekce zahrnuje snímky celovečerní (hrané i animované), dokumentární i krátké napříč žánry.\_"
   -
     type: paragraph
     content:
@@ -1130,6 +1130,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973514
+updated_at: 1685973571
 perex: 'První České centrum v Severní Americe.'
 ---
