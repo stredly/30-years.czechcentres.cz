@@ -9,7 +9,16 @@ page_content:
     content:
       -
         type: text
-        text: "V roce 1993 se otevřelo České centrum Moskva, které by v letošním roce rovněž oslavilo 30 let své činnosti. Jeho úkolem bylo prezentovat českou kulturu ruským občanům.\_"
+        text: "V roce 1993 se otevřelo České centrum Moskva, které by v letošním roce rovněž oslavilo 30 let své činnosti. Jeho úkolem bylo prezentovat českou kulturu ruským občanům.\_Od března 2022 došlo kvůli ruské agresi na Ukrajině k "
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'pozastavení veškeré činnosti Českého centra v Moskvě'
+      -
+        type: text
+        text: ".\_"
   -
     type: heading
     attrs:
@@ -29,7 +38,16 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum sídlilo v prostorách Českého domu na ulici Julia Fučíka.\_"
+        text: 'České centrum sídlilo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'v prostorách Českého domu na ulici Julia Fučíka'
+      -
+        type: text
+        text: ".\_"
   -
     type: heading
     attrs:
@@ -690,6 +708,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685966636
+updated_at: 1685966715
 perex: 'Rozdělené cesty.'
 ---
