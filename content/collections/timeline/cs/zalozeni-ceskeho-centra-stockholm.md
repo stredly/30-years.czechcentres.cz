@@ -76,21 +76,6 @@ page_content:
     content:
       -
         type: text
-        text: 'Někdejší stáje a přístřešek pro panské kočáry byl kompletně zrekonstruován pro potřeby Českého centra. Takzvaný '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: Domeček
-      -
-        type: text
-        text: " měl k dispozici polyfunkční výstavní sál pro 50 osob vybavený promítací technikou a informační kancelář pro veřejnost s knihovnou a videotékou.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'České centrum získalo k užívání od ambasády budovu bývalých stájí, které se nacházely v areálu velvyslanectví. Prostory prošly kompletní rekonstrukcí a plně vyhovovaly momentálním potřebám. Takzvaný '
       -
         type: text
@@ -1187,7 +1172,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685956883
+updated_at: 1685982573
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
