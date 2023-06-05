@@ -73,7 +73,7 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie – naší i vlastní. A jako každý kulturní institut se k nám často a rádi chodili učit češtinu.\_"
+        text: 'České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie – naší i vlastní.'
   -
     type: paragraph
     content:
@@ -717,6 +717,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985686
+updated_at: 1685985720
 perex: 'Rozdělené cesty.'
 ---
