@@ -20,7 +20,16 @@ page_content:
     content:
       -
         type: text
-        text: "Bohužel, v roce 2011 se finanční úspory zahraničního resortu dotkly i fungování ČC Buenos Aires, a to bylo z ekonomických důvodů zrušeno. Jeho aktivity převzalo distančně ČC Madrid.\_"
+        text: 'Bohužel, v roce 2011 se finanční úspory zahraničního resortu dotkly i fungování ČC Buenos Aires, a to bylo z ekonomických důvodů zrušeno. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jeho aktivity převzalo distančně České centrum Madrid.'
+      -
+        type: text
+        text: "\_"
   -
     type: heading
     attrs:
@@ -42,7 +51,16 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum nemělo vlastní prostory, využívalo možnosti užití kanceláře na Velvyslanectví České republiky v Buenos Aires.\_"
+        text: 'České centrum nemělo vlastní prostory, využívalo možnosti užití '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'kanceláře na Velvyslanectví České republiky v Buenos Aires.'
+      -
+        type: text
+        text: "\_"
   -
     type: heading
     attrs:
@@ -98,7 +116,16 @@ page_content:
     content:
       -
         type: text
-        text: "Kromě zajištění organizace a další podpory divadelního souboru uspořádalo ČC jako součást doprovodného programu festivalu i literární čtení Zahradní slavnosti Václava Havla.\_"
+        text: 'Kromě zajištění organizace a další podpory divadelního souboru uspořádalo ČC jako součást doprovodného programu festivalu i literární čtení '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zahradní slavnosti Václava Havla'
+      -
+        type: text
+        text: ".\_"
   -
     type: paragraph
     content:
@@ -214,7 +241,16 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum Buenos Aires po celou dobu jeho působení vedla Daniela Čapková.\_\_"
+        text: 'České centrum Buenos Aires po celou dobu jeho působení vedla '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Daniela Čapková'
+      -
+        type: text
+        text: ".\_\_"
   -
     type: heading
     attrs:
@@ -239,7 +275,7 @@ dont_show_month: true
 event_date: '2008-01-01'
 cities: buenos-aires
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963965
+updated_at: 1685971751
 background_image: background-image/2008_buenos-aires.JPG
 perex: 'Jediné České centrum v Jižní Americe.'
 ---
