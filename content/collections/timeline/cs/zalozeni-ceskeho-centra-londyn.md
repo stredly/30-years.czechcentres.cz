@@ -677,31 +677,27 @@ page_content:
           - timeline/london/58_made-in-prague-festival-divaci-v-hledisti-s-programem-festivalu-v-regent-street-cinema_2017_(c)mirka-vecerova.jpg
           - 'timeline/london/68_international-fashion-showcase,-prehlidka-mladych-navrharu-v-ramci-london-fashion-week,-somerset-house_navrharky-libena-rochova-a-katerina-plamitzerova_2017_(c)jolly-thompson-.jpg'
   -
-    type: bulletList
+    type: heading
+    attrs:
+      level: 2
     content:
       -
-        type: listItem
-        content:
+        type: text
+        marks:
           -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://london.czechcentres.cz/?locale=cs'
-                      rel: null
-                      target: _blank
-                      title: null
-                  -
-                    type: bold
-                text: 'České centrum Londýn'
+            type: link
+            attrs:
+              href: 'https://london.czechcentres.cz/'
+              rel: null
+              target: null
+              title: null
+          -
+            type: bold
+        text: london.czechcentres.cz
 dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685968156
+updated_at: 1685968226
 background_image: background-image/1993_londyn.JPG
 ---
