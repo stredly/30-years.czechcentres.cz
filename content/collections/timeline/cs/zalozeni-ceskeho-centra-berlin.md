@@ -121,39 +121,45 @@ page_content:
         text: ' jedním z ředitelů kulturního střediska byl Dušan Sedláček'
       -
         type: text
-        text: ', otec filmové režisérky, scénáristky a spisovatelky Andrey Sedláčkové. '
+        text: ', otec filmové režisérky, scénáristky a spisovatelky Andrey Sedláčkové.'
+  -
+    type: blockquote
+    content:
       -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest '
-      -
-        type: text
-        text: –
-      -
-        type: text
-        marks:
+            type: text
+            marks:
+              -
+                type: italic
+            text: '„Od podzimu 1968 byl představitelem československého kulturního střediska v Západním Berlíně, byl odvolán v roce 1971 pod hrozbou vyhoštění ze strany západoberlínských orgánů. Následoval stranický trest '
           -
-            type: italic
-        text: ' byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
-      -
-        type: text
-        text: ' (zdroj: '
-      -
-        type: text
-        marks:
+            type: text
+            text: –
           -
-            type: link
-            attrs:
-              href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
-              rel: 'noreferrer noopener'
-              target: _blank
-              title: null
-        text: 'Paměť národa'
-      -
-        type: text
-        text: ")\_"
+            type: text
+            marks:
+              -
+                type: italic
+            text: ' byla mu přidělena podřadná práce, byl přeřazen do archivu ministerstva vnitra.“'
+          -
+            type: text
+            text: ' (zdroj: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.pametnaroda.cz/cs/sedlacek-dusan-1934'
+                  rel: 'noreferrer noopener'
+                  target: _blank
+                  title: null
+            text: 'Paměť národa'
+          -
+            type: text
+            text: ")\_"
   -
     type: paragraph
     content:
@@ -1397,6 +1403,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685950014
+updated_at: 1685955792
 perex: 'Ve stínu Berlínské zdi.'
 ---
