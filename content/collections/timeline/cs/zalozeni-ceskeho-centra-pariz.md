@@ -171,7 +171,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Střídajícím a doposud nejvýraznějším ředitelem Českého centra Paříž, který jako jediný tento post získal hned dvakrát, se stal Michael Wellner Pospíšil.'
+        text: 'Střídajícím ředitelem Českého centra Paříž, který jako jediný tento post získal hned dvakrát, se stal '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Michael Wellner Pospíšil'
+      -
+        type: text
+        text: .
       -
         type: text
         marks:
@@ -870,6 +879,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982273
+updated_at: 1685982345
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
