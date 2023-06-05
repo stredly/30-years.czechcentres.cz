@@ -499,9 +499,9 @@ page_content:
           src: 'asset::assets::background-image/1993_viden.jpg'
           alt: 'České centrum Vídeň © Archiv Českého centra Vídeň'
 dont_show_month: true
-event_date: '1993-01-01'
+event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685903068
+updated_at: 1685963368
 perex: 'Česká kultura na Dunaji.'
 ---
