@@ -691,11 +691,6 @@ page_content:
     type: paragraph
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1949_varsava.jpg'
-          alt: 'Týmy Českého centra Varšava a zastupitelského úřadu ve Varšavě s neonem vyjadřujícím podporu Ukrajině © Archiv Českého centra Varšava'
-      -
         type: text
         text: 'V roce 2019 intenzivně spolupracovalo ČC Varšava vedle českého zastupitelského úřadu a polských partnerů i s polskými bohemisty, českými polonisty a Českou školou ve Varšavě. V programové oblasti se vedle klasické spolupráce v oblasti filmu, literatury a hudby ČC zaměřilo především na realizaci vlastních projektů k '
       -
@@ -800,6 +795,11 @@ page_content:
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1949_varsava.jpg'
+          alt: 'Týmy Českého centra Varšava a zastupitelského úřadu ve Varšavě s neonem vyjadřujícím podporu Ukrajině © Archiv Českého centra Varšava'
       -
         type: text
         text: 'V první polovině roku 2022 úspěšně probíhaly akce literární (Karol Sidon, Petr Hruška, Marie Iljašenko, Literatura na hranici), hudební (Noc žen) i filmové (Kino na Hranici). Se značným úspěchem byla realizována soutěž '
@@ -996,7 +996,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685952353
+updated_at: 1685952438
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
