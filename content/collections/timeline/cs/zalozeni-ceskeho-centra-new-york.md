@@ -498,7 +498,13 @@ page_content:
         text: 'jak České centrum New York začalo ožívat po pandemii Covid-19'
       -
         type: text
-        text: ', se můžete podívat '
+        text: ', se můžete podívat v'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' '
       -
         type: text
         marks:
@@ -506,12 +512,12 @@ page_content:
             type: link
             attrs:
               href: 'https://ct24.ceskatelevize.cz/3325458-udalosti-ceske-centrum-v-new-yorku-oziva'
-              rel: 'noreferrer noopener'
+              rel: null
               target: _blank
               title: null
           -
             type: bold
-        text: 'v reportáži České televize'
+        text: 'reportáži České televize'
       -
         type: text
         text: ".\_"
@@ -715,7 +721,16 @@ page_content:
         text: 'Evropská noc literatury'
       -
         type: text
-        text: " 2022. ČC se rovněž zapojilo do akcí na podporu Ukrajiny. \_"
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '2022'
+      -
+        type: text
+        text: ". ČC se rovněž zapojilo do akcí na podporu Ukrajiny. \_"
   -
     type: heading
     attrs:
@@ -1115,6 +1130,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685710112
+updated_at: 1685973514
 perex: 'První České centrum v Severní Americe.'
 ---
