@@ -9,7 +9,16 @@ page_content:
     content:
       -
         type: text
-        text: "\_České centrum (ČC) Mnichov se v roce 1999 stalo třetím kulturním střediskem na německém území. Svoji činnost zahájilo počátkem října a slavnostního zahájení se zúčastnila tehdejší předsedkyně Senátu České republiky Libuše Benešová.\_"
+        text: "\_České centrum (ČC) Mnichov se v roce 1999 stalo "
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'třetím kulturním střediskem na německém území'
+      -
+        type: text
+        text: ". Svoji činnost zahájilo počátkem října a slavnostního zahájení se zúčastnila tehdejší předsedkyně Senátu České republiky Libuše Benešová.\_"
   -
     type: heading
     attrs:
@@ -536,6 +545,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685712510
+updated_at: 1685955407
 perex: 'Za českou kulturou do Bavorska.'
 ---
