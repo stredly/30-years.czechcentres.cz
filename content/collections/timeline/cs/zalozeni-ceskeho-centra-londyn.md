@@ -8,7 +8,16 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum (ČC) Londýn bylo založeno v\_roce 1993, je tedy jedním z\_prvních novodobých Českých center. Za 30 let své existence uspořádalo stovky akcí nejrůznějšího charakteru, přivedlo či představilo místnímu publiku nesčetně českých umělců a odborníků a vybudovalo si širokou základnu návštěvníků, partnerů a spřátelených institucí. Během svého působení bylo svědkem a často i součástí mnoha událostí, které svým způsobem rezonovaly ve společnosti (ať už české nebo britské) a skýtaly příležitost na ně v\_programové činnosti reagovat – od vstupu České republiky do Evropské Unie přes letní Olympijské hry v Londýně až po Brexit a pandemii Covid-19."
+        text: 'České centrum (ČC) Londýn bylo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "založeno v\_roce 1993"
+      -
+        type: text
+        text: ", je tedy jedním z\_prvních novodobých Českých center. Za 30 let své existence uspořádalo stovky akcí nejrůznějšího charakteru, přivedlo či představilo místnímu publiku nesčetně českých umělců a odborníků a vybudovalo si širokou základnu návštěvníků, partnerů a spřátelených institucí. Během svého působení bylo svědkem a často i součástí mnoha událostí, které svým způsobem rezonovaly ve společnosti (ať už české nebo britské) a skýtaly příležitost na ně v\_programové činnosti reagovat – od vstupu České republiky do Evropské Unie přes letní Olympijské hry v Londýně až po Brexit a pandemii Covid-19."
   -
     type: heading
     attrs:
@@ -40,16 +49,22 @@ page_content:
     content:
       -
         type: text
-        text: "Budova českého zastupitelského úřadu, v\_níž ČC sídlí, byla dostavena v\_roce 1970 jako budova Československé ambasády. Jejím architektem byl Jan Šrámek a jeho spolupracovníky Jan Bočan a Karel Štěpánský z ateliéru Beta Projektového ústavu hlavního města Prahy. Stavba v\_roce 1971 získala prestižní "
+        text: "Budova českého zastupitelského úřadu, v\_níž ČC sídlí, byla dostavena v\_roce 1970 jako budova Československé ambasády. Jejím architektem byl Jan Šrámek a jeho spolupracovníky Jan Bočan a Karel Štěpánský z ateliéru Beta Projektového ústavu hlavního města Prahy. Stavba v\_roce 1971 získala "
       -
         type: text
         marks:
           -
             type: bold
-        text: 'cenu RIBA'
+        text: 'prestižní cenu RIBA'
       -
         type: text
-        text: " (Cena Královského institutu britských architektů), což je doposud nejvyšší ocenění, jakého se novostavbě českého velvyslanectví dostalo. Po rozdělení Československa v\_roce 1993 si nově vzniklé republiky rozdělily dvě hlavní budovy původní stavby sdílející společnou zahradu. Více o oceněné brutalistní stavbě velvyslanectví a jejích specifikách můžete zjistit ve videu Brutal Beauty, ve kterém budovami provází britský kritik a spisovatel zabývající se architekturou, Owen Hatherley."
+        text: " (Cena Královského institutu britských architektů), což je doposud nejvyšší ocenění, jakého se novostavbě českého velvyslanectví dostalo. Po rozdělení Československa v\_roce 1993 si nově vzniklé republiky rozdělily dvě hlavní budovy původní stavby sdílející společnou zahradu."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Více o oceněné brutalistní stavbě velvyslanectví a jejích specifikách můžete zjistit ve videu Brutal Beauty, ve kterém budovami provází britský kritik a spisovatel zabývající se architekturou, Owen Hatherley.'
   -
     type: set
     attrs:
@@ -92,6 +107,13 @@ page_content:
       -
         type: text
         text: '. Za 26 let trvání festivalu byly jeho hosty například Jiří Menzel, Jan Švankmajer, Zdeněk a Jan Svěrákovi, Josef Abrhám, Juraj Herz, Helena Třeštíková, Iva Bittová, Emil Viklický, Jiří Stivín, Ctibor Turba, Miroslav a David Ondříčkovi, Ida Kellarová, Petr Zelenka, Dejvické divadlo, divadlo Bolka Polívky, František Skála, Woody a Steina Vašulka a mnozí další.'
+  -
+    type: set
+    attrs:
+      id: liitpc31
+      values:
+        type: video
+        video: 'https://vimeo.com/825117678/72da931bbe?share=copy'
   -
     type: paragraph
     content:
@@ -568,13 +590,13 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Ladislav Pflimpfl.'
+        text: 'Ladislav Pflimpfl'
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
-      -
-        type: text
-        text: 'Mladá '
       -
         type: text
         marks:
@@ -680,6 +702,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685967590
+updated_at: 1685968156
 background_image: background-image/1993_londyn.JPG
 ---
