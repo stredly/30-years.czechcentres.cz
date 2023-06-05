@@ -353,7 +353,16 @@ page_content:
     content:
       -
         type: text
-        text: "ČC Moskva stejně jako ČC Tel Aviv pozvalo architekta Martina Rajniše na Mezinárodní festival krajinné architektury Archstojanie, který proběhl v obci Nikola Lenivec v Kalužské oblasti. Na festival se každoročně sjíždějí nejlepší krajinní architekti z celého světa, aby vytvořili stavby na dané téma. V roce 2014 se ho zúčastnilo kolem pěti tisíc lidí. Rajnišovy přednášky na téma Čechy – krajina rozhleden a Strukturální konstrukce z kmínků se změnily v živou debatu o perspektivách levné přírodní architektury a jejích ekologických principů. Pořadatelé Rajniše pozvali, aby nad blaty u vesnice postavil v příštím roce visutý most.\_"
+        text: 'ČC Moskva stejně jako ČC Tel Aviv pozvalo architekta Martina Rajniše na '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Mezinárodní festival krajinné architektury Archstojanie'
+      -
+        type: text
+        text: ", který proběhl v obci Nikola Lenivec v Kalužské oblasti. Na festival se každoročně sjíždějí nejlepší krajinní architekti z celého světa, aby vytvořili stavby na dané téma. V roce 2014 se ho zúčastnilo kolem pěti tisíc lidí. Rajnišovy přednášky na téma Čechy – krajina rozhleden a Strukturální konstrukce z kmínků se změnily v živou debatu o perspektivách levné přírodní architektury a jejích ekologických principů. Pořadatelé Rajniše pozvali, aby nad blaty u vesnice postavil v příštím roce visutý most.\_"
   -
     type: paragraph
     content:
@@ -733,6 +742,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985956
+updated_at: 1685986049
 perex: 'Rozdělené cesty.'
 ---
