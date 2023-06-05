@@ -127,7 +127,23 @@ page_content:
     content:
       -
         type: text
-        text: "I v Moskvě se připojili k oslavám prvního českého předsednictví v Radě EU. Na výběr projektů ze společné nabídky se podívejte zde. (proklik na 2009)\_"
+        text: 'I v Moskvě se připojili k oslavám prvního českého předsednictví v Radě EU. Na výběr projektů ze společné nabídky se podívejte '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://30years.czechcentres.cz/ceske-predsednictvi-v-rade-eu-v-roce-2009'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: zde
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -717,6 +733,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985747
+updated_at: 1685985837
 perex: 'Rozdělené cesty.'
 ---
