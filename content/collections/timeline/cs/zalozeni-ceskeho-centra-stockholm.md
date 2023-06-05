@@ -144,7 +144,16 @@ page_content:
     content:
       -
         type: text
-        text: "Ve stejném roce se Česko prostřednictvím ČC poprvé zapojilo v roli nové kandidátské země EU do kulturního projektu Delegace EU ve Stockholmu, nazvaném Okna do Evropy, a to venkovní výstavou kreseb karikaturisty Vladimíra Jiránka v Královském sadu v centru Stockholmu.\_\_"
+        text: 'Ve stejném roce se Česko prostřednictvím ČC poprvé zapojilo v roli nové kandidátské země EU do kulturního projektu '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Delegace EU ve Stockholmu, nazvaném Okna do Evropy'
+      -
+        type: text
+        text: ", a to venkovní výstavou kreseb karikaturisty Vladimíra Jiránka v Královském sadu v centru Stockholmu.\_\_"
   -
     type: paragraph
     content:
@@ -1163,7 +1172,7 @@ dont_show_month: true
 event_date: '1997-05-17'
 cities: stockholm
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685956760
+updated_at: 1685956807
 background_image: background-image/1997_stockholm.jpg
 perex: 'Jediné České centrum ve Skandinávii.'
 ---
