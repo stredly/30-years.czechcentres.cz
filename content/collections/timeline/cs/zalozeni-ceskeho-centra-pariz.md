@@ -424,16 +424,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Když v roce 2009 nastoupil do čela ČC Paříž '
+        text: 'Když v roce 2009 nastoupil do čela ČC Paříž Martin Jan Bonhard, čekal ho nelehký úkol v podání '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Martin Jan Bonhard'
+        text: 'výročí 20 let od sametové revoluce a prvního předsednictví v Radě EU'
       -
         type: text
-        text: ', čekal ho nelehký úkol v podání výročí 20 let od sametové revoluce a prvního předsednictví v Radě EU. U této příležitosti si ČC Paříž pod jeho vedením připravilo řadu skvělých akcí. Paříž tak byla svědkem například '
+        text: '. U této příležitosti si ČC Paříž pod jeho vedením připravilo řadu skvělých akcí. Paříž tak byla svědkem například '
       -
         type: text
         marks:
@@ -876,6 +876,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: pariz
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685982119
+updated_at: 1685982156
 perex: 'V sídle Masarykovy československé prozatímní vlády.'
 ---
