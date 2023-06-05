@@ -30,19 +30,10 @@ page_content:
         marks:
           -
             type: bold
-        text: „
+        text: '„Česká loajalita, mýtus a skutečnost“'
       -
         type: text
-        text: 'Česká loajalita, mýtus a skutečnost'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: “
-      -
-        type: text
-        text: ", který se zabýval obdobím 1848 - 1915. Přednášky koncipované v němčině trvaly celý měsíc a našly si široké publikum.\_"
+        text: ", který se zabýval obdobím 1848–⁠1915. Přednášky koncipované v němčině trvaly celý měsíc a našly si široké publikum.\_"
   -
     type: heading
     attrs:
@@ -59,7 +50,16 @@ page_content:
     content:
       -
         type: text
-        text: "České centrum se nachází již 30 let přímo uprostřed města, na krásné ulici Herrengasse 17. Budova je v přímém sousedství majestátního Hofburgu či vídeňského Burgtheatru. V centru je k dispozici knihovna a galerie.\_\_"
+        text: 'České centrum se nachází již 30 let přímo uprostřed města, na krásné ulici '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Herrengasse 17'
+      -
+        type: text
+        text: ". Budova je v přímém sousedství majestátního Hofburgu či vídeňského Burgtheatru. V centru je k dispozici knihovna a galerie.\_\_"
   -
     type: heading
     attrs:
@@ -511,6 +511,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685986728
+updated_at: 1685986873
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
