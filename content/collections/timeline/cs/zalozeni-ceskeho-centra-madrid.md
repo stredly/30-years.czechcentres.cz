@@ -133,34 +133,16 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Nejvýraznějším počinem bylo'
+        text: 'Nejvýraznějším počinem bylo první uvedení česko-francouzského projektu bratří Formanů'
       -
         type: text
-        text: ' první '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: uvedení
-      -
-        type: text
-        text: ' česko-francouzského '
+        text: ' a'
       -
         type: text
         marks:
           -
             type: bold
-        text: 'projektu bratří Formanů'
-      -
-        type: text
-        text: ' a divadla Dromesco '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Bouda '
+        text: ' divadla Dromesco Bouda '
       -
         type: text
         text: "ve Španělsku. Spolupráce s bratry Formanovými pak pokračovala během následujících let, kdy byly ve Španělsku uvedeny jejich další projekty.\_\_"
@@ -1141,6 +1123,6 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973762
+updated_at: 1685973802
 perex: 'Česká kultura v zemi býčích zápasů.'
 ---
