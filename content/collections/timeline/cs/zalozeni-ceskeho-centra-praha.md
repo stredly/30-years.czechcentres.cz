@@ -212,19 +212,13 @@ page_content:
     content:
       -
         type: text
-        text: 'Rok 2009 s sebou přinesl celou sérii projektů připravených pro předsednictví Radě EU. Tyto projekty měly svou premiéru právě zde, v Českém centru Praha.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         marks:
           -
             type: bold
-        text: 'Díky českému předsednictví se v ČC Praha představila řada projektů, s ním spojená. '
+        text: 'Rok 2009 s sebou přinesl celou sérii projektů připravených pro předsednictví Radě EU.'
       -
         type: text
-        text: 'Ty reflektovaly významná výročí a témata spojená s rokem 2009, jako jsou dvacetileté výročí od pádu železné opony, páté výročí vstupu České republiky do EU, výročí úmrtí Bohuslava Martinů, rok kreativity a inovací a další významné události. O všech projektech, které byly představeny českému publiku v Českém centru Praha v rámci prvního předsednictví, si můžete přečíst '
+        text: ' Tyto projekty měly svou premiéru právě zde, v Českém centru Praha, a reflektovaly významná výročí a témata spojená s rokem 2009, jako jsou dvacetileté výročí od pádu železné opony, páté výročí vstupu České republiky do EU, výročí úmrtí Bohuslava Martinů, rok kreativity a inovací a další významné události. O všech projektech, které byly představeny českému publiku v Českém centru Praha v rámci prvního předsednictví, si můžete přečíst '
       -
         type: text
         marks:
@@ -390,7 +384,7 @@ dont_show_month: true
 event_date: '2006-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685984393
+updated_at: 1685984506
 background_image: background-image/2006_praha.jpg
 perex: 'Výkladní skříň Českých center.'
 ---
