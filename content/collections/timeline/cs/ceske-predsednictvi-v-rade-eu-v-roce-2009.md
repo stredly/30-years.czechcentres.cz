@@ -10,22 +10,16 @@ page_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: "V rámci prvního českého předsednictví vytvořila Česká centra spolu s partnery několik hlavních projektů, které většina Českých center v zahraničí převzala a představila svému publiku.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Těmto projektům byl udělen statut „'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Oficiální doprovodná akce předsednictví ČR v Radě EU'
-      -
-        type: text
-        text: '“ a logo předsednictví.'
+        text: 'Těmto projektům byl udělen statut „Oficiální doprovodná akce předsednictví ČR v Radě EU“ a logo předsednictví.'
   -
     type: heading
     attrs:
@@ -443,5 +437,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964389
+updated_at: 1685984913
 ---
