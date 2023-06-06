@@ -3,7 +3,7 @@ id: 1f144146-35c1-4c15-8589-b52dc8df3e02
 blueprint: page
 title: 'Slovo generálního ředitele'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042194
+updated_at: 1686042212
 page_content:
   -
     type: paragraph
@@ -55,7 +55,7 @@ page_content:
         text: 'stabilní systém fungování, ale zároveň reagovat na výzvy'
       -
         type: text
-        text: ", které přirozeně provázely a provázejí vývoj naší země i celého současného světa. Zásadními okamžiky pro nás bylo jak samotné rozdělení republiky, které nasměrovalo naši činnost, tak posléze vstup do NATO, EU včetně jejího již druhého předsednictví v\_nedávné době, ale i nepředvídatelných událostí posledních let v\_podobě pandemie nebo válečná agrese. "
+        text: ", které přirozeně provázely a provázejí vývoj naší země i celého současného světa. Zásadními okamžiky pro nás bylo jak samotné rozdělení republiky, které nasměrovalo naši činnost, tak posléze vstup do NATO, EU včetně jejího již druhého předsednictví v\_nedávné době, ale i nepředvídatelných událostí posledních let v\_podobě pandemie nebo válečné agrese. "
   -
     type: paragraph
     attrs:
