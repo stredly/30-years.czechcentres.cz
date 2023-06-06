@@ -518,7 +518,7 @@ page_content:
             attrs:
               href: 'https://wien.czechcentres.cz/?locale=cs'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -527,6 +527,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042057
+updated_at: 1686042066
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
