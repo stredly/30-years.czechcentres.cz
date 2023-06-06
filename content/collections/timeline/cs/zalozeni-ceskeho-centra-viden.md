@@ -476,18 +476,6 @@ page_content:
               target: _blank
               title: null
         text: zde.
-      -
-        type: text
-        text: "\_V loňském roce skončil a příští rok na post nového ředitele Českého centra Vídeň nastoupí stávající generální ředitel Českých center, bývalý ředitel Českého centra Mnichov a bývalý ředitel Národního divadla, "
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Ondřej Černý'
-      -
-        type: text
-        text: ".\_"
   -
     type: heading
     attrs:
@@ -527,6 +515,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042066
+updated_at: 1686042437
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
