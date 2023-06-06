@@ -95,30 +95,6 @@ page_content:
     content:
       -
         type: text
-        text: 'V roce 2001 zároveň byla zahájena činnost Českého centra Košice, jehož vznik mírně souvisel s bezpečnostní situací po tragických událostech 11. září 2001. Na Hviezdoslavově náměstí se shodou okolností nacházela i americká ambasáda a tehdejší bezpečnostní podmínky dovolovaly volný přístup do Českého centra bez větších kontrol. Po zářijových událostech a nečekanému zrušení GK Košice a uvolnění tamní budovy se došlo k rozhodnutí, že se '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'přesune vedení'
-      -
-        type: text
-        text: ' ČC Bratislava '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'do Košic'
-      -
-        type: text
-        text: ' a v Bratislavě zůstane pouze administrativní síla.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'V roce 2007 skončilo funkční období ředitelky Stanislavy Wanatowiczové Bartošové, která se tak stala historicky jedinou ředitelkou, která během svého vedení vedla jedno centrum a druhé zakládala. Po ní se vypsala již dvě výběrová řízení jak na Bratislavu, tak i na Košice.'
   -
     type: paragraph
@@ -1238,6 +1214,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685981906
+updated_at: 1686044542
 perex: 'První pobočka u nejbližších sousedů.'
 ---
