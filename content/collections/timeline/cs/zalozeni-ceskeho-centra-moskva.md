@@ -287,13 +287,13 @@ page_content:
     content:
       -
         type: text
-        text: 'Osobnost Václava Havla byla v tomto období i v tehdy ještě demokraticky smýšlejícím Rusku velmi populární a proto byl naprostou diváckou senzac'
+        text: 'Osobnost Václava Havla byla v tomto období i v tehdy ještě demokraticky smýšlejícím Rusku velmi populární a proto byl naprostou diváckou senzací'
       -
         type: text
         marks:
           -
             type: bold
-        text: 'í Festival Václav Havel v našich dnech.'
+        text: ' Festival Václav Havel v našich dnech.'
       -
         type: text
         text: " V rámci festivalu se uskutečnila celá řada akcí – proběhl vzpomínkový večer v divadle MTJUZ, konference Havlovská čtení v Centru Andreje Sacharova, výstava fotografií Oldřicha Škáchy a další akce.\_\_"
@@ -772,6 +772,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685986433
+updated_at: 1686042504
 perex: 'Rozdělené cesty.'
 ---
