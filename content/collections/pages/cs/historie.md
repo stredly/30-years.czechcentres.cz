@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685988738
+updated_at: 1686042394
 page_content:
   -
     type: paragraph
@@ -782,7 +782,7 @@ page_content:
         text: 'Českého domu Moskva'
       -
         type: text
-        text: ' (fungujícího již od roku 1985) pod Správu českých center, a to ještě před touto vlnou zřizování nových center, v roce 2002. Do této vlny lze zařadit i nová Česká centra z roku 2010, a sice '
+        text: ' (fungujícího již od roku 1985) pod Správu českých center, a to ještě před touto vlnou zřizování nových center, v roce 2002. Do této skupiny lze zařadit i nová Česká centra z roku 2010, a sice '
       -
         type: text
         marks:
@@ -1177,7 +1177,7 @@ page_content:
     content:
       -
         type: text
-        text: "Rok 2011 přinesl pozitiva v oblasti navazování nových vztahů s partnery. Českým centrům se podařilo najít historicky prvního generálního partnera své sítě, byla uzavřena smlouva se Staropramenem. Podařilo se nastavit mechanismy získávání finančních prostředků z tzv. třetího sektoru, které by měly směřovat efektivní motivaci ke spolupráci.\_\_"
+        text: "Rok 2011 přinesl pozitiva v oblasti navazování nových vztahů s partnery. Českým centrům se podařilo najít historicky prvního generálního partnera své sítě, byla uzavřena smlouva s pivovarem Staropramenem. Podařilo se nastavit mechanismy získávání finančních prostředků z tzv. třetího sektoru, které by měly směřovat efektivní motivaci ke spolupráci.\_\_"
   -
     type: paragraph
     attrs:
@@ -1267,7 +1267,16 @@ page_content:
     content:
       -
         type: text
-        text: "Zmíněný rok 2012 byl podstatný i z dalšího úhlu pohledu. Od teď totiž mohli studenti absolvovat stáže jak na ústředí, tak v jednotlivých Českých centrech v zahraničí. Spolupráce se stážisty se stala oboustranně vyhledávanou a jejich přínos je zvláště pro nejmenší ČC zcela zásadní. Na druhou stranu zkušenost z kulturního institutu je pro studenty, jež ji absolvují, velmi přínosná a někteří projdou i několika Českými centry v zahraničí.\_"
+        text: 'Zmíněný rok 2012 byl podstatný i z dalšího úhlu pohledu. Od teď totiž mohli studenti absolvovat stáže jak na ústředí, tak v jednotlivých Českých centrech v zahraničí. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Spolupráce se stážisty'
+      -
+        type: text
+        text: " se stala oboustranně vyhledávanou a jejich přínos je zvláště pro nejmenší ČC zcela zásadní. Na druhou stranu zkušenost z kulturního institutu je pro studenty, jež ji absolvují, velmi přínosná a někteří projdou i několika Českými centry v zahraničí.\_"
   -
     type: paragraph
     attrs:
@@ -1391,7 +1400,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Po další pětileté pauze se v roce 2018 síť Českých center dále rozšířila o '
+        text: 'Po další pětileté pauze se v roce 2018 sítě Českých center dále rozšířila o '
       -
         type: text
         marks:
@@ -1672,7 +1681,7 @@ page_content:
         text: '#CzechArtistsWorldwide'
       -
         type: text
-        text: "\_"
+        text: .
   -
     type: paragraph
     attrs:
