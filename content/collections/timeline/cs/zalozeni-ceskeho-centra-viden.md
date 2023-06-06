@@ -504,11 +504,29 @@ page_content:
     content:
       -
         type: text
-        text: "Jakub Špaňhel, Galina Miklínová, Toy Box, Jiří Hájíček, Pavel Kořínek, Jiří Rejzek, Lída Rakušanová, Jan Jeništa, Marie Filippovová, Michaela Holubec Birtusová, Katta, Petra Dočekalová, Kateřina Olivová, Kateřina Tučková, Jiří Netík, divadlo Sklep, Jaroslav Róna, Petr Nikl, František Skála, Zdeněk Lhotský, Čestmír Suška, Aleš Najbrt, Michal Cihlář, Tono Stano, skupina DG307 a řada dalších.\_"
+        text: 'Jakub Špaňhel, Galina Miklínová, Toy Box, Jiří Hájíček, Pavel Kořínek, Jiří Rejzek, Lída Rakušanová, Jan Jeništa, Marie Filippovová, Michaela Holubec Birtusová, Katta, Petra Dočekalová, Kateřina Olivová, Kateřina Tučková, Jiří Netík, divadlo Sklep, Jaroslav Róna, Petr Nikl, František Skála, Zdeněk Lhotský, Čestmír Suška, Aleš Najbrt, Michal Cihlář, Tono Stano, skupina DG307 a řada dalších.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://wien.czechcentres.cz/?locale=cs'
+              rel: null
+              target: null
+              title: null
+          -
+            type: bold
+        text: wien.czechcentres.cz
 dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685987262
+updated_at: 1686042057
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
