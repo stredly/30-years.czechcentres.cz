@@ -331,12 +331,6 @@ page_content:
     content:
       -
         type: text
-        text: 'O působení Alberta Černého ani Rudolfa Sedláčka se mnoho materiálů nedochovalo, ale cestu k publiku si našli oba.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'S přelomem tisíciletí přichází i další projekty a výstavy. České centrum se stává zavedenou značkou a zve na Slovensko řadu významných umělců. Stanislava Wanatowiczová Bartošová přinesla do Bratislavy další známé osobnosti, umělce a projekty. Mediální i divácký ohlas zaznamenaly například výstava o divadelním režisérovi, scénáristovi a uměleckém šéfovi Divadla Na Zábradlí '
       -
         type: text
@@ -1214,6 +1208,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686044542
+updated_at: 1686044601
 perex: 'První pobočka u nejbližších sousedů.'
 ---
