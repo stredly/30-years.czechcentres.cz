@@ -3,7 +3,7 @@ id: 1f144146-35c1-4c15-8589-b52dc8df3e02
 blueprint: page
 title: 'Slovo generálního ředitele'
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685695611
+updated_at: 1686042194
 page_content:
   -
     type: paragraph
@@ -29,7 +29,7 @@ page_content:
         text: '30 let novodobé historie Českých center'
       -
         type: text
-        text: ", nicméně kulturní zastoupení naší země započalo hlouběji v\_minulosti, kdy vznikala tzv. kulturní a informační střediska socialistického přátelství např. ve Varšavě, Bukurešti, Berlíně nebo Sofii a na jejichž činnost v\_roce 1993 navázala právě Česká centra. Došlo k\_zásadní transformaci činnosti a rozšíření sítě v 90. letech do západní Evropy a severní Ameriky a po roce 2000 také např. do východní Asie. V\_současné době jsme přítomni v\_"
+        text: ", nicméně kulturní zastoupení naší země započalo hlouběji v\_minulosti, kdy vznikala tzv. kulturní a informační střediska socialistického přátelství např. ve Varšavě, Bukurešti, Berlíně nebo Sofii a na jejichž činnost v\_roce 1993 navázala právě Česká centra. Došlo k\_zásadní transformaci činnosti a rozšíření sítě v 90. letech do západní Evropy a Severní Ameriky a po roce 2000 také např. do východní Asie. V\_současné době jsme přítomni v\_"
       -
         type: text
         marks:
