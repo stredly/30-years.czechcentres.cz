@@ -1208,6 +1208,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: bratislava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686044601
+updated_at: 1686044665
 perex: 'První pobočka u nejbližších sousedů.'
 ---
