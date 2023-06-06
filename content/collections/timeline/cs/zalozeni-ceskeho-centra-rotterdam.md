@@ -30,7 +30,7 @@ page_content:
         text: 'Zpočátku vedle organizování kulturních akcí napomáhalo českým firmám navazovat obchodní kontakty'
       -
         type: text
-        text: ' s nizozemskými podnikatelskými subjekty a podporovalo rozvoj cestovního ruchu mezi oběma zeměmi. Zřízením ČC Haag byla pověřena JUDr. '
+        text: ' s nizozemskými podnikatelskými subjekty a podporovalo rozvoj cestovního ruchu mezi oběma zeměmi. Zřízením ČC Haag byla pověřena '
       -
         type: text
         marks:
@@ -566,6 +566,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: rotterdam
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685954588
+updated_at: 1686042468
 perex: 'Ve stopách Jana Amose Komenského.'
 ---
