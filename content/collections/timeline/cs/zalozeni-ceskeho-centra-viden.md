@@ -515,6 +515,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686237820
+updated_at: 1686237931
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
