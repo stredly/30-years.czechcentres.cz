@@ -421,7 +421,7 @@ page_content:
         text: 'Martinu Kraflovi. '
       -
         type: text
-        text: "Martin se svého úkolu zhostil se ctí a všechny své nabité zkušenosti úspěšně zúročil ve svém dalším angažmá na Českém centru v Berlíně.\_"
+        text: "Martin se svého úkolu zhostil se ctí a všechny své nabyté zkušenosti úspěšně zúročil ve svém dalším angažmá na Českém centru v Berlíně.\_"
       -
         type: text
         marks:
@@ -515,6 +515,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042437
+updated_at: 1686237816
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
