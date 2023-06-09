@@ -625,10 +625,15 @@ page_content:
         text: 'Jak chutná Polsko'
       -
         type: text
-        text: " s textem ředitele ČC Petra Janyšky.\_"
+        text: ' s textem ředitele ČC Petra Janyšky.'
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/varsava/nm_pravo_20160317_2_janyska_page-0001.jpg'
+          alt: 'Poláci milují nejen české komedie © Právo, Věra Míšková, 2016 '
       -
         type: text
         text: 'Největším projektem roku 2016 byla rozsáhlá přehlídka filmů československé Nové vlny s názvem '
@@ -1021,7 +1026,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686308825
+updated_at: 1686322466
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
