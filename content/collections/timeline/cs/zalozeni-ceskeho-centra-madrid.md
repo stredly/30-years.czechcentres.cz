@@ -927,7 +927,7 @@ page_content:
         text: 'Adriana Krásová'
       -
         type: text
-        text: ', hispanistka a anglistka, která dnes působí na pražském ústředí Českých center jako vedoucí projektu Noc literatury a specialistka na obor literatury. Od roku 2010 působila v čele centra politoložka, žurnalistka a diplomatka '
+        text: ', hispanistka, anglistka a překladatelka, která dnes působí na pražském ústředí Českých center jako vedoucí projektu Noc literatury a specialistka na obor literatury. České centrum se v roce 2008 stalo zakládajícím členem EUNIC Madrid, jehož byla Adriana Krásová v roce 2010 vicepresidentkou. Od roku 2010 působila v čele centra politoložka, žurnalistka a diplomatka '
       -
         type: text
         marks:
@@ -1083,7 +1083,7 @@ page_content:
     content:
       -
         type: text
-        text: "Jiří Turek a Jana Jabůrková, Martin Janecký, Eva Koťátková, Lucie Faulerová, Eduard Šístek, Michael Žantovský, Jaroslav Róna, Jiří Mádl, Olmo Omerzu, Agnieszka Holland, Marek Šindelka, Herrmann & Coufal, Bianca Bellová, Adéla Součková, Jitka Kolbe Růžičková, Jan Kaláb, Michaela Šilpochová, Ondřej Kobza, Marek Beneš, Pavel Hroch, Filip Šroubek, Jaroslav Šíp, Martin Rajniš, Tomáš Kosnar, Tereza Ruller, Petr Pavel, Jiří Kovanda, Miloš Urban, Romana Uhríčková, Martin Kloda, Hana Procházková, Alena Mornštajnová, Jaroslav Kolář, Arno Pařík, Petr Forman, Jan Svěrák, Galina Miklínová, Michaela Pavlátová, Martin Rajniš, Petr Nikl, Jiří Sozanský, Radka Denemarková, Petr Placák, Marek Toman, Petr Stančík, Dana Kyndrová, Daniel Vávra, Ludvík Kunz, Ivan Souček, Václav Šípek, Kateřina Hager, Václav Kadrnka, Tomáš Baroš, Adam Kost, studio Mjölk: Jan Vondrák, Jan Mach a Lukáš Holub, Kateřina Rudčenková, Petr Halmay , Petr Borkovec, Patrik Ouředník, Emil Hakl, Jan Balabán, Michal Ajvaz, Magdaléna Platzová, Jaroslav Rudiš\_"
+        text: 'Jiří Turek a Jana Jabůrková, Martin Janecký, Eva Koťátková, Lucie Faulerová, Eduard Šístek, Michael Žantovský, Jaroslav Róna, Jiří Mádl, Olmo Omerzu, Agnieszka Holland, Marek Šindelka, Herrmann & Coufal, Bianca Bellová, Adéla Součková, Jitka Kolbe Růžičková, Jan Kaláb, Michaela Šilpochová, Ondřej Kobza, Marek Beneš, Pavel Hroch, Filip Šroubek, Jaroslav Šíp, Martin Rajniš, Tomáš Kosnar, Tereza Ruller, Petr Pavel, Jiří Kovanda, Miloš Urban, Romana Uhríčková, Martin Kloda, Hana Procházková, Alena Mornštajnová, Jaroslav Kolář, Arno Pařík, Petr Forman, Jan Svěrák, Galina Miklínová, Michaela Pavlátová, Martin Rajniš, Petr Nikl, Jiří Sozanský, Radka Denemarková, Petr Placák, Marek Toman, Petr Stančík, Dana Kyndrová, Daniel Vávra, Ludvík Kunz, Ivan Souček, Václav Šípek, Kateřina Hager, Václav Kadrnka, Tomáš Baroš, Adam Kost, studio Mjölk: Jan Vondrák, Jan Mach a Lukáš Holub, Kateřina Rudčenková, Petr Halmay , Petr Borkovec, Patrik Ouředník, Emil Hakl, Jan Balabán, Michal Ajvaz, Magdaléna Platzová, Jaroslav Rudiš, Petr Forman, Matěj Forman, Petr Nikl, Jiří Barta, Otomar Krejča, Dan Bárta, Petr Šrut, Václav Bělohradský'
   -
     type: heading
     attrs:
@@ -1109,6 +1109,6 @@ dont_show_month: true
 event_date: '2004-01-01'
 cities: madrid
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973952
+updated_at: 1686303612
 perex: 'Česká kultura v zemi býčích zápasů.'
 ---
