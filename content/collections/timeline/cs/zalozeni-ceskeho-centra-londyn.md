@@ -311,7 +311,9 @@ page_content:
         type: text
         text: "Program sestával z\_desítek akcí, mezi kterými byla projekty v\_galeriích a kinech, hudební a divadelní vystoupení, workshopy, výstavy, módní přehlídky a programy pro děti."
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -723,7 +725,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318190
+updated_at: 1686318211
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
