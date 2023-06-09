@@ -147,10 +147,15 @@ page_content:
         text: 'Tona Stana'
       -
         type: text
-        text: ", který v té době byl již mezinárodní hvězdou.\_"
+        text: ', který v té době byl již mezinárodní hvězdou.'
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/viden/1994---prazska-petka---cc-viden.jpg'
+          alt: null
       -
         type: text
         text: 'V roce 1999 nastupuje do Vídně Jozef Kollár, který programově navazuje na svého předchůdce. Marcel Sauer využil svých konexí mezi '
@@ -512,6 +517,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309056
+updated_at: 1686320766
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
