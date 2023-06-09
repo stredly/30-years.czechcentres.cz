@@ -77,6 +77,14 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1993_londyn.JPG'
+          alt: 'Výstava Czech Image mezinárodních studentů v galerii Vitrínka Českého centra Londýn, 2020 © Archiv Českého centra Londýn'
+  -
+    type: paragraph
+    content:
+      -
         type: text
         text: 'Více o oceněné brutalistní stavbě velvyslanectví a jejích specifikách můžete zjistit ve videu Brutal Beauty, ve kterém budovami provází britský kritik a spisovatel zabývající se architekturou, Owen Hatherley.'
   -
@@ -770,14 +778,6 @@ page_content:
         type: text
         text: "Za třicet let svého působení přivítalo České centrum Londýn stovky významných osobností české i světové kultury. Namátkou jmenujme: Václav Havel, Jiří Bělohlávek, David Černý, Sir Tom Stoppard, Miroslav Holub, Jan Švankmajer, Jan Kaplický, Plastic People of the Universe, Josef Koudelka, Stanislav Kolíbal, Ian Anderson, Timothy Garton Ash, Aleš Najbrt, David Vávra, Sir Michael Burton, Sir John Tusa, Herbert Lom. Jednu z\_akcí navštívil i současný král Spojeného království Karel III., v\_té době princ z\_Walesu."
   -
-    type: paragraph
-    content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1993_londyn.JPG'
-          alt: 'Výstava Czech Image mezinárodních studentů v galerii Vitrínka Českého centra Londýn, 2020 © Archiv Českého centra Londýn'
-  -
     type: set
     attrs:
       id: lg3f3iqe
@@ -809,7 +809,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318638
+updated_at: 1686318760
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
