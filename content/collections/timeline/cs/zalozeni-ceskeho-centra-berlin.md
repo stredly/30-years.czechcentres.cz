@@ -186,7 +186,7 @@ page_content:
     content:
       -
         type: text
-        text: "V 90. letech byla úloha ČC Berlín stejně jako i dalších center v síti značně proexportní, ovšem postupně převážilo kulturní poslání.\_"
+        text: 'V 90. letech byla úloha ČC Berlín stejně jako i dalších center v síti značně proexportní, ovšem postupně převážilo kulturní poslání.'
   -
     type: heading
     attrs:
@@ -195,8 +195,8 @@ page_content:
       -
         type: image
         attrs:
-          src: 'asset::assets::background-image/1955_berlin.jpg'
-          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín '
+          src: 'asset::assets::timeline/berlin/01_berlin_final.jpg'
+          alt: '© Jan Šrámek'
       -
         type: text
         marks:
@@ -349,7 +349,7 @@ page_content:
         text: MZV
       -
         type: text
-        text: ")\_"
+        text: )
   -
     type: paragraph
     content:
@@ -921,6 +921,14 @@ page_content:
         type: text
         text: " proběhla další změna během pandemie Covid-19, kdy festival probíhal v on-line podobě.\_"
   -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1955_berlin.jpg'
+          alt: 'České centrum Berlín v budově českého velvyslanectví během Czech Innovation Festival 2016 © Archiv Českého centra Berlín '
+  -
     type: blockquote
     content:
       -
@@ -1394,6 +1402,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685955907
+updated_at: 1686317746
 perex: 'Ve stínu Berlínské zdi.'
 ---
