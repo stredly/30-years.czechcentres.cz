@@ -53,12 +53,17 @@ page_content:
         text: 'v prostorách Českého domu na ulici Julia Fučíka'
       -
         type: text
-        text: ".\_"
+        text: .
   -
     type: heading
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/moskva/budova-cc-6.JPG'
+          alt: '© České centrum Moskva'
       -
         type: text
         marks:
@@ -772,6 +777,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686314257
+updated_at: 1686321969
 perex: 'Rozdělené cesty.'
 ---
