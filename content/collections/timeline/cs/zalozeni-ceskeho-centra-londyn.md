@@ -437,6 +437,17 @@ page_content:
             type: text
             text: .
   -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Doubledecker Davida Černého'
+  -
     type: paragraph
     content:
       -
@@ -472,7 +483,9 @@ page_content:
         type: text
         text: .
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -482,15 +495,23 @@ page_content:
         text: 'Point, Pasta Oner: Kupka al Fresco'
       -
         type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
+        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Série tří nových velkých graffiti dvou českých a jednoho místního umělce, které byly inspirovány Olympijskými hrami a malbou Amorfa Františka Kupky z roku 1912, která inspirovala vizuální styl českého týmu pro LOH 2012. Graffiti jsou umístěny ve veřejném prostoru na frekventované hlavní pěší stezce z Islingtonu směrem k olympijskému komplexu.'
+        marks:
+          -
+            type: bold
+        text: 'Série tří nových velkých graffiti dvou českých a jednoho místního umělce'
+      -
+        type: text
+        text: ', které byly inspirovány Olympijskými hrami a malbou Amorfa Františka Kupky z roku 1912, která inspirovala vizuální styl českého týmu pro LOH 2012. Graffiti jsou umístěny ve veřejném prostoru na frekventované hlavní pěší stezce z Islingtonu směrem k olympijskému komplexu.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -506,9 +527,17 @@ page_content:
     content:
       -
         type: text
-        text: 'Výtvarná instalace Jana Kalába původně vytvořená pro EXPO 2008 v Šanghaji, která přinesla pohled na město, jeho obyvatele a prostředí, které moderní urbanistika pro život vytváří, byla uvedena ve foyer budoucího Českého domu v rámci 2012 London Festival of Architecture a jeho tématu „The Playful City“. Výstavu přineslo České centrum jakou oficiální součást International Architecture & Design Showcase.'
+        marks:
+          -
+            type: bold
+        text: 'Výtvarná instalace Jana Kalába'
+      -
+        type: text
+        text: ' původně vytvořená pro EXPO 2008 v Šanghaji, která přinesla pohled na město, jeho obyvatele a prostředí, které moderní urbanistika pro život vytváří, byla uvedena ve foyer budoucího Českého domu v rámci 2012 London Festival of Architecture a jeho tématu „The Playful City“. Výstavu přineslo České centrum jakou oficiální součást International Architecture & Design Showcase.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -524,13 +553,28 @@ page_content:
     content:
       -
         type: text
-        text: 'Živý open-air koncert unikátního orchestru dětí z pražského Jedličkova ústavu s laskavou podporou Magistrátu Hl. města Prahy během hlavního kulturního festivalu v Islingtonu před začátkem LOH. Na tento oblíbený víkendový festival směřují tisíce Londýňanů z celého města, pro které pražský soubor předvede koncert vlastní i převzaté hudby s účastí hostů a překvapením.'
+        marks:
+          -
+            type: bold
+        text: 'Živý open-air koncert unikátního orchestru dětí z pražského Jedličkova ústavu'
+      -
+        type: text
+        text: ' s laskavou podporou Magistrátu Hl. města Prahy během hlavního kulturního festivalu v Islingtonu před začátkem LOH. Na tento oblíbený víkendový festival směřují tisíce Londýňanů z celého města, pro které pražský soubor předvede koncert vlastní i převzaté hudby s účastí hostů a překvapením.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "V rámci programu diváci mohli vidět i přehlídku prací mladých designérů Nové (Z)boží, retrospektivu Jiřího Trnky v\_British Film Institute nebo program vztahující se ke znovuotevření vily Tugendhat."
+        text: 'V rámci programu diváci mohli vidět i přehlídku prací '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "mladých designérů Nové (Z)boží, retrospektivu Jiřího Trnky v\_British Film Institute nebo program vztahující se ke znovuotevření vily Tugendhat"
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -765,7 +809,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318441
+updated_at: 1686318638
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
