@@ -9,7 +9,7 @@ page_content:
     content:
       -
         type: text
-        text: "\_České centrum (ČC) Mnichov se v roce 1999 stalo "
+        text: 'České centrum (ČC) Mnichov se v roce 1999 stalo '
       -
         type: text
         marks:
@@ -570,6 +570,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042554
+updated_at: 1686309170
 perex: 'Za českou kulturou do Bavorska.'
 ---
