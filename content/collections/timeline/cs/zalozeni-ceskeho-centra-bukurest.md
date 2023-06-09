@@ -190,7 +190,7 @@ page_content:
         text: 'One World Romania'
       -
         type: text
-        text: ' v roce 2008, který dnes už funguje nezávisle a je důležitou edukativní platformou s celostátním dosahem. V tomto roce uspořádalo i výstavu prací předních českých fotografů z let 1968-89 v kurátorské režii Dany Kyndrové s názvem '
+        text: ' v roce 2008, který dnes už funguje nezávisle a je důležitou edukativní platformou s celostátním dosahem. V tomto roce uspořádalo i výstavu prací předních českých fotografů z let 1968–89 v kurátorské režii Dany Kyndrové s názvem '
       -
         type: text
         marks:
@@ -847,7 +847,7 @@ page_content:
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685963680
+updated_at: 1686308856
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 perex: 'Výrazné propojení s místní kulturní scénou.'
