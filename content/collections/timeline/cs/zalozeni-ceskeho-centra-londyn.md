@@ -392,7 +392,7 @@ page_content:
             attrs:
               href: 'https://www.youtube.com/watch?v=hJWWG4PJrgE'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: 'London Booster'
       -
@@ -433,7 +433,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Výtvarná instalace Jana Kalába původně vytvořená pro EXPO 2008 v Šanghaji, která přinesla pohled na město, jeho obyvatele a prostředí, které moderní urbanistika pro život vytváří, byla uvedena ve foyer budoucího Českého domu v rámci 2012 London Festival of Architecture a jeho tématu ‘The Playful City’. Výstavu přineslo České centrum jakou oficiální součást International Architecture & Design Showcase.'
+        text: 'Výtvarná instalace Jana Kalába původně vytvořená pro EXPO 2008 v Šanghaji, která přinesla pohled na město, jeho obyvatele a prostředí, které moderní urbanistika pro život vytváří, byla uvedena ve foyer budoucího Českého domu v rámci 2012 London Festival of Architecture a jeho tématu „The Playful City“. Výstavu přineslo České centrum jakou oficiální součást International Architecture & Design Showcase.'
   -
     type: paragraph
     content:
@@ -502,10 +502,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'London Design Week'
+        text: 'London Design Week – Brompton Design District'
       -
         type: text
-        text: ' – Brompton Design District. Interaktivní expozice Breathless představila sklářské produkty, vlastní výrobu skla, způsoby jeho barvení, využití i destrukce. V rámci programu se uskutečnila řada workshopů, rozhovorů, živého foukání skla či prohlídky Muzea skla organizovaného kreativní skupinou OKOLO.'
+        text: '. Interaktivní expozice Breathless představila sklářské produkty, vlastní výrobu skla, způsoby jeho barvení, využití i destrukce. V rámci programu se uskutečnila řada workshopů, rozhovorů, živého foukání skla či prohlídky Muzea skla organizovaného kreativní skupinou OKOLO.'
   -
     type: paragraph
     content:
@@ -529,7 +529,7 @@ page_content:
             attrs:
               href: 'https://open.spotify.com/show/6Tijod5BfjBXxU6LGCJ29W'
               rel: null
-              target: null
+              target: _blank
               title: null
         text: zde
       -
@@ -596,7 +596,7 @@ page_content:
         text: ' Tomáš Zykán'
       -
         type: text
-        text: ' nastoupil na České centrum na přelomu tisíciletí a nová doba přinesla i řadu změn. Největší a nejúspěšnější projekty s sebou přineslo celé desetiletí, po které vedl České centrum '
+        text: ' nastoupil do Českého centra na přelomu tisíciletí a nová doba přinesla i řadu změn. Největší a nejúspěšnější projekty s sebou přineslo celé desetiletí, po které vedl České centrum '
       -
         type: text
         marks:
@@ -692,7 +692,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686314660
+updated_at: 1686314841
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
