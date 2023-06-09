@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686315297
+updated_at: 1686315385
 page_content:
   -
     type: paragraph
@@ -2028,7 +2028,49 @@ page_content:
     content:
       -
         type: text
-        text: "Pro srovnání se můžete podívat na článek z roku 1997, kdy Česká centra teprve zjišťovala své možnosti na internetu, který se v té době ještě psal s velkým písmenem, a poté navštivte naše nové webové stránky nebo sociální sítě.\_"
+        text: 'Pro srovnání se můžete podívat na článek z roku 1997, kdy Česká centra teprve zjišťovala své možnosti na internetu, který se v té době ještě psal s velkým písmenem, a poté navštivte naše nové '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.czechcentres.cz/'
+              rel: null
+              target: null
+              title: null
+        text: 'webové stránky'
+      -
+        type: text
+        text: ' nebo sociální sítě, '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.facebook.com/Ceskacentra/'
+              rel: null
+              target: null
+              title: null
+        text: facebook
+      -
+        type: text
+        text: " \_a "
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.instagram.com/ceskacentra/?hl=cs'
+              rel: null
+              target: null
+              title: null
+        text: instragram
+      -
+        type: text
+        text: .
   -
     type: paragraph
     attrs:
