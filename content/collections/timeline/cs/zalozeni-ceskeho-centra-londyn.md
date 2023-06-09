@@ -34,7 +34,16 @@ page_content:
     content:
       -
         type: text
-        text: "V\_úplných počátcích sídlilo ČC v\_budově Velvyslanectví ČR v\_Londýně ve čtvrti Notting Hill, odkud se zanedlouho přestěhovalo do komerčních prostor na Great Portland Street v\_centru Londýna, kde disponovalo i výstavními prostory. V\_září roku 2003 se centrum přestěhovalo na věhlasnou Harley Street, kde mělo k dispozici pouze kancelářské prostory a prostory pro výuku češtiny. Centrum se znovu stěhovalo v\_roce 2014, a to přímo do centra tzv. West End, malebné čtvrti Covent Garden. Odtud pak proběhl poslední přesun v\_roce 2017, a to zpět na místo, kde ČC začínalo – do budovy českého velvyslanectví. Zde má opět k\_dispozici nejen kanceláře a učebny pro výuku češtiny, ale také vlastní výstavní prostory, tzv. "
+        text: "V\_úplných počátcích sídlilo ČC v\_budově Velvyslanectví ČR v\_Londýně ve čtvrti Notting Hill, odkud se zanedlouho přestěhovalo do komerčních prostor na Great Portland Street v\_centru Londýna, kde disponovalo i výstavními prostory. V\_září roku 2003 se centrum přestěhovalo na věhlasnou Harley Street, kde mělo k dispozici pouze kancelářské prostory a prostory pro výuku češtiny. Centrum se znovu stěhovalo v\_roce 2014, a to přímo do centra tzv. West End, malebné čtvrti Covent Garden. Odtud pak proběhl poslední přesun v\_roce 2017, a to zpět na místo, kde ČC začínalo – "
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'do budovy českého velvyslanectví'
+      -
+        type: text
+        text: ". Zde má opět k\_dispozici nejen kanceláře a učebny pro výuku češtiny, ale také vlastní výstavní prostory, tzv. "
       -
         type: text
         marks:
@@ -139,7 +148,16 @@ page_content:
     content:
       -
         type: text
-        text: "Za své působení uspořádalo ČC Londýn také dlouhou řadu akcí odkazujících na osobnost Václava Havla – např. Václav Havel Festival (hlavní akce sezony 2008 věnovaná dramatům Václava Havla), divadelní vystoupení Velvet Havel, promítání filmu Odcházení, projekt Reading Havel, konference za účasti V. Havla nebo jeden z\_projektů k\_českému předsednictví EU v\_roce 2022 s\_názvem Evropské dialogy Václava Havla."
+        text: 'Za své působení uspořádalo ČC Londýn také dlouhou řadu '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'akcí odkazujících na osobnost Václava Havla'
+      -
+        type: text
+        text: " – např. Václav Havel Festival (hlavní akce sezony 2008 věnovaná dramatům Václava Havla), divadelní vystoupení Velvet Havel, promítání filmu Odcházení, projekt Reading Havel, konference za účasti V. Havla nebo jeden z\_projektů k\_českému předsednictví EU v\_roce 2022 s\_názvem Evropské dialogy Václava Havla."
   -
     type: paragraph
     content:
@@ -209,6 +227,14 @@ page_content:
       -
         type: text
         text: 'Česká kulturní sezóna má být největší českou kulturní prezentací v Británii za poslední desetiletí. Celá sezona odkazuje k původní olympijské myšlence propojení sportu a umění z počátku minulého století, kdy se udílely olympijské medaile i za umění.'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Czech Open 2012'
   -
     type: paragraph
     content:
@@ -697,7 +723,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686317883
+updated_at: 1686318172
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
