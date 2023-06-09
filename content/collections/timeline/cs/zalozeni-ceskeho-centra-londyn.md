@@ -48,6 +48,11 @@ page_content:
     type: paragraph
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/london/02_londyn.jpg'
+          alt: '© Jan Šrámek'
+      -
         type: text
         text: "Budova českého zastupitelského úřadu, v\_níž ČC sídlí, byla dostavena v\_roce 1970 jako budova Československé ambasády. Jejím architektem byl Jan Šrámek a jeho spolupracovníky Jan Bočan a Karel Štěpánský z ateliéru Beta Projektového ústavu hlavního města Prahy. Stavba v\_roce 1971 získala "
       -
@@ -692,7 +697,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686314841
+updated_at: 1686317883
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
