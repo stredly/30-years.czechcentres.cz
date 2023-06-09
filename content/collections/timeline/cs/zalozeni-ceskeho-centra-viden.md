@@ -446,7 +446,7 @@ page_content:
         text: Zde
       -
         type: text
-        text: " nabízíme jeho vzpomínky na působení v Vídni i Berlíně.\_\_"
+        text: " nabízíme jeho vzpomínky na působení ve Vídni i Berlíně.\_\_"
   -
     type: paragraph
     content:
@@ -512,6 +512,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309014
+updated_at: 1686309056
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
