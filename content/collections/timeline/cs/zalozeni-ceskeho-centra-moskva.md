@@ -311,7 +311,7 @@ page_content:
         text: 'skupiny The Tap Tap'
       -
         type: text
-        text: ". Za podpory ZÚ a ve spolupráci s ruskou nadací Perspektiva, která se věnuje pomoci tělesně postiženým a s pomocí dalších partnerů a sponzorů, uspořádalo v divadle Natalii Sac dobročinný koncert skupiny The Tap Tap.\_\_"
+        text: ". Za podpory zastupitelského úřadu a ve spolupráci s ruskou nadací Perspektiva, která se věnuje pomoci tělesně postiženým a s pomocí dalších partnerů a sponzorů, uspořádalo ČC Moskva v divadle Natalii Sac dobročinný koncert skupiny The Tap Tap.\_\_"
   -
     type: paragraph
     content:
@@ -323,7 +323,7 @@ page_content:
         text: 'Retrospektivní výstava Pavla Brázdy'
       -
         type: text
-        text: ' v prestižní moskevské galerii Proun v uměleckém centru Vinzavod byla zahájena retrospektivní výstava malíře Pavla Brázdy, na které byla představena jeho tvorba 20. a 21. století. Další podobnou výstavou byla unikátní '
+        text: ' byla zahájena v prestižní moskevské galerii Proun v uměleckém centru Vinzavod. Představila tvorbu malíře Pavla Brázdy, na které byla představena jeho tvorba 20. a 21. století. Další podobnou výstavou byla unikátní '
       -
         type: text
         marks:
@@ -492,10 +492,10 @@ page_content:
             marks:
               -
                 type: italic
-            text: '. Ve spolupráci s naším velvyslanectvím jsme uspořádali společný projekt – venkovní Festival České republiky v Moskvě s návštěvností 55000 diváků. V roce 2020 bude pokračovat již třetím ročníkem. A nedílnou součástí naší činnosti je organizování jazykových kurzů pro cizince. Výuka probíhá ve třech semestrech pro zhruba pět set studentů'
+            text: '. Ve spolupráci s naším velvyslanectvím jsme uspořádali společný projekt – venkovní Festival České republiky v Moskvě s návštěvností 55000 diváků. V roce 2020 bude pokračovat již třetím ročníkem. A nedílnou součástí naší činnosti je organizování jazykových kurzů pro cizince. Výuka probíhá ve třech semestrech pro zhruba pět set studentů,'
           -
             type: text
-            text: "“, řekla Hana Skládalová.\_"
+            text: "“ řekla Hana Skládalová.\_"
   -
     type: blockquote
     content:
@@ -772,6 +772,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309888
+updated_at: 1686314236
 perex: 'Rozdělené cesty.'
 ---
