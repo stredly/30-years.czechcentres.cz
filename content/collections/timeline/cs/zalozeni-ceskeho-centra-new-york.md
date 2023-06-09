@@ -167,11 +167,14 @@ page_content:
         type: gallery
         gallery:
           - timeline/new-york/bnh-benes-2003-2008_01.jpeg
+          - timeline/bnh-benes-2003-2008_18.jpeg
           - timeline/new-york/bnh-benes-2003-2008_42.jpeg
           - timeline/new-york/bnh-benes-ballroom-2008_14.jpeg
+          - timeline/bnh-benes-2003-2008_15.jpeg
           - timeline/new-york/bnh-benes-galerie-2008_27.jpeg
           - timeline/new-york/bnh-benes-galerie-2008_28.jpeg
           - timeline/new-york/bnh-benes-lobby-2008_18.jpeg
+          - timeline/pavel-semerak.jpg
   -
     type: paragraph
     content:
@@ -1143,6 +1146,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686321440
+updated_at: 1686321787
 perex: 'První České centrum v Severní Americe.'
 ---
