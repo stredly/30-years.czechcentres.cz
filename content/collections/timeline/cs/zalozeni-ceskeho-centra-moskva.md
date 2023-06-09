@@ -73,7 +73,7 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie – naší i vlastní.'
+        text: 'České centrum se zabývalo celým segmentem kultury, přinášelo svému publiku nejenom to nejlepší z výtvarného či scénického umění, tance či divadla, ale i filmu, hudby, architektury či fotografie. Ruští návštěvníci centra mohli vidět výstavy designu, módy či šperku a nahlédnout s námi i do historie – naší i jejich.'
   -
     type: paragraph
     content:
@@ -248,7 +248,7 @@ page_content:
         text: 'Rock´n´roll britského dramatika Toma Stopparda'
       -
         type: text
-        text: ". Téhož roku program Českých center navázal na inscenaci divadelní hry Rock´n´roll britského dramatika českého původu sira Toma Stopparda. Návštěvníci měli možnost účastnit se doprovodných akcí Českého centra. (Vystoupení skupiny Plastic People v moskevském klubu „China town“. Stoppardova hra je částečně skupině věnována ).\_\_"
+        text: '. Téhož roku program Českých center navázal na inscenaci divadelní hry Rock´n´roll britského dramatika českého původu sira Toma Stopparda. Návštěvníci měli možnost účastnit se doprovodných akcí Českého centra. (Vystoupení skupiny Plastic People v moskevském klubu „China town“. Stoppardova hra je částečně skupině věnována.)'
   -
     type: paragraph
     content:
@@ -260,10 +260,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Mezinárodním veletrhu intelektuální literatury NON/FICTION.'
+        text: 'Mezinárodním veletrhu intelektuální literatury NON/FICTION'
       -
         type: text
-        text: ' Veletrhu se často zúčastnili hosté z Česka, například spisovatel Jaroslav Rudiš, básník a performer Igor Malijevský, nakladatel Martin Souček za společnosti Arbor Vitae či zpěvák Mikoláš Chadima. '
+        text: '. Veletrhu se často zúčastnili hosté z Česka, například spisovatel Jaroslav Rudiš, básník a performer Igor Malijevský, nakladatel Martin Souček za společnosti Arbor Vitae či zpěvák Mikoláš Chadima. '
       -
         type: text
         marks:
@@ -772,6 +772,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686308979
+updated_at: 1686309888
 perex: 'Rozdělené cesty.'
 ---
