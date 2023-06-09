@@ -60,7 +60,7 @@ page_content:
         text: 'Český dům'
       -
         type: text
-        text: " na adrese Rue du Trone 60. V budově sídlilo kromě Českého centra velké množství českých subjektů, České centrum zde před a během Českého předsednictví ČR v Radě EU 2009 uspořádalo několik desítek výstav v sále o rozloze 300m2. V kontextu posílení propagace české kultury a umění v Bruselu se také ČR v roce 2007 zúčastnila prestižního festivalu Europalia Europa.\_"
+        text: " na adrese Rue du Trone 60. V budově sídlilo kromě Českého centra velké množství českých subjektů, České centrum zde před a během Českého předsednictví ČR v Radě EU 2009 uspořádalo několik desítek výstav v sále o rozloze 300 m². V kontextu posílení propagace české kultury a umění v Bruselu se také ČR v roce 2007 zúčastnila prestižního festivalu Europalia Europa.\_"
   -
     type: paragraph
     content:
@@ -1181,6 +1181,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685964183
+updated_at: 1686309303
 perex: 'Česká kultura v hlavním městě Evropy.'
 ---
