@@ -949,7 +949,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: '„V rámci své programové koncepce se snažím představit současnou českou literaturu v plné šíři, připomínat slavná jména a výročí českých literátů a zároveň představovat mladé, talentované české autory. Nezaměřuji se „jen" na prózu či beletrii, ale využívám i formátů, které atraktivní formou přibližují českou básnickou tvorbu. Jedním z nich je právě Transpoesie, která umožňuji představit zdánlivě opomíjenou literární oblast opravdu masově,"'
+            text: '„V rámci své programové koncepce se snažím představit současnou českou literaturu v plné šíři, připomínat slavná jména a výročí českých literátů a zároveň představovat mladé, talentované české autory. Nezaměřuji se ‚jen‘ na prózu či beletrii, ale využívám i formátů, které atraktivní formou přibližují českou básnickou tvorbu. Jedním z nich je právě Transpoesie, která umožňuji představit zdánlivě opomíjenou literární oblast opravdu masově,"'
           -
             type: text
             text: ' nechala se slyšet '
@@ -1014,7 +1014,7 @@ page_content:
         text: 'umělecké rezidence'
       -
         type: text
-        text: ", například v návaznosti kurátorských cest (například i z Lucemburku patřícího do teritoria ČC Brusel - MUDAM), České centrum Brusel podporuje také přímé spolupráce mezi belgickými a českými subjekty, přičemž některé výrazné projekty (například v kontextu výročí let 1918 a 1989) byly také spolufinancovány z EU zdrojů (Revolution Is Not a Garden Party). Výrazné stopy v místním tisku (Le Soir, De Standaard) zanechali autoři, kteří byli hosty ČC v rámci press tripů, speciální fokus na Česko byl uveden v tisku v kontextu Pražského jara 1968 (časopis Deus Ex Machina), fokusu na český komiks (StripGids) a další.\_"
+        text: ", například v návaznosti kurátorských cest (například i z Lucemburku patřícího do teritoria ČC Brusel – MUDAM), České centrum Brusel podporuje také přímé spolupráce mezi belgickými a českými subjekty, přičemž některé výrazné projekty (například v kontextu výročí let 1918 a 1989) byly také spolufinancovány z EU zdrojů (Revolution Is Not a Garden Party). Výrazné stopy v místním tisku (Le Soir, De Standaard) zanechali autoři, kteří byli hosty ČC v rámci press tripů, speciální fokus na Česko byl uveden v tisku v kontextu Pražského jara 1968 (časopis Deus Ex Machina), fokusu na český komiks (StripGids) a další.\_"
   -
     type: heading
     attrs:
@@ -1169,7 +1169,7 @@ page_content:
             attrs:
               href: 'https://brussels.czechcentres.cz/?locale=cs'
               rel: null
-              target: null
+              target: _blank
               title: null
           -
             type: bold
@@ -1178,6 +1178,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309559
+updated_at: 1686309636
 perex: 'Česká kultura v hlavním městě Evropy.'
 ---
