@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686042394
+updated_at: 1686315147
 page_content:
   -
     type: paragraph
@@ -117,7 +117,23 @@ page_content:
             content:
               -
                 type: text
-                text: "Kdo nás po 30 let vedl kupředu. Podívejte se na seznam všech generálních ředitelů.\_"
+                text: 'Kdo nás po 30 let vedl kupředu. Podívejte se na '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://30years.czechcentres.cz/generalni-reditele'
+                      rel: null
+                      target: _blank
+                      title: null
+                  -
+                    type: bold
+                text: 'seznam všech generálních ředitelů'
+              -
+                type: text
+                text: ".\_"
       -
         type: listItem
         content:
