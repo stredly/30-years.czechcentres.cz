@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686315147
+updated_at: 1686315297
 page_content:
   -
     type: paragraph
@@ -144,7 +144,7 @@ page_content:
             content:
               -
                 type: text
-                text: "Největší projekty za 30 let (Noc literatury, 8-kové roky, 100 let republiky, první a druhé předsednictví...)\_\_"
+                text: "Největší projekty za 30 let (Noc literatury, Osmičkové roky, 100 let republiky, první a druhé předsednictví...)\_\_"
   -
     type: paragraph
     attrs:
@@ -1309,7 +1309,7 @@ page_content:
         text: 'agenda kurátorských cest'
       -
         type: text
-        text: '. Zásluhou Českých center dochází k intenzivnějšímu oboustrannému propojení české a zahraniční umělecké scény. Čeští umělci a kurátoři absolvují pracovní pobyty na Českých centrech v zahraničí, ale princip je takový, že ti zahraniční zase jezdí do Česka, kde se setkávají s místními odborníky ve svém oboru, navštěvují kulturní instituce a umělce, navazují kontakty a spolupráce a tvoří tu. Dochází tak k systematickému a cílenému představování zejména mladé generace umělců a nově objevených talentů/vítězů uměleckých soutěží. Zároveň v této době došlo ke zvýšení počtu '
+        text: '. Zásluhou Českých center dochází k intenzivnějšímu oboustrannému propojení české a zahraniční umělecké scény. Čeští umělci a kurátoři absolvují pracovní pobyty na Českých centrech v zahraničí, ale princip je takový, že ti zahraniční zase jezdí do Česka, kde se setkávají s místními odborníky ve svém oboru, navštěvují kulturní instituce a umělce, navazují kontakty a spolupráce a tvoří zde. Dochází tak k systematickému a cílenému představování zejména mladé generace umělců a nově objevených talentů/vítězů uměleckých soutěží. Zároveň v této době došlo ke zvýšení počtu '
       -
         type: text
         marks:
@@ -1563,8 +1563,6 @@ page_content:
               title: null
           -
             type: bold
-          -
-            type: italic
           -
             type: underline
         text: 'Mini Wonders'
