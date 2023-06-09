@@ -81,11 +81,6 @@ page_content:
     type: paragraph
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::background-image/1995_new-york.jpeg'
-          alt: 'Přestřižení pásky zrekonstruované České národní budovy krajany © Marian Beneš'
-      -
         type: text
         marks:
           -
@@ -163,7 +158,20 @@ page_content:
         text: zde
       -
         type: text
-        text: ".\_"
+        text: .
+  -
+    type: set
+    attrs:
+      id: lioo7d3k
+      values:
+        type: gallery
+        gallery:
+          - timeline/new-york/bnh-benes-2003-2008_01.jpeg
+          - timeline/new-york/bnh-benes-2003-2008_42.jpeg
+          - timeline/new-york/bnh-benes-ballroom-2008_14.jpeg
+          - timeline/new-york/bnh-benes-galerie-2008_27.jpeg
+          - timeline/new-york/bnh-benes-galerie-2008_28.jpeg
+          - timeline/new-york/bnh-benes-lobby-2008_18.jpeg
   -
     type: paragraph
     content:
@@ -188,6 +196,11 @@ page_content:
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::background-image/1995_new-york.jpeg'
+          alt: 'Přestřižení pásky zrekonstruované České národní budovy krajany © Marian Beneš'
       -
         type: text
         marks:
@@ -1130,6 +1143,6 @@ dont_show_month: true
 event_date: '1995-01-01'
 cities: new-york
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685973571
+updated_at: 1686321440
 perex: 'První České centrum v Severní Americe.'
 ---
