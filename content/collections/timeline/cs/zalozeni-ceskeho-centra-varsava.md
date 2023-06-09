@@ -436,7 +436,7 @@ page_content:
     content:
       -
         type: text
-        text: "K nejnavštěvovanějším akcím v první polovině roku 2011 patřila účast Národního technického muzea\_ a Techmania Plzeň na obří prezentaci o vědě, technice a vzdělávání\_ s názvem "
+        text: "K nejnavštěvovanějším akcím v první polovině roku 2011 patřila účast Národního technického muzea a Techmania Plzeň na obří prezentaci o vědě, technice a vzdělávání\_ s názvem "
       -
         type: text
         marks:
@@ -1021,7 +1021,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686308770
+updated_at: 1686308807
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
