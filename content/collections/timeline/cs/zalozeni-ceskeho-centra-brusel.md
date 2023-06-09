@@ -60,7 +60,7 @@ page_content:
         text: 'Český dům'
       -
         type: text
-        text: " na adrese Rue du Trone 60. V budově sídlilo kromě Českého centra velké množství českých subjektů, České centrum zde před a během Českého předsednictví ČR v Radě EU 2009 uspořádalo několik desítek výstav v sále o rozloze 300 m². V kontextu posílení propagace české kultury a umění v Bruselu se také ČR v roce 2007 zúčastnila prestižního festivalu Europalia Europa.\_"
+        text: " na adrese Rue du Trone 60. V budově sídlilo kromě Českého centra velké množství českých subjektů, České centrum zde před a během Českého předsednictví ČR v Radě EU 2009 uspořádalo několik desítek výstav v sále o rozloze 300 m². V kontextu posílení propagace české kultury a umění v Bruselu se také Česko v roce 2007 zúčastnilo prestižního festivalu Europalia Europa.\_"
   -
     type: paragraph
     content:
@@ -157,7 +157,7 @@ page_content:
             marks:
               -
                 type: italic
-            text: '„Například kreslíř Jiří Slíva měl nejprve v Českém centru besedu, při níž svým klukovským vzhledem uchvátil dívky všech věků, zejména belgické krajanky. Během následné vernisáže se zase dostali do varu muži, kteří Slívův humor chápou hlouběji. Jeho zdánlivá jednoduchost totiž klame a šidí.“'
+            text: '„Například kreslíř Jiří Slíva měl nejprve v Českém centru besedu, při níž svým klukovským vzhledem uchvátil dívky všech věků, zejména belgické krajanky. Během následné vernisáže se zase dostali do varu muži, kteří Slívův humor chápou hlouběji. Jeho zdánlivá jednoduchost totiž klame a šidí,“'
           -
             type: text
             text: ' řekl pro server '
@@ -183,7 +183,7 @@ page_content:
             text: 'Petr Bažant'
           -
             type: text
-            text: " a zmínil, že se Slívova výstava dostala i\_ do hledáčku tisku, dokonce The Wall Street Journal Europe ji prezentoval jako hlavní akci v Bruselu.\_"
+            text: " a zmínil, že se Slívova výstava dostala i\_do hledáčku tisku, dokonce The Wall Street Journal Europe ji prezentoval jako hlavní akci v Bruselu.\_"
   -
     type: paragraph
     content:
@@ -264,13 +264,10 @@ page_content:
         content:
           -
             type: text
-            text: ' '
-          -
-            type: text
             marks:
               -
                 type: italic
-            text: '„Měl jsem velikou radost, že nakonec souhlasil s tím, že nám svoje díla propůjčí, protože jak možná víte, Jiří Anderle poté, co založil své muzeum v Praze, už nedává obrazy k dispozici jiným galeriím.“'
+            text: '„Měl jsem velikou radost, že nakonec souhlasil s tím, že nám svoje díla propůjčí, protože jak možná víte, Jiří Anderle poté, co založil své muzeum v Praze, už nedává obrazy k dispozici jiným galeriím,“'
           -
             type: text
             text: ' řekl tehdy '
@@ -499,7 +496,7 @@ page_content:
         text: 'Jiřího Menzela'
       -
         type: text
-        text: ", který při této příležitosti navštívil nejen Brusel, ale i Gent. Publikum se mohlo seznámit nebo si připomenout filmy jako Postřižiny, Rozmarné léto, Ostře sledované vlaky, Skřivánky na niti\_ nebo Slavnosti sněženek.\_\_"
+        text: ", který při této příležitosti navštívil nejen Brusel, ale i Gent. Publikum se mohlo seznámit nebo si připomenout filmy jako Postřižiny, Rozmarné léto, Ostře sledované vlaky, Skřivánky na niti\_nebo Slavnosti sněženek.\_\_"
   -
     type: paragraph
     content:
@@ -713,7 +710,7 @@ page_content:
         text: 'ruskou agresi vůči Ukrajině'
       -
         type: text
-        text: ". Začalo zvát ukrajinské hosty nebo také české hosty s ukrajinskou expertizou na různé akce: například Vojtěch Boháč na debatě v Bozar nebo Olena Betlia na zahájení ozvěn Ji.hlavy v Bruselu. Výstava Radka Brousila v prestižní galerii Komplot zaznamenala velký\_ ohlas také díky jeho benefiční dražbě tisků pro Ukrajinu.\_\_"
+        text: ". Začalo zvát ukrajinské hosty nebo také české hosty s ukrajinskou expertizou na různé akce: například Vojtěch Boháč na debatě v Bozar nebo Olena Betlia na zahájení ozvěn Ji.hlavy v Bruselu. Výstava Radka Brousila v prestižní galerii Komplot zaznamenala velký ohlas také díky jeho benefiční dražbě tisků pro Ukrajinu.\_\_"
   -
     type: paragraph
     content:
@@ -907,7 +904,7 @@ page_content:
         text: 'Jeden svět v Bruselu'
       -
         type: text
-        text: ", který více než 20 let odhaluje tematiku porušování lidských práv prostřednictvím filmových promítání v Bruselu. České centrum Brusel na něm spolupracuje nejen s místní kulturní scénou (zahájení se každoročně koná v paláci krásných umění Bozar), ale jehož nedílnou součástí jsou advokační schůzky a diskuze v institucích EU, které Člověk v tísni (hlavní organizátor) domlouvá s cílem zasadit se o změnu právě v naprosto unikátním prostředí srdce EU. Festival se koná každý rok na konci dubna, každoročně se jej zúčastní cca 1500 – 2000 diváků, průměrný počet promítaných filmů je 15.\_"
+        text: ", který více než 20 let odhaluje tematiku porušování lidských práv prostřednictvím filmových promítání v Bruselu. České centrum Brusel na něm spolupracuje nejen s místní kulturní scénou (zahájení se každoročně koná v paláci krásných umění Bozar), ale jehož nedílnou součástí jsou advokační schůzky a diskuze v institucích EU, které Člověk v tísni (hlavní organizátor) domlouvá s cílem zasadit se o změnu právě v naprosto unikátním prostředí srdce EU. Festival se koná každý rok na konci dubna, každoročně se jej zúčastní cca 1500–2000 diváků, průměrný počet promítaných filmů je 15.\_"
   -
     type: paragraph
     content:
@@ -940,7 +937,7 @@ page_content:
         text: Transpoesie
       -
         type: text
-        text: ", který v roce 2011 České centrum spolu s několika dalšími členy EUNIC Brussels iniciovalo – tento formát vícejazyčného festivalu současné poezie, který osciloval za posledních více než deset let mezi komorními čteními, výstavami v parku a čtení v metru a nákupních galeriích, je stále pokračujícím projektem, do kterého se zapojilo za jeho existenci stovky básníků a básnířek - a jehož archiv je impozantním kolektivním dílem. Za 12 let festival předvedl 290 básní 265 autorů.\_"
+        text: ", který v roce 2011 České centrum spolu s několika dalšími členy EUNIC Brussels iniciovalo – tento formát vícejazyčného festivalu současné poezie, který osciloval za posledních více než deset let mezi komorními čteními, výstavami v parku a čtení v metru a nákupních galeriích, je stále pokračujícím projektem, do kterého se zapojilo za jeho existenci stovky básníků a básnířek – a jehož archiv je impozantním kolektivním dílem. Za 12 let festival předvedl 290 básní 265 autorů.\_"
   -
     type: blockquote
     content:
@@ -1181,6 +1178,6 @@ dont_show_month: true
 event_date: '1997-01-01'
 cities: brusel
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309303
+updated_at: 1686309559
 perex: 'Česká kultura v hlavním městě Evropy.'
 ---
