@@ -215,7 +215,7 @@ page_content:
         text: 'Czech Open 2012'
       -
         type: text
-        text: " byla největší česká kulturní prezentace posledních desetiletí ve Velké Británii, oslavující pořadatelství Letních olympijských her v Londýně\_ a zapojení komunit a kulturních institucí v doprovodné kulturní olympiádě a festivalu London 2012 Festival. Představilo se na 15 projektů v desítce lokací s aktivní účastí téměř 260 účinkujících a výtvarníků se soustředilo na londýnskou čtvrť Islington, kde během LOH měl své sídlo Český dům. Akce zahrnovaly výstavy, filmové projekce, koncerty, instalace ve veřejném prostoru ad."
+        text: ' byla největší česká kulturní prezentace posledních desetiletí ve Velké Británii, oslavující pořadatelství Letních olympijských her v Londýně a zapojení komunit a kulturních institucí v doprovodné kulturní olympiádě a festivalu London 2012 Festival. Představilo se na 15 projektů v desítce lokací s aktivní účastí téměř 260 účinkujících a výtvarníků se soustředilo na londýnskou čtvrť Islington, kde během LOH měl své sídlo Český dům. Akce zahrnovaly výstavy, filmové projekce, koncerty, instalace ve veřejném prostoru ad.'
   -
     type: paragraph
     content:
@@ -247,20 +247,32 @@ page_content:
         type: text
         text: 'Na začátku března 2012 zahájil ředitel ČC Londýn Ladislav Pflimpfl za účasti českého velvyslance Michaela Žantovského, předsedy Českého olympijského výboru Dr. Milana Jiráska, islingtonského starosty Phila Kellyho a řady dalších hostů českou kulturní sezónu Czech Open 2012.'
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        text: „
-      -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: 'Londýn se na LOH chystá od roku 2005. Celé léto tu bude jedním velkým festivalem sportu, kultury a kreativní otevřené metropole. Czech Open 2012 v sobě spojuje nadšení a otevřenost londýnských obyvatel a umělců. Dále kreativitu, vtip a umění českých tvůrců v programech, které jsou součástí prestižních londýnských festivalů. Až nás překvapilo, s jakou pozitivní odezvou a podporou se setkala tato olympijská a kulturní iniciativa u téměř všech oslovených umělců a partnerů v Londýně. Chuť a ochota zapojit se a stát součástí takovéto oslavy byla obrovská'
-      -
-        type: text
-        text: '." uvedl Ladislav Pflimpfl.'
+            type: text
+            text: „
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Londýn se na LOH chystá od roku 2005. Celé léto tu bude jedním velkým festivalem sportu, kultury a kreativní otevřené metropole. Czech Open 2012 v sobě spojuje nadšení a otevřenost londýnských obyvatel a umělců. Dále kreativitu, vtip a umění českých tvůrců v programech, které jsou součástí prestižních londýnských festivalů. Až nás překvapilo, s jakou pozitivní odezvou a podporou se setkala tato olympijská a kulturní iniciativa u téměř všech oslovených umělců a partnerů v Londýně. Chuť a ochota zapojit se a stát součástí takovéto oslavy byla obrovská'
+          -
+            type: text
+            text: '.“ uvedl '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Ladislav Pflimpfl'
+          -
+            type: text
+            text: .
   -
     type: paragraph
     content:
@@ -281,13 +293,13 @@ page_content:
     content:
       -
         type: text
-        text: "Unikátní kolekce více než tří desítek modelových vagónků vyrobených legendární britskou hračkářskou firmou Hornby vznikla jako speciální projekt pro Czech Open 2012 a výstavu Coal and Steel. Britští a čeští výtvarníci\_ mladé generace i dnes již etablovaní autoři s výrazným rukopisem pojali individuálně všechny vagónky. Vznikl tak devítimetrový vlak, jehož vagónky jsou skutečnými miniaturními originálními uměleckými díly. Projekt vyvrcholil veřejnou aukcí vagónků, jejíž výtěžek podpořil Access to Sports, charitativní organizaci, která se věnuje sociálně znevýhodněné mládeži."
+        text: "Unikátní kolekce více než tří desítek modelových vagónků vyrobených legendární britskou hračkářskou firmou Hornby vznikla jako speciální projekt pro Czech Open 2012 a výstavu Coal and Steel. Britští a čeští výtvarníci\_mladé generace i dnes již etablovaní autoři s výrazným rukopisem pojali individuálně všechny vagónky. Vznikl tak devítimetrový vlak, jehož vagónky jsou skutečnými miniaturními originálními uměleckými díly. Projekt vyvrcholil veřejnou aukcí vagónků, jejíž výtěžek podpořil Access to Sports, charitativní organizaci, která se věnuje sociálně znevýhodněné mládeži."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Mezi více než třicet autorů jednotlivých vagónků patří česká a britská výtvarná elita, zahrnující\_ jména autorů zastoupených v respektovaných mezinárodních sbírkách, na světových výstavách a aukcích. Například Gavin Turk je jeden z prominentních členů YBA, hnutí Young British Aritsts (kam se řadí vedle dalších umělců i Damien Hirst nebo Tracey Emin), které určovalo podobu britské scény v 90. letech minulého století. Vagónek vytvořila rovněž\_ Tessa Farmer, proslavená detailní aplikací mrtvého hmyzu do výtvarných instalací, Bob a Roberta Smith, ilustrátorský kolektiv Le Gun a další. Mezi české autory se řadí Josef Bolf, Veronika Bromová,\_ Jiří David, Milena Dopitová,\_ Roman Franta, Jiří Kovanda, Michal Pěchouček, Michal Rittstein, Jiří Surůvka, Jakub Špaňhel.\_"
+        text: "Mezi více než třicet autorů jednotlivých vagónků patří česká a britská výtvarná elita, zahrnující\_ jména autorů zastoupených v respektovaných mezinárodních sbírkách, na světových výstavách a aukcích. Například Gavin Turk je jeden z prominentních členů YBA, hnutí Young British Aritsts (kam se řadí vedle dalších umělců i Damien Hirst nebo Tracey Emin), které určovalo podobu britské scény v 90. letech minulého století. Vagónek vytvořila rovněž\_Tessa Farmer, proslavená detailní aplikací mrtvého hmyzu do výtvarných instalací, Bob a Roberta Smith, ilustrátorský kolektiv Le Gun a další. Mezi české autory se řadí Josef Bolf, Veronika Bromová,\_ Jiří David, Milena Dopitová,\_ Roman Franta, Jiří Kovanda, Michal Pěchouček, Michal Rittstein, Jiří Surůvka, Jakub Špaňhel.\_"
   -
     type: paragraph
     content:
@@ -302,13 +314,16 @@ page_content:
     content:
       -
         type: text
-        text: "Ke spolupráci na výstavě v rámci Czech Open 2012 bylo přizváno patnáct českých a britských výtvarníků. Čeští kurátoři působící v Londýně, Jaroslav Krampol a Jaroslav Kyša, vytvořili výběr českých umělců mladé\_ generace.\_ Někteří\_ z představených českých autorů působili v Londýně (Jakub a Anežka Hoškovi, Tereza Bušková, Hynek Martinec), další pracují v Čechách, ale dnes jsou již etablovanými umělci na zahraniční scéně (Matuška, Kaláb, Pffeifer, Thýn, Vladimír 518...). Své práce vystavili i přizvaní londýnští umělci z galerijního okruhu východní části města a čtvrti Shoreditch (Stella-Sawicka, Smith, Watkins). Oslovení výtvarníci se prezentovali díly, která byla jejich referencí na modernismus a jeho ideje a průmyslový a ekonomický rozvoj začátku 20. století."
-  -
-    type: paragraph
-    content:
+        text: "Ke spolupráci na výstavě v rámci Czech Open 2012 bylo přizváno patnáct českých a britských výtvarníků. Čeští kurátoři působící v Londýně, Jaroslav Krampol a Jaroslav Kyša, vytvořili výběr českých umělců mladé generace.\_ Někteří\_ z představených českých autorů působili v Londýně (Jakub a Anežka Hoškovi, Tereza Bušková, Hynek Martinec), další pracují v Čechách, ale dnes jsou již etablovanými umělci na zahraniční scéně (Matuška, Kaláb, Pffeifer, Thýn, Vladimír 518...). Své práce vystavili i přizvaní londýnští umělci z galerijního okruhu východní části města a čtvrti Shoreditch (Stella-Sawicka, Smith, Watkins). Oslovení výtvarníci se prezentovali díly, která byla jejich referencí na modernismus a jeho ideje a průmyslový a ekonomický rozvoj začátku 20. století. Ten je symbolizován "
       -
         type: text
-        text: 'Ten je symbolizován Kupkovou malbou Amorfa – Dvoubarevná fuga z roku 1912. Právě stoleté dílo inspirovalo vizuální styl české olympijské výpravy pro LOH 2012 v Londýně.'
+        marks:
+          -
+            type: bold
+        text: 'Kupkovou malbou Amorfa – Dvoubarevná fuga'
+      -
+        type: text
+        text: ' z roku 1912. Právě stoleté dílo inspirovalo vizuální styl české olympijské výpravy pro LOH 2012 v Londýně.'
   -
     type: paragraph
     content:
@@ -323,22 +338,31 @@ page_content:
     content:
       -
         type: text
-        text: "Z podnětu Českého centra a České školy bez hranic v Londýně vznikl zajímavý projekt. Více než 180 českých a britských dětí v šestapadesáti výtvarných dílnách pěti londýnských organizací vytvořilo příběh své vlastní olympiády. Tento příběh pak ožije v\_ animovaném filmu výtvarnice Zuzany Jungmanové. Premiéra desetiminutového filmu Namalujme olympiádu! se uskutečnil v rámci výstavy Žijeme Londýnem v Českém centru Praha. Film doplnila instalace dětských prací z filmu. Následně slavil úspěch v Londýně."
+        text: "Z podnětu Českého centra a České školy bez hranic v Londýně vznikl zajímavý projekt. Více než 180 českých a britských dětí v šestapadesáti výtvarných dílnách pěti londýnských organizací vytvořilo příběh své vlastní olympiády. Tento příběh pak ožije v\_animovaném filmu výtvarnice Zuzany Jungmanové. Premiéra desetiminutového filmu Namalujme olympiádu! se uskutečnil v rámci výstavy Žijeme Londýnem v Českém centru Praha. Film doplnila instalace dětských prací z filmu. Následně slavil úspěch v Londýně."
   -
-    type: paragraph
+    type: blockquote
     content:
       -
-        type: text
-        text: “
-      -
-        type: text
-        marks:
+        type: paragraph
+        content:
           -
-            type: italic
-        text: "Cílem olympijského projektu bylo ukázat, že umění nemá žádné hranice a že se mohou setkávat a spolupracovat děti i dospělí s různými kořeny, z různých koutů světa a různých náboženství. Snažili jsme se ilustrovat,\_ že olympiáda není pouze sportovním kláním, ale i ukázkou tolerance a přátelství.“ "
-      -
-        type: text
-        text: 'Zuzana Jungmanová, ředitelka České školy bez hranic Londýn.'
+            type: text
+            text: „
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Cílem olympijského projektu bylo ukázat, že umění nemá žádné hranice a že se mohou setkávat a spolupracovat děti i dospělí s různými kořeny, z různých koutů světa a různých náboženství. Snažili jsme se ilustrovat,\_ že olympiáda není pouze sportovním kláním, ale i ukázkou tolerance a přátelství.“ "
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Zuzana Jungmanová, ředitelka České školy bez hranic Londýn'
+          -
+            type: text
+            text: .
   -
     type: paragraph
     content:
@@ -668,7 +692,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685994586
+updated_at: 1686314660
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
