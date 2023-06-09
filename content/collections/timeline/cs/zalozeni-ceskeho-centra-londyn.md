@@ -350,9 +350,20 @@ page_content:
     content:
       -
         type: text
-        text: "Mezi více než třicet autorů jednotlivých vagónků patří česká a britská výtvarná elita, zahrnující\_ jména autorů zastoupených v respektovaných mezinárodních sbírkách, na světových výstavách a aukcích. Například Gavin Turk je jeden z prominentních členů YBA, hnutí Young British Aritsts (kam se řadí vedle dalších umělců i Damien Hirst nebo Tracey Emin), které určovalo podobu britské scény v 90. letech minulého století. Vagónek vytvořila rovněž\_Tessa Farmer, proslavená detailní aplikací mrtvého hmyzu do výtvarných instalací, Bob a Roberta Smith, ilustrátorský kolektiv Le Gun a další. Mezi české autory se řadí Josef Bolf, Veronika Bromová,\_ Jiří David, Milena Dopitová,\_ Roman Franta, Jiří Kovanda, Michal Pěchouček, Michal Rittstein, Jiří Surůvka, Jakub Špaňhel.\_"
+        text: 'Mezi více než třicet autorů jednotlivých vagónků patří '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'česká a britská výtvarná elita'
+      -
+        type: text
+        text: ", zahrnující\_ jména autorů zastoupených v respektovaných mezinárodních sbírkách, na světových výstavách a aukcích. Například Gavin Turk je jeden z prominentních členů YBA, hnutí Young British Aritsts (kam se řadí vedle dalších umělců i Damien Hirst nebo Tracey Emin), které určovalo podobu britské scény v 90. letech minulého století. Vagónek vytvořila rovněž\_Tessa Farmer, proslavená detailní aplikací mrtvého hmyzu do výtvarných instalací, Bob a Roberta Smith, ilustrátorský kolektiv Le Gun a další. Mezi české autory se řadí Josef Bolf, Veronika Bromová,\_ Jiří David, Milena Dopitová,\_ Roman Franta, Jiří Kovanda, Michal Pěchouček, Michal Rittstein, Jiří Surůvka, Jakub Špaňhel.\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -376,7 +387,9 @@ page_content:
         type: text
         text: ' z roku 1912. Právě stoleté dílo inspirovalo vizuální styl české olympijské výpravy pro LOH 2012 v Londýně.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -389,7 +402,16 @@ page_content:
     content:
       -
         type: text
-        text: "Z podnětu Českého centra a České školy bez hranic v Londýně vznikl zajímavý projekt. Více než 180 českých a britských dětí v šestapadesáti výtvarných dílnách pěti londýnských organizací vytvořilo příběh své vlastní olympiády. Tento příběh pak ožije v\_animovaném filmu výtvarnice Zuzany Jungmanové. Premiéra desetiminutového filmu Namalujme olympiádu! se uskutečnil v rámci výstavy Žijeme Londýnem v Českém centru Praha. Film doplnila instalace dětských prací z filmu. Následně slavil úspěch v Londýně."
+        text: 'Z podnětu Českého centra a České školy bez hranic v Londýně vznikl zajímavý projekt. '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Více než 180 českých a britských dětí v šestapadesáti výtvarných dílnách pěti londýnských organizací vytvořilo příběh své vlastní olympiády. '
+      -
+        type: text
+        text: "Tento příběh pak ožije v\_animovaném filmu výtvarnice Zuzany Jungmanové. Premiéra desetiminutového filmu Namalujme olympiádu! se uskutečnil v rámci výstavy Žijeme Londýnem v Českém centru Praha. Film doplnila instalace dětských prací z filmu. Následně slavil úspěch v Londýně."
   -
     type: blockquote
     content:
@@ -743,7 +765,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318361
+updated_at: 1686318441
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
