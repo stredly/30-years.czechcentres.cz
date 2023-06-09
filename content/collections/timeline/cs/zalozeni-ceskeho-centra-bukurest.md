@@ -265,7 +265,7 @@ page_content:
         text: 'Cuvinte pe peliculă'
       -
         type: text
-        text: ", ve kterém byla literatura zviditelněna formou fotografické soutěže. Účastnilo se 61 soutěžících, a vzniklo tak více než 1500 fotogrfií, jež byly vystaveny v prostorách galerie MNAC Foto Anexa.\_"
+        text: ", ve kterém byla literatura zviditelněna formou fotografické soutěže. Účastnilo se 61 soutěžících, a vzniklo tak více než 1500 fotografií, jež byly vystaveny v prostorách galerie MNAC Foto Anexa.\_"
   -
     type: paragraph
     content:
@@ -295,7 +295,7 @@ page_content:
             text: '„Z festivalu dokumentárních filmů věnovanému problematice lidských práv One World Romania, iniciovaného Českým centrem po vzoru Jednoho světa, vznikla po osmi letech řada výstupů. Z původně malé akce se stala jedna z nejvýznamnějších filmových událostí v Rumunsku, s návštěvností přes 10 000 diváků. Přehlídka vyráží do desítky dalších měst, od roku 2014 na školách může Jeden svět zhlédnout více než 1000 studentů a pravidelně vychází DVD kolekce dokumentárních filmů. Mimo jiné Mlčeti zlato Tomáše Kudrny, Pevnost Kláry Tasovské a Lukáše Kokeše, v roce 2014 Dál nic Ivo Bystřičana, který přijel se studenty diskutovat.“'
           -
             type: text
-            text: " citace ČC Bukurešť ve výroční zprávě za rok 2014\_"
+            text: ' citace ČC Bukurešť ve výroční zprávě za rok 2014'
   -
     type: paragraph
     content:
@@ -310,7 +310,7 @@ page_content:
         text: 'akce mimo hlavní město'
       -
         type: text
-        text: ' (Sibiu, Kluž, Temešvár, Arad, Oradea Brašov). Centrum bylo jasnů viditelné na poli literatury, filmu, výtvarného umění a hudby. Jeden jarní týden žila Bukurešť filmovým festivalem One World Romania, na podzim se filmy přesunuly do dalších rumunských měst a Kišiněva. Proběhly výstavy ve významných institucích, jakou je např. Národní historické muzeum v Bukurešti. Projekce Documentary Mondays zaznamenaly rekordní počet diváků. S neziskovou organizací ODD byly realizovány společné projekce experimentálních filmů. Během '
+        text: ' (Sibiu, Kluž, Temešvár, Arad, Oradea Brašov). Centrum bylo jasnů viditelné na poli literatury, filmu, výtvarného umění a hudby. Jeden jarní týden žila Bukurešť filmovým festivalem One World Romania, na podzim se filmy přesunuly do dalších rumunských měst a Kišiněva. Proběhly výstavy ve významných institucích, například v Národním historickém muzeum v Bukurešti. Projekce Documentary Mondays zaznamenaly rekordní počet diváků. S neziskovou organizací ODD byly realizovány společné projekce experimentálních filmů. Během '
       -
         type: text
         marks:
@@ -419,7 +419,7 @@ page_content:
     content:
       -
         type: text
-        text: 'ČC Bukurešť se v průběhu roku 2019 kromě filmových projekcí spolupracovalo s výtvarnými umělci formou rezidencí i výstav, zapojilo se do '
+        text: 'ČC Bukurešť v průběhu roku 2019 kromě filmových projekcí spolupracovalo s výtvarnými umělci formou rezidencí i výstav, zapojilo se do '
       -
         type: text
         marks:
@@ -562,7 +562,16 @@ page_content:
         text: 'Zažít město'
       -
         type: text
-        text: ' jinak vycestovali zástupci organizací z Bukurešti, Oradeji, Timišoary a Kišiněva. V prosinci vyšel z iniciativy ČC Bukurešť obsáhlý výbor z '
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'jinak '
+      -
+        type: text
+        text: 'vycestovali zástupci organizací z Bukurešti, Oradeji, Timišoary a Kišiněva. V prosinci vyšel z iniciativy ČC Bukurešť obsáhlý výbor z '
       -
         type: text
         marks:
@@ -665,7 +674,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Evropa, ve které chci žít. Evropa 2050.'
+        text: 'Evropa, ve které chci žít. Evropa 2050'
       -
         type: text
         text: ' pracoval se středoškolskými týmy na jejich vizích Evropy. České centrum uskutečnilo audiovizuální workshop, jehož výsledkem byly krátké studentské filmy. Z kreativních projektů bylo klíčové představení současného českého udržitelného designu a tematizace veřejného prostoru – '
@@ -847,7 +856,7 @@ page_content:
 event_date: '1981-01-01'
 cities: bukurest
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686308890
+updated_at: 1686315065
 dont_show_month: true
 background_image: background-image/1981_bukurest.jpg
 perex: 'Výrazné propojení s místní kulturní scénou.'
