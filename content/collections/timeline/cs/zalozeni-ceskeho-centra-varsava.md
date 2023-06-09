@@ -209,7 +209,7 @@ page_content:
         text: 'do vily Bahrů'
       -
         type: text
-        text: '. Rodina Bahrů získala ve druhé polovině 19. století pozemek na dnešní Aleji růží 16 (dříve 12). V roce 1880 si zde postavila vilu, kterou navrhl architekt Stanisław Adamczewski a která představovala styl novorenesančního paláce. Jednalo se o dvoupodlažní budovu, někdy označovanou jako "italská věžová vila", s dvoupatrovou věží s balustrádovým štítem, u jejíhož úpatí se ve výšce prvního patra nacházela terasa. Již v roce 1881 ale Bahrové svůj dům prodali volyňské šlechtické rodině Załęských. V letech 1920 až 1939 zde sídlilo Československé velvyslanectví. Vila, která byla '
+        text: '. Rodina Bahrů získala ve druhé polovině 19. století pozemek na dnešní Aleji růží 16 (dříve 12). V roce 1880 si zde postavila vilu, kterou navrhl architekt Stanisław Adamczewski a která představovala styl novorenesančního paláce. Jednalo se o dvoupodlažní budovu, někdy označovanou jako „italská věžová vila", s dvoupatrovou věží s balustrádovým štítem, u jejíhož úpatí se ve výšce prvního patra nacházela terasa. Již v roce 1881 ale Bahrové svůj dům prodali volyňské šlechtické rodině Załęských. V letech 1920 až 1939 zde sídlilo Československé velvyslanectví. Vila, která byla '
       -
         type: text
         marks:
@@ -340,7 +340,7 @@ page_content:
         text: 'Charty 77'
       -
         type: text
-        text: " připomněla fotografická výstava signatářů Charty 77, která byla vytvořena Českými centry ve spolupráci s agenturou CHOICE IMAGES a putovala po několika pobočkách. V rámci tohoto tematického okruhu proběhly na Českých centrech včetně Varšavy konference a pódiové diskuse s představiteli Charty 77 o vyrovnání se s totalitní minulostí\_"
+        text: ' připomněla fotografická výstava signatářů Charty 77, která byla vytvořena Českými centry ve spolupráci s agenturou CHOICE IMAGES a putovala po několika pobočkách. V rámci tohoto tematického okruhu proběhly v Českých centrech včetně Varšavy konference a pódiové diskuse s představiteli Charty 77 o vyrovnání se s totalitní minulostí.'
   -
     type: paragraph
     content:
@@ -373,7 +373,7 @@ page_content:
         text: betlémů
       -
         type: text
-        text: " z Muzea Vysočina v Třebíči\_"
+        text: ' z Muzea Vysočina v Třebíči.'
   -
     type: paragraph
     content:
@@ -397,7 +397,7 @@ page_content:
         text: 'o historii Polsko-české Solidarity'
       -
         type: text
-        text: " ve Vratislavi, pořádaná v rámci oslav 20. výročí pádu železné opony\_"
+        text: ' ve Vratislavi, pořádaná v rámci oslav 20. výročí pádu železné opony.'
   -
     type: paragraph
     content:
@@ -1021,7 +1021,7 @@ dont_show_month: true
 event_date: '1949-02-01'
 cities: varsava
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685952849
+updated_at: 1686308770
 background_image: background-image/1949_varsava.jpg
 perex: 'Více než 70 let české kultury v Polsku.'
 ---
