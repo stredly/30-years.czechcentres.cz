@@ -193,11 +193,6 @@ page_content:
       level: 2
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::timeline/berlin/01_berlin_final.jpg'
-          alt: '© Jan Šrámek'
-      -
         type: text
         marks:
           -
@@ -353,6 +348,11 @@ page_content:
   -
     type: paragraph
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/berlin/01_berlin_final.jpg'
+          alt: '© Jan Šrámek'
       -
         type: text
         text: 'ČC Berlín zde mělo k dispozici vlastní vchod z boční strany, která směřuje k sousední budově severokorejského velvyslanectví, což bylo vzhledem k bezpečnostním opatřením prostor zastupitelských úřadů velkou výhodou. Kromě kancelářských prostor a učeben češtiny byl velkým bonusem '
@@ -1402,6 +1402,6 @@ dont_show_month: true
 event_date: '1955-01-01'
 cities: berlin
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686317746
+updated_at: 1686317796
 perex: 'Ve stínu Berlínské zdi.'
 ---
