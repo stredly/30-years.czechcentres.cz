@@ -326,7 +326,13 @@ page_content:
     content:
       -
         type: text
-        text: "Unikátní kolekce více než tří desítek modelových vagónků vyrobených legendární britskou hračkářskou firmou Hornby vznikla jako speciální projekt pro Czech Open 2012 a výstavu Coal and Steel. Britští a čeští výtvarníci\_mladé generace i dnes již etablovaní autoři s výrazným rukopisem pojali individuálně všechny vagónky. Vznikl tak devítimetrový vlak, jehož vagónky jsou skutečnými miniaturními originálními uměleckými díly. Projekt vyvrcholil veřejnou aukcí vagónků, jejíž výtěžek podpořil Access to Sports, charitativní organizaci, která se věnuje sociálně znevýhodněné mládeži."
+        marks:
+          -
+            type: bold
+        text: 'Unikátní kolekce více než tří desítek modelových vagónků vyrobených legendární britskou hračkářskou firmou Hornby'
+      -
+        type: text
+        text: " vznikla jako speciální projekt pro Czech Open 2012 a výstavu Coal and Steel. Britští a čeští výtvarníci\_mladé generace i dnes již etablovaní autoři s výrazným rukopisem pojali individuálně všechny vagónky. Vznikl tak devítimetrový vlak, jehož vagónky jsou skutečnými miniaturními originálními uměleckými díly. Projekt vyvrcholil veřejnou aukcí vagónků, jejíž výtěžek podpořil Access to Sports, charitativní organizaci, která se věnuje sociálně znevýhodněné mládeži."
   -
     type: paragraph
     content:
@@ -725,7 +731,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318211
+updated_at: 1686318260
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
