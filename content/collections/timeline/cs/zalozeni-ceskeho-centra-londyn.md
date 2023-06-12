@@ -149,6 +149,21 @@ page_content:
         type: text
         text: " ve skotském Edinburghu. Například v\_roce 2006 slavilo dosud nevídaný úspěch divadelní studio Farma v jeskyni s představením Sclavi/ Emigrantova píseň, když získalo všechny tři nejdůležitější ceny. V\_roce 2013 pak ČC iniciovalo a\_ve spolupráci s\_organizací Nová síť připravilo ve Velké Británii přehlídku současného českého tance. Czech Dance Showcase nabídla padesát jedna repríz představení tří českých souborů (Spitfire Company & Damúza, Tantehorse a\_VerTeDance) konaných během třítýdenního festivalového maratonu. Lenka Dusilová a\_Markéta Vacovská zde převzaly za představení One Step Before the Fall (Spitfire Company & Damúza) jednu ze čtyř cen Herald Angel."
   -
+    type: set
+    attrs:
+      id: lisrz8dy
+      values:
+        type: gallery
+        gallery:
+          - timeline/london/7_vecernicek-v-londynskem-metru_2006_vecernicek_(c)archiv-cc-london.jpg
+          - timeline/london/73_poetry-periscope-neboli-poeziomat-na-londynskem-nadrazi-st-pancras-international_2017_(c)archiv-cc-londyn.jpg
+          - timeline/london/16_czech-house_2012_party_(c)alan-blues.jpg
+          - timeline/london/135_made-in-prague-festival_-kino-gate-cinema-ve-ctvrti-notting-hill_2021_(c)petra-reznakova.jpg
+          - timeline/london/114_instalace-sacred-geometry-ronyho-plesla-ve-victoria-and-albert-museum_2019_rony-plesl_(c)vaclav-jirasek.jpg
+          - 'timeline/london/54_premiera-filmu-anthorpoid-v-british-film-institute_2016_zleva-herci-jamie-dornan,-cillian-murphy,-reziser-sean-ellis,-ana-geislerova_(c)archiv-cc-londyn.jpg'
+          - timeline/london/120_vystava-1989-the-velvet-revolution-v-galerii-vitrinka-cc-londyn_2019_(c)archiv-cc-londyn.jpg
+          - 'timeline/london/162_mila-furstova-se-svym-dilem-kriila-ktera-byla-puvodne-vytvorena-pro-obal-alba-kapely-coldplay_2022_mila-furstova,-reditel-cc-londyn-premysl-pela_(c)petra-figuerova.jpg'
+  -
     type: paragraph
     content:
       -
@@ -819,7 +834,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686569407
+updated_at: 1686569620
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
