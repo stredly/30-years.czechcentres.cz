@@ -532,6 +532,11 @@ page_content:
       level: 5
     content:
       -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/london/179_street-art-inspirovane-kupkou_soucast-sezony-czech-open-poradane-k-oh-2012_street-art-zleva-jan-kalab,--pasta-oner,-londynsky-umelec-inkie_copyright_pasta-oner.jpg'
+          alt: 'Street art inspirované Kupkou – součást sezóny Czech Open pořádané k OH 2012 (street art zleva Jan Kaláb,  Pasta Oner, londýnský umělec Inkie © Pasta Oner'
+      -
         type: text
         marks:
           -
@@ -809,7 +814,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686568947
+updated_at: 1686569184
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
