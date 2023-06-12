@@ -669,7 +669,7 @@ page_content:
         type: image
         attrs:
           src: 'asset::assets::timeline/london/41_breathless---prehlidka-ceskeho-skla-na-london-design-festival_2016_v-popredi-jakub-jandourek-z-dechem_(c)bet-orten.jpg'
-          alt: 'Breathless – přehlídka českého skla na London Design Festival 2016 (v popředí Jakub Jandourek) © Bet Orten'
+          alt: 'Breathless – přehlídka českého skla na London Design Festival 2016. V popředí Jakub Jandourek z DECHEM studio © Bet Orten'
       -
         type: text
         text: "Po příchodu pandemie Covid-19 bylo nutné přesunout aktivity do on-line prostředí. Jedním z\_výsledků je podcastový projekt z\_roku 2021 iniciovaný ČC Londýn v rámci londýnského klastru EUNIC s\_názvem "
@@ -835,7 +835,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686570066
+updated_at: 1686570203
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
