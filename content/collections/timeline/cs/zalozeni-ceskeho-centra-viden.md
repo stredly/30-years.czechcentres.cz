@@ -155,7 +155,7 @@ page_content:
         type: image
         attrs:
           src: 'asset::assets::timeline/viden/1994---prazska-petka---cc-viden.jpg'
-          alt: null
+          alt: 'Pražská bakelitová generace ve Vídni © Mladá fronta Dnes, Jiří Peňás, 1994'
       -
         type: text
         text: 'V roce 1999 nastupuje do Vídně Jozef Kollár, který programově navazuje na svého předchůdce. Marcel Sauer využil svých konexí mezi '
@@ -525,6 +525,6 @@ dont_show_month: true
 event_date: '1994-01-01'
 cities: viden
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686321116
+updated_at: 1686573534
 perex: 'Jára Cimrman konečně dobyl Rakousko.'
 ---
