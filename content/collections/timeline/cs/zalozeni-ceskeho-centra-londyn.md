@@ -322,9 +322,9 @@ page_content:
       values:
         type: gallery
         gallery:
+          - timeline/london/londyn.ppt.jpg
           - timeline/london/londyn.ppt-(1).jpg
           - timeline/london/londyn.ppt-(2).jpg
-          - timeline/london/londyn.ppt.jpg
           - timeline/london/londyn.ppt-(7).jpg
           - timeline/london/londyn.ppt-(6).jpg
           - timeline/london/londyn.ppt-(5).jpg
@@ -809,7 +809,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686568872
+updated_at: 1686568897
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
