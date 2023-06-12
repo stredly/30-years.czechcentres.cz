@@ -316,6 +316,19 @@ page_content:
         type: text
         text: "Program sestával z\_desítek akcí, mezi kterými byla projekty v\_galeriích a kinech, hudební a divadelní vystoupení, workshopy, výstavy, módní přehlídky a programy pro děti."
   -
+    type: set
+    attrs:
+      id: lisriho6
+      values:
+        type: gallery
+        gallery:
+          - timeline/london/londyn.ppt-(1).jpg
+          - timeline/london/londyn.ppt-(2).jpg
+          - timeline/london/londyn.ppt.jpg
+          - timeline/london/londyn.ppt-(7).jpg
+          - timeline/london/londyn.ppt-(6).jpg
+          - timeline/london/londyn.ppt-(5).jpg
+  -
     type: heading
     attrs:
       level: 5
@@ -796,7 +809,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686318816
+updated_at: 1686568872
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
