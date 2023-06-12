@@ -13,7 +13,7 @@ page_content:
         marks:
           -
             type: bold
-        text: "V rámci prvního českého předsednictví vytvořila Česká centra spolu s partnery několik hlavních projektů, které většina Českých center v zahraničí převzala a představila svému publiku.\_"
+        text: "V rámci prvního českého předsednictví vytvořila Česká centra (ČC) spolu s partnery několik hlavních projektů, které většina Českých center v zahraničí převzala a představila svému publiku.\_"
   -
     type: paragraph
     content:
@@ -44,7 +44,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Interaktivní expozice Petra Nikla a spol. ORBIS PICTUS . Putovní expozice aneb „Brána do světa tvořivé lidské fantazie“ rozvíjí '
+        text: 'Interaktivní expozice Petra Nikla a spol. ORBIS PICTUS . Putovní expozice aneb „Brána do světa tvořivé lidské fantazie“ rozvíjela'
       -
         type: text
         marks:
@@ -62,7 +62,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Autoři výtvarných objektů expozice jsou:'
+        text: 'Autory výtvarných objektů expozice byli:'
       -
         type: text
         text: " Milan Cais, Luboš Fidler, Ivan Havlíček, Martin Janíček, Jaroslav Kořán, Petr Lorenc, Jiří Melzer, Petr Nikl, Ondřej Smeykal, Václav Smolka, Čestmír Suška, Zdeněk Šmíd, Miloš Vojtěchovský\_"
@@ -97,7 +97,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Program projektu je koncipován jako '
+        text: 'Program projektu byl koncipován jako '
       -
         type: text
         marks:
@@ -106,13 +106,13 @@ page_content:
         text: 'pocta těm, kteří se zasadili o pád železné opony'
       -
         type: text
-        text: ". Projekt by měl ve své nejrozmanitější podobě představil to nejlepší z tvorby generace před pádem železné opony a po ní.\_\_"
+        text: ". Projekt měl ve své nejrozmanitější podobě představit to nejlepší z tvorby generace před pádem železné opony a po ní.\_\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Projekt byl realizován po celý rok 2009 a neomezil se pouze na Prahu a ČR, ale představil se i v dalších evropských metropolích s akcentem na země Visegrádské čtyřky.\_"
+        text: "Projekt byl realizován po celý rok 2009 a neomezil se pouze na Prahu a Česko, ale představil se i v dalších evropských metropolích s akcentem na země Visegrádské čtyřky.\_"
   -
     type: paragraph
     content:
@@ -156,7 +156,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'doprovázené tematickou výstavou o životě a díle B. Martinů'
+        text: 'doprovázené tematickou výstavou o životě a díle Bohuslava Martinů'
       -
         type: text
         text: ".\_"
@@ -171,7 +171,7 @@ page_content:
         text: 'Uvedeno v:'
       -
         type: text
-        text: " ČC Brusel, ČC Budapešť, ČC Vídeň, ČC Berlín, ČC Košice, ČC Madrid, ČC Paříž, ČC Moskva, ČC Stockholm, ČC Kyjev, ĆC Praha (výstava)\_"
+        text: " ČC Brusel, ČC Budapešť, ČC Vídeň, ČC Berlín, ČC Košice, ČC Madrid, ČC Paříž, ČC Moskva, ČC Stockholm, ČC Kyjev, ČC Praha (výstava)\_"
   -
     type: heading
     attrs:
@@ -200,7 +200,7 @@ page_content:
         text: 'Petra Síse „Zeď“'
       -
         type: text
-        text: ', která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU '
+        text: ', která je ilustrovaným deníkem zachycujícím jednak autorův život, ale i originální a zábavně-smutnou ilustrací toho, co naše země prožila a s jakým dědictvím vstoupila do EU, '
       -
         type: text
         marks:
@@ -215,7 +215,7 @@ page_content:
     content:
       -
         type: text
-        text: "Kniha vyšla v české, anglické, francouzské, bulharské a rumunské\_ jazykové mutaci. \_"
+        text: "Kniha vyšla v české, anglické, francouzské, bulharské a rumunské jazykové mutaci. \_"
   -
     type: paragraph
     content:
@@ -432,7 +432,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Výstava velkoformátových fotografií z inscenací uvedených režisérů, které budou doplněny o jejich medailony a DVD z ukázkami z inscenací.'
+        text: 'Výstava velkoformátových fotografií z inscenací uvedených režisérů, které byly doplněny o jejich medailony a DVD s ukázkami z inscenací.'
       -
         type: text
         text: " Přehlídka tvorby nejvýraznějších představitelů současné české divadelní režie: J. A. Pitínského, Jana Nebeského, Vladimíra Morávka, Jiřího Pokorného a Davida Pařízka.\_"
@@ -476,7 +476,7 @@ page_content:
         text: 'prezentaci tradičních a významných značek českých firem spolu s ukázkami české kultury a prezentací krajů.'
       -
         type: text
-        text: " Cílem projektu byl napomoci zviditelnit Česko, její špičkové značky a zároveň upozornit na činnost Českých center a její síti v zahraničí.\_"
+        text: " Cílem projektu byl napomoci zviditelnit Česko, jeho špičkové značky a zároveň upozornit na činnost Českých center a jejich sítě v zahraničí.\_"
   -
     type: paragraph
     content:
@@ -488,7 +488,7 @@ page_content:
         text: 'Uvedeno v'
       -
         type: text
-        text: ": ČC Berlín, ČC Mnichov, ČC Drážďany, ČC Brusel, ČC Haag, ČC Stockholm, ČC Paříž, ČC Řím, ČC Budapešť, ČC Vídeň, ČC Bratislava, ČC Kyjev, ČC Sofie, ČC Varšava, ČC Košice, ČC Bukurešť, ČC-ČDM, ČC Praha\_"
+        text: ": ČC Berlín, ČC Mnichov, ČC Drážďany, ČC Brusel, ČC Haag, ČC Stockholm, ČC Paříž, ČC Řím, ČC Budapešť, ČC Vídeň, ČC Bratislava, ČC Kyjev, ČC Sofie, ČC Varšava, ČC Košice, ČC Bukurešť, ČC-ČD Moskva, ČC Praha\_"
   -
     type: heading
     attrs:
@@ -549,7 +549,7 @@ page_content:
         text: 'Scénické čtení české literatury v podání předních umělců na zajímavých místech'
       -
         type: text
-        text: " Prahy, resp. měst, kde působí Česká centra. Jedná se o úspěšný projekt, který ÚČC zahájilo již v roce 2006 v Praze. \_"
+        text: " Prahy, resp. měst, kde působí Česká centra. Jedná se o úspěšný projekt, který ústředí zahájilo již v roce 2006 v Praze. \_"
   -
     type: paragraph
     content:
@@ -566,5 +566,5 @@ dont_show_month: true
 event_date: '2009-01-01'
 cities: praha
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1685985533
+updated_at: 1686568482
 ---
