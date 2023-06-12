@@ -155,15 +155,15 @@ page_content:
       values:
         type: gallery
         gallery:
-          - timeline/london/7_vecernicek-v-londynskem-metru_2006_vecernicek_(c)archiv-cc-london.jpg
-          - timeline/london/73_poetry-periscope-neboli-poeziomat-na-londynskem-nadrazi-st-pancras-international_2017_(c)archiv-cc-londyn.jpg
-          - timeline/london/135_made-in-prague-festival_-kino-gate-cinema-ve-ctvrti-notting-hill_2021_(c)petra-reznakova.jpg
-          - timeline/london/114_instalace-sacred-geometry-ronyho-plesla-ve-victoria-and-albert-museum_2019_rony-plesl_(c)vaclav-jirasek.jpg
-          - 'timeline/london/54_premiera-filmu-anthorpoid-v-british-film-institute_2016_zleva-herci-jamie-dornan,-cillian-murphy,-reziser-sean-ellis,-ana-geislerova_(c)archiv-cc-londyn.jpg'
-          - timeline/london/120_vystava-1989-the-velvet-revolution-v-galerii-vitrinka-cc-londyn_2019_(c)archiv-cc-londyn.jpg
-          - 'timeline/london/162_mila-furstova-se-svym-dilem-kriila-ktera-byla-puvodne-vytvorena-pro-obal-alba-kapely-coldplay_2022_mila-furstova,-reditel-cc-londyn-premysl-pela_(c)petra-figuerova.jpg'
-          - timeline/london/92_power-of-identity-londynska-prehlidka-studentu-umprum-pod-vedenim-libeny-rochove-inspirovana-100.-vyrocim-vzniku-samostatneho-ceskoslovenksa_2018_(c)jan-pavelka-min.jpg
           - timeline/london/16_czech-house_2012_party_(c)alan-blues-1686569994.jpg
+          - timeline/london/135_made-in-prague-festival_-kino-gate-cinema-ve-ctvrti-notting-hill_2021_(c)petra-reznakova.jpg
+          - timeline/london/73_poetry-periscope-neboli-poeziomat-na-londynskem-nadrazi-st-pancras-international_2017_(c)archiv-cc-londyn.jpg
+          - timeline/london/92_power-of-identity-londynska-prehlidka-studentu-umprum-pod-vedenim-libeny-rochove-inspirovana-100.-vyrocim-vzniku-samostatneho-ceskoslovenksa_2018_(c)jan-pavelka-min.jpg
+          - timeline/london/120_vystava-1989-the-velvet-revolution-v-galerii-vitrinka-cc-londyn_2019_(c)archiv-cc-londyn.jpg
+          - timeline/london/114_instalace-sacred-geometry-ronyho-plesla-ve-victoria-and-albert-museum_2019_rony-plesl_(c)vaclav-jirasek.jpg
+          - 'timeline/london/162_mila-furstova-se-svym-dilem-kriila-ktera-byla-puvodne-vytvorena-pro-obal-alba-kapely-coldplay_2022_mila-furstova,-reditel-cc-londyn-premysl-pela_(c)petra-figuerova.jpg'
+          - 'timeline/london/54_premiera-filmu-anthorpoid-v-british-film-institute_2016_zleva-herci-jamie-dornan,-cillian-murphy,-reziser-sean-ellis,-ana-geislerova_(c)archiv-cc-londyn.jpg'
+          - timeline/london/7_vecernicek-v-londynskem-metru_2006_vecernicek_(c)archiv-cc-london.jpg
   -
     type: paragraph
     content:
@@ -835,7 +835,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686570007
+updated_at: 1686570041
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
