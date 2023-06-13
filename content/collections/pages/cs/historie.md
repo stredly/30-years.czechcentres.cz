@@ -3,7 +3,7 @@ id: dc9788f6-58fb-41e0-848f-0d403fee0439
 blueprint: page
 title: Historie
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686315423
+updated_at: 1686649215
 page_content:
   -
     type: paragraph
@@ -1908,7 +1908,12 @@ page_content:
         text: 'katastrofálními záplavami'
       -
         type: text
-        text: " na Moravě.\_"
+        text: ' na Moravě.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
       -
         type: image
         attrs:
