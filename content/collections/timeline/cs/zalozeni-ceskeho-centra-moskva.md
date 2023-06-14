@@ -677,7 +677,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Zakládajícím ředitelem byl zaměstnanec MZV '
+        text: 'České centrum Moskva zakládal '
       -
         type: text
         marks:
@@ -686,7 +686,7 @@ page_content:
         text: 'Milan Sedláček'
       -
         type: text
-        text: ', který se následně stal určitým matadorem v zakládání Českých center. Před příchodem do Moskvy zakládal České centrum Vídeň. Nakonec svou dráhu v této instituci zakončil jako generální ředitel v roce 2003. Milana Sedláčka střídá v roce 2001 neméně zkušená '
+        text: '. Před příchodem do Moskvy zakládal České centrum Vídeň. Nakonec svou dráhu v této instituci zakončil jako generální ředitel v roce 2003. Milana Sedláčka střídá v roce 2001 neméně zkušená '
       -
         type: text
         marks:
@@ -777,6 +777,6 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: moskva
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686321969
+updated_at: 1686747774
 perex: 'Rozdělené cesty.'
 ---
