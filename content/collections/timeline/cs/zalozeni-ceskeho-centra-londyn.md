@@ -795,14 +795,6 @@ page_content:
         type: text
         text: ', který není naší síti neznámý. V devadesátých letech již vedl České centrum New York.'
   -
-    type: paragraph
-    content:
-      -
-        type: image
-        attrs:
-          src: 'asset::assets::timeline/london/8_ccl-tym-pred-kancelari-v-harley-street_2007_-cc-tym_(c)archiv-cc-londyn.jpg'
-          alt: 'Tým Českého centra před kanceláří v Harley Street, 2007 © Archiv Českého centra Londýn.'
-  -
     type: set
     attrs:
       id: liitj6yl
@@ -815,6 +807,11 @@ page_content:
     attrs:
       level: 2
     content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::timeline/london/8_ccl-tym-pred-kancelari-v-harley-street_2007_-cc-tym_(c)archiv-cc-londyn.jpg'
+          alt: 'Tým Českého centra před kanceláří v Harley Street, 2007 © Archiv Českého centra Londýn.'
       -
         type: text
         marks:
@@ -849,7 +846,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1687184077
+updated_at: 1687184197
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
