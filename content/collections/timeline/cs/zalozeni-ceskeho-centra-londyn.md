@@ -730,7 +730,7 @@ page_content:
     content:
       -
         type: text
-        text: 'České centrum zakládal v roce 1993 '
+        text: "České centrum zakládal v roce 1993\_"
       -
         type: text
         marks:
@@ -745,28 +745,28 @@ page_content:
         marks:
           -
             type: bold
-        text: ' Olga Poivre d’Arvor'
+        text: "\_Olga Poivre d’Arvor"
       -
         type: text
-        text: ' přenesla do Londýna své zkušenosti z předchozích kulturních institucí. Ředitel'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: ' Tomáš Zykán'
-      -
-        type: text
-        text: ' nastoupil do Českého centra na přelomu tisíciletí a nová doba přinesla i řadu změn. Největší a nejúspěšnější projekty s sebou přineslo celé desetiletí, po které vedl České centrum '
+        text: "\_přenesla do Londýna své zkušenosti z předchozích kulturních institucí. Ředitel"
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Ladislav Pflimpfl'
+        text: "\_Tomáš Zykán"
       -
         type: text
-        text: .
+        text: "\_nastoupil do Českého centra na přelomu tisíciletí a nová doba přinesla i řadu změn. Unikátní a ojedinělé projekty s sebou přineslo působení ředitele\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Ladislava Pflimpfla, '
+      -
+        type: text
+        text: 'který České centrum úspěšně provedl například Českou sezónou v rámci LOH 2012, ale třeba i prvním předsednictvím v roce 2009.'
   -
     type: paragraph
     content:
@@ -843,7 +843,7 @@ dont_show_month: true
 event_date: '1993-01-01'
 cities: london
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686572060
+updated_at: 1687184036
 background_image: background-image/1993_londyn.JPG
 perex: 'Mimo kontinent a přece v Evropě.'
 ---
