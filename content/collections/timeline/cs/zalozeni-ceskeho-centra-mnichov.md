@@ -481,16 +481,16 @@ page_content:
     content:
       -
         type: text
-        text: 'Vzhledem k poměrně náhlému odchodu ředitele Stechera musela převzít vedení na čas jeho zástupkyně '
+        text: 'Vzhledem k poměrně náhlému odchodu ředitele Stechera musela převzít vedení jeho zástupkyně '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Veronika Losmanová'
+        text: 'Veronika Fedotová'
       -
         type: text
-        text: ', kterou po ročním angažmá vystřídala již jmenovaná '
+        text: ', později Losmanová, germanistka a bohemistika, absolventka TU Dresden a zkušená manažerka, tlumočnice a překladatelka, kulturní manažerka, manželka diplomata. Byla pověřená řízením vzhledem k 13leté práci na ČC Drážďany jako zástupkyně ředitele. ČC Drážďany spoluzakládala s prvním ředitelem Václavem Šebkem v r. 1997. Následně se ředitelkou ČC Mnichov stala '
       -
         type: text
         marks:
@@ -508,7 +508,7 @@ page_content:
         text: 'Ondřej Černý'
       -
         type: text
-        text: .
+        text: ". \_"
   -
     type: paragraph
     content:
@@ -570,6 +570,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1687252953
+updated_at: 1687268092
 perex: 'Za českou kulturou do Bavorska.'
 ---
