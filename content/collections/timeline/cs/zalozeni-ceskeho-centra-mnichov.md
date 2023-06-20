@@ -487,7 +487,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'Veronika Fedotová'
+        text: 'Veronika Losmanová'
       -
         type: text
         text: ', kterou po ročním angažmá vystřídala již jmenovaná '
@@ -570,6 +570,6 @@ dont_show_month: true
 event_date: '1999-01-01'
 cities: mnichov
 updated_by: e4babf1b-4519-4d9f-b634-0f0ad139513a
-updated_at: 1686309170
+updated_at: 1687252953
 perex: 'Za českou kulturou do Bavorska.'
 ---
